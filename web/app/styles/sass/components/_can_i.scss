@@ -1,0 +1,58 @@
+.cani-sub-heading {
+	padding:5px; 
+	background-color: #C7D8EA;
+	color: #0F3155;
+	font-size: 14px;
+}
+.cani-scroller {
+	background-color: #FFFFFF;
+}
+.cani-head-fix{
+	margin-top:5px !important;
+}
+.head-scroll-fix{
+	position: inherit !important;
+}
+
+/* .content-container select {
+    -webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: url(images/downarrow.png) no-repeat right 10px center;
+	background-size: 14px 6px;
+	border: 1px solid #DCDDDD;
+	padding: 8px 20px 8px 5px;
+	color: #9C9C9D;
+	margin: 2%;
+	width: 96%;
+	border-radius: 5px;
+} */
+.cani-txt-contnt {
+	color: #808080;
+	padding: 0 10px;
+	font-size: 14px;
+
+	p {
+		margin: 10px 0;
+	}
+}
+.cani-grid li{
+	border-bottom: 1px solid #3C6691;
+}
+.cani-grid li:nth-child(odd) {
+	border-right: 1px solid #3C6691;
+}
+@media screen and (orientation:landscape) {
+	.cani-grid li{
+		border-bottom: 1px solid #3C6691;
+		border-right: 1px solid #3C6691;
+	}
+	.cani-grid li:last-child {
+		border-bottom: 1px solid #3C6691;
+	}
+}
+/*
+.cani-grid li:last-child {
+	border-bottom: 0;
+}
+*/

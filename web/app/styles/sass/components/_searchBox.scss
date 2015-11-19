@@ -1,0 +1,31 @@
+.search-cmpnt{
+  	clear: both;
+	border: 1px solid #F1F1F1;
+	width: 95%;
+	margin: 0 auto;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: #FFF;
+	  .input{
+	    width: 85%;
+		border: 0;
+		padding: 5px;
+		font-size: 13px;
+		font-weight: 100;
+		-webkit-user-modify: read-write-plaintext-only;
+		box-sizing: border-box;
+		height: 28px;
+	  }
+	  .button{
+	    width: 10%;
+		border: 0;
+		background: white url(images/search_icon.png) no-repeat center center;
+		padding: 17px 0 10px 0;
+		margin: 0px;
+		background-size: 18px;
+		box-sizing: border-box;
+		float: right;
+		height: 28px;
+	  }
+}

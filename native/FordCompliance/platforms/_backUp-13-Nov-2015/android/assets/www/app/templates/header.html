@@ -1,0 +1,6 @@
+<span ng-hide="vModel.hideBack" id="back-btn" class="back-btn" ng-click="$root.globalEvents.goBack()"></span>
+
+<h2 class="head-text">{{vModel.title}}</h2>
+
+<a class="navigation-btn" href="javascript:;" id="navigation-btn" ng-click="$root.globalEvents.toggleMenu()" ></a>
+<div ng-include src="'app/templates/_slide-menu.html'"></div>

@@ -1,0 +1,19 @@
+<div class="master-container">
+<div class="policy-summary-layout">
+	<div ng-include ng-model="vModel" src="'app/templates/header.html'" class="header-container"></div>
+	<div class="content-container">
+		<div class="content-scroller">
+			<ul class="grid-list-ul cani-grid">
+				<li class="grid-list-li" ng-repeat="item in vModel.items">
+					<a class="grid-list-item" ng-href="#/{{item.nextPage}}">
+				        <span class="grid-list-title-top">{{item.canITitle}}</span>
+			           <!-- <span class="grid-list-icon"></span>-->
+			           <img src="assets/images/can_i/{{item.icon}}" class="list-block-icon">
+			            <span class="grid-list-title">{{item.title.toUpperCase()}}</span>
+		            </a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+</div>

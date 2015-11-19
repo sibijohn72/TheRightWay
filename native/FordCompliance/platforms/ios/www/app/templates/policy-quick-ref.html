@@ -1,0 +1,29 @@
+<div class="master-container">
+	<div class="list-layout">
+		<div ng-include ng-model="vModel" src="'app/templates/header.html'"
+			class="header-container content-header-raw-fix"></div>
+		<div class="content-container">
+
+			<div class="content-scroller" zoomer>
+				<span
+					style="background-image: url('assets/images/gift&amp;favor-list/{{vModel.icon}}')"
+					class="sub-heading">{{vModel.subTitle}}</span>
+				<ul>
+					<li class="list-arrow" ng-repeat="item in vModel.links"><a
+						class="list-arrow-txt quick-ref-anchor"
+						ng-class="{arrow:item.link.length=='0'}" href="{{item.link}}"><p
+								ng-bind-html="vEvents.parseHtml(item.title)"></p></a></li>
+				</ul>
+				<p class="quick-ref-message">When you have access to the Ford
+					intranet you can review these resources:</p>
+				<ul class="ref-docs">
+					<li class="list-arrow" ng-repeat="item in vModel.docs"><a
+						class="list-arrow-txt quick-ref-anchor"
+						ng-class="{arrow:item.link.length=='0'}" href="{{item.link}}"><p
+								ng-bind-html="vEvents.parseHtml(item.title)"></p></a></li>
+				</ul>
+			</div>
+			<div ng-include ng-model="vModel" src="'app/templates/footer.html'"></div>
+		</div>
+	</div>
+</div>

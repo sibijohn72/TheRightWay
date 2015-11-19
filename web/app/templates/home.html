@@ -1,0 +1,46 @@
+<div class="master-container">
+	<div class="home-layout">
+		<div class="header-container">
+			<div ng-include src="'app/templates/header.html'"></div>
+		</div>
+		<div class="content-container">
+			<div class="content-scroller">
+				<div id="sl-search-Activity" class="search-cmpnt">
+                    <form ng-submit="vEvents.searchApp()">
+                        <input type="text" name="searchActivity" id="activity-search-input"
+                        placeholder="What would you like to search?"
+                        ng-model="vModel.searchText" class="input">
+                        <input type="submit" id="activity-icon-search" value = "" class="button sl-icon-search" />
+<!--
+                        <button id="activity-icon-search" class="sl-icon-search"
+                        ng-click="vEvents.searchApp()"></button>
+-->
+                    </form>
+				</div>
+				<div class="logo-cntr">
+					<img src="assets/images/logo_text.png" class="home-logo">
+				</div>
+				<div class="news-updates">
+					<span ng-click="vEvents.getNewsFeeds()" class="news-heading">Compliance News Updates</span>
+					<div class="tweet-cnt" ng-show="vModel.twitterContent">
+						<div class="content-div"
+						style="background-image: url('{{vModel.tweet.icon}}')" ng-click="vEvents.showTweet()">
+							<span class="twitter-date">{{vModel.tweet.date}} - <span class="twitter-name">{{vModel.tweet.name}}</span></span>
+							<br />
+							<span class="twitter-feed">{{vModel.tweet.text}}</span>
+						</div>
+						<span class="tweet-icon"></span>
+					</div>
+					<div class="slider" >
+						<div class="news-slider" ng-repeat="item in vModel.newsList" ng-click="vEvents.getExecMessagePage($index)" style="background-image:url('{{item.iconDataURL}}')">
+							{{item.teaser}}
+						</div>
+					</div>
+					<div class="slider-indicator">
+						<span  ng-repeat="item in vEvents.getSliderIndex(vModel.sliderLen) track by $index" ng-class='{active:$first}'></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

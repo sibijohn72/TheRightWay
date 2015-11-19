@@ -1,0 +1,66 @@
+.content-scroller {
+	background-color: #f0f0f2;
+}
+.sub-heading {
+  background-color: #c5d8e8;
+  background-size: 18px;
+  display: block;
+  padding: 5px 0px 5px 32px;
+  color: #18385B;
+  font-size: 14px;
+  background-position: 10px center;
+  background-repeat: no-repeat;
+}
+.arrow{
+  background: white !important;
+}
+.list-arrow {
+	padding: 10px;
+	background: #FFF;
+	border-bottom: 1px solid #f0f0f0;
+	
+	.list-arrow-txt {
+		text-decoration: none;
+		color: #000;
+		width: 100%;
+		display: inline-block;
+		background: url("images/gift&favor-list/right_arrow.png") no-repeat center right;
+		background-size: 8px 12px;
+		padding-right: 15px;
+		box-sizing: border-box;
+		font-size: 14px;
+	}
+}
+/*.footer-bg-color {
+	position: fixed;
+	height: 45px;
+}
+.footer-navbar {
+	list-style: none;
+	width: 100%;
+	display: block;
+	height: 100%;
+	color: #44709c;
+	.navbar-item {
+		float: left;
+		width: 50%;
+		height: 100%;
+		text-align: center;
+		
+		.navbar-icon {
+			position: relative;
+			top: 1px;
+			display: inline-block;
+			background: white url("../app/images/gifts.png") no-repeat center right;
+			background-size: 23px;
+			height: 23px;
+			width: 30px;
+		}
+		.navbar-txt {
+			display: block;
+			text-align: center;
+			word-wrap: break-word;
+		}
+	}
+	
+}*/

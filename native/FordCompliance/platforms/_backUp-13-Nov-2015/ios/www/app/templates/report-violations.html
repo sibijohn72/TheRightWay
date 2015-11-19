@@ -1,0 +1,16 @@
+<div class="master-container">
+	<rv-popup ng-show="showPopup"></rv-popup>
+	<div class="list-layout">
+		<div ng-include ng-model="vModel" src="'app/templates/header.html'" class="header-container"></div>
+		<div class="content-container">
+			<div class="content-scroller">
+				<p class="report-question">From which region are you reporting?</p>
+				<ul>
+					<li class="exec-list-row" ng-repeat="item in vModel.items" ng-click="vEvents.rvPopupOpen($index)">
+						<span class="list-text" >{{item.region}}</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

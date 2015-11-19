@@ -1,0 +1,10 @@
+<div class="master-container">
+	<div class="master-layout">
+		<div ng-include ng-model="vModel" src="'app/templates/header.html'" class="header-container"></div>
+		<div class="content-container">
+			<div class="content-scroller" ng-bind-html="vModel.descriptionContent" zoomer>
+			</div>
+			<div ng-include ng-model="vModel" src="'app/templates/footer.html'"></div>
+		</div>
+	</div>
+</div>

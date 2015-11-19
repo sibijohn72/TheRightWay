@@ -1,0 +1,18 @@
+<h3>{{title}}</h3>
+<div class="master-container">
+	<div class="ce-gifts-favors-layout">
+		<div ng-include ng-model="vModel" src="'app/templates/header.html'" class="header-container content-header-raw-fix">
+		</div>
+		<div class="content-container">
+			<div class="content-scroller" zoomer>
+			<span style="background-image:url('assets/images/gift&favor-list/{{vModel.icon}}')" class="sub-heading">{{vModel.subTitle}}</span>
+				<ul>
+					<li class="list-arrow" ng-repeat="item in vModel.items">
+						<a class="list-arrow-txt " ng-href="#/{{item.nextPage+'_'+ $index }}" ng-bind-html="item.question"></a>
+					</li>
+				</ul>
+			</div>
+			<div ng-include ng-model="vModel" src="'app/templates/footer.html'"></div>
+		</div>
+	</div>
+</div>

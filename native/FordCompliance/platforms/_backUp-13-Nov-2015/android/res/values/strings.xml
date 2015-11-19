@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">FordCompliance</string>
+    <string name="launcher_name">@string/app_name</string>
+    <string name="activity_name">@string/launcher_name</string>
+    <string name="playstore_url">https://play.google.com/store/apps/details?id=</string>
+    <string name="language_pack_url">https://s3.amazonaws.com/fordcorp-prod-author-datastore/public/compliance/languages.json</string>
+    <string name="UPDATE_VERSION_MSG">New version of application is available in store, please download.</string>
+    <string name="UPDATE_LANGUAGE_MSG">New content update is available.</string>
+</resources>

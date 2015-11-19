@@ -1,0 +1,17 @@
+<div class="master-container">
+	<div class="cani-layout">
+		<div ng-include ng-model="vModel" src="'app/templates/header.html'" class="header-container"></div>
+		<div class="content-container">
+			<div class="content-scroller cani-scroller">
+				<div class="cani-sub-heading">
+					Remember: {{vModel.reminder}}
+				</div>
+				<span class="fields">
+					<select ng-model="selectedItem0" ng-change="selectChange(0)" ng-options="item.title for item in vModel.items">
+						<option value="">Select an option</option>
+					</select>
+				</span>
+			</div>
+		</div>
+	</div>
+</div>

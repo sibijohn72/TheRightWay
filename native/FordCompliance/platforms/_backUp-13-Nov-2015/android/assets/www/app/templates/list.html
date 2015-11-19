@@ -1,0 +1,25 @@
+<h3>{{title}}</h3>
+
+<div class="master-container">
+	<div class="list-layout">
+		<div ng-include ng-model="vModel" src="'app/templates/header.html'" class="header-container"></div>
+		<div class="content-container">
+			<div class="content-scroller">
+				<ul class="giftandfav-list">
+					<li class="list-row" ng-repeat="item in vModel.items">
+						<a ng-href="#/{{item.nextPage}}">
+							<div class="block-anchor"  style="background-image:url('assets/images/gift&favor-list/{{item.icon}}')">
+								<span class="list-title">{{item.title}}</span>
+								<div class="list-description">
+									<span class="list-description-title">Description - </span> {{item.description}}
+								</div>
+							</div>
+							<span class="list-right-arrow"></span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div ng-include ng-model="vModel" src="'app/templates/footer.html'"></div>
+		</div>
+	</div>
+</div>

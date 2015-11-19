@@ -1,0 +1,25 @@
+<div class="ngdialog-overlay" ng-click="vEvents.rvPopupClose()">
+
+	<div class="ngdialog">
+		<div class="ngdialog-message">
+			<div class="rv-popup-title" ng-show="vModel.items[rvIndex].region">
+				Region-{{vModel.items[rvIndex].region}}
+			</div>
+			<ul>
+				<li ng-show="vModel.items[rvIndex].email">
+					<a class="rv-popup-email" href="mailto:{{vModel.items[rvIndex].email}}">Report violation
+					through email</a>
+				</li>
+				<hr class="rv-popup-hr"
+				ng-show="vModel.items[rvIndex].email != undefined && vModel.items[rvIndex].phone != undefined" />
+				<li class="rv-popup-phone" ng-show="vModel.items[rvIndex].phone">
+					<a
+					href="tel:{{vModel.items[rvIndex].phone}}">{{vModel.items[rvIndex].phone}}</a>
+				</li>
+			</ul>
+		</div>
+		<div class="rv-popup-close .ngdialog-close" ng-click="vEvents.rvPopupClose()">
+			Close
+		</div>
+	</div>
+</div>

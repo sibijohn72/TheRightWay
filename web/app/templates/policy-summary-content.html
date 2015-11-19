@@ -1,0 +1,19 @@
+<div class="master-container">
+	<div class="PS-detail-layout">
+		<div ng-include ng-model="vModel" src="'app/templates/header.html'" class="header-container"></div>
+		<div class="content-container">
+			<div class="content-scroller" >
+				<span style="background-image:url('assets/images/gift&favor-list/{{vModel.icon}}')" class="sub-heading">{{vModel.subTitle}}</span>
+				<div id="container" class="carousel-container" ng-swipe-right="swipeleft($event)" ng-swipe-left="swiperight($event)">
+					<div id="content" class="carousel-content content-common" ng-bind-html="descriptionContent"  policy-summary-content zoomer></div>
+				</div>
+
+				<div class="carousel-indicator">
+					<span  ng-repeat="item in getNumber(items) track by $index" ng-class='{active:$first}'></span>
+				</div>
+
+			</div>
+			<div ng-include ng-model="vModel" src="'app/templates/footer.html'"></div>
+		</div>
+	</div>
+</div>

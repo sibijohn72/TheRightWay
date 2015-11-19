@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>92C051E1-D949-4CE5-9B26-0F9B692B9EA2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FordCompliance</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>01d357a1-3d3f-49c2-a708-bad90ec4178e</key>
+		<string>svn://10.243.199.217/FordCompliance</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>native/FordCompliance/platforms/ios/FordCompliance.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>01d357a1-3d3f-49c2-a708-bad90ec4178e</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>01d357a1-3d3f-49c2-a708-bad90ec4178e</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>01d357a1-3d3f-49c2-a708-bad90ec4178e</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FordCompliance</string>
+		</dict>
+	</array>
+</dict>
+</plist>

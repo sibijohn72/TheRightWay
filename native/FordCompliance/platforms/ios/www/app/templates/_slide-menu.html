@@ -1,0 +1,14 @@
+<section ng-controller="SlideMenuController" class="slide-menu-container" ng-show="$root.globalModel.isMenuOpen">
+  <div class="overlay" ng-click="vEvent.closeSlideMenu()"></div>
+  <div class="slide-menu">    
+    <ul>
+      <li ng-repeat="item in vModel.menuItems" ng-click="vEvent.closeSlideMenu()" class="menu-item " style="background-image:url('assets/images/menu-screen/{{item.icon}}')">
+        <a ng-if="item.pageKey" class="block-anchor item-text" ng-href="#/{{item.pageKey}}">{{item.title}}</a>
+        <a ng-if="item.nextPage" class="block-anchor item-text" ng-href="#/{{item.nextPage}}">{{item.title}}</a>
+        <a ng-if="item.mail" class="block-anchor item-text" ng-href="mailto:{{item.mail}}">{{item.title}}</a>
+        <span ng-if="item.link" class="block-anchor item-text" ng-click="vEvent.openUrl(item.link)">{{item.title}}</span>
+        <span ng-if="item.click" class="block-anchor item-text" ng-click="vEvent.searchApp()">{{item.title}}</span>
+      </li>
+    </ul>
+  </div>
+</section>

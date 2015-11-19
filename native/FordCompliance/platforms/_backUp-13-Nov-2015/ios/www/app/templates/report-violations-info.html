@@ -1,0 +1,15 @@
+<div class="master-container">
+	<div class="report-violn-layout">
+		<div ng-include ng-model="vModel" src="'app/templates/header.html'" class="header-container"></div>
+		<div class="content-container">
+			<div class="content-scroller content-common">
+				<div class="info-content" ng-bind-html="vModel.information"></div>
+			</div>
+			<div class="footer-container">
+				<button ng-click="vEvent.proceedClick(vModel.nextPage)" class="btn blue">
+					Proceed
+				</button>
+			</div>
+		</div>
+	</div>
+</div>

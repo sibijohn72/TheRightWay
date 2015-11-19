@@ -1,0 +1,23 @@
+<div class="master-container">
+	<div class="gifts-favors-layout">
+		<div ng-include ng-model="vModel" src="'app/templates/header.html'" class="header-container">
+
+		</div>
+		<div class="content-container">
+			<div class="content-scroller">
+				<ul>
+					<li class="list-row" ng-repeat="item in vModel.items" ng-href="#/{{item.pageKey}}" >
+						<span class="list-icon">icon</span>
+						<span class="list-text" >
+							<div class="list-title">
+								{{item.title}}
+							</div>
+							<div class="list-description">
+								<span class="list-description-title">description:</span> {{item.description|characters:45}}
+							</div> </span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,25 @@
+.master-container .common-example-detail .content-container .content-scroller {
+    background:$textColorLight;
+}
+
+.content-questionset
+{
+	padding:0 0 0 8px;
+	font-size: 14px;
+
+	.question {
+		font-weight: bold;
+	}
+
+	.ans li {
+		padding: 10px;
+		list-style-type: disc;
+		list-style-position: inside;
+	}
+}
+
+.ans
+{
+	color:#3a3a3b;
+	padding-top:10px;
+}

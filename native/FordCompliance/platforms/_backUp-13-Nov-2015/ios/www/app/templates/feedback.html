@@ -1,0 +1,15 @@
+<div class="master-container">
+	<div class="master-layout">
+		<div ng-include ng-model="vModel" src="'app/templates/header.html'" class="header-container"></div>
+		<div class="content-container">
+			<div class="content-scroller content-common">
+				<div class="info-content">
+					{{vModel.descriptionContent}}
+				</div>
+			</div>
+			<div class="footer-container">
+				<a href="mailto:{{vModel.mail}}" class="feedback-btn btn blue"> Send Feedback </a>
+			</div>
+		</div>
+	</div>
+</div>

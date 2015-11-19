@@ -1,0 +1,11 @@
+{
+	"languages": [
+		{
+			"name": "English",
+			"code": "en",
+			"version": 3,
+			"bundlePath": "https://s3.amazonaws.com/fordcorp-prod-author-datastore/public/compliance/en.zip",
+            "codeOfConductHandbookVersion": 1
+		}
+	]
+}

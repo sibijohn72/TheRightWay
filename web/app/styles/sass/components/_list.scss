@@ -1,0 +1,60 @@
+.master-container .list-layout .content-container .content-scroller{
+ 
+  background: $fordListBackground;
+}
+
+.list-row{
+    width:100%;
+    /*height:80px;*/
+    border-bottom: 1px solid $fordDescTextColor;
+    color:$fordDescTextColor;
+    background: white;
+    padding-top: 5px;
+    background: white url("../app/images/arrow-right.png") no-repeat center right;
+    background-size: 30px 30px;
+    a{
+    	text-decoration: none;
+		color: inherit;
+    }
+    .list-icon{
+        width:20%;
+    }
+    .list-text{
+        width:80%;
+        float:right;
+        margin-right: 20px;
+        .list-title{
+            color:$fordHeaderColor;
+        }
+        
+         .list-description{
+            .list-description-title{
+                width: 45%;
+                color:$fordTextColor;
+            }
+            .list-description-text{
+                width:65%;
+                float:right;
+                color:$fordDescTextColor;
+            }
+        }
+    }
+}
+
+.exec-list-row {
+    padding: 10px;
+	background: #fff;
+	border-bottom: 1px solid #F1F3F5;
+	color: #646465;
+}
+
+.list-square {
+    li {
+        background: url('images/square_dot.png') no-repeat;
+        background-position-y: 10px;
+    }
+
+    li:last-child {
+        border-bottom-width: 0;
+    }
+}

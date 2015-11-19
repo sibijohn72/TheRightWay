@@ -1,0 +1,46 @@
+.content-container {
+	padding: 40px 0 40px;
+}
+.content-scroller {
+	position: absolute;
+	width: 100%;
+	top: 45px;
+	left: 0;
+	z-index: 1;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+	bottom: 52px;
+}
+
+.info-content{
+  padding:10px;
+}
+.content-header-raw-fix{
+	position: fixed !important;
+}
+
+.header-raw-fix {
+  position: inherit !important;
+  margin-bottom: 12px !important;
+  margin-top: 35px;
+}
+.heading-faq-fix{
+	position: inherit !important;
+	margin-bottom: 12px !important;
+	margin-top: 10px;
+}
+.heading-qref-fix {
+  margin-top: 5px !important;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.faq-content-header-fix {
+  margin-top: 5px !important;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top:40px;
+}
+
+
