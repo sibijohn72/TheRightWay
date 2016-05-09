@@ -24,23 +24,7 @@
 		  	font-size: 14px;
 		}
 	}
-} 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 .btn {
 	border-radius: 2px;
@@ -90,3 +74,19 @@
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
+@media screen  and (min-width : 768px) and (max-width : 1024px){
+.master-layout .content-scroller p{
+	font-size: 20px;
+	}
+	.btn{
+	font-size: 20px;
+    /*padding: 6px;*/
+	}
+	.tc-btn-span .tc-btn{
+	font-size: 20px;
+	}
+	.langselection-layout .lang-item .lang-item-label,.fields select{
+	font-size: 20px;
+	}
+} 

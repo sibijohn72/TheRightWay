@@ -74,3 +74,10 @@
   background-size: 11px 21px;
   padding-right: 10px;
 }
+
+@media screen  and (min-width : 768px) and (max-width : 1024px){
+.header-container h2{
+	font-size: 22px;
+	margin-top: 7px;
+	}
+}

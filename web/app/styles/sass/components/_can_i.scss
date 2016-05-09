@@ -51,6 +51,14 @@
 		border-bottom: 1px solid #3C6691;
 	}
 }
+@media screen  and (min-width : 768px) and (max-width : 1024px){
+	.cani-sub-heading{
+	font-size: 20px;
+	}
+	.cani-txt-contnt{
+	font-size: 20px;
+	}
+}
 /*
 .cani-grid li:last-child {
 	border-bottom: 0;

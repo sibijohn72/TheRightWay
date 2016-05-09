@@ -12,9 +12,15 @@
 	.logo-cntr {
 		text-align: center;
 		height: 320px;
+		
 		.home-logo {
 			height: 60%;
-			margin: 16% auto;
+			margin: 26% auto;
+			/* margin-left: 62px;*/
+			background-image: url("images/logo_text.png");
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position: center;
 		}
 	}
 	.news-updates {
@@ -149,7 +155,12 @@
 	}
 	.home-layout .logo-cntr {
 		.home-logo {
-			margin: 10% auto;
+			height: 60%;
+    		margin: 16% auto;
+   			
+    		background-image: url("images/logo_text.png");
+    		background-repeat: no-repeat;
+   		     
 		}
 	}
 }
@@ -160,3 +171,31 @@ and (max-device-height : 480px) {
 		height: 200px;
 	}
 }
+
+@media screen  and (min-width : 768px) and (max-width : 1024px){
+ .home-layout .logo-cntr .home-logo
+	{ 	
+	background-image:url("images/logo_text_2x.png");
+	height: 60%;
+    margin: 26% auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+	}
+	.home-layout .news-updates .news-heading{
+	font-size :20px;
+	}
+	.home-layout .news-updates .slider div{
+	position: relative;
+    top: 8px;
+	}
+}
+	@media screen and (orientation:portrait) {
+	.home-layout .news-updates {
+		position: absolute;
+		bottom:0px;
+	}
+}
+
+
+

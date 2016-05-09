@@ -21,10 +21,40 @@
     overflow: auto;
     
     .menu-item {
-		margin-left: 10px;
 		background-size: 23px 23px;
 		background-repeat: no-repeat;
 		background-position: center left;
+    &.can_i_icon{
+    background-image:url('images/menu-screen/can_i_icon.png');
+    }
+    &.code_conduct_icon{
+    background-image:url('images/menu-screen/code_conduct_icon.png');
+    }
+    &.common_examples_icon{
+    background-image:url('images/menu-screen/common_examples_icon.png');
+    }
+    &.contact_questions_icon{
+    background-image:url('images/menu-screen/contact_questions_icon.png');
+    }
+    &.home_icon{
+    background-image:url('images/menu-screen/home_icon.png');
+    }
+    &.message_exec_icon{
+    background-image:url('images/menu-screen/message_exec_icon.png');
+    }
+    &.policy_summary_icon{
+    background-image:url('images/menu-screen/policy_summary_icon.png');
+    }
+    &.report_violations_icon{
+    background-image:url('images/menu-screen/report_violations_icon.png');
+    }
+    &.search_icon{
+    background-image:url('images/menu-screen/search_icon.png');
+    }
+    &.settings_icon{
+    background-image:url('images/menu-screen/settings_icon.png');
+    }
+
       
       .item-image {
         float: left;
@@ -48,5 +78,54 @@
 @media screen and (orientation:landscape) {
 	.slide-menu-container .slide-menu {
 		width: 50%;
+	}
+
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .slide-menu-container .slide-menu .menu-item {
+
+    &.can_i_icon{
+    background-image:url('images/menu-screen/can_i_icon_2x.png');
+    }
+    &.code_conduct_icon{
+    background-image:url('images/menu-screen/code_conduct_icon_2x.png');
+    }
+    &.common_examples_icon{
+    background-image:url('images/menu-screen/common_examples_icon_2x.png');
+    }
+    &.contact_questions_icon{
+    background-image:url('images/menu-screen/contact_questions_icon_2x.png');
+    }
+    &.home_icon{
+    background-image:url('images/menu-screen/home_icon_2x.png');
+    }
+    &.message_exec_icon{
+    background-image:url('images/menu-screen/message_exec_icon_2x.png');
+    }
+    &.policy_summary_icon{
+    background-image:url('images/menu-screen/policy_summary_icon_2x.png');
+    }
+    &.report_violations_icon{
+    background-image:url('images/menu-screen/report_violations_icon_2x.png');
+    }
+    &.search_icon{
+    background-image:url('images/menu-screen/search_icon_2x.png');
+    }
+    &.settings_icon{
+    background-image:url('images/menu-screen/settings_icon_2x.png');
+    }
+
+    }
+}
+
+
+
+@media screen  and (min-width : 768px) and (max-width : 1024px) {
+	.slide-menu-container .slide-menu .menu-item .item-text{
+	font-size: 20px;
 	}
 }

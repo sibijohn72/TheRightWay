@@ -1,0 +1,2356 @@
+[
+    {
+        "pageKey": "static-labels",
+        "items": {
+			"remember" : "请牢记",
+			"selectAnOption" : "请选择一个选项",
+			"appFeedback": "应用反馈",
+			"sw" : "SW",
+			"sendFeedback" : "发送反馈",
+			"reportASuspectedViolation" :"报告涉嫌违规行为",			
+			"complianceNewsUpdates":"合规新闻更新",
+			"settings" : "设置",
+			"languageSettings" : "语言设置",
+			"new" : "新",
+			"viewTermsAndConditions" : "察看条款与条件",
+			"submit" : "提交",
+			"description" : "描述",
+			"fordIntranetAccess" : "如有权限可访问福特内联网，则可查看这些资源",
+			"region" : "地区",
+			"reportViolationMail" : "通过电子邮件报告违规行为",
+			"close" : "关闭",
+			"reportingRegion" : "您从那个区域报告？",
+			"proceed" : "进行",
+			"whatToSearch" : "请问您要搜索什么？",
+			"typeToSearch" : "请键入您想要搜索的词语",
+			"search" : "搜索",
+			"eua" : "End user Agreement",
+			"terms" : "The Right Way mobile app allows Ford personnel and its business partners quick access to information needed to guide ethical decisions according to Company policy. It does not collect or require you to provide any information. By clicking below, you acknowledge and consent to The Right Way mobile app Terms and Conditions which can be viewed",
+			"here":"here",
+			"dataRates" : "Data rates may apply",
+			"agree" : "I Agree",
+			"nullSearchAlert" : "您必须输入一个搜索词汇.",
+			"noResultAlert" : "结果未查到.",
+			"rightWayTitle" : "The Right Way",
+			"okButtonText" : "OK",
+			"cancelButtonText": "取消",
+			"errorMsg": "服务器通信故障。请检查您的网络链接并稍后再试.",
+			"updateMsg": "有新的内容更新.",
+			"donwloadMsg": "此功能将下载《行为规则手册》至您的设备。约 6MB 大小。是否继续下载？",
+			"downloadProgressMsg" : "正在下载《行为规则手册》..",
+			"downloadTxt" : "下载"
+		}
+    },
+    {
+        "pageKey": "home",
+        "title": "主页"
+    },
+    {
+        "pageKey": "slide-menu",
+        "items": [
+            {
+                "title": "主页",
+                "icon": "home_icon.png",
+                "pageKey": "home"
+            },
+            {
+                "title": "政策摘要",
+                "icon": "policy_summary_icon.png",
+                "pageKey": "policy-summary"
+            },
+            {
+                "title": "常见问题",
+                "icon": "common_examples_icon.png",
+                "pageKey": "frequently-asked-questions"
+            },
+            {
+                "title": "我可以 ...？",
+                "icon": "can_i_icon.png",
+                "pageKey": "can-i"
+            },
+            {
+                "title": "联系人和参考资料",
+                "icon": "contact_questions_icon.png",
+                "pageKey": "contact-for-questions"
+            },
+            {
+                "title": "报告涉嫌违规行为",
+                "icon": "report_violations_icon.png",
+                "pageKey": "report-violations-info"
+            },
+            {
+                "pageId": "mi-coc",
+                "title": "行为规则手册",
+                "icon": "code_conduct_icon.png",
+                "link": "https://www.fcs.ford.com/coc/pdfs/coc_english.pdf"
+            },
+            {
+                "title": "管理层致辞",
+                "icon": "message_exec_icon.png",
+                "pageKey": "exec-messages"
+            },
+            {
+                "title": "搜索",
+                "icon": "search_icon.png",
+                "click": true
+            },
+            {
+                "title": "设置",
+                "icon": "settings_icon.png",
+                "nextPage": "language-select"
+            }
+        ]
+    },
+    {
+        "pageKey": "policy-summary",
+        "template": "grid",
+        "controller": "grid",
+        "title": "政策摘要 ",
+        "items": [
+            {
+                "reference": "gifts-favors",
+                "nextPage": "ps-gifts-favors"
+            },
+            {
+                "reference": "meals-travels",
+                "nextPage": "ps-meals-travels"
+            },
+            {
+                "reference": "conflicts-of-interest",
+                "nextPage": "ps-conflicts-of-interest"
+            },
+            {
+                "reference": "company-assets",
+                "nextPage": "ps-company-assets"
+            },
+            {
+                "reference": "anti-bribery-corruption",
+                "nextPage": "ps-anti-bribery-corruption"
+            },
+            {
+                "reference": "it-security-and-privacy",
+                "nextPage": "ps-it-security-and-privacy"
+            },
+            {
+                "reference": "working-together",
+                "nextPage": "ps-working-together"
+            },
+            {
+                "reference": "tips-for-managers",
+                "nextPage": "ps-tips-for-managers"
+            }
+        ]
+    },
+    {
+        "pageKey": "ps-gifts-favors",
+        "template": "list",
+        "controller": "list",
+        "reference": "gifts-favors"
+    },
+    {
+        "pageKey": "ps-gifts-favors-summary",
+        "template": "policy-summary-content",
+        "controller": "policy-summary-content",
+        "reference": "gifts-favors"
+    },
+    {
+        "pageKey": "ps-gifts-favors-quick-ref",
+        "template": "policy-quick-ref",
+        "controller": "policy-quick-ref",
+        "reference": "gifts-favors"
+    },
+    {
+        "pageKey": "ps-gifts-favors-background-information",
+        "template": "policy-summary-content",
+        "controller": "policy-summary-content",
+        "reference": "gifts-favors"
+    },
+    {
+        "pageKey": "ps-meals-travels",
+        "template": "list",
+        "controller": "list",
+        "reference": "meals-travels"
+    },
+    {
+        "pageKey": "ps-meals-travels-summary",
+        "template": "policy-summary-content",
+        "controller": "policy-summary-content",
+        "reference": "meals-travels"
+    },
+    {
+        "pageKey": "ps-meals-travels-quick-ref",
+        "template": "policy-quick-ref",
+        "controller": "policy-quick-ref",
+        "reference": "meals-travels"
+    },
+    {
+        "pageKey": "ps-meals-travels-background-information",
+        "template": "policy-summary-content",
+        "controller": "policy-summary-content",
+        "reference": "meals-travels"
+    },
+    {
+        "pageKey": "ps-conflicts-of-interest",
+        "template": "list",
+        "controller": "list",
+        "reference": "conflicts-of-interest"
+    },
+    {
+        "pageKey": "ps-conflicts-of-interest-summary",
+        "template": "policy-summary-content",
+        "controller": "policy-summary-content",
+        "reference": "conflicts-of-interest"
+    },
+    {
+        "pageKey": "ps-conflicts-of-interest-quick-ref",
+        "template": "policy-quick-ref",
+        "controller": "policy-quick-ref",
+        "reference": "conflicts-of-interest"
+    },
+    {
+        "pageKey": "ps-conflicts-of-interest-background-information",
+        "template": "policy-summary-content",
+        "controller": "policy-summary-content",
+        "reference": "conflicts-of-interest"
+    },
+    {
+        "pageKey": "ps-company-assets",
+        "template": "list",
+        "controller": "list",
+        "reference": "company-assets"
+    },
+    {
+        "pageKey": "ps-company-assets-summary",
+        "template": "policy-summary-content",
+        "controller": "policy-summary-content",
+        "reference": "company-assets"
+    },
+    {
+        "pageKey": "ps-company-assets-quick-ref",
+        "template": "policy-quick-ref",
+        "controller": "policy-quick-ref",
+        "reference": "company-assets"
+    },
+    {
+        "pageKey": "ps-company-assets-background-information",
+        "template": "policy-summary-content",
+        "controller": "policy-summary-content",
+        "reference": "company-assets"
+    },
+    {
+        "pageKey": "ps-anti-bribery-corruption",
+        "template": "list",
+        "controller": "list",
+        "reference": "anti-bribery-corruption"
+    },
+    {
+        "pageKey": "ps-anti-bribery-corruption-summary",
+        "template": "policy-summary-content",
+        "controller": "policy-summary-content",
+        "reference": "anti-bribery-corruption"
+    },
+    {
+        "pageKey": "ps-anti-bribery-corruption-quick-ref",
+        "template": "policy-quick-ref",
+        "controller": "policy-quick-ref",
+        "reference": "anti-bribery-corruption"
+    },
+    {
+        "pageKey": "ps-anti-bribery-corruption-background-information",
+        "template": "policy-summary-content",
+        "controller": "policy-summary-content",
+        "reference": "anti-bribery-corruption"
+    },
+    {
+        "pageKey": "ps-it-security-and-privacy",
+        "template": "list",
+        "controller": "list",
+        "reference": "it-security-and-privacy"
+    },
+    {
+        "pageKey": "ps-it-security-and-privacy-summary",
+        "template": "policy-summary-content",
+        "controller": "policy-summary-content",
+        "reference": "it-security-and-privacy"
+    },
+    {
+        "pageKey": "ps-it-security-and-privacy-quick-ref",
+        "template": "policy-quick-ref",
+        "controller": "policy-quick-ref",
+        "reference": "it-security-and-privacy"
+    },
+    {
+        "pageKey": "ps-it-security-and-privacy-background-information",
+        "template": "policy-summary-content",
+        "controller": "policy-summary-content",
+        "reference": "it-security-and-privacy"
+    },
+    {
+        "pageKey": "ps-working-together",
+        "template": "list",
+        "controller": "list",
+        "reference": "working-together"
+    },
+    {
+        "pageKey": "ps-working-together-summary",
+        "template": "policy-summary-content",
+        "controller": "policy-summary-content",
+        "reference": "working-together"
+    },
+    {
+        "pageKey": "ps-working-together-quick-ref",
+        "template": "policy-quick-ref",
+        "controller": "policy-quick-ref",
+        "reference": "working-together"
+    },
+    {
+        "pageKey": "ps-working-together-background-information",
+        "template": "policy-summary-content",
+        "controller": "policy-summary-content",
+        "reference": "working-together"
+    },
+    {
+        "pageKey": "ps-tips-for-managers",
+        "template": "list",
+        "controller": "list",
+        "reference": "tips-for-managers"
+    },
+    {
+        "pageKey": "ps-tips-for-managers-summary",
+        "template": "policy-summary-content",
+        "controller": "policy-summary-content",
+        "reference": "tips-for-managers"
+    },
+    {
+        "pageKey": "ps-tips-for-managers-quick-ref",
+        "template": "policy-quick-ref",
+        "controller": "policy-quick-ref",
+        "reference": "tips-for-managers"
+    },
+    {
+        "pageKey": "ps-tips-for-managers-background-information",
+        "template": "policy-summary-content",
+        "controller": "policy-summary-content",
+        "reference": "tips-for-managers"
+    },
+    {
+        "pageKey": "frequently-asked-questions",
+        "template": "grid",
+        "controller": "grid",
+        "title": "常见问题",
+        "items": [
+            {
+                "reference": "gifts-favors",
+                "nextPage": "faq-gifts-favors"
+            },
+            {
+                "reference": "meals-travels",
+                "nextPage": "faq-meals-travels"
+            },
+            {
+                "reference": "conflicts-of-interest",
+                "nextPage": "faq-conflicts-of-interest"
+            },
+            {
+                "reference": "company-assets",
+                "nextPage": "faq-company-assets"
+            },
+            {
+                "reference": "anti-bribery-corruption",
+                "nextPage": "faq-anti-bribery-corruption"
+            },
+            {
+                "reference": "it-security-and-privacy",
+                "nextPage": "faq-it-security-and-privacy"
+            },
+            {
+                "reference": "working-together",
+                "nextPage": "faq-working-together"
+            },
+            {
+                "reference": "tips-for-managers",
+                "nextPage": "faq-tips-for-managers"
+            }
+        ]
+    },
+    {
+        "pageKey": "faq-gifts-favors",
+        "template": "frequently-asked-questions-list",
+        "controller": "frequently-asked-questions-list",
+        "title": "常见问题",
+        "reference": "gifts-favors"
+    },
+    {
+        "pageKey": "faq-meals-travels",
+        "template": "frequently-asked-questions-list",
+        "controller": "frequently-asked-questions-list",
+        "title": "常见问题",
+        "reference": "meals-travels"
+    },
+    {
+        "pageKey": "faq-conflicts-of-interest",
+        "template": "frequently-asked-questions-list",
+        "controller": "frequently-asked-questions-list",
+        "title": "常见问题",
+        "reference": "conflicts-of-interest"
+    },
+    {
+        "pageKey": "faq-company-assets",
+        "template": "frequently-asked-questions-list",
+        "controller": "frequently-asked-questions-list",
+        "title": "常见问题",
+        "reference": "company-assets"
+    },
+    {
+        "pageKey": "faq-anti-bribery-corruption",
+        "template": "frequently-asked-questions-list",
+        "controller": "frequently-asked-questions-list",
+        "title": "常见问题",
+        "reference": "anti-bribery-corruption"
+    },
+    {
+        "pageKey": "faq-it-security-and-privacy",
+        "template": "frequently-asked-questions-list",
+        "controller": "frequently-asked-questions-list",
+        "title": "常见问题",
+        "reference": "it-security-and-privacy"
+    },
+    {
+        "pageKey": "faq-working-together",
+        "template": "frequently-asked-questions-list",
+        "controller": "frequently-asked-questions-list",
+        "title": "常见问题",
+        "reference": "working-together"
+    },
+    {
+        "pageKey": "faq-tips-for-managers",
+        "template": "frequently-asked-questions-list",
+        "controller": "frequently-asked-questions-list",
+        "title": "常见问题",
+        "reference": "tips-for-managers"
+    },
+    {
+        "pageKey": "faq-gifts-favors-detailed",
+        "template": "frequently-asked-questions-detailed",
+        "controller": "frequently-asked-questions-detailed",
+        "title": "常见问题",
+        "reference": "gifts-favors"
+    },
+    {
+        "pageKey": "faq-meals-travels-detailed",
+        "template": "frequently-asked-questions-detailed",
+        "controller": "frequently-asked-questions-detailed",
+        "title": "常见问题",
+        "reference": "meals-travels"
+    },
+    {
+        "pageKey": "faq-conflicts-of-interest-detailed",
+        "template": "frequently-asked-questions-detailed",
+        "controller": "frequently-asked-questions-detailed",
+        "title": "常见问题",
+        "reference": "conflicts-of-interest"
+    },
+    {
+        "pageKey": "faq-company-assets-detailed",
+        "template": "frequently-asked-questions-detailed",
+        "controller": "frequently-asked-questions-detailed",
+        "title": "常见问题",
+        "reference": "company-assets"
+    },
+    {
+        "pageKey": "faq-anti-bribery-corruption-detailed",
+        "template": "frequently-asked-questions-detailed",
+        "controller": "frequently-asked-questions-detailed",
+        "title": "常见问题",
+        "reference": "anti-bribery-corruption"
+    },
+    {
+        "pageKey": "faq-it-security-and-privacy-detailed",
+        "template": "frequently-asked-questions-detailed",
+        "controller": "frequently-asked-questions-detailed",
+        "title": "常见问题",
+        "reference": "it-security-and-privacy"
+    },
+    {
+        "pageKey": "faq-working-together-detailed",
+        "template": "frequently-asked-questions-detailed",
+        "controller": "frequently-asked-questions-detailed",
+        "title": "常见问题",
+        "reference": "working-together"
+    },
+    {
+        "pageKey": "faq-tips-for-managers-detailed",
+        "template": "frequently-asked-questions-detailed",
+        "controller": "frequently-asked-questions-detailed",
+        "title": "常见问题",
+        "reference": "tips-for-managers"
+    },
+    {
+        "pageKey": "can-i",
+        "template": "can-i-grid",
+        "controller": "can-i-grid",
+        "title": "我可以 ...？",
+        "items": [
+            {
+                "reference": "gifts-favors",
+                "nextPage": "ci-gifts-favors"
+            },
+            {
+                "reference": "meals-travels",
+                "nextPage": "ci-meals-travels"
+            }
+        ]
+    },
+    {
+        "pageKey": "ci-gifts-favors",
+        "template": "can-i",
+        "controller": "can-i",
+        "reference": "gifts-favors"
+    },
+    {
+        "pageKey": "ci-meals-travels",
+        "template": "can-i",
+        "controller": "can-i",
+        "reference": "meals-travels"
+    },
+    {
+        "pageKey": "search-page-keys",
+        "keys": [
+            "gifts-favors",
+            "meals-travels",
+            "conflicts-of-interest",
+            "company-assets",
+            "anti-bribery-corruption",
+            "it-security-and-privacy",
+            "working-together",
+            "tips-for-managers"
+        ]
+    },
+    {
+        "pageKey": "search-key-words",
+        "keys": [
+            [
+                "授权",
+                "借",
+                "贿赂",
+                "公平",
+                "惠赠",
+                "诚实",
+                "不当",
+                "影响",
+                "诚信",
+                "提供",
+                "支付",
+                "付款",
+                "禁止",
+                "承诺",
+                "招揽",
+                "特别",
+                "价值"
+            ],
+            [
+                "作弊",
+                "欺诈",
+                "欺骗",
+                "欺骗性",
+                "尽职",
+                "不诚实",
+                "尽职尽责",
+                "道德",
+                "伦理",
+                "道德的",
+                "骗子",
+                "惠赠",
+                "诈骗",
+                "不当",
+                "谎言",
+                "骗局",
+                "偷盗",
+                "盗窃",
+                "小偷",
+                "不实",
+                "违反政策",
+                "非法",
+                "错误"
+            ],
+            [
+                "机构",
+                "代理",
+                "审批",
+                "授权",
+                "借车",
+                "证书",
+                "证明",
+                "部门",
+                "娱乐",
+                "惠赠",
+                "礼品",
+                "政府",
+                "政府行为",
+                "政府雇员",
+                "管理者",
+                "地方审批",
+                "公务",
+                "许可",
+                "政治",
+                "区域",
+                "规范",
+                "法规",
+                "监管",
+                "代表",
+                "制裁",
+                "特别折扣",
+                "代币",
+                "出差"
+            ],
+            [
+                "金额",
+                "费用",
+                "成本",
+                "货币",
+                "过多的",
+                "多余的",
+                "收费",
+                "增加",
+                "货币",
+                "钱",
+                "更多",
+                "提供",
+                "支付",
+                "付款",
+                "价格",
+                "费率",
+                "登记费",
+                "销售",
+                "少量",
+                "特殊处理",
+                "附加费",
+                "价格",
+                "价值"
+            ],
+            [
+                "同意",
+                "协议",
+                "汽车的",
+                "汽车",
+                "购买",
+                "小车",
+                "证书",
+                "证明",
+                "合同",
+                "注册会计师",
+                "家族企业",
+                "家族拥有的",
+                "公司",
+                "房东",
+                "租赁",
+                "有限责任公司",
+                "网上业务",
+                "拥有",
+                "实业",
+                "产品",
+                "物业",
+                "出租",
+                "销售",
+                "服务",
+                "讲授",
+                "工作 "
+            ],
+            [
+                "提醒",
+                "顾问",
+                "咨询",
+                "合同"
+            ],
+            [
+                "协会",
+                "版权",
+                "经销商",
+                "开发",
+                "管理",
+                "生产",
+                "合作伙伴",
+                "部分",
+                "专利",
+                "票据",
+                "分时度假",
+                "受托"
+            ],
+            [
+                "董事会",
+                "BOD"
+            ],
+            [
+                "亲戚",
+                "兄弟",
+                "孩子",
+                "表亲",
+                "女儿",
+                "家人",
+                "父亲",
+                "朋友",
+                "姻亲",
+                "妈妈",
+                "邻居",
+                "合伙人",
+                "亲属",
+                "重要他人",
+                "姐妹",
+                "儿子",
+                "丈夫",
+                "妻子",
+                "配偶",
+                "侄子",
+                "侄女",
+                "姑姑",
+                "叔叔"
+            ],
+            [
+                "啤酒",
+                "酒瓶",
+                "波本威士忌",
+                "鸡尾酒",
+                "饮料",
+                "欢乐时光",
+                "威士忌",
+                "伏特加",
+                "威士忌",
+                "葡萄酒"
+            ],
+            [
+                "婴儿泡澡",
+                "生日",
+                "婚礼",
+                "餐饮服务商",
+                "圣诞节",
+                "免费",
+                "赠品",
+                "增送",
+                "节假日",
+                "农历",
+                "Marti Gras 节",
+                "新年",
+                "赠礼",
+                "退休",
+                "标签",
+                "票据",
+                "分时度假",
+                "婚纱",
+                "折扣 "
+            ],
+            [
+                "活动",
+                "机票",
+                "船",
+                "租船",
+                "娱乐",
+                "飞行",
+                "地面交通",
+                "嘉宾",
+                "主人",
+                "酒店",
+                "国际会议",
+                "邀请",
+                "豪华轿车",
+                "本地活动",
+                "会面",
+                "会议",
+                "交际",
+                "网络",
+                "通宵",
+                "表演",
+                "飞机",
+                "私人飞机航空器",
+                "娱乐",
+                "汽车租赁",
+                "歌手",
+                "社交",
+                "赞助商",
+                "出租车",
+                "团队建设",
+                "门票",
+                "交通运输",
+                "度假"
+            ],
+            [
+                "蛋糕",
+                "巧克力",
+                "免费",
+                "折扣",
+                "礼品",
+                "礼品篮",
+                "礼品卡",
+                "礼品券",
+                "赠送",
+                "高尔夫",
+                "耳机",
+                "iPad",
+                "iPhone",
+                "iPod",
+                "外套",
+                "电子书",
+                "电子阅读器",
+                "阅读器",
+                "水疗中心",
+                "赠礼",
+                "奖品",
+                "折扣价",
+                "特价",
+                "平板电脑",
+                "T 恤",
+                "水果"
+            ],
+            [
+                "早餐",
+                "咖啡厅",
+                "晚餐",
+                "吃",
+                "食品",
+                "午餐",
+                "餐厅",
+                "账单",
+                "小吃"
+            ],
+            [
+                "住宿",
+                "商务旅行",
+                "休闲娱乐",
+                "飞行",
+                "免费住宿",
+                "豪华轿车",
+                "通宵",
+                "停留",
+                "飞机",
+                "交通",
+                "出租车",
+                "点心",
+                "旅行",
+                "访问"
+            ],
+            [
+                "建筑",
+                "电话",
+                "公司信息",
+                "计算机",
+                "电子邮件",
+                "资金",
+                "偶然使用",
+                "笔记本电脑",
+                "徽标",
+                "钱",
+                "办公室电话号码",
+                "手机",
+                "政治运动",
+                "资源",
+                "股票交易",
+                "车辆",
+                "工作时间",
+                "工作时间",
+                "上班时间"
+            ],
+            [
+                "公司建筑",
+                "公司用车",
+                "商务车",
+                "电脑",
+                "复印机",
+                "复印",
+                "修复",
+                "车库",
+                "房屋",
+                "笔记本电脑",
+                "材料",
+                "打印机",
+                "物业",
+                "房地产",
+                "不动产",
+                "维修",
+                "资源",
+                "工具",
+                "拖拉机"
+            ],
+            [
+                "餐饮",
+                "班级",
+                "课堂",
+                "学院",
+                "咨询",
+                "教育",
+                "家族企业",
+                "家族拥有",
+                "公司",
+                "特许经营",
+                "级别",
+                "维修业务",
+                "讲师",
+                "房东",
+                "教案",
+                "有限责任公司",
+                "拥有",
+                "合作伙伴",
+                "项目",
+                "房地产",
+                "出租物业",
+                "学校",
+                "第二职业",
+                "学生",
+                "租户",
+                "教授",
+                "教师",
+                "教学",
+                "培训",
+                "大学",
+                "工作时间",
+                "上班时间",
+                "工作",
+                "管理"
+            ],
+            [
+                "借用",
+                "业务使用",
+                "公司使用",
+                "频繁使用",
+                "偶然的",
+                "有限的",
+                "经常使用",
+                "个人使用",
+                "周末使用"
+            ]
+        ]
+    },
+    {
+        "pageKey": "gifts-favors",
+        "title": "礼品和惠赠",
+        "canITitle": "我是否可以接受 …?",
+        "canIReminder": "绝不要索取礼品或惠赠",
+        "icon": "gift_favors.png",
+        "ciicon": "gift_favors.png",
+        "titleicon": "gift_title_icon.png",
+        "items": [
+            {
+                "title": "公司政策摘要",
+                "icon": "favors_list_icon_01.png",
+                "description": "从当前与福特有业务往来或正积极寻求与福特合作的企业接受过多的礼品和惠赠可能造成不妥之嫌，从而损害公司的声誉。",
+                "nextPage": "ps-gifts-favors-summary",
+                "descriptionContent": "<div><p>道德原则</p>从当前与福特有业务往来或正积极寻求与福特合作的企业接受过多的礼品和惠赠可能造成不妥之嫌，从而损害公司的声誉。当您代表公司进行决策时，过多的礼品可能影响您的判断力，或给人以“出售”优惠待遇的表象。接受惠赠可在供应商之间产生优惠或不公平待遇的问题，影响士气。鉴于此，请务必遵守公司有关接受礼品和惠赠的规定</div><div> <p>切勿接受…</p><ul><li>非小额价值的物品（美国范围内 50 美元 – <a href=\"#/nominal-value\">点击此处查看当地货币</a>)</li><li>现金、礼品券、礼品卡或包装酒水</li><li>活动入场券，除非供应商/经销商同样参加</li><li>供应商/经销商提供的贷款或特别折扣</li></ul></div><div><p>与供应商/经销商接触时，谨记：</p><ul><li>切勿索取礼品或惠赠，即使该礼品或惠赠未超过小额价值参考范围</li><li>我们的礼品和惠赠政策适用于供应商、经销商、与公司有业务往来或公司提供支持的组织，包括公司支持的慈善机构、学校、高校、贸易集团或其他商业协会</li><li>您不可接受仅提供给您个人（或您的团队）的折扣和特价商品。只有当折扣和特价商品提供给公司所有员工、一般公众或另一个涵盖较广的团体（如您所属的专业协会）时，您方可接受</li><li>对于主要由公司人员出席的活动（如退休宴会），供应商/经销商不得做特别捐助或付款</li><li>供应商资助的活动上授予的、或由供应商/经销商提供的所有奖品（–包括随机抽奖–）都被视为礼品或惠赠，如果高于小额价值，都不得接受</li><li>请求捐赠时，请小心行事。不得由公司施加可能的捐赠压力</li></ul></div>"
+            },
+            {
+                "title": "联系人和参考资料",
+                "icon": "favors_list_icon_02.png",
+                "description": "如有权限可访问福特内联网，则可查看这些资源。",
+                "nextPage": "ps-gifts-favors-quick-ref",
+                "items": [
+                    {
+                        "title": "第 3 号政策函，企业行为准则",
+                        "link": ""
+                    },
+                    {
+                        "title": "指令 A-107，企业行为准则",
+                        "link": ""
+                    },
+                    {
+                        "title": "当地货币的小额价值清单",
+                        "link": "#/nominal-value"
+                    },
+                    {
+                        "title": "收到政策不允许之礼品时的做法",
+                        "link": "#/gift-exceed-policies"
+                    },
+                    {
+                        "title": "如有礼品和惠赠方面的疑问，请联系您的当地人力资源代表，或点击此处，发送电子邮件至全球总部的人事关系部",
+                        "link": "mailto:activity@ford.com?subject=移动应用 – 礼品和惠赠"
+                    },
+                    {
+                        "title": "如有礼品和惠赠方面的疑问，请点击此处，发送电子邮件至公司合规办公室",
+                        "link": "mailto:fordlaw@ford.com?subject=移动应用 – 礼品和惠赠"
+                    }
+                ]
+            },
+            {
+                "title": "常见问题",
+                "icon": "favors_list_icon_03.png",
+                "description": "我在某年度会议上参与抽奖，并获得了免费参加下一次会议的入场券。我可否使用该入场券？",
+                "nextPage": "faq-gifts-favors"
+            }
+        ],
+        "frequently-asked-questions": [
+            {
+                "question": "<strong>会议: </strong>我在某年度会议上参与抽奖，并<u>获得了免费参加</u>下一次会议的入场券。我可否使用该入场券？",
+                "answer": "这取决于：该入场券仅可您个人使用，还是可由公司使用？比如，如果该入场券可转让给另一位福特员工，则公司可保留该“礼品”，随后由管理层决定是否参与，以及由谁参与会议。如果该入场券不可转让，那么将由管理层决定将它赠与您与否对于公司是否具有价值。如果部门愿意支付其他差旅费用，则公司可以使用该券。如果管理层不愿支付额外费用，则该入场券将被视为赠与您的“礼品”，对此您不得接受（假定其价值高于小额价值）。",
+                "nextPage": "faq-gifts-favors-detailed",
+                "reference": "gifts-favors"
+            },
+            {
+                "question": "<strong>已付会议费: </strong>供应商提出<u>为我支付参加技术会议的所有费用</u>。供应商提出为我支付机票费、住宿费、会议费和餐饮费。我能否接受？",
+                "answer": "<p>由供应商付费的会议差旅费具有限制。一般来说，如果由公司为会议之行付费，且经适当的批准，那么允许接受免费出席会议的邀请。</p><br><p>如果您在会议上发言，那么经适当批准，您可接受差旅费用。 </p><br/><p>此类差旅的细节各不相同，根据不同的情况，批准也将存在差异。您应联系公司合规办公室或人事关系部，提供提议的细节、会议网站，以及任何相关行程，或您将在旅途中花费的时间，以便获得有关所需批准的指导。</p>",
+                "nextPage": "faq-gifts-favors-detailed",
+                "reference": "gifts-favors"
+            },
+            {
+                "question": "<strong>抽奖/会议： </strong>我出席了一场专业会议（费用自理），并参与了<u>由与公司有业务往来的供应商/经销商主办的</u> 的抽奖。如果我赢取了奖品，是否可保留？公司和供应商均未为我的会议之行付费。",
+                "answer": "不能。如果公司供应商、经销商或其他与公司有业务往来的组织提供的奖品价值高于小额价值（美国范围内 50 美元 – <a href=\"#/nominal-value\">点击此处查看当地货币金额<a/>），那么您不得保留奖品。这与谁是会议的付费者无关，抽奖券由您出资购买或来自他人赠与也与这无关。然而，如果您的行程费用自理，您可接受与公司无业务往来、且未积极寻求与公司合作的企业或组织提供的奖品。如果由公司或供应商承担您出席会议的费用，那么您不得接受任何公司礼品政策外的奖品。",
+                "nextPage": "faq-gifts-favors-detailed",
+                "reference": "gifts-favors"
+            },
+            {
+                "question": "<strong>折扣/会议： </strong>我将于下个月前往佛罗里达州奥兰多出席一场会议。活动赞助商获得了会议酒店的极高折扣。作为与会方，他们<u>提供了会议之前或之后以优惠价在酒店额外住宿数日的惠赠</u>，以便我和家人共游度假胜地。 我可否接受该折扣？",
+                "answer": "不能。除非该特别折扣可为公司所有员工或一般公众所用，否则您不得接受。您将从活动中获得个人利益。",
+                "nextPage": "faq-gifts-favors-detailed",
+                "reference": "gifts-favors"
+            },
+            {
+                "question": "<strong>食品篮： </strong>我收到某供应商赠送的假日<u>礼品篮，内含食品和一瓶酒</u> 。礼品篮的价值高于小额价值限制（美国范围内 50 美元）。我是否必须如数奉还？",
+                "answer": "首先，不得接受其中的那瓶酒，必须将其归还，或上交公司。其次，鉴于食品篮是易腐品，因此允许将篮子放在某个位置，让其他人员均可共享篮内食品，如此您自身接受的礼品价值便未超过小额价值限制（美国范围内 50 美元 – <a href=\"#/nominal-value\">点击参考资料下的链接，查看当地货币金额<a/>）。",
+                "nextPage": "faq-gifts-favors-detailed",
+                "reference": "gifts-favors"
+            },
+            {
+                "question": "<strong>礼品卡： </strong>我收到某供应商赠送的价值 25 美元的<u>水疗礼品卡</u>，我能留用吗？",
+                "answer": "不能。尽管未超过小额价值限制，但仍然是礼品卡 – 这是不允许的。",
+                "nextPage": "faq-gifts-favors-detailed",
+                "reference": "gifts-favors"
+            },
+            {
+                "question": "<strong>个性化礼品： </strong>某经销商赠与我一个<u>个性化皮革公文包</u>，其内侧印有我的名字。我能留用吗？",
+                "answer": "该礼品超过了小额价值，您必须交还。如果您想留用，则必须向经销商或公司支付该物品的公平市价。您应保留付款证据。有关“如果已接受政策外礼品，我能做什么”的信息，请查阅参考资料。",
+                "nextPage": "faq-gifts-favors-detailed",
+                "reference": "gifts-favors"
+            },
+            {
+                "question": "<strong>独特礼品: </strong>为庆祝销售业绩的提升，我拜访了经销商。期间，他赠与我<u>一幅限量版油画</u>。我和该经销商之间建立了深厚的感情，不想因拒绝礼品而破坏我们的关系。我能否接受这个礼品？",
+                "answer": "您应援引公司政策，婉谢或归还该艺术品。根据管理层的建议，经人事关系部批准，您也可代表公司接受该油画（公司将向慈善机构捐赠该油画，或将其展示于公司内某一位置）。",
+                "nextPage": "faq-gifts-favors-detailed",
+                "reference": "gifts-favors"
+            },
+            {
+                "question": "<strong>团队赞助： </strong>我能否请供应商<u>帮忙赞助我孩子的运动</u> 队?",
+                "answer": "不能。无论何时，您都不得索取礼品或惠赠。即使供应商主动提出向该团队捐款，也是公司政策外的个人惠赠，而非慈善捐款。",
+                "nextPage": "faq-gifts-favors-detailed",
+                "reference": "gifts-favors"
+            },
+            {
+                "question": "<strong>索取捐款： </strong>我们部门想要帮助某地方医院的孩子。我们想要<u>为某些供应商提供</u>机会，让其在医院的<u>年度筹款活动</u>上开展宣传。我们认为供应商可能有兴趣借此机会开展广告宣传。这其中有什么注意事项吗？",
+                "answer": "是。首先，我们的政策规定，不得由公司施加可能的捐赠压力。您应做出类似如下的声明：“您的参与完全基于自愿。您选择支持或不支持该项筹款工作都将不会影响您与公司目前和将来的业务关系。”其次，确保您已获得管理层的批准。如果涉及多家供应商，还应与采购部门确认，查看是否适用任何批准流程。请务必谨记，筹款工作不得干扰您在公司的工作职责。最后，您还必须考虑您的亲人是否从该慈善活动中受益。若涉及个人利益，则您可能具有利益冲突，此时您应向人力资源/人事关系部或公司合规办公室咨询。",
+                "nextPage": "faq-gifts-favors-detailed",
+                "reference": "gifts-favors"
+            },
+            {
+                "question": "<strong>退休/公司宴会： </strong>我们在一家非常高档的餐馆庆祝<u>某位公司员工退休</u>，需凭票入场。供应商、经销商和公司员工受邀参加。某位参加宴会的供应商<u>提出支付食品费用</u>这是否为政策所允许？",
+                "answer": "不。对于主要由公司人员出席的活动，供应商不应支付食品费用。您应谢绝供应商的提议，用门票收入支付食品费用。供应商应与福特员工支付同样的门票费用。",
+                "nextPage": "faq-gifts-favors-detailed",
+                "reference": "gifts-favors"
+            },
+			{
+                "question": "<strong>个人与业务混淆： </strong>我的<u>邻居</u>碰巧受雇于某供应商。我们是朋友，在工作上互不相扰。我想邀请邻居参加<u>女儿即将举办的婚礼</u>。我也认为他将赠送女儿一份结婚礼物。我是否能邀请他，女儿能否接受礼物？",
+                "answer": "这种情况下，如需确定不存在供应商赠送的伪装礼品，还需深入探讨数个问题。您与这个家庭还共同参与什么其他活动？该供应商是不是规模较大，且礼品明确由邻居个人赠送？该供应商是不是规模较小，邻居是唯一或少数几位所有者之一？如果该礼品确实是邻居赠送的个人礼物，那么在此情况下无需遵循公司的礼品政策。最可取的办法是与人力资源代表商讨此种情况，并记录他给您的建议。",
+                "nextPage": "faq-gifts-favors-detailed",
+                "reference": "gifts-favors"
+            },
+            {
+                "question": "<strong>度假/折扣：</strong>经常与我打交道的某供应商在希腊拥有一座<u>绝佳的海滩公寓</u>，平常他将其租出。他提出让我<u>在休假期间免费（或以折扣价）使用这座公寓</u>。我可否接受？",
+                "answer": "不能。您只能以正常价格 – 或公开可用的折扣租用该公寓。",
+                "nextPage": "faq-gifts-favors-detailed",
+                "reference": "gifts-favors"
+            },
+            {
+                "question": "<strong>工作机会： </strong>我共事的某供应商在寻找<u>暑期实习生</u>。我能否向我在供应商处的联系人<u>推荐我的儿子</u>，并发送他的简历？",
+                "answer": "您的孩子可通过正常的招聘/申请流程申请职位。您不得向您在供应商处的联系人推荐他，或通过任何特别的流程将他的简历提交公司供应商。<br/><br/>您应确保避免有意或无意地影响或表面上影响供应商的任何雇佣决策。比如，您甚至不应向供应商提及您的孩子已申请职位。",
+                "nextPage": "faq-gifts-favors-detailed",
+                "reference": "gifts-favors"
+            },
+            {
+                "question": "<strong>定义： </strong>我如何确定某公司或个人被认为<u>与福特“有业务往来”？</u>",
+                "answer": "首先，应广义地理解我们的政策，涵盖公司通过筹资、捐赠或科研项目提供支持的慈善机构、学校和高校。此外，政策还包括公司所属、或从我们的经销商或供应商处获得重要支持的贸易集团和其他商业协会。其次，如果您有任何疑问，请提出。业务代表通常知晓这些组织是否与福特有业务往来。在这方面，采购部门也有可能提供帮助。",
+                "nextPage": "faq-gifts-favors-detailed",
+                "reference": "gifts-favors"
+            },
+            {
+                "question": "<strong>政策外的礼品： </strong>如果因礼品<u>超过了政策限制</u>，因此我不能接受，那么我该怎么做？",
+                "answer": "<a href=\"#/gift-exceed-policies\">链接至“如果您收到政策外礼品”页面。... – 列于另一份单独文件</a>",
+                "nextPage": "faq-gifts-favors-detailed",
+                "reference": "gifts-favors"
+            }
+        ],
+        "can-i": [
+            {
+                "title": "含酒精饮料、啤酒或葡萄酒",
+                "text": "从供应商、经销商或其他第三方接受作为礼品的一瓶任何种类的含酒精饮料是有悖于本公司政策的行为。但您可以将啤酒、葡萄酒或其他含酒精饮料用作宴请或特别活动的一部分，与供应商、经销商或其他第三方共享。请牢记，您代表的是本公司的形象。务必以负责任的方式饮用 "
+            },
+            {
+                "title": "现金或礼品券",
+                "text": "从供应商、经销商或其他第三方接受现金和礼品券/卡分别是有悖于和通常有悖于本公司政策的行为。如果某张礼品券用于提供具有名义价值的特定物品（通常为易变质物品），则这张礼品券可能是得当的 – 例如，在中国春节期间，允许接受用于在特定商店购买具有名义价值的月饼的礼品券。 "
+            },
+            {
+                "title": "礼品篮或礼品袋",
+                "items": [
+                    {
+                        "title": "低于名义价值",
+                        "text": "如果其总价值低于名义价值且不存在含酒精饮料、现金或非许可礼品券/卡（详情参见现金或礼品券），则您可以接受"
+                    },
+                    {
+                        "title": "高于名义价值且内含食品",
+                        "text": "如果礼品篮的主要部分为食品，只要您与同事共享（即置于公共区域以共享），则您可以接受。任何含酒精饮料必须上缴本公司或予以退回"
+                    },
+                    {
+                        "title": "高于名义价值且不含食品",
+                        "text": "如果礼品篮或礼品袋的内含物品价值合计高于名义价值，则您不得接受。您可以接受其中一项低于名义价值的物品，然后退回其余物品或者将它们上缴本公司"
+                    }
+                ]
+            },
+            {
+                "title": "其他礼品",
+                "items": [
+                    {
+                        "title": "个人礼品",
+                        "items": [
+                            {
+                                "title": "低于名义价值",
+                                "text": "如果其价值低于名义价值且不存在含酒精饮料、现金或礼品券/卡，则您可以接受"
+                            },
+                            {
+                                "title": "高于名义价值",
+                                "text": "如果礼品的价值高于名义价值，则您不得接受"
+                            },
+                            {
+                                "title": "价值不明",
+                                "text": "上网搜索类似物品以设法确定该礼品的价值。如果您需要帮助，请与人力资源部或合规办公室商讨"
+                            },
+                            {
+                                "title": "如果您不能保留它该怎么办",
+                                "reference": "gift-exceed-policies"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "特殊场合",
+                        "text": "退休、晋升或其他工作相关活动均遵照标准细则（见下文）。如果您拥有在本公司以外的私人关系（例如一名为供应商或经销商效力的儿时好友），而且您或您的部门与该供应商/经销商定期进行联系，则您应该加倍警惕以避免可能会被视为违反政策的各种场合。如果该场合为个人庆祝活动（例如婚礼或生日派对），而且您收到了礼品或其他一些特别惠赠，则您应该在接受超出标准细则范围的那些物品之前咨询人力资源部或合规办公室。",
+                        "items": [
+                            {
+                                "title": "低于名义价值",
+                                "text": "如果其价值低于名义价值且不存在含酒精饮料、现金或礼品券/卡，则您可以接受"
+                            },
+                            {
+                                "title": "高于名义价值",
+                                "text": "如果其价值高于名义价值，则您不得接受该礼品"
+                            },
+                            {
+                                "title": "价值不明",
+                                "text": "上网搜索类似物品以设法确定其价值。如果您需要帮助，请与人力资源部或合规办公室商讨。"
+                            },
+                            {
+                                "title": "如果您不能保留它该怎么办",
+                                "reference": "gift-exceed-policies"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "送给家人的礼品 ",
+                        "text": "给予您家人的礼品和惠赠均遵照标准细则（见下文）。如果您拥有在本公司以外的私人关系（例如一名为供应商或经销商效力的儿时好友），而且您或您的部门与该供应商/经销商定期进行联系，则您应该加倍警惕以避免可能会被视为违反政策的各种场合。如果该场合为个人庆祝活动（例如婚礼或生日派对），而且您收到了礼品或其他一些特别惠赠，则您应该在接受超出标准细则范围的那些物品之前咨询人力资源部或合规办公室。",
+                        "items": [
+                            {
+                                "title": "低于名义价值 ",
+                                "text": "如果礼品的价值低于名义价值且不存在含酒精饮料、现金或礼品券/卡，则您可以接受"
+                            },
+                            {
+                                "title": "高于名义价值",
+                                "text": "如果其价值高于名义价值，则您不得接受该礼品"
+                            },
+                            {
+                                "title": "价值不明",
+                                "text": "上网搜索类似物品以设法确定其价值。如果您需要帮助，请与人力资源部或合规办公室商讨。"
+                            },
+                            {
+                                "title": "如果您不能保留它该怎么办",
+                                "reference": "gift-exceed-policies"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "奖品 ",
+                "text": "奖品将视同礼品和惠赠处理，且必须符合本公司针对作为奖品提供的各类礼品和惠赠而制定的政策。如果您不能肯定您能否接受某一奖品，请务必咨询"
+            },
+            {
+                "title": "惠赠和特别优惠",
+                "items": [
+                    {
+                        "title": "免费/折扣产品 ",
+                        "text": "绝不要索取免费或折扣产品。如果该免费或折扣产品正在向公众或所有员工提供，则您可以接受。如果该免费或折扣产品仅向您提供，则您不得接受"
+                    },
+                    {
+                        "title": "免费/折扣服务",
+                        "text": "绝不要接受免费或折扣服务，除非同一服务向所有员工或普通公众开放"
+                    },
+                    {
+                        "title": "供应商付费差旅",
+                        "items": [
+                            {
+                                "title": "商务会议",
+                                "text": "与商务会议和大会有关的供应商付费差旅必须经人力资源/人事关系部及公司合规办公室审核，并经您的 LL1 批准"
+                            },
+                            {
+                                "title": "私人会议",
+                                "text": "与商务会议和大会有关的供应商付费差旅必须经人力资源/人事关系部及公司合规办公室审核，并经您的 LL1 批准"
+                            },
+                            {
+                                "title": "搭乘供应商私人飞机出行",
+                                "text": "指令 A-110 要求，搭乘供应商自有飞机出行须经全球差旅办公室批准。视出行目的而定，您很可能需要经过人力资源/人事关系部及公司合规办公室的审核以及您 LL1 的批准。"
+                            },
+                            {
+                                "title": "社交/娱乐活动",
+                                "items": [
+                                    {
+                                        "title": "当地活动",
+                                        "text": "当地活动如果您正计划与一名供应商同行以参加一项福特公司所允许的当地活动（例如，该供应商出席现场，不存在任何不适宜的场所，且邀约并未超过次数限制），则您不需要取得任何特别批准。当地活动是指在您所处的同一大都市区举行的活动。如果它涉及要乘坐航班或长途班车才能抵达活动现场，则不属于当地活动。"
+                                    },
+                                    {
+                                        "title": "长时间或夜间出行",
+                                        "text": "长时间或夜间出行涉及夜间或长时间出行的任何娱乐/社交活动必须经人力资源/人事关系部及公司合规办公室审核，并经您的 LL1 审核。无论是您自己、福特公司或者还是供应商为您的出行支付费用，这一规定均适用。如果您接受了在您以本公司支付费用的方式为了本公司的业务而前往过的场所中举行的娱乐或社交活动，只要您遵守本公司的所有其他政策（例如，该供应商出席现场，不存在任何不适宜的场所，且邀约并未超过次数限制），则您不需要取得特别批准。 "
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "供应商付费会议",
+                        "text": "若要接受免费的会议入场券，您必须取得管理层批准（LL4 或更高）。切记遵循与礼品、宴请和招待有关的所有其他细则。向与会者提供的餐饮将不会被视为有悖于您的餐饮限制"
+                    },
+                    {
+                        "title": "就业机会",
+                        "text": "您不得利用您在本公司的职务为他人或您的朋友或亲戚谋取工作岗位。您不得要求供应商或经销商聘用您的某个朋友或亲戚。当您在福特公司效力时，您可能会获悉另一家公司的就业机会。您可以向您的朋友或亲戚告知某一空缺职位，这样他们便能够申请该空缺职位，但他们必须与其他候选者一同加以考虑并依靠其自身的长处赢得该职位。您不应为您的朋友或亲戚要求任何特殊关照。"
+                    }
+                ]
+            },
+            {
+                "title": "票劵",
+                "text": "如果供应商将出席现场，请转向餐饮、差旅和社交活动部分寻求指导。如果供应商不会同您一起出席现场，您不得将票券作为礼品接受。在这种情况下，该票劵的价值无关紧要。"
+            }
+        ]
+    },
+    {
+        "pageKey": "meals-travels",
+        "title": "餐饮、差旅及社交活动",
+        "canITitle": "我能接受…?",
+        "canIReminder": "绝不要索求邀请或惠赠。禁止前往提供成人娱乐活动的任何场所。",
+        "icon": "meals-travels.png",
+        "ciicon": "meals-travels.png",
+        "titleicon": "meals-travels-title.png",
+        "items": [
+            {
+                "title": "公司政策摘要",
+                "icon": "favors_list_icon_01.png",
+                "description": "与业务往来人员开展社交有助于改善工作关系。然而，具体哪种类型的餐饮和娱乐可为公司所接受，存在一些限制。只有有助于业务洽谈的社交活动方可为公司所接受。您应谢绝任何可能造成不妥之嫌、– 包括涉及成人娱乐活动或其他不适当场所的社交邀请。始终谨记，当您为公司展开差旅之行时，您就是公司的一名代表。您应始终发挥最佳判断力，展现最佳行为，保护公司的声誉。遵守公司的政策，特别是适用的差旅和消费政策，以及公司的道德政策。如果您有任何疑问，或发现自己涉嫌违反政策，请寻求指导。",
+                "nextPage": "ps-meals-travels-summary",
+                "descriptionContent": "<div><p>道德原则</p>与业务往来人员开展社交有助于改善工作关系。然而，具体哪种类型的餐饮和娱乐可为公司所接受，存在一些限制。只有有助于业务洽谈的社交活动方可为公司所接受。您应谢绝任何可能造成不妥之嫌、– 包括涉及成人娱乐活动或其他不适当场所的社交邀请。始终谨记，当您为公司展开差旅之行时，您就是公司的一名代表。您应始终发挥最佳判断力，展现最佳行为，保护公司的声誉。遵守公司的政策，特别是适用的差旅和消费政策，以及公司的道德政策。如果您有任何疑问，或发现自己涉嫌违反政策，请寻求指导。</div><div><p>基本政策</p><ul><li>参加商务会议时，您可以接受供应商/经销商提供的一般点心。请遵守如下概括的关于餐饮和娱乐的政策限制</li><li>请勿参与不适当的活动，如包含开展公司业务时参与成人娱乐活动有关正常政策限制之外的任何情况，请咨询您的人力资源代表或经理</li><li>参加供应商/经销商付费的活动时，仅接受正常政策限制之内的餐饮和社交活动您必须通过专项审批，方可接受供应商或经销商付费的差旅</li><li>全球各地的差旅和消费规则各不相同。了解何处可找到适用于您的差旅的规则。</li></ul></div><div><p>正常政策限制</p><ul><li>单个供应商/经销商每季度一次餐饮活动</li><li>所有供应商/经销商每周一次餐饮活动</li><li>您可接受参加商务会议时提供的点心和饮料（饮品、饼干、水果）</li><li>任何一名供应商/经销商每年两次娱乐活动</li><li>供应商/经销商必须与您共同参加活动如果您的宾客受邀，则主办方也应携带一名宾客</li></div><div><p>其他指导</p><ul><li>如需接受第三方付费的过夜或额外差旅，在美国范围内，您必须获得您的直属经理、企业副总裁 (LL1) 以及人事关系部的审批；在其他地区，则必须获得 So.Am. 和 AP 或您的人力资源代表的审批</li><li>接受已付费差旅或其他会议和研讨会费用应视为第三方付费的差旅，必须通过审批</li><li>为完成公司工作在任何地点发言时，您不得接受任何演讲费用或经济奖励</li><li>公司支持的慈善机构、学校、高校、贸易集团或其他商业协会同样被视为供应商/经销商</li></ul></div>"
+            },
+            {
+                "title": "联系人和参考资料",
+                "icon": "favors_list_icon_02.png",
+                "description": "如有权限可访问福特内联网，则可查看这些资源。",
+                "nextPage": "ps-meals-travels-quick-ref",
+                "items": [
+                    {
+                        "title": "第 3 号政策函，企业行为准则",
+                        "link": ""
+                    },
+                    {
+                        "title": "指令 A-107，企业行为准则",
+                        "link": ""
+                    },
+                    {
+                        "title": "指令 A-110，业务相关差旅（包括供应商/经销商的飞机）",
+                        "link": ""
+                    },
+                    {
+                        "title": "全球差旅政策",
+                        "link": ""
+                    },
+                    {
+                        "title": "您的在线差旅费用 (TER) 站点（如适用），查看差旅过程中允许消费的相关信息",
+                        "link": ""
+                    },
+                    {
+                        "title": "如有供应商或业务往来人员提供的餐饮或差旅、或出席社交活动方面的疑问，请联系您的当地人力资源代表，或点击此处，发送电子邮件至全球总部的人事关系部",
+                        "link": "mailto:activity@ford.com?subject=移动应用 – 餐饮和社交活动"
+                    },
+                    {
+                        "title": "如有公司差旅和消费政策及限制方面的疑问，请联系您的当地差旅办公室或内部控制代表",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "title": "常见问题",
+                "icon": "favors_list_icon_03.png",
+                "description": "全天会议我们正与供应商共同从事一个项目，要求我们的团队从早到晚持续工作。供应商提出由他们带来三明治和沙拉作为午餐和晚餐。既然我们的工作需要持续一整天，那么这些食物可否接受？",
+                "nextPage": "faq-meals-travels"
+            }
+        ],
+        "frequently-asked-questions": [
+            {
+                "question": "<strong>全天会议: </strong>我们正与供应商共同从事一个项目，要求我们的团队从早到晚持续工作。供应商提出由他们<u>带来</u>三明治和沙拉作为午餐和晚餐。既然我们的工作需要<u>持续一整天</u>，那么这些食物可否接受？",
+                "answer": "通常来说，对于供应商付费的餐饮活动，您每周不得接受一次以上。若您确实无法支付其中一次餐费，那么您应向人力资源或公司合规办公室寻求指导，并通过其审批他们将全面审视您所处的情况，让您免于违反政策。",
+                "nextPage": "faq-meals-travels-detailed",
+                "reference": "meals-travels"
+            },
+            {
+                "question": "<strong>餐饮提议: </strong>我能否<u>向供应商提出让其提供午餐</u>或为会议提供食品？过去其他供应商都是这样做的，我的团队成员也希望如此。我不想让供应商因为未能为会议提供食品而感到尴尬。",
+                "answer": "不能。提出让供应商为会议提供食品被视为寻求帮助。有的供应商可能在会议期间自费提供食品，但您不得要求任何供应商为会议购买午餐，您的团队成员也不得要求供应商提供餐饮。此外，请提醒与您共事的供应商，他们每季度仅可为福特员工提供一次餐饮活动。",
+                "nextPage": "faq-meals-travels-detailed",
+                "reference": "meals-travels"
+            },
+            {
+                "question": "<strong>出城活动: </strong>我受多位供应商/经销商之邀出席体育赛事。大多数活动都在本地举行，但少数活动 <u>涉及过夜旅行</u>.  我能否参加这些活动？对于我能参加的活动，是否有 <u>数量方面的限制</u> ？",
+                "answer": "您每年可从每位供应商/经销商处接受最多两项活动。这些活动不应要求额外旅行或过夜。供应商/经销商也必须参加。您应谢绝任何需要过夜的邀请，除非您通过了适当的审批 – 任何过夜的例外情况都需要通过您的 LL1 以及人事关系部或公司合规办公室的审批。",
+                "nextPage": "faq-meals-travels-detailed",
+                "reference": "meals-travels"
+            },
+            {
+                "question": "<strong>经销商提供的餐饮: </strong>我将造访某些经销商，其所处 <u>区域的餐馆卫生条件可能无从保障</u>.  我可能无法找到一家能舒适就餐的餐馆。我知悉经销商将确保食品准备妥当，但他们将全盘掌控，我无从支付任何费用。在旅途中，我每周能否接受一次以上的餐饮活动？",
+                "answer": "您的健康和安全至关重要。我们承认这种情况时常发生，如果您能在旅行开始之前进行一些规划，可能有助于避免实际开始旅行之后出现的问题。例如，您可与经销商在酒店餐厅会面，在此您可舒适就餐，并支付自己的餐饮费用。如果您担心无法在正常的餐饮要求下安全就餐，请联系人力资源/人事关系部或公司合规办公室，寻求帮助和指导。将公司的礼品和惠赠政策告知对方很有帮助，这样双方可共同拟订符合公司道德政策的议程。",
+                "nextPage": "faq-meals-travels-detailed",
+                "reference": "meals-travels"
+            },
+            {
+                "question": "<strong>额外的餐饮: </strong>我将出席在另一个地区举行的会议，在此期间， <u>数位供应商将在夜间提供晚宴</u>.  我想要拜访这些供应商，否则将没有机会与他们会面 – 对于每周最多一次供应商付费餐饮活动的正常限制，我能否超过？",
+                "answer": "如果您可提供充分的理由，能证明超过每周最多一次供应商付费餐饮活动的正常限制的合理性，请事先联系人力资源/人事关系部或公司合规办公室，向其解释具体情况，并寻求指导。您应保留其所提供建议的副本，以防将来出现与您的行为有关的问题。",
+                "nextPage": "faq-meals-travels-detailed",
+                "reference": "meals-travels"
+            },
+            {
+                "question": "<strong>个人与业务混淆: </strong>我将出席某国际会议，会议结束后将与我的配偶在会议举办地共度周末，以此作为假期的一部分。<u>我的一位儿时好友是福特经销商的员工</u>, 她也将参加会议。她 <u>邀请我和我的配偶</u> 她邀请我和我的配偶在会议后的周末共赴其别墅，与他们夫妇二人共叙旧情。我可否接受该免费留宿？",
+                "answer": "尽管邀请来自儿时好友，但由于您可能在旅途中开展业务，因此情况变得复杂化。最佳行动方案是谢绝这次别墅内的免费留宿。否则，接受邀请可能产生不妥之嫌。如果您认为就您的情况而言留宿完全适当，您应联系人力资源/人事关系部或公司合规办公室寻求指导。",
+                "nextPage": "faq-meals-travels-detailed",
+                "reference": "meals-travels"
+            },
+            {
+                "question": "<strong>娱乐/会议: </strong>在我即将出席的一场会议中，主办方将邀请某格莱美获奖 <u>乐队在晚间的会议网络聚会上进行表演。</u> 我能否参加？",
+                "answer": "是，但该活动将视为一次娱乐活动。",
+                "nextPage": "faq-meals-travels-detailed",
+                "reference": "meals-travels"
+            },
+            {
+                "question": "<strong>会议餐饮: </strong>我将 <u>出席一场会议</u> 营销材料显示，会议期间的午餐将由与福特有业务往来的某公司赞助。  <u>这次午餐是否将算作</u> 这次午餐是否将算作该供应商为我提供的每季度一次的餐饮活动？",
+                "answer": "不。向与会者提供的标准餐饮不影响餐饮限制次数。然而，任何与供应商/经销商一同出席的外部晚宴或社交活动都应符合餐饮和社交活动指南中的次数限制。",
+                "nextPage": "faq-meals-travels-detailed",
+                "reference": "meals-travels"
+            },
+            {
+                "question": "<strong>演讲费用: </strong>我受邀在某商业会议上发表演讲。举办活动的赞助商提出 <u>向我支付演讲费用</u>. 我能否接受？",
+                "answer": "如果演讲与您在福特的工作有关，或是您在福特的业务专长的一部分，那么您不得接受任何费用或报酬。同样，您接受的礼品不得超过与您接受的奖品或其他荣誉相关的公司政策范围。如需其他情况的相关指导，如与您在福特的职位无关的个人体验领域，请联系公司合规办公室或人事关系部。",
+                "nextPage": "faq-meals-travels-detailed",
+                "reference": "meals-travels"
+            },
+            {
+                "question": "<strong>门票: </strong>某潜在的 <u>供应商/经销商寄给我两张门票</u> 可用于观赏某位世界著名歌剧演唱家的表演。我是否必须将其送还？",
+                "answer": "是的，您应归还门票。只有在供应商/经销商同样参加时，您方可接受娱乐门票。根据福特的政策，您每年仅可接受每位供应商/经销商的两次娱乐活动邀请，且供应商/经销商代表必须作陪。如果您的配偶受邀参加，则其他配偶也应陪同。",
+                "nextPage": "faq-meals-travels-detailed",
+                "reference": "meals-travels"
+            },
+            {
+                "question": "<strong>门票: </strong>某供应商邀请我参加一场预售门票的专业体育赛事，我接受了。在最后一刻，<u>供应商临时有事必须取消活动</u>, 他让我拿着门票独自前往。我真的很期待这场比赛 – 那么我还能前往观赛吗？[点击此处查看答案]",
+                "answer": "点击此处查看答案不能。如果没有邀请您参加的供应商作陪，您不得独自前往。福特允许员工接受邀请，与供应商开展社交的目的是促进业务关系。您可询问其他与您共事的供应商代表是否有空参加，但您独自持票观看违反福特的政策。",
+                "nextPage": "faq-meals-travels-detailed",
+                "reference": "meals-travels"
+            },
+            {
+                "question": "<strong>宾客: </strong>某供应商邀请我携带一名宾客参加活动。根据政策，我是否只能<u>携带配偶</u>？",
+                "answer": "如果宾客受邀，您不一定携带配偶参加。您可携带有利于达成公司业务目的的其他适当的宾客；您也可选择独自前往。",
+                "nextPage": "faq-meals-travels-detailed",
+                "reference": "meals-travels"
+            },
+            {
+                "question": "<strong>宾客: </strong>某供应商提出邀请 <u>我和我的妻子参加一场网球公开赛</u>. 我能否接受？",
+                "answer": "<strong>如果</strong> 未超过该供应商每年两次娱乐活动的次数限制，且这场赛事将在本地开展，那么您可以接收邀请。 <strong>如果</strong> 如果其他配偶（包括供应商的配偶或宾客）参加，那么您的配偶也可参加。",
+                "nextPage": "faq-meals-travels-detailed",
+                "reference": "meals-travels"
+            },
+            {
+                "question": "<strong>乘坐私人飞机出行: </strong>我想要 <u>乘坐供应商的飞机</u> 我想要乘坐供应商的飞机前往某工作场所。我需要获得哪些批准？",
+                "answer": "根据指令 A-110，乘坐供应商的飞机出行必须通过企业差旅办公室的专项审批。此外，根据飞行目的的不同，您可能还需要通过人事关系部或公司合规办公室的审批。即使公司无需支付机票费用，您也必须根据当前管理机构对于您所在地区公司付费差旅的规定，通过适当水平的差旅审批。",
+                "nextPage": "faq-meals-travels-detailed",
+                "reference": "meals-travels"
+            },
+            {
+                "question": "<strong>为供应商的餐饮付费: </strong>我将前往另一个国家出席会议。期间，我将设法与其他一些供应商举行会晤。其中一位供应商上个月曾到访，并邀请我共进晚餐，因此本季度我已无法再接受其公司的另一次餐饮邀请。我能否 <u>为该供应商的晚餐付费</u>, 并将费用并入我的差旅费报告中？",
+                "answer": "这要看情况。对于在供应商主办的活动中公司是否付费，并无统一的政策。您应与您的经理以及地方财政部门协商，以确定您在旅途中应遵守的事项。如果您无法为供应商的餐饮付费，可与其共同外出就餐，各自付费。如果您与供应商就餐时各自付费，那么就餐次数没有限制。",
+                "nextPage": "faq-meals-travels-detailed",
+                "reference": "meals-travels"
+            }
+        ],
+        "can-i": [
+            {
+                "title": "餐饮",
+                "text": "您本周是否接受了超过一顿免费的餐饮款待？",
+                "items": [
+                    {
+                        "title": "是",
+                        "text": "您每周不得接受超过一顿免费的餐饮款待。如果有异常情况，请咨询人事关系部或公司合规办公室。"
+                    },
+                    {
+                        "title": "否 ",
+                        "text": "如果您本季度尚未接受任何其他餐饮款待，则可以接受邀请。请记住，为避免出现不当行为，不要去任何不适当的场所。"
+                    }
+                ]
+            },
+            {
+                "title": "零食",
+                "text": "商务会议过程中提供的小吃（如饮料、饼干、薯片、水果）是允许的。"
+            },
+            {
+                "title": "供应商/经销商付费差旅",
+                "items": [
+                    {
+                        "title": "商务会议",
+                        "text": "与商务会议和大会有关的供应商付费差旅必须经人事关系部及公司合规办公室审核，并由您的 LL1 批准。"
+                    },
+                    {
+                        "title": "私人会议",
+                        "text": "与商务会议和大会有关的供应商付费差旅必须经人事关系部及公司合规办公室审核，并由您的 LL1 批准。"
+                    },
+                    {
+                        "title": "搭乘供应商私人飞机出行",
+                        "text": "指令 A-110 要求，搭乘供应商自有飞机出行须经全球差旅办公室批准。视出行目的而定，您很可能需要经过人事关系部及公司合规办公室的审核以及您 LL1 的批准。"
+                    },
+                    {
+                        "title": "社交/娱乐活动",
+                        "items": [
+                            {
+                                "title": "当地活动",
+                                "text": "如果您正计划与一名供应商同行以参加一项福特公司政策所允许的当地活动（如供应商出席而活动并未超过次数限制），则您无需取得任何特别批准。当地活动是指在您所处的同一大都市区举行的活动。如果它涉及要乘坐航班或长途班车才能抵达活动现场，则不属于当地活动。"
+                            },
+                            {
+                                "title": "长时间或夜间出行",
+                                "text": "涉及夜间或长时间出行的任何娱乐/社交或休闲活动必须经人事关系部及公司合规办公室审核，并由您的 LL1 审核。无论是您自己、福特公司或者还是供应商为您的出行支付费用，这一规定均适用。如果您接受了在您以本公司支付费用的方式为了本公司的业务而前往过的场所中举行的娱乐或社交活动，只要您遵守本公司的所有其他政策（如供应商出席，活动并非设于不当场所且并未超过次数限制），则您无需取得特别批准。"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "当地社交活动",
+                "text": "当地活动是指在您所处的同一大都市区举行的活动。如果活动涉及要乘坐航班或长途班车才能抵达活动现场，则不属于当地活动。 <strong>您是否已自该供应商/经销商/商业伙伴处接受了两次社交/娱乐活动？</strong>",
+                "items": [
+                    {
+                        "title": "是 ",
+                        "text": "否，您每年自供应商、经销商或公司与之有业务往来的其他方接受的社交/娱乐活动不得超过两次。"
+                    },
+                    {
+                        "title": "否",
+                        "text": "既然供应商或经销商有出席，则您可以接受邀请。请记住，为避免出现不当行为，不要去任何不适当的场所。"
+                    }
+                ]
+            },
+            {
+                "title": "包含差旅的社交活动",
+                "text": "涉及夜间或长时间出行的任何娱乐/社交活动必须经人事关系部及公司合规办公室审核，并由您的 LL1 审核。无论是您自己、福特公司或者还是供应商为您的出行支付费用，这一规定均适用。如果您接受了在您以本公司支付费用的方式为了本公司的业务而前往过的场所中举行的娱乐或社交活动，只要您遵守本公司的所有其他政策（如供应商出席，活动并非设于不当场所且并未超过次数限制），则您无需取得特别批准。"
+            },
+            {
+                "title": "携伴",
+                "text": "如果主办方携伴而行，且邀请中注明可携伴，则可以携伴前往。绝不可主动要求携伴。如有疑虑，请咨询人事关系部或公司合规办公室。"
+            }
+        ]
+    },
+    {
+        "pageKey": "conflicts-of-interest",
+        "title": "利益冲突",
+        "canITitle": "Can I work for ...?",
+        "canIReminder": "绝不要索取礼品或惠赠",
+        "icon": "conflicts-of-interest.png",
+        "ciicon": "conflicts-of-interest.png",
+        "titleicon": "conflicts-of-interest-title.png",
+        "items": [
+            {
+                "title": "公司政策摘要",
+                "icon": "favors_list_icon_01.png",
+                "description": "当个人利益或活动与您秉持公司利益最大化之原则行事的职责存在冲突时。您必须秉诚行事，在开展公司业务时绝不利用职务之便为自己或他人谋取私利，这一点至关重要。您应避免可能在当地或全球团队中其他人看来不适当的行为。",
+                "nextPage": "ps-conflicts-of-interest-summary",
+                "descriptionContent": "<div><p>道德原则</p>当个人利益或活动与您秉持公司利益最大化之原则行事的职责存在冲突时。您必须秉诚行事，在开展公司业务时绝不利用职务之便为自己或他人谋取私利，这一点至关重要。您应避免可能在当地或全球团队中其他人看来不适当的行为。<p>请务必将公司业务和个人业务分开，做到公私分明:</p><ul><li>切勿在与福特公司有业务往来的公司中拥有权益</li><li>请勿参与本公司中涉及您亲属所拥有之企业或将导致您与您亲属共事的事务</li></ul></div><div><p>出现如下情况时，应向公司或者您的直属管理人员披露潜在的利益冲突:</p><ul><li>如果您的亲属为供应商/经销商工作</li><li>如果您的亲属拥有供应商/经销商公司的财务权益 </li><li>如果您的亲属将从公司或供应商/经销商的任意交易中获利 – 例如，拥有一家二级供应商的公司，或可获得中间商费用。</li><li>如果您是董事、高级职员或外部机构顾问，或拥有一家企业，则无论是否与公司有业务关系均应披露</li></ul></div><div><p>不得在供应商/经销商公司拥有财务权益：</p><ul><li>获得董事长或 GVP 兼法律总顾问的书面同意的，不在此限</li><li>此项限制适用于所有供应商 – 不仅止于一级供应商 </li><li>要求为慈善机构捐款或鼓励公司与您想支持的企业合作，都可能引致许多道德问题。请参阅“礼品和惠赠”一节获得更多指令</li></ul><p>要求为慈善机构捐款或鼓励公司与您想支持的企业合作，都可能引致许多道德问题。请参阅“礼品和惠赠”一节获得更多指令</p></div>"
+            },
+            {
+                "title": "联系人和参考资料",
+                "icon": "favors_list_icon_02.png",
+                "description": "如有权限可访问福特内联网，则可查看这些资源.",
+                "nextPage": "ps-conflicts-of-interest-quick-ref",
+                "items": [
+                    {
+                        "title": "第 3 号政策函，企业行为准则",
+                        "link": ""
+                    },
+                    {
+                        "title": "第 22 号政策函，杜绝公司信息的不当披露 ",
+                        "link": ""
+                    },
+                    {
+                        "title": "指令 B-109，公司资源和类似公司资产的合理使用",
+                        "link": ""
+                    },
+                    {
+                        "title": "利益冲突披露工具，或《外聘、财务权益和关系（利益冲突）披露表格》（又称《2402 表》）",
+                        "link": ""
+                    },
+                    {
+                        "title": "有关利益冲突的问题或信息披露，请联系您当地的人力资源代表或点击这里发送电子邮件至全球总部的人事关系部",
+                        "link": "mailto: activity@ford.com?subject=移动应用 – COI"
+                    },
+                    {
+                        "title": "或点击这里发送电子邮件至公司合规办公室",
+                        "link": "mailto: fordlaw@ford.com?subject=移动应用 – COI"
+                    }
+                ]
+            },
+            {
+                "title": "常见问题",
+                "icon": "favors_list_icon_03.png",
+                "description": "我的配偶拥有一家小型企业，专门进行领导力培训。我向一个合作经销商提起过此事，他说这种培训对他的团队有益。几周后，为了帮助他们的团队更好地开展工作，有几家经销商聘请我配偶的企业为其提供培训服务。我确信经销商并未因聘请我的配偶而感到任何压力。事实上，他们看起来真得很高兴。我应该将我配偶的业务披露给公司么？",
+                "nextPage": "faq-conflicts-of-interest"
+            }
+        ],
+        "frequently-asked-questions": [
+            {
+                "question": "<strong>家族企业： </strong> 我的<u>配偶拥有一家小型企业</u>，专门进行领导力培训。我向一个合作经销商提起过此事，他说这种培训对他的团队有益。几周后，为了帮助他们的团队更好地开展工作，有几家<u>经销商聘请我配偶的企业</u>为其提供培训服务。我确信经销商并未因聘请我的配偶而感到任何压力。事实上，他们看起来真得很高兴。我应该将我配偶的业务披露给公司么？",
+                "answer": "您必须遵循公司的披露呈报程序。您可以使用在线利益冲突披露工具（如在您所在国家/地区可用的话），或向人力资源部提交纸质《外聘、财务权益和关系披露表格》（即《2402 表》）。在这种情况下，鉴于其与您在福特之职责密切相关，公司希望您配偶的公司停止与公司或其供应商/经销商的所有业务往来。这些家庭所有权的情况很复杂，将依照个案事实进行评估。",
+                "nextPage": "faq-conflicts-of-interest-detailed",
+                "reference": "conflicts-of-interest"
+            },
+            {
+                "question": "<strong>外部业务: </strong> <u>我有一家餐馆</u>。我需要向公司披露吗？",
+                "answer": "是的，您需要披露您拥有一家餐馆，因为您作为企业所有者的职责会与您在本公司的职责产生冲突。向您的主管披露您的利益，并遵循公司的披露呈交程序。您可以使用在线利益冲突披露工具（如在您所在国家/地区可用的话），或向人力资源部提交纸质《外聘、财务权益和关系披露表格》（即《2402 表》）。",
+                "nextPage": "faq-conflicts-of-interest-detailed",
+                "reference": "conflicts-of-interest"
+            },
+            {
+                "question": "<strong>供应商所有权： </strong>我在一家<u>二级供应商公司拥有 20% 的财务权益</u>。该二级供应商并未直接与公司签订合同，因此这种情况是允许的吗？",
+                "answer": "必须披露您在二级供应商公司的财务权益。即使供应商与本公司之间没有合同，它也在公司的供应链中，即视为与公司有业务往来。这种情况需要仔细审查，除非有特殊情况，否则将不被允许。向您的主管披露您的利益，并遵循公司的披露呈交程序。您可以使用在线利益冲突披露工具（如在您所在国家/地区可用的话），或向人力资源部提交纸质《外聘、财务权益和关系披露表格》（即《2402 表》）。",
+                "nextPage": "faq-conflicts-of-interest-detailed",
+                "reference": "conflicts-of-interest"
+            },
+            {
+                "question": "<strong>供应商所有权: </strong>我在福特公司工作，同时<u>在一家 IT 咨询公司拥有部分所有权</u>。该咨询公司的其他职员为福特公司提供服务，但我并不负责那些福特项目。这有问题吗？",
+                "answer": "无论这家公司与福特公司有业务往来与否，您都必须披露您在这家公司的所有权权益。需要说明的是，如果您的配偶或者其他亲属拥有该家 IT 咨询公司，您也同样需要进行披露。如果您是福特公司职员，非经公司最高层（董事长或 GVP 和法律总顾问）批准，您不得在福特之供应商公司中拥有权益。如果您是机构代理人员，应告知您在福特的经理和您的代理机构雇主。（在有些国家/地区，规定有机构代理人员通过雇主进行此类披露的程序。）",
+                "nextPage": "faq-conflicts-of-interest-detailed",
+                "reference": "conflicts-of-interest"
+            },
+            {
+                "question": "<strong>第二职业: </strong> 我在当地一所高校<u>教授</u>一些晚上和周末的商务课程。我应该披露我作为老师的第二职业吗？",
+                "answer": "是的，您应该遵循公司的披露呈交程序。您可以使用在线利益冲突披露工具（如在您所在国家/地区可用的话），或向人力资源部提交纸质《外聘、财务权益和关系披露表格》（即《2402 表》）。需要留意的是，您不能利用在福特公司的工作时间从事兼职；例如，不得在工作时间批改论文或研究课题材料，或要求福特公司同事在他们的工作时间为您提供协助。",
+                "nextPage": "faq-conflicts-of-interest-detailed",
+                "reference": "conflicts-of-interest"
+            },
+            {
+                "question": "<strong>外部董事: </strong> 我在<u>当地社区发展协会担任理事</u>。这是一个无偿的职位；我需要将此事披露给公司吗？",
+                "answer": "不需要，只有担任全国性或高知名度非盈利机构的职位才需要披露。",
+                "nextPage": "faq-conflicts-of-interest-detailed",
+                "reference": "conflicts-of-interest"
+            },
+            {
+                "question": "<strong>外部董事: </strong>我是 LL5 级别职员，我被邀请担任<u>一家大型非盈利机构的董事</u>。我需要在接受该职位前向公司披露吗？",
+                "answer": "是的，即使您的职位是无偿的，也需要披露。如果您的职位低于 LL5 级别，则无需向公司披露这些无偿职位任职情况。请遵循公司的披露呈交程序。您可以使用在线利益冲突披露工具（如在您所在国家/地区可用的话），或向人力资源部提交纸质《外聘、财务权益和关系披露表格》（即《2402 表》）。",
+                "nextPage": "faq-conflicts-of-interest-detailed",
+                "reference": "conflicts-of-interest"
+            },
+            {
+                "question": "<strong>个人所得： </strong> 我是福特公司一名经理。我被要求对我所在场所的一项政策变更进行审批。我发现这项<u>拟进行的政策变更会令我个人受益</u>。在这种情景下予以审批通过，我感到不安。我该怎么办？",
+                "answer": "任何时候如果您会因您将批准的变更而个人受益，请务必确保相关人员均知悉，并将问题上报给上级。处理这种情况有个好办法，即向您的经理汇报，并说明政策变更的影响，包括您个人会如何受益。",
+                "nextPage": "faq-conflicts-of-interest-detailed",
+                "reference": "conflicts-of-interest"
+            },
+            {
+                "question": "<strong>亲属的工作: </strong> 我的儿子<u>在一家为本公司提供服务的企业任职</u>。我是否应该披露这种关系？",
+                "answer": "如果您所处的职位会导致您直接与您儿子公司的人员有业务往来，或令您有权就该供应商/经销商作出决策，则必须将此种关系披露给本公司。请将您儿子的工作情况披露给您的主管，并遵循公司的披露呈交程序。您可以使用在线利益冲突披露工具（如在您所在国家/地区可用的话），或向人力资源部提交纸质《外聘、财务权益和关系披露表格》（即《2402 表》）。即使您与您儿子公司的业务并不直接相关，我们仍建议您披露这些情况。",
+                "nextPage": "faq-conflicts-of-interest-detailed",
+                "reference": "conflicts-of-interest"
+            },
+            {
+                "question": "<strong>亲属的工作： </strong>我的女儿最近开始<u>在本公司的一家经销商处工作</u>。我是否需要披露这种关系？",
+                "answer": "如果您所处的职位会导致您直接与经销商有业务往来或您可能就经销商做出决策，那么必须将您女儿的就业关系披露给您的主管，并遵循本公司的披露呈交程序。您可以使用在线利益冲突披露工具（如在您所在国家/地区可用的话），或向人力资源部提交纸质《外聘、财务权益和关系披露表格》（即《2402 表》）。即使您与经销商无直接责任关系，我们仍建议您将这种关系披露给公司。",
+                "nextPage": "faq-conflicts-of-interest-detailed",
+                "reference": "conflicts-of-interest"
+            },
+            {
+                "question": "<strong>亲属的工作： </strong>我的哥哥在一家给本公司<u>提供工程服务</u>的企业上班。我在市场销售部门工作，因此我并不会接触该企业。我该怎么办？",
+                "answer": "既然您与该供应商没有业务往来，您不必将这种关系披露给您的主管或本公司。但我们建议您披露这一关系，虽然目前您与该供应商并无业务往来，但将来您可能会发现因您在福特公司的职务变动而与该供应商产生了业务联系。",
+                "nextPage": "faq-conflicts-of-interest-detailed",
+                "reference": "conflicts-of-interest"
+            },
+            {
+                "question": "<strong>亲属的所有权： </strong>我的嫂子拥有一家公司<u>是福特经销商</u>。我是否应该披露这种关系？",
+                "answer": "是的，您必须将这种情况告诉您的主管，并遵循公司的披露呈交程序。由于您的嫂子也是您的家人，且您已经知悉其所拥有的权益，因此您可以使用在线利益冲突披露工具（如在您所在国家/地区可用的话），或向人力资源部提交纸质《外聘、财务权益和关系披露表格》（即《2402 表》）。",
+                "nextPage": "faq-conflicts-of-interest-detailed",
+                "reference": "conflicts-of-interest"
+            },
+            {
+                "question": "<strong>亲属的所有权: </strong>我和我的家人关系并不亲密。我哥哥娶的妻子拥有一个家族企业的部分所有权，但<u>我不知道那家企业的名称或经营范围</u>。我必须要询问他们，以防万一是福特公司的供应商吗？",
+                "answer": "不需要，您不必问您哥哥和嫂子他们的工作单位或者所有权权益。如果您不知道这些事情，即使碰巧与他们有业务往来也不会有冲突。如果您将来了解到这些信息，且他们公司与福特公司有了业务往来，届时您需填写《外聘、财务权益和关系披露表格》（即《2402 表》）",
+                "nextPage": "faq-conflicts-of-interest-detailed",
+                "reference": "conflicts-of-interest"
+            },
+            {
+                "question": "<strong>前任同事： </strong>我在福特公司的<u>前任同事</u>现在任职于我们的一家供应商公司。有时她会打电话给我，<u>要我帮她点忙</u>，给她找些需要的信息以备供应商完成投标书。由于我不参与招标，因此有时我不确定是否应该给她提供这些信息。我给她提供这些福特公司的信息有问题吗？",
+                "answer": "您感到不自在是对的。您不得因您们曾经共事，或因为是朋友，就向其他公司的人提供特殊帮助。您不负责招标，所以不清楚供应商是否有权知道这些信息。她可能会利用这些信息，获得更胜于其他投标人的优势。告诉她您不能为她提供这些信息，她应该向招标小组索取相关信息。他们可以确保一家供应商获得的信息，其他所有供应商也会同样知悉。如果她在您如此答复后，仍持续向您寻求这些特殊帮助，那么请向您的主管或人力资源部报告。",
+                "nextPage": "faq-conflicts-of-interest-detailed",
+                "reference": "conflicts-of-interest"
+            },
+            {
+                "question": "<strong>定义: </strong>哪些人会视为<u>家庭成员</u>？",
+                "answer": "第 3 号政策函对此有具体定义，包括配偶、父母、兄弟姐妹和子女（包括姻亲）。在进行信息披露时，我们建议您将涉及与您关系密切的家庭成员或重要他人的情况披露出来。例如，有些人可能和他们的侄子侄女关系密切，每周都有联系。如果您与家庭成员关系密切，则最好披露潜在的利益冲突，以便公司确保您不会面临要在家庭成员利益最大化与公司利益最大化之间进行选择的窘况。",
+                "nextPage": "faq-conflicts-of-interest-detailed",
+                "reference": "conflicts-of-interest"
+            }
+        ]
+    },
+    {
+        "pageKey": "company-assets",
+        "title": "公司资产的使用",
+        "canITitle": "Can I use ...?",
+        "canIReminder": "绝不要索取礼品或惠赠",
+        "icon": "use-of-company-assets.png",
+        "ciicon": "use-of-company-assets.png",
+        "titleicon": "company-assets-title.png",
+        "items": [
+            {
+                "title": "公司政策摘要",
+                "icon": "favors_list_icon_01.png",
+                "description": "公司资产的权益属于公司，而非任何雇员个人。重要提示：公司的资产包括设备（如公司提供给您的笔记本电脑）、服务（如公司提供的电子邮件和网络）以及无形资产（如福特的徽标和其他知识产权）。例如，在您的私人通信中使用公司的徽标可能会造成困惑，并可能暗示公司支持您的观点或业务往来，而事实上并非如此。这可能给公司带来法律风险，尤其是用于不道德或者非法目的时。对物资、设备和其他实物资产 – 乃至于员工时间 – 的使用，最终都会耗费公司的金钱。使用公司资产做私人利益用途是不公平的。",
+                "nextPage": "ps-company-assets-summary",
+                "descriptionContent": "<div><p>道德原则</p>公司资产的权益属于公司，而非任何雇员个人。重要提示：公司的资产包括设备（如公司提供给您的笔记本电脑）、服务（如公司提供的电子邮件和网络）以及无形资产（如福特的徽标和其他知识产权）。例如，在您的私人通信中使用公司的徽标可能会造成困惑，并可能暗示公司支持您的观点或业务往来，而事实上并非如此。这可能给公司带来法律风险，尤其是用于不道德或者非法目的时。对物资、设备和其他实物资产 – 乃至于员工时间 – 的使用，最终都会耗费公司的金钱。使用公司资产做私人利益用途是不公平的。</div><div><p>基本政策 </p><ul><li>公司员工有责任保护公司资产，并确保按照公司政策加以使用。</li><li>社交媒体可能会混淆您的工作与私人生活的界线 – 更多信息请参见“常见问题”与“联系人和参考资料”等章节</li><li>公司资产应用于公司业务目的，尽管如此，在不影响日常工作或同事的情况下，指令 B-109 允许一些偶然情况的私人使用 -- 详见“常见问题”一节的实用案例</li><li>除偶发性私人使用的有限例外情况之外，不得使用公司资源用于运营私人业务、支持第二职业或类似私人事业，或进行非公司举行的私人集资活动</li></ul></div><div><ul><li>公司财产的照片和记录或开展公司业务时涉及的照片和记录是有限制的 – 请查看并确保您遵守了公司的以下指南</li><li>完全禁止访问、复制、展示、传播或储存任何色情、淫秽、毁谤、骚扰、违法或其他不恰当材料</li><li>根据当地法律，在使用公司电脑或其他资源时，您不应期待有私人隐私</li><li>您不得利用公司资料、非公开信息进行股票交易或帮助他人 – 您可能因此违反法律并须承担个人责任</li><li>未经适当授权，您不得在公司外部分享公司的非公开信息</li><li>公司设备和车辆属于公司资源，您必须遵守适用的公司安全政策，包括使用安全带和避免分散司机注意力</li></ul></div>"
+            },
+            {
+                "title": "联系人和参考资料",
+                "icon": "favors_list_icon_02.png",
+                "description": "如有权限可访问福特内联网，则可查看这些资源.",
+                "nextPage": "ps-company-assets-quick-ref",
+                "items": [
+                    {
+                        "title": "指令 B-109，计算机资源及类似公司资产的合理使用",
+                        "link": ""
+                    },
+                    {
+                        "title": "指令 B-105，公司车辆的分配、使用和销售/租赁",
+                        "link": ""
+                    },
+					{
+                        "title": "指令 C-114，图像和音频捕捉设备",
+                        "link": ""
+                    },
+                    {
+                        "title": "WebEx 网络摄像头或录音使用要求",
+                        "link": ""
+                    },
+                    {
+                        "title": "社交媒体指南",
+                        "link": ""
+                    },
+                    {
+                        "title": "有关适当使用公司资源的问题，请联系您当地的人力资源代表或点击这里发送电子邮件至全球总部的人事关系部",
+                        "link": "mailto: activity@ford.com?subject=移动应用 – 公司资产的使用"
+                    },
+                    {
+                        "title": "或点击这里发送电子邮件至公司合规办公室",
+                        "link": "mailto: fordlaw@ford.com?subject=移动应用 – 公司资产的使用"
+                    }
+                ]
+            },
+            {
+                "title": "常见问题",
+                "icon": "favors_list_icon_03.png",
+                "description": "我在维修部门工作，同时在晚上和周末从事自己的维修业务。有时，我从部门借出工具用于周末的项目，但是，每次我都归还了。这样可以吗？",
+                "nextPage": "faq-company-assets"
+            }
+        ],
+        "frequently-asked-questions": [
+            {
+                "question": "<strong>借用设备: </strong>我在维修部门工作，同时在晚上和周末从事自己的维修业务。有时，我<u> 从部门借出工具 </u>我从部门借出工具用于周末的项目，但是，每次我都归还了。这样可以吗？",
+                "answer": "不可以，公司资产属于公司所有，而非您私人所有。您不可以使用公司材料或设备开展您私人的业务。",
+                "nextPage": "faq-company-assets-detailed",
+                "reference": "company-assets"
+            },
+            {
+                "question": "<strong>维修私人车辆: </strong>我无意中听说有个同事 <u>安排他私人的汽车进入公司维修车间</u> 来维修刹车。他要求在该车间工作的几个朋友帮助他。这是否可以？",
+                "answer": "不可以。公司的建筑、工具和设备是公司资产，只能服务于公司利益，而非员工私人利益。",
+                "nextPage": "faq-company-assets-detailed",
+                "reference": "company-assets"
+            },
+            {
+                "question": "<strong>外部业务: </strong>我拥有一些出租物业，同时给了我的租户公司电话号码，<u>以便在有问题时联系我</u>。大约每周一次左右，我<u>会离开工作岗位几个小时</u>，去维修我的出租物业。这可以接受吗？",
+                "answer": "非经上级准假期间，严禁离开工作岗位去履行作为房东的职责。您的工作电话属于公司资产，不应用于运营私人业务，或支持第二职业，或其他私人事业；您可以在不影响自己工作或同事的情况下，偶尔处理私人电话。但是，您的工作电话号码不应作为您私人业务的联系号码。",
+                "nextPage": "faq-company-assets-detailed",
+                "reference": "company-assets"
+            },
+            {
+                "question": "<strong>不当电子邮件: </strong>我有朋友向我的工作邮箱发送了一些有些人认为是 <u>淫秽或毁谤</u> 的资料。我不想在工作中惹麻烦。我该怎么办？",
+                "answer": "首先，告诉您的朋友不要向您的工作邮箱发送电子邮件。如果您想要接收这一类型的消息，让他们发送到您的私人电子邮箱。如果您怀疑某封私人邮件含有不当资料，切勿在您的工作电脑上打开它 – 其他人在经过您的办公桌时可能会看到它，同时将在福特系统中留存它的副本。不要打开，直接删除可能的不当电子邮件，同时，向您的朋友发送一个便条，提醒他们将其发到您的私人邮箱。",
+                "nextPage": "faq-company-assets-detailed",
+                "reference": "company-assets"
+            },
+            {
+                "question": "<strong>家族企业: </strong>我的父母经营着一个小型餐饮企业，与公司没有任何业务往来。该企业为我们的邻居承办酒席。工作日时 <u>邻居打电话到我的办公室</u>，让我传递一些有关食物的信息，因为他们联系不到其他人。我是否可以在工作时传递这些信息？",
+                "answer": "偶尔打几个像这样的简短电话是可以的。如果您需要为此发送电子邮件，请使用您的私人邮箱。但是，频繁地为您父母处理电话是不允许的，这是对公司资产 – 包括您的时间的不当使用。",
+                "nextPage": "faq-company-assets-detailed",
+                "reference": "company-assets"
+            },
+            {
+                "question": "<strong>教书: </strong>我晚上在当地一所学校教书。我 <u>使用公司笔记本电脑</u> 来跟踪记录分数，并在工作时间备课。有时，我会在工作时<u>为班级打印成堆的讲义</u>.我并不觉得这样有什么错误。福特支持各种教育项目，所以，像其他项目一样，这也是对学校的支持。您是否同意？",
+                "answer": "不同意。公司是否支持一项教育计划不是个人决定的，而是公司决定的。打印与外部工作相关的成堆材料，同时使用您的笔记本电脑作为非福特工作的主要资源，是在使用公司资产支持您的私人业务。如果您认为公司应该支持当地学校，则应与您当地的管理层协商，以获得批准。根据所提供的支持，管理层可能需要遵照慈善捐赠的流程行事。",
+                "nextPage": "faq-company-assets-detailed",
+                "reference": "company-assets"
+            },
+            {
+                "question": "<strong>社交媒体: </strong> 我喜欢在线阅读文章，并时常<u>发表评论</u>.有人告诉我，我应该留意自己发表的东西。我利用的是自己时间，为什么公司要关心这个呢？",
+                "answer": "互联网和社交媒体经常让您的私人生活和业务角色之间的界线变得模糊。公司制定了相关指南，以帮助您确定需要留意哪些方面。我们在公司内联网发布了非常详细的指南，但是，我们的核心指南发布在我们的公共网站上。以下是基本要求：<ul><li>诚实对待自己</li><li>清楚您的观点只能代表您自己</li><li>在所有的交流中保持恭敬和谦逊</li><li>有正确的判断力，仅分享公众已知的信息</li><li>警觉您所说的将永久保留</li></ul>",
+                "nextPage": "faq-company-assets-detailed",
+                "reference": "working-together"
+            },
+            {
+                "question": "<strong>社交媒体/图片或视频: </strong> 我们团队刚刚完成了一个大项目，我拍摄了一些<u>庆功午宴照片</u>.我可以<u>将它们发布</u>到我的社交媒体主页吗？",
+                "answer": "这要看情况。首先，您需要确保这些照片是经过允许拍摄的。有些地点是限制拍照的，例如我们的设计或测试设施。如果照片不包含任何保密信息，您需要确保照片中的每一个人都允许您发布照片。您须阅读福特内联网中的“WebEx 网络摄像头或录音使用要求”，其中包含适用于录音以及图片的规定。",
+                "nextPage": "faq-company-assets-detailed",
+                "reference": "working-together"
+            },
+            {
+                "question": "<strong>图片或视频: </strong> 我们每月召开例会，有人建议我们只做<u>会议录音</u>,代替会议记录。这样做是否有问题？",
+                "answer": "您在通过拍照、视频或其他记录方式记录与福特相关业务时，需要遵守相关的法律和政策。拍摄照片和使用其他记录方式仅适用于指令 C-114 规定的特定目的，不允许在讨论业务和作出决策的会议上进行录音。如果政策不允许拍照或录音，则不能够拍照或录音，即使您使用的是企业 iPhone 或本公司拥有的其他设备也是如此。请谨记，有些国家/地区对于就公司业务进行拍照或录音有特殊的法律规定。您应阅读“WebEx 网络摄像头或录音使用要求”，其中总结了使用各类型技术进行录音时需要遵循的步骤。",
+                "nextPage": "faq-company-assets-detailed",
+                "reference": "working-together"
+            }
+        ]
+    },
+    {
+        "pageKey": "anti-bribery-corruption",
+        "title": "反贿赂和反腐败",
+        "canITitle": "Can I give ...?",
+        "canIReminder": "绝不要索取礼品或惠赠",
+        "icon": "anti-bribery-corruption.png",
+        "ciicon": "anti-bribery-corruption.png",
+        "titleicon": "anti-bribery-corruption-title.png",
+        "items": [
+            {
+                "title": "公司政策摘要 ",
+                "icon": "favors_list_icon_01.png",
+                "description": "福特不行贿，亦不允许他人因福特业务而行贿。公司的良好声誉是一笔无价的财富。公司凭借数年来以符合道德的方式开展业务建立起了良好声誉，但是它可毁于旦夕之间。为了维持利益相关者的信心，您有义务公平、真诚并以一种遵守本公司政策和法律的方式开展业务。当您表现出商业信誉时，您就是在帮助福特 Go Further – The Right Way（沿着正确之道走得更远）以及保护本公司的宝贵声誉。",
+                "nextPage": "ps-anti-bribery-corruption-summary",
+                "descriptionContent": "<div><p>道德原则</p>福特不行贿，亦不允许他人因福特业务而行贿。公司的良好声誉是一笔无价的财富。公司凭借数年来以符合道德的方式开展业务建立起了良好声誉，但是它可毁于旦夕之间。为了维持利益相关者的信心，您有义务公平、真诚并以一种遵守本公司政策和法律的方式开展业务。当您表现出商业信誉时，您就是在帮助福特 Go Further – The Right Way（沿着正确之道走得更远）以及保护本公司的宝贵声誉。 <p>须知</p><ul><li>贿赂是违反本公司政策的行为，并会触犯法律</li><li>贿赂不仅包括金钱给付，还包括物品供给、承诺或授权给予任何有价之物用于不当影响他人，以获取或保留业务</li></ul></div><div><ul><li>我们从不承诺提供任何有价之物（甚至金额较小之物）用于不当影响他人，以便获取或保留业务 – 政策禁止此行为，而且该行为会给您和本公司带来法律风险</li><li>甚至是为确保执行政府常规行为的小额给付，亦属于违反本公司政策的行为</li><li>不得允许供应商/经销商或任何人员因本公司业务而行贿，尤其在对待政府官员的过程中</li><li>留意佣金过高或售价不明上涨的情况，这可能表明正在获取额外的资金用于行贿</li><li>若需雇佣人员来代表本公司与政府官员打交道，则确保该名代表为人道德，不参与贿赂或其他禁止行为（确保执行恰当的尽职调查）</li></ul></div><div><ul><li>与可能和政府官员有来往的供应商/经销商、顾问或代理订立的所有合约，必须包含禁止贿赂和允许本公司进行审计的条款</li><li>如果您怀疑供应商或任何代表本公司的人员可能参与贿赂，则立即将您的疑虑报告至公司合规办公室，以便我们能够深挖和解决任何问题</li><li>在当地法律允许的情况下，您可向政府官员提供合理的用餐和招待。为最大程度降低本公司被指控为贿赂的风险，若您计划向政府官员或部门提供礼品、差旅或招待、特别折扣或其他恩惠，请联系公司合规办公室和政府事务部 (Governmental Affairs)。需遵循某些流程以获得所需批准</li></ul></div>"
+            },
+            {
+                "title": "联系人和参考资料",
+                "icon": "favors_list_icon_02.png",
+                "description": "如有权限可访问福特内联网，则可查看这些资源。",
+                "nextPage": "ps-anti-bribery-corruption-quick-ref",
+                "items": [
+                    {
+                        "title": "第 3 号政策函，企业行为准则",
+                        "link": ""
+                    },
+                    {
+                        "title": "指令 A-109，公司提供的礼品、奖品和相关物品",
+                        "link": ""
+                    },
+                    {
+                        "title": "FM 905-90-10，与政府官员和政府机构往来",
+                        "link": ""
+                    },
+                    {
+                        "title": "公司合规办公室政府往来审批 SharePoint 网站",
+                        "link": ""
+                    },
+                    {
+                        "title": "全球差旅政策（请参见第 2.9.4 节了解为政府官员提供差旅服务的信息）",
+                        "link": ""
+                    },
+                    {
+                        "title": "对于有关反贿赂事宜的问题或疑问，请联系您当地的 OGC 代表或区域公司合规办公室联系人，或者点击此处以发送电子邮件至公司合规办公室。必须获得公司合规办公室的批准",
+                        "link": "mailto:fordlaw@ford.com?subject=移动应用程序 – 反腐败"
+                    },
+                    {
+                        "title": "如需与政府官员来往和所需批准的指南，请联系您当地的政府事务部代表 ",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "title": "常见问题",
+                "icon": "favors_list_icon_03.png",
+                "description": "我目前在努力获取当地部门的批准，以能够任命一位新的经销商，但是所花时间很长。这位新经销商告诉我，如果福特能够雇佣一名地方行政官员的儿子，他很确定，这个流程会很快完成。这名行政官员的儿子最近从一所负有盛名的大学毕业。我是否应该推荐雇佣这名官员的儿子？",
+                "nextPage": "faq-anti-bribery-corruption"
+            }
+        ],
+        "frequently-asked-questions": [
+            {
+                "question": "<strong>雇佣： </strong>我目前在努力获取当地部门的批准，以能够任命一位新的经销商，但是所花时间很长。这位新经销商告诉我，如果福特能够<u>雇佣一名地方行政官员的儿子，</u>他很确定，这个流程会很快完成。这名行政官员的儿子最近从一所负有盛名的大学毕业。我是否应该推荐雇佣这名官员的儿子？",
+                "answer": "不应该，不要向任何人建议福特应雇佣这位政府官员的儿子。相反，向经销商礼貌表明本公司的招聘流程，切勿采取任何措施协助推荐这名官员的儿子担任某个职位。推荐雇佣官员的家人，会被视为一种贿赂，因此确保您未采取特别措施来推荐这位官员的儿子，而是让标准的雇佣流程按照正常程序进行。此外，您还应联系公司合规办公室以记录此情况及我们的回应。无论该要求是来自经销商，供应商，政府代表或其他建议者，都应遵循本建议。",
+                "nextPage": "faq-anti-bribery-corruption-detailed",
+                "reference": "anti-bribery-corruption"
+            },
+            {
+                "question": "<strong>出借车辆： </strong>我与一位政府官员会定期进行合作，他提到会来市区一天看望家人，并问及本公司是否<u>有车可以出借给他</u>。我能否将车出借给这位政府官员几天？",
+                "answer": "不可以，将本公司车辆出借给政府官员用于个人用途，是一种惠赠，可视为行贿。但在某些情况下，出于展示目的提供交通服务，或者在特殊的情况下协助政府机关，可能是恰当的。向政府官员提供车辆或为其支付差旅费用，需事先获得公司合规办公室和政府事务部的批准。",
+                "nextPage": "faq-anti-bribery-corruption-detailed",
+                "reference": "anti-bribery-corruption"
+            },
+            {
+                "question": "<strong>额外费用： </strong>我目前在监管新工厂的运筹，这个工厂计划 30 天内对外运营。我们还需获得三项政府许可证，才能开设这个设施。我们已经等待九个月以获得许可证，正常处理时间是六个月。我一直合作的政府雇员告知我，如果我<u>向她支付额外的 20 美元许可证费用</u>，她可加快完成这个流程并在 10 天内准备好许可证。我能否支付这 20 美元费用，以确保顺利盛大开业",
+                "answer": "不可以，您不得向政府雇员支付任何非官方费用。如果您遇到困难，联系您当地的法律办公室、公司合规办公室或政府事务部获取协助。此类支付不仅会使福特遭受罚款和承担诉讼费，还会导致当地官员期待在未来获取小额贿赂 – 从而导致本公司（以及可能导致社区其他成员）的运营成本上升。",
+                "nextPage": "faq-anti-bribery-corruption-detailed",
+                "reference": "anti-bribery-corruption"
+            },
+            {
+                "question": "<strong>招待: </strong>我们正在所在区域推出新产品，想要<u>邀请几名政府官员参与活动</u>，以庆祝这一成绩。这种做法是否存在任何限制？",
+                "answer": "  若费用合理，我们可出于合法商业用途招待政府官员。您必须联系公司合规办公室以及政府事务部，以获得批准。",
+                "nextPage": "faq-anti-bribery-corruption-detailed",
+                "reference": "anti-bribery-corruption"
+            },
+            {
+                "question": "<strong>额外费用/供应商： </strong>我们小组负责在政府登记公司车辆。这项工作必须在当地政府办公室完成，需进行大量文书工作。我们已经<u>雇佣一家当地企业</u>来为本公司处理此项事宜。我注意到厂商提交了一张政府出具的登记费收据，除协商的服务费外，还在发票上<u>增加了一项“特殊处理费”</u>。这样可行吗？",
+                "answer": "您注意到这笔意外费用，是件好事 – 它可能是伪装的贿赂，需进行进一步调查。您应联系公司合规办公室以报告此情况，以及获取如何处理此情况的指南。",
+                "nextPage": "faq-anti-bribery-corruption-detailed",
+                "reference": "anti-bribery-corruption"
+            },
+            {
+                "question": "<strong>经销商行为： </strong>我在营销部工作，其中一位<u>经销商想为当地政府官员提供美国旅行的机会</u>。经销商会支付所有费用，但是经销商已问及福特是否会提供参观部分设施以及与部分员工会面的机会。既然<u>福特无需为旅行支付任何费用</u>，我们能否这样做？",
+                "answer": "即使福特无需为旅行支付任何费用，但是福特已知晓这次旅行，而且将通过提供参观和参与会议来实现合作。忽略疑似贿赂，会对本公司构成威胁。请联系公司合规办公室获取指南以及所需批准。记住，如果福特不得直接采取某行为，我们不得允许他人因我们业务的关系而开展此行为。",
+                "nextPage": "faq-anti-bribery-corruption-detailed",
+                "reference": "anti-bribery-corruption"
+            },
+            {
+                "question": "<strong>与政府官员用餐： </strong>我正在<u>访问另一个国家的政府官员</u>，看我们是否能建立研究伙伴关系，将同时使福特和当地社区受益。 其中一名官员和我决定<u>在会议后一起随意吃顿午餐</u>，我认为出于礼貌和对其职位的尊重，请她吃午餐比较好。我能否这样做？",
+                "answer": "依据福特政策，您可为政府官员支付合理用餐的费用。为政府官员提供不止小茶点或基本用餐的惠赠时，需事先获得迪尔伯恩公司合规办公室的批准。由于当地法规或有差异，我们不想让官员陷入麻烦当中，因此您还应询问她此行为是否会触犯她自己的政府道德规则。记住 – 安排与政府官员的会面前，确保您有咨询政府事务部。",
+                "nextPage": "faq-anti-bribery-corruption-detailed",
+                "reference": "anti-bribery-corruption"
+            }
+        ]
+    },
+    {
+        "pageKey": "it-security-and-privacy",
+        "title": "IT 安全与隐私 (PII)",
+        "canITitle": "Can We do ...?",
+        "canIReminder": "绝不要索取礼品或惠赠",
+        "icon": "it-security-and-privacy.png",
+        "ciicon": "it-security-and-privacy.png",
+        "titleicon": "it-security-and-privacy-title.png",
+        "items": [
+            {
+                "title": "公司政策摘要",
+                "icon": "favors_list_icon_01.png",
+                "description": "我们公司的成功依赖于公司利益相关者（客户、员工、供应商和经销商）的信任和信心。此外，信息是我们每个人都必须加以保护的战略性业务资产。有效管理本公司信息，可促进本公司保护敏感信息、实现业务目标，以及维持竞争优势。",
+                "nextPage": "ps-it-security-and-privacy-summary",
+                "descriptionContent": "<div><p>道德原则</p>我们公司的成功依赖于公司利益相关者（客户、员工、供应商和经销商）的信任和信心。此外，信息是我们每个人都必须加以保护的战略性业务资产。有效管理本公司信息，可促进本公司保护敏感信息、实现业务目标，以及维持竞争优势。<br/><br/>未经授权披露本公司信息，会损害本公司的竞争地位和声誉。对于个人可识别信息 (PII) 更是如此。PII 应依据本公司政策、法律及其收集目的予以使用。我们负责确保所有所收集之数据的安全性和完整性。如果 PII 从一家公司传输至福特的另一家公司或外部公司，我们需确保收件者负有提供充足保护等级的合同义务，并确保满足适用的法律要求。</div><div><p>IT 安全基本原则</p><ul><li>您有义务安全、精准维护本公司信息（了解如何分类信息以及保护文件需采取的措施）</li><li>处理“机密”或“秘密”信息时<ul><li>加密电子邮件和保护存储数据</li><li>仅在出于业务需求需了解的情况下分享信息</li><li>为 SharePoint 站点以及其他系统或数据库建立恰当的访问控制机制。定期检查这些访问控制机制，以确保其仍然有效</li></ul></li><li>切勿使用未批准的应用程序或软件用于本公司业务。此类使用可能会披露福特信息</li><li>设备始终安装最新的软件更新</li><li>切勿将本公司信息存放于个人设备上（比如 USB 记忆棒、个人计算机或手机），允许通过本公司提供之程序的情况除外</li><li>如果您需与本公司（包括合资公司）以外的任何人员分享非公共信息，确保您签订有恰当的经本公司批准的机密性协议，该协议涵盖您想分享的信息</li><li>确保始终持有自己的移动设备（即手机、iPad、USB 记忆棒）</li></ul></div><div><p>安全规范</p><ul><li>使用强密码（若系统支持，使用 8 到 12 个字母、数字/特殊字符组合，区分大小写）</li><li>切勿与任何人分享您的密码</li><li>尽可能避免在多个系统上使用同一密码，并避免使用福特 CDS ID 注册非福特账户</li><li>网络罪犯不仅瞄准本公司系统，还瞄准本公司内部的个人，以访问本公司系统或攻击他人</li><li>此外，网络罪犯还能够窃取您的个人身份并利用您的信息（银行账户、信用卡和病历）进行欺诈</li><li>切勿点击电子邮件中的可疑链接，即使您认为自己认识发件人</li><li>因本公司业务出差期间，使用公共 WiFi 时，确保始终建立 VPN 会话 (SecurID)</li><li>互联网攻击十分常见。如果情况看起来可疑或有问题，则很可能确实存在问题。报告该情况</li></ul></div><div><p>对个人可识别信息 (PII) 的特殊考虑</p><ul><li>PII 是与特定个人相关或可用于识别独特个人的信息</li><li>处理 PII 时，您应采取合理及恰当措施来保护 PII 不被丢失或滥用</li><li>如果您正在收集 PII，则表明收集 PII 的目的，并仅用于该目的 – 以及考虑是否能够在不收集 PII 的情况下充分收集到您所需的数据</li><li>如果您怀疑 PII 的安全性或机密性已受到损害，立即提交事件报告至“安全/全球调查部”</li><li>在与供应商等独立公司分享 PII 前，您必须签订<strong>恰当的协议</strong>，比如 PII 补充条款</li></ul></div><div><p>分享 PII 前：</p><ul><li>了解要分享的 PII 内容以及其初始收集目的（初始用途）</li><li>了解为何需要 PII，<strong>以及使用是否符合初始用途</strong></li><li>确保收件者依据 <strong>协议/合同要求</strong>充分保护 PII</li><li>如果跨境传输 PII（注意：对 PII 的任何访问均构成传输），则联系您当地的法律办公室或发送邮件至 safeharb@ford.com，以确定传输 PII 所需采取的措施。要求可包括获取个人同意或签订 PII 传输协议。</li></ul></div>"
+            },
+            {
+                "title": "联系人和参考资料",
+                "icon": "favors_list_icon_02.png",
+                "description": "如有权限可访问福特内联网，则可查看这些资源。",
+                "nextPage": "ps-it-security-and-privacy-quick-ref",
+                "items": [
+                    {
+                        "title": "第 23 号政策函，个人可识别信息的隐私和保护 ",
+                        "link": ""
+                    },
+                    {
+                        "title": "指令 B-104，员工记录的机密性与个人可识别信息的保护 ",
+                        "link": ""
+                    },
+                    {
+                        "title": "指令 C-110，从公司外部获取信息",
+                        "link": ""
+                    },
+                    {
+                        "title": "指令 C-113，消费者隐私标准与个人可识别信息的保护",
+                        "link": ""
+                    },
+                    {
+                        "title": "指令 C-116，个人可识别信息的供应商保障措施",
+                        "link": ""
+                    },
+                    {
+                        "title": "IT 政策手册",
+                        "link": ""
+                    },
+                    {
+                        "title": "公司隐私网站",
+                        "link": ""
+                    },
+                    {
+                        "title": "数字工作者",
+                        "link": ""
+                    },
+                    {
+                        "title": "获取人才培训",
+                        "link": ""
+                    },
+                    {
+                        "title": "GIS1 – 记录管理",
+                        "link": ""
+                    },
+                    {
+                        "title": "GIS2 – 信息安全",
+                        "link": ""
+                    },
+                    {
+                        "title": "IT 安全服务台",
+                        "link": ""
+                    },
+                    {
+                        "title": "对于有关 IT 安全的问题，请联系您当地的 IT 代表，或者点击此处以发送电子邮件至<strong>IT 安全部</strong>",
+                        "link": "mailto: SECUREIT@ford.com?subject=移动应用程序 – IT 安全"
+                    },
+                    {
+                        "title": "如有涉及“隐私”和 “PII” 的问题，请联系您当地的 OGC 代表，或者点击此处以发送电子邮件至<strong>公司合规办公室/隐私部</strong>",
+                        "link": "mailto:privacy@ford.com?subject=移动应用程序 – 隐私"
+                    }
+                ]
+            },
+            {
+                "title": "常见问题",
+                "icon": "favors_list_icon_03.png",
+                "description": "PII 的常见示例包括?",
+                "nextPage": "faq-it-security-and-privacy"
+            }
+        ],
+        "frequently-asked-questions": [
+            {
+                "question": "<strong>PII 定义： </strong><u>PII 的常见示例包括</u>?",
+                "answer": "PII 是任何能够识别独特个人或可识别为属于该名人员的信息，比如姓名、地址、电话号码、电子邮件地址、车辆识别号码 (VIN) 以及类似信息。PII 的重要子集是敏感个人可识别信息 (SPII)，它享有额外保护。我们已经将我们所用 SPII 定义为可识别独特个人以及能够让他人“假定”该名人员身份的强大的数据元素。数据元素单独使用，与人员姓名或其他 PII 一起使用时，都能实现这一点。",
+                "nextPage": "faq-it-security-and-privacy-detailed",
+                "reference": "it-security-and-privacy"
+            },
+            {
+                "question": "<strong>分享 PII： </strong>我能否与同一国家的另一部门<u>分享我所在部门数据库中的客户 PII</u>?",
+                "answer": "这取决于 PII 是否将用于与收集时的披露用途一致的用途。如果使用情况符合披露用途，则与同一国家的另一部门分享 PII，通常不会引发数据保护问题。分享部门负责确保 PII 收件者恰当保护 PII。此外，只应分享所需 PII。使用 PII 用于新用途前，可能需先获得同意。",
+                "nextPage": "faq-it-security-and-privacy-detailed",
+                "reference": "it-security-and-privacy"
+            },
+            {
+                "question": "<strong>跨境传输： </strong>在<u>另一国家某个部门</u>工作的同事请求我<u>分享 PII</u>。最佳做法是？",
+                "answer": "跨境传输 PII 是一件复杂的事项，因此在与国家外部的个人分享 PII 或向其给予 PII 访问权限前，您应始终 <strong>从当地的法律办公室</strong>获取指导。",
+                "nextPage": "faq-it-security-and-privacy-detailed",
+                "reference": "it-security-and-privacy"
+            },
+            {
+                "question": "<strong>使用供应商： </strong>我们有个 <u>厂商，将代表福特发送营销传播邮件</u>。需采取哪些措施？",
+                "answer": "应签订《PII 补充条款》或符合指令 C-116 的协议（这包括禁止将 PII 用于任何其他用途以及要求采取充分安全控制机制的条款）。如果将跨境传输 PII，则可能需在协议中加入其他条款。有关适用的要求，请参见“指令 C-116”。",
+                "nextPage": "faq-it-security-and-privacy-detailed",
+                "reference": "it-security-and-privacy"
+            },
+            {
+                "question": "<strong>免费/未经批准的存储服务： </strong>我正外出看望我的姐姐/妹妹，我希望能够及时编辑部分文件，以在截止日期前完成工作。目前有一些卓越的免费文件存储服务。我能否通过我姐姐/妹妹的计算机，使用<u>存储服务来检索文件</u>，以在截止日期前完成工作？",
+                "answer": "不可以。您不得将福特信息存放于未经批准的云服务中，因为这会增加福特信息披露的风险。此外，您还应避免使用任何不安全、非公司设备来处理福特文件（比如您姐姐/妹妹的计算机）。不在办公室办公时，您可通过数个选择来安全检索和处理您的文件。选择包括：<ul><li>使用本公司笔记本电脑</li><li>使用加密的拇指驱动器或 webvpn（删除任何可能已复制到非公司计算机上的文件）</li></ul>",
+                "nextPage": "faq-it-security-and-privacy-detailed",
+                "reference": "it-security-and-privacy"
+            },
+            {
+                "question": "<strong>自动转发： </strong>我将外出度假，想要掌握电子邮件的最新动态。我能否<u>自动转发工作电子邮件至我的个人电子邮箱中</u>，并通过我的个人计算机进行检索？",
+                "answer": "不可以，您不得使用个人电子邮件处理本公司业务。如果电子邮件中的信息是公共或专有信息，则您可使用您的个人电子邮件。但是，在您使用自动转发时，机密或秘密信息很可能会发送到您的个人电子邮件中，这是不允许的。您可使用本公司的基于 Web 的电子邮件访问解决方案，即 fmail.ford.com。考虑注册 ePOD，以在个人所有移动设备上检索本公司的电子邮件。您只应自动转发至另一福特电子邮件账户。",
+                "nextPage": "faq-it-security-and-privacy-detailed",
+                "reference": "it-security-and-privacy"
+            },
+            {
+                "question": "<strong>资料被盗： </strong>我正在出差，<u>有人偷了我的公文包</u>。公文包中有我的笔记本电脑以及一些关于未来周期计划之会议记录的硬拷贝。我该怎么办？",
+                "answer": "您应联系“安全部”，以报告被盗的物品。此外，您还应向警察提交报告并仔细记录公文包中包含的所有物品。",
+                "nextPage": "faq-it-security-and-privacy-detailed",
+                "reference": "it-security-and-privacy"
+            },
+            {
+                "question": "<strong>密码请求： </strong> 我收到一封电子邮件，邮件中表明 IT 帮助台需在福特向我提供的笔记本电脑上执行一些软件更新，但是 <u>他们需使用我的用户名和密码</u>才能够执行更新。这封电子邮件中包含一个链接，他们要求我立即访问此链接，以提供这些信息。我是否应该这样做？",
+                "answer": "不应该。IT 帮助台不会索要您的凭据。这是种常见技术 –“网络钓鱼”，黑客利用此技术来获取您的凭据。收到此类电子邮件且认为它可能正当时，请通过点击链接或回复电子邮件以外的方式，来联系电子邮件上指定的公司或群组。通过您能够信任的来源查找联系信息。",
+                "nextPage": "faq-it-security-and-privacy-detailed",
+                "reference": "it-security-and-privacy"
+            },
+            {
+                "question": "<strong>孤立信息： </strong>所有人都告诉我，我所处理的数据是敏感数据，但是数据本身并没有任何意义。如果我向您发送包含所收集到的数据的文件，您甚至不会了解其意义，因为您<u>需要另一不同系统中的其他信息</u> 因为您需要另一不同系统中的其他信息来将其与个人或公司联系起来。我为何需如此谨慎地处理这些数据？",
+                "answer": "某人试图窃取本公司信息时，他们通常会每次收集少量信息，并会从不同位置收集这些信息。他们从您这获取的少量信息，可能只是他们需用于拼凑全局的信息，来显示有关企业或个人的战略信息。",
+                "nextPage": "faq-it-security-and-privacy-detailed",
+                "reference": "it-security-and-privacy"
+            },
+            {
+                "question": "<strong>国际差旅: </strong> 我进行国际旅行的次数非常多。我了解在某些国家旅行时，存在因丢失数据而导致数据披露或被盗的特有风险。您是否可提供有关<u>携带笔记本电脑旅行</u>您是否可提供有关携带笔记本电脑旅行的注意事项？?",
+                "answer": "您说的很对。有时海关官员会拿走您的笔记本电脑，进行检查，可能会下载数据。据了解，试图窃取商业信息的人员会与酒店人员合作，以进入宾客房间复制设备中的数据或留在宾客房间中的文件。为促进保护您的信息和本公司信息，切勿将笔记本电脑或敏感文件留在酒店房间中，或者使其处于无人看管的状态。旅行至全球某些区域时，我们建议尽可能携带仅包含旅行所需信息的无懈可击的部门笔记本电脑。",
+                "nextPage": "faq-it-security-and-privacy-detailed",
+                "reference": "it-security-and-privacy"
+            }
+        ]
+    },
+    {
+        "pageKey": "working-together",
+        "title": "共事",
+        "canITitle": "Can I do ...?",
+        "canIReminder": "绝不要索取礼品或惠赠",
+        "icon": "working-together.png",
+        "ciicon": "working-together.png",
+        "titleicon": "working-together-title.png",
+        "items": [
+            {
+                "title": "公司政策摘要",
+                "icon": "favors_list_icon_01.png",
+                "description": "每一位与我们的业务有关联的人员在工作中都应在互相尊重的原则上行事。这意味着，我们尊重、聆听、帮助和重视每一个人，无论是同事、客户、供应商、经销商，还是我们开展公司业务时接触的任何其他个人，均一视同仁。我们同心协力创造良好的环境，让每个身在其中的人受到尊重和重视。",
+                "nextPage": "ps-working-together-summary",
+                "descriptionContent": "<div><p>道德原则  </p>每一位与我们的业务有关联的人员在工作中都应在互相尊重的原则上行事。这意味着，我们尊重、聆听、帮助和重视每一个人，无论是同事、客户、供应商、经销商，还是我们开展公司业务时接触的任何其他个人，均一视同仁。我们同心协力创造良好的环境，让每个身在其中的人受到尊重和重视。 <br/><br/> 我们员工、客户及社区的安全对于公司而言至高无上，当我们设计和制造产品，以及做出影响员工或运营其中的社区的决策时，必须对安全问题予以充分的考虑。公司始终力图成为良好的公司公民，致力于造福我们运营其中的社区。 </div><div>我们知悉，在彼此尊重、求同存异的原则上共事将产生更好的结果。与此同时，也需对可能破坏尊重和包容的工作环境的行为提高警惕。具体示例请查阅《常见问题》部分，并谨记以下基本原则：<ul><li>尊重每一个人</li><li>拒绝基于种族、肤色、宗教信仰、年龄、性别、性取向、性别认同、婚姻状况、民族血统、残疾或退伍军人身份的歧视</li><li>避免任何可能妨碍他人工作绩效的行为，或创造威吓性、敌对或攻击性的环境–，这些行为不但与公司政策不符，还可能触犯当地法律</li><li>举报涉嫌违反治理我们业务的政策和法律的行为，– 例如，当您在工作过程中，或在福特的财产范围内，发现有人欺辱或骚扰他人时，应坦率直言</li><li>使用社会媒体时需注意一些特别考虑事项– 更多信息，请查阅《使用公司资产》部分</li><li>经理应承担更多的责任 – 更多信息，请查阅《经理提示要点》部分</li></ul></div><div>无论在何处开展业务，我们都必须尊重员工安全、产品安全和所有社区的环境安全 – 显然，其中就包括尊重制造和装配产品的员工的人权。<ul><li>决策不应仅基于成本 – 决策时，还应考虑健康、安全和环境方面的影响</li><li>绝不可使用童工或强迫劳工（包括贩卖人口）</li><li>始终容许员工自由结社、参与劳资谈判</li><li>鼓励我们供应链中的组织和个人遵循我们有关人权、工作环境、反贿赂和环境保护方面的政策</li></ul></div>"
+            },
+            {
+                "title": "联系人和参考资料",
+                "icon": "favors_list_icon_02.png",
+                "description": "如有权限可访问福特内联网，则可查看这些资源.",
+                "nextPage": "ps-working-together-quick-ref",
+                "items": [
+                    {
+                        "title": "第 1 号政策函，福特质量政策",
+                        "link": ""
+                    },
+                    {
+                        "title": "第 2 号政策函，与员工的关系",
+                        "link": ""
+                    },
+                    {
+                        "title": "第 6 号政策函，平等机遇",
+                        "link": ""
+                    },
+                    {
+                        "title": "第 17 号政策函，保护健康和环境",
+                        "link": ""
+                    },
+                    {
+                        "title": "第 24 号政策函，基本工作条件和社会责任准则",
+                        "link": ""
+                    },
+                    {
+                        "title": "指令 B-110，反骚扰 – 零容忍",
+                        "link": ""
+                    },
+                    {
+                        "title": "有关反骚扰和歧视的更多信息和资源，尽在 HR ONLINE（人力资源部在线网页）",
+                        "link": ""
+                    },
+                    {
+                        "title": "您应直接向人力资源部举报骚扰事件；美国范围内可拨打骚扰热线：888-735-6650",
+                        "link": ""
+                    },
+                    {
+                        "title": "如有骚扰、歧视和报复方面的疑问，请联系您的当地人力资源代表，或点击此处，发送电子邮件至全球总部的人事关系部",
+                        "link": "mailto: activity@ford.com?subject=移动应用 – 共事"
+                    },
+                    {
+                        "title": "如对供应商或合资企业持有人权方面的疑问，请联系采购可持续发展团队，或点击此处发送电子邮件至全球总部中的该部门",
+                        "link": "mailto: fwcp@ford.com?subject=移动应用 – 共事"
+                    },
+                    {
+                        "title": "如有人权和福特运营方面的疑问，请联系可持续发展团队，或点击此处发送电子邮件至全球总部该部门",
+                        "link": "mailto: sustaina@ford.com?subject=移动应用 – 共事"
+                    },
+                    {
+                        "title": "此外，您也可向公司合规办公室咨询任何此类问题，请点击此处",
+                        "link": "mailto: fordlaw@ford.com?subject=移动应用 – 共事"
+                    }
+                ]
+            },
+            {
+                "title": "常见问题",
+                "icon": "favors_list_icon_03.png",
+                "description": "我知悉在工作中严禁性骚扰行为。我不了解性骚扰的确切定义。性骚扰包括哪些行为？[点击以查看答案",
+                "nextPage": "faq-working-together"
+            }
+        ],
+        "frequently-asked-questions": [
+            {
+                "question": "<strong>性骚扰: </strong> 我知悉在工作中严禁性骚扰行为。我不了解性骚扰的确切定义。 <u>性骚扰包括哪些行为</u>?",
+                "answer": "请务必谨记，在您看来合理、有趣、无恶意的行为，在他人看来可能是不受欢迎、凌辱或冒犯的行为。请考虑自身言行对他人的影响。福特禁止、以及可能被视为性骚扰的行为包括:<ul><li>凌辱性、冒犯性或不受欢迎的涉及性的谈话、讽刺、笑话、挑逗或身体接触</li><li>通过涂画、照片或其他物品展示色情或性暗示信息 – 包括在您的电脑屏幕或储物柜上展示</li><li>商务环境中不适当的身体接触</li><li>当对方明确表示无兴趣后，仍继续请求约会或表达爱意</li><li>利用职位便利，通过威胁或报酬获得性施惠</li><li>借助公司的电子邮件系统或其他电子设备（如语音信箱、文本寻呼图片、无线电等）发送性图像材料，或使用公司内网、公司邮箱或公司计算机浏览此类材料]</li></ul>",
+                "nextPage": "faq-working-together-detailed",
+                "reference": "working-together"
+            },
+            {
+                "question": "<strong>骚扰和欺辱: </strong> 我的一位同事非常喜欢拿我们的一位组员开玩笑。这是否构成骚扰？ <u>骚扰和欺辱包括哪些行为</u>?",
+                "answer": "向某人不断重复无礼的评论确有可能构成骚扰或欺辱。请务必谨记，在您看来合理、有趣、普通的成见，在他人看来可能是不受欢迎、凌辱或冒犯的行为。以下行为可能被视为骚扰：<ul><li>讲的笑话或故事、或展示的手势或涂画中，存在贬损特定小组成员的内容，无论该成员是否在场</li><li>使用侮辱或贬损的语言谈论或取笑他人的种族、肤色、宗教信仰、年龄、性别、性取向、性别认同、婚姻状况、民族血统、残疾或退伍军人身份</li><li>威胁、胁迫、妨害、破坏或干扰他人的工作</li><li>向同事发送令人不悦的信息，或在社会媒体上发布有关同事的不恰当信息]</li></ul>",
+                "nextPage": "faq-working-together-detailed",
+                "reference": "working-together"
+            },
+            {
+                "question": "<strong>个人电子邮箱或设备: </strong> 工作进展缓慢时，我能否使用 <u>个人电话向少数几位同事发送玩笑性质的性信息</u>? 既然我使用的是自己的电话，那么是否违反公司政策？ ",
+                "answer": "无论您使用的是自己的电话或电子邮箱，还是公司的资源，都不得实施可能被视为骚扰的行为。您不得向同事或业务往来人员发送性材料（如笑话、评论或照片）。",
+                "nextPage": "faq-working-together-detailed",
+                "reference": "working-together"
+            },
+            {
+                "question": "<strong>公司的电子邮箱: </strong> <u>我的公司邮箱</u>有时会收到针对特定族群的<u>粗俗笑话</u> 或在笑话后附有<u>淫秽图片</u>.既然我并非邮件的创建者，我能否将其转发给他人？",
+                "answer": "不能。转发不适当的电子邮件与创建和发送此种邮件应视为同类。删除不适当邮件，并告知发送者不要将此种邮件发送至您的公司邮箱。如果不适当邮件的发送者是同事或业务往来人员，您应向人力资源或您的监管者举报。",
+                "nextPage": "faq-working-together-detailed",
+                "reference": "working-together"
+            },
+            {
+                "question": "<strong>处理不当互动: </strong> 我们团队成员 <u>喜欢在开会期间开玩笑</u>。.  有时我感觉受到了冒犯，有时我可以察觉到其他成员受到了冒犯。 <u>如果玩笑开始</u> 变得不恰当，可能冒犯到我本人或其他团队成员，我该怎么办？",
+                "answer": "当您感觉自身或他人受到了骚扰或歧视时，应告知对方停止不当行为，前提是您觉得这样做无伤大雅。如果您是团体的经理，应立即介入，阻止不当行为。对于可能被视为骚扰、歧视或报复的行为，如果您不方便向管理部门举报，请向当地人力资源代表或公司合规办公室举报。",
+                "nextPage": "faq-working-together-detailed",
+                "reference": "working-together"
+            },
+            {
+                "question": "<strong>非言语行为: </strong> 我的经理找我谈话，说我对待某位同事的方式不当，我的行为可能涉嫌构成骚扰。<u>我从未与那位同事交谈</u> – 我根本都不怎么喜欢他。我什么都没有说，怎么也能算骚扰呢？",
+                "answer": "您的行为同语言一样可能构成骚扰或欺辱。即使您不曾开口，但粗鲁的手势、不恰当的接触、妨碍他人活动的行为、攻击性的涂画或图片都可构成骚扰或欺辱。如果您仍有疑问，请向您的经理咨询。",
+                "nextPage": "faq-working-together-detailed",
+                "reference": "working-together"
+            },
+            {
+                "question": "<strong>经理行为: </strong> 我理解，作为经理，我的行为可能会影响到辖区内人员会否向我 <u>举报其疑虑</u>.  我如何做才能鼓励人们向我举报他们的疑虑？",
+                "answer": "对于希望举报所想或所见问题的人员而言，经理的响应方式具有实际的影响。如果您有具体的问题，请告知人力资源或公司合规办公室。以下是一系列有用的基本准则。<br/><br/><p><strong>建议:</strong></p><ul><li>为您的团队设定正确的基调 – 展示 One Ford（一个福特）行为，宣传政策、规程和所接受培训的重要性</li><li>对于任何举报人员都应耐心倾听，并向其保证，公司意图为所应为 – 但不要对公司的行为给出任何承诺，因为我们尚未了解全部事实 </li><li>告知举报人员，您将对举报信息保密，同时对其举报行为 – 保密。随后，除了人力资源部、当地法律部门、您的地方事件协调员、您的地区调查协调员之外，您应确保不与他人共享与骚扰、歧视、报复或欺诈有关的信息 </li><li>再次与举报人员联系，询问举报问题是否已圆满解决</li></ul><p><strong>禁忌:</strong></p><ul><li>切勿淡化 One Ford（一个福特）行为的重要性，或忽略团队接受的培训，从而影响培训效果</li><li>切勿让工作人员无视粗鲁或骚扰行为</li><li>当工作人员举报不适当行为或涉嫌违规行为时，切勿让工作人员少管闲事</li><li>切勿让工作人员无论如何都要完成工作 – 向他们表明，您期待每个人都以正确的方式完成工作；如果您认为工作无法完成，不要走未经批准的捷径 – 相反，应将问题向更高一级管理部门反映</li></ul>",
+                "nextPage": "faq-working-together-detailed",
+                "reference": "working-together"
+            },
+            {
+                "question": "<strong>人权: </strong> 我对贩卖人口已有耳闻，知道人口贩卖事件可能在我们毫不知情的情况下在身边发生。造访供应商厂房期间，我如何辨别是否存在 <u>贩卖人口、童工或强迫劳工的迹象?",
+                "answer": "没错，贩卖人口和强迫劳工现象经常难以察觉。您应让专家来判定是否存在侵犯人权的行为 – 但如果您看到下列任何警报信号，请向公司举报，我们的专家将展开详尽的调查。您可能注意到的常见警报信号包括:<br/><br/><p><u>发生于某场所的强迫劳工和贩卖人口事件</u></p><p><ul><li>武装警卫 </li><li>出口门上锁 </li><li>活动受限 </li><li>持续/不当监视</li><li>可疑的伤病 </li><li>禁止休息 </li><li>隐蔽的建筑物</li><li>隔离</li></ul></p><p><u>童工</u></p><p><ul><li>青少年工作人员 </li><li>禁区 </li><li>规避劳动力人口统计</li><li>年幼工作人员操作重型设备</li></ul></p><p><u>健康和安全问题</u></p><p><ul><li>不安全的工作条件 </li><li>无安全设备 </li><li>无紧急/第一响应计划 </li><li>无消防设备 </li><li>危险的通风、温度或照明条件 </li><li>建筑物结构不良 </li><li>宿舍条件不佳 </li></ul></p>",
+                "nextPage": "faq-working-together-detailed",
+                "reference": "working-together"
+            },
+            {
+                "question": "<strong>人权: </strong>我的工作涉及造访很多工厂，包括公司和供应商的厂房。如果我看到任何 <u>侵犯人权</u> 或 <u>不安全工作条件</u>的迹象，应该怎么做? ",
+                "answer": "无论涉及公司设施、合资企业设施还是一级供应商或是其他供应商设施，都请将您的发现告知采购可持续发展办公室，或通过我们的公司举报系统进行举报。此类问题极其复杂，因此，请不要尝试开展调查，或以一己之力解决问题。不要向设施管理人员坦陈您的疑虑，或妥协与该设施的工作关系，因为这可能将工作人员置于更危险的境地。相反，应尽快举报您的发现，随后我们的专家将开展调查，并与厂房人员进行交涉。",
+                "nextPage": "faq-working-together-detailed",
+                "reference": "working-together"
+            },
+            {
+                "question": "<strong>人权: </strong> 如果我 <u>只看到了一个可能构成侵犯人权的警报信号</u>, 是否应该进行举报？",
+                "answer": "是。如果您看到多个警报信号，那就意味着可能存在更大的问题。但即使只有一个信号，也可能存在严重的问题。",
+                "nextPage": "faq-working-together-detailed",
+                "reference": "working-together"
+            },
+            {
+                "question": "<strong>可持续发展定义: </strong> 我曾听到人们谈论 <u>可持续发展</u>, 但不知道这究竟是什么意思？ ",
+                "answer": "在福特公司，我们将可持续发展定义为一种商业模式，其创造的价值与长期维护和促进环境、社会和金融资本相一致。这意味着，我们在决策中寻找平衡点，一方面保证公司盈利，另一方面努力保护环境，以人为本。",
+                "nextPage": "faq-working-together-detailed",
+                "reference": "working-together"
+            }
+        ]
+    },
+    {
+        "pageKey": "tips-for-managers",
+        "title": "给经理们的建议",
+        "canITitle": "Can I do ...?",
+        "canIReminder": "绝不要索取礼品或惠赠",
+        "icon": "tips-for-managers.png",
+        "ciicon": "tips-for-managers.png",
+        "titleicon": "tips-for-managers-title.png",
+        "items": [
+            {
+                "title": "公司政策摘要",
+                "icon": "favors_list_icon_01.png",
+                "description": "在全球各个地区，福特的经理们在引导正确行为方面都承担着重要的责任和作用。福特的经理们有责任成为“One Ford（一个福特）”行为的表率，展示如何“Go Further – The Right Way（沿着正确之道走得更远）”。为了最大化您对我们工作环境的积极影响，请查看以下建议和内容，以及常见问题。 ",
+                "nextPage": "ps-tips-for-managers-summary",
+                "descriptionContent": "<div><p>道德原则  </p>在全球各个地区，福特的经理们在引导正确行为方面都承担着重要的责任和作用。福特的经理们有责任成为“One Ford（一个福特）”行为的表率，展示如何“Go Further – The Right Way（沿着正确之道走得更远）”。为了最大化您对我们工作环境的积极影响，请查看以下建议和内容，以及常见问题。<p>需要记住的建议</p><ul><li>如果您无法自行确定正确的行动流程，请立即停止不恰当的行为，并联系人力资源部寻求协助 – 切勿尝试其他解决方法</li><li>成为遵循我们的培训、政策和流程的楷模 – 不要低估自己的影响力；如果您遵守我们的规则，那么您的团队也会遵守</li></ul></div><div><ul><li>鼓励您的团队成员主动提出问题 – 尤其是在他们怀疑可能出现违反公司政策或法律的情况下</li><li>认真对待有关涉嫌违规情况的所有报告，并立即上报给人力资源部、地区调查协调员、地方事件协调员和公司合规办公室，或“举报涉嫌违规行为”项下载明的其他资源</li><li>涉嫌违规行为可能看起来像是您可以处理的，但是，请不要尝试自行调查 – 公司有受过专门训练的调查人员来处理这些报告</li></ul></div><div><ul><li>认真对待每一项指控，即使您觉得信息来源缺乏可信度，也要将其上报 – 有时，最好的线索来自意外的来源</li><li>对所有涉嫌违规行为的举报进行保密，制止有关潜在报告的任何传言</li><li>严禁对曾经报告过涉嫌违规行为的个人进行报复 – 包括应留意在与该人往来的过程中，不显露出您对其报告之事的任何情绪</li><li>您对您的团队及其是否遵循“一个福特”行为准则有着实际的影响力 – 请务必确保您的影响是积极的</li></ul></div>"
+            },
+            {
+                "title": "联系人和参考资料",
+                "icon": "favors_list_icon_02.png",
+                "description": "如有权限可访问福特内联网，则可查看这些资源.",
+                "nextPage": "ps-tips-for-managers-quick-ref",
+                "items": [
+                    {
+                        "title": "第 2 号政策函，与员工的关系",
+                        "link": ""
+                    },
+                    {
+                        "title": "第 6 号政策函，平等机遇",
+                        "link": ""
+                    },
+                    {
+                        "title": "第 19 号政策函，预防和发现违法行为的合规程序",
+                        "link": ""
+                    },
+                    {
+                        "title": "指令 B-110，反骚扰 – 零容忍",
+                        "link": ""
+                    },
+                    {
+                        "title": "更多信息和资料请参见 HR ONLINE – 请参见“经理工具箱”和反骚扰/歧视指南",
+                        "link": ""
+                    },
+                    {
+                        "title": "有关经理职责的问题或建议，请联系您当地的人力资源代表或点击此处发送邮件至全球总部人事关系部",
+                        "link": "mailto: activity@ford.com?subject=移动应用 – 经理建议"
+                    },
+                    {
+                        "title": "有关引导正确行为、骚扰、歧视或报复的问题，请联系当地 OGC 代表或地区公司合规办公室联络人，或点击此处发送邮件至公司合规办公室",
+                        "link": "mailto: fordlaw@ford.com?subject=移动应用 – 经理建议"
+                    },
+                    {
+                        "title": "您应立即向人力资源部举报骚扰事件；美国范围内可拨打骚扰热线：888-735-6650",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "title": "常见问题",
+                "icon": "favors_list_icon_03.png",
+                "description": "有团队成员跟我说，他觉得一位同事谎报了部分指标。我不认为他说的是对的，我也不想上报给全球总部 – 我能否自行展开调查并处理这件事情？",
+                "nextPage": "faq-tips-for-managers"
+            }
+        ],
+        "frequently-asked-questions": [
+            {
+                "question": "<strong>处理报告: </strong> 有团队成员跟我说，他觉得一位同事谎报了部分指标。我不认为他说的是对的，我也不想上报给全球总部 –  <u>我能否自行展开调查</u>并处理这件事情？",
+                "answer": "不可以，您应该向公司有权接收涉嫌违规报告的指定部门上报这一指控。我们有受过专门训练的调查人员，他们将负责调查指控，安排合适的课题专家介入，同时应确保福特了解正在发生的事情，并采取我们所需要的所有纠正措施。上报此报告，您就是在帮助公司 Go Further – The Right Way（沿着正确之道走得更远）。",
+                "nextPage": "faq-tips-for-managers-detailed",
+                "reference": "tips-for-managers"
+            },
+            {
+                "question": "<strong>处理报告: </strong> 一个竞标失败的供应商告诉我，竞标中获胜的供应商是投机取巧才投出较低的价格。我认为 <u>这个供应商只是在抱怨</u>, 因为他在竞标中失败了。我是否需要提交此报告来烦扰公司？",
+                "answer": "这并没有打扰我们 – 我们想要知道与我们业务相关的、违反我们政策或法律的所有涉嫌违规行为的报告。虽然该报告的动机可能是由于竞标失败者的坏情绪，但是请谨记，这一动机并不意味着报告的内容不真实 – 不良行为通常都是由那些觉得自己遭到作恶者欺凌的个人所揭发的。",
+                "nextPage": "faq-tips-for-managers-detailed",
+                "reference": "tips-for-managers"
+            },
+            {
+                "question": "<strong>处理报告: </strong> 我们团队中有一位 <u>总喜欢抱怨</u> 的成员向我报告了另一件事情。我能否 <u>自行调查</u> 并让他回去工作？",
+                "answer": "事实上，最好的方法是认真对待所有的报告，即使报告来源看起来不那么可靠 – 有时，不端行为的重要报告来自意想不到的来源。认真回复，并将信息上报公司合规办公室或指定接收报告的其他团队成员。",
+                "nextPage": "faq-tips-for-managers-detailed",
+				"reference": "tips-for-managers"
+            },
+            {
+                "question": "<strong>来自表现不佳员工的报告: </strong> 我有一位员工业绩下滑。我们刚将他安排进一项业绩改进计划，他就指控我们违反了一项当地法规。显然，这位员工意图<u>以威胁告密的方式</u> 来阻止我们执行业绩计划。我是否可以忽略他的报告？",
+                "answer": "虽然您的员工有可能具有不良动机，但是，您应该将他的报告上报给公司合规办公室或其他合适的部门进行调查。有时，担心自己业绩的员工往往会有动机去揭露工作场所真实发生的事情。您将此情况上报给公司内部相关部门时，我们会去判断这项指控的有效性 – 同时确保这一情况得到适当的处理，这样，您和公司都可以继续采取适当的业绩措施。",
+                "nextPage": "faq-tips-for-managers-detailed",
+                "reference": "tips-for-managers"
+            },
+            {
+                "question": "<strong>骚扰: </strong>我的团队里有个有点粗鲁的小伙子，我听说他可能在办公楼内<u>骚扰女性</u>。<u>我没有亲眼见到这一不良表现</u>,也没有女性向我投诉；此外，这个小伙子的表现非常不错。由于没有女性向我投诉，我是否可以忽略这一消息？",
+                "answer": "如果您听说了骚扰行为的报告，您应该上报。即使您没有亲眼看见，您也必须报告此事。我们的“一个福特”行为准则非常重要 – 您不能因为一名员工“尽了本职”而忽视其不当行为。",
+                "nextPage": "faq-tips-for-managers-detailed",
+                "reference": "tips-for-managers"
+            },
+            {
+                "question": "<strong>鼓励报告: </strong> 我理解, <u> 作为经理</u> 我的行为可能会影响到辖区内人员会否向我举报其疑虑。我该怎么样鼓励人们向我报告他们的疑虑？",
+                "answer": "经理的回应可以显著影响职员报告问题的意愿。如有具体的问题，请咨询人力资源部或公司合规办公室，以下则是一系列实用建议与禁忌事项的列表。<br/><br/><p>建议</p><ul><li>为您的团队树立正确的行为规范 – 如果您遵守我们的规章制度，并认真对待我们的培训，那么您的团队也会如此</li><li>耐心倾听每一位问题举报者的报告，并强调公司希望员工正确行事 – 但是，不要为公司做出任何承诺，因为我们还没掌握所有的事实</li><li>告诉每一个举报者，您将对信息保密，除有权接收和调查报告的团队外，绝不会向其他任何人泄露信息。</li></ul><br/><p>禁忌</p><ul><li>切勿表现出似乎规矩就是用来打破的，或者培训是一件难熬的事情 – 如果您这么做了，那么您就是在给您的团队树立一个坏的榜样</li><li>切勿让您的团队忽视任何问题 – 如果有人报告问题，应认真对待，并将问题提交到管理层、人力资源部或公司合规办公室 </li><li>切勿让工作人员无论如何都要完成工作 – 向他们表明，您期待每个人都以正确的方式完成工作；如果您认为工作无法完成，不要走未经批准的捷径 – 相反，应将问题向更高一级管理部门反映</li></ul>",
+                "nextPage": "faq-tips-for-managers-detailed",
+                "reference": "tips-for-managers"
+            },
+            {
+                "question": "<strong>报复: </strong> 我知道公司有针对报复的政策，但是，我不是很清楚 <u>什么样的事情会被视为报复行为</u>. 你们能给出一些例子吗？",
+                "answer": "您可以将报复理解为对某人的职业生涯造成消极影响的事情，或可以视为骚扰或歧视的事情。以下是一些有关报复行为的例子，行为动机是报复他人做了其有权做的事情的 – 如善意报告涉嫌违规行为的，即可视为报复。请谨记，威胁做某事也可能视为报复，即使您实际上并没有这么做也是如此:<ul><li>解雇员工</li><li>给员工安排不受欢迎的任务或工作时间</li><li>给员工较差的业绩评价  </li><li>不给员工安排新的任务</li></ul>",
+                "nextPage": "faq-tips-for-managers-detailed",
+                "reference": "tips-for-managers"
+            },
+            {
+                "question": "<strong>歧视: </strong> 我对 <u>团队中的一位成员</u>.  有意见。我们团队每周固定时间召开例会。一位成员总是迟到，因为他说那天是 <u>他的宗教节日，需要做宗教仪式</u> 我该怎么办？我不能给这个员工安排任何重要项目，因为他开会总是迟到。",
+                "answer": "您是否想过改变开会时间，这样大家都可以参加？虽然我们不能中断我们的核心业务，以适应某一位团队成员，但是在这类情况下，您应该考虑是否可以作出合理的调整。这点在处理诸如宗教或残障人士等受法律保护的事宜时尤其重要，如果没有针对这些情况作出合理的调整，甚至可能构成歧视。这些问题可以非常复杂 – 请咨询您的人力资源代表或当地法律总顾问办公室寻求指导。",
+                "nextPage": "faq-tips-for-managers-detailed",
+                "reference": "tips-for-managers"
+            }
+        ]
+    },
+    {
+        "pageKey": "report-violations-info",
+        "reference": "report-violations"
+    },
+    {
+        "pageKey": "report-violations",
+        "title": "报告涉嫌违规行为",
+        "information": "<p>您是不是怀疑有违反政策的情况并想要进行举报？我们鼓励您大声说出来。</p><p>在举报涉嫌违规行为时，如果我们能联系到您获取更多详情及跟踪信息，会很有帮助。如果您通过电子邮件从您的移动设备发送报告，我们将能回发问题给您。本公司还指定了地区调查协调员 (RIC) 和地方事件协调员 (LIC) 以受理涉嫌违规行为的报告。他们还可以帮助回答有关流程的任何问题。</p><p>但是，您也可以拨打热线或提交从下面所述的 Corporate Security and Fire（公司安全及消防）网站获取的事件报告表，以匿名方式进行报告。</p><p>您应立即向人力资源部举报骚扰事件；美国范围内可拨打骚扰热线：888-735-6650。</p><p>报告涉嫌违规行为者不必害怕报复。我们的政策禁止对善意报告涉嫌违规行为者或配合调查者施加任何形式的报复。所有报告就将严格保密。</p><p><strong><u>发送报告</u></strong></p><p>现在按下面的“继续”按钮，可立即发送涉嫌违规行为报告。</p><p>您还可在福特内联网上发现其他一些报告途径：</p><ul><li>Corporate Security and Fire（公司安全及消防）网站上载明的您的 RIC 或 LIC </li><li>法律总顾问办公室下属合规办公室或您当地的法律总顾问办公室</li><li>总审计师办公室</li><li>位于美国的 Corporate Security and Fire（公司安全及消防）网站或美国电子邮件地址</li><li>位于美国的免费公司热线 (800-847-7911) </li><li>您所在国家或地区的热线载列于 Corporate Security and Fire（公司安全及消防）网站 </li><li>人力资源/人事关系部</li></ul>",
+        "items": [
+            {
+                "region": "北美（美国和加拿大）",
+                "email": "Fordlaw@ford.com?subject=Mobile App Reporting"
+            },
+            {
+                "region": "北美（墨西哥）",
+                "email": "EthicsMX@ford.com?subject=Mobile App Reporting"
+            },
+            {
+                "region": "南美",
+                "email": "EthicsSA@ford.com?subject=Mobile App Reporting"
+            },
+            {
+                "region": "欧洲",
+                "email": "EthicsEU@ford.com?subject=Mobile App Reporting"
+            },
+            {
+                "region": "亚太地区",
+                "email": "EthicsAP@ford.com?subject=Mobile App Reporting"
+            },
+            {
+                "region": "中东和非洲",
+                "email": "EthicMEA@ford.com?subject=Mobile App Reporting"
+            }
+        ]
+    },
+    {
+        "pageKey": "exec-messages",
+        "title": "管理层致辞",
+        "items": [
+            {
+				"type": "text",
+				"title": "Mark Fields Talks about Compliance & Transparency",
+				"icon": "mark-fields.png",
+				"iconDataURL": "data:image/png;base64,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",
+				"teaser": "我们是一家重视道德操守的公司，因为这是正确、该做的事情，也是我们企业文化的一部分，不只是一个口号而已。这也不只是因在卡片上的教条——这是我们每天都该力行的，而且已融合在我们One Ford的行为准则之中。",
+				"message": "<p><a class='blue-link' href=\"javascript:window.open('http://www.at.ford.com/news/multimedia/pages/default.aspx?t=v&n=1631','_blank')\">View Mark's Video</a></p><p><b>Mark Fields:</b> 我们是一家重视道德操守的公司，因为这是正确、该做的事情，也是我们企业文化的一部分，不只是一个口号而已。这也不只是因在卡片上的教条——这是我们每天都该力行的，而且已融合在我们One Ford的行为准则之中。</p><p><b>Narrator:</b> 坚持做对的事是我们成功的关键，也是福特全球业务检讨报告BPR流程的要素。BPR会从公司的每个角落收集资讯并提供给我们的资深领导团队。</p><p><b>Mark Fields:</b> 我们会利用这些讯息将其转换为公司策略并将这些策略导入计划中。</p><p><b>Narrator:</b> 为确保能得到最佳结果，每个人都必须遵守公司政策与法律规范，确信可提供足够资讯透明度给所有管理阶层来掌握我们的业务状况。</p><p><b>Mark Fields:</b> 这是基本的要求，我们要保有透明度，这就是我们做事的方式。我们携手合作共同寻求商机，共同解决问题。所以，法规遵循、道德操守以及透明度，也是BPR流程的基石。</p><p><b>Narrator:</b> 任何偏离政策或流程的行为，例如为了在期限前完成工作而走捷径，或是直接在BPR指标上显示绿色，都不是正确的做法。掩盖问题，隐藏资讯可能会让我们付出更多的代价。</p><p><b>Mark Fields:</b> 大家都知道秘密是藏不久的，或许你能刻意将事情美化，在BPR上标注绿色，终究事实还是会显露出来。这会让我们知道“嘿！我们有问题了。”最好的做法是尽早发现问题，这样才能采取行动，而不是袖手旁观，让问题越来越严重，到最后，它将成为一个难以解决的大问题。最好的做法是将问题公开在台面上，特别是在一个安全、透明的环境中，然后大家一起处理并解决问题。</p><p><b>Narrator:</b> 如果你认为有些政策或作法是需要改进的或者有足够的理由认为目前的做法是不对的，请大声说出来。<p><b>Mark Fields:</b>  如果在你的工作中看到任何事情，请把问题告诉我们，因为问题终究会浮上台面，我们将会积极采取行动，我们业务将会因此而获益，我们的客户也会因此更为满意。我认为我们整体的声誉，公司的整体都回因此而更卓越。</p><p><b>Narrator:</b> 这正是为什么我们必须全心承诺于Go Further这个理想。因为这是对的事情，这也是为什么福特连续五年被肯定为全球最重视道德操守的公司之一。这是独立平等机构Ethisphere Institute的评选结果。</p><p><b>Mark Fields:</b> 这是代表公司荣耀的徽章，如同我们重视品质，要从J.D Power消费者报告来看品质的分数一样，从Ethisphere道德报告中就可看到我俄每年努力的成果。这真正展现出我们是多么认真地以一个资深团队来看待我们的业务，如何地以整体公司的立场来重视这个问题。</p><p><b>Narrator:</b> 请为公司的声誉感到自豪。如果你看到任何问题，请向HR GAO或者OGC汇报，或是联系公司法规遵循办公室，电邮为fordlaw@ford.com，或是你的问题或疑虑以匿名方式，透过安全保密的网站@FordOnline网页。让我们共同携手，Go Further，做对的事情。</p>"
+			}
+        ]
+    },
+    {
+        "pageKey": "search"
+    },
+    {
+        "pageKey": "contact-for-questions",
+        "title": "联系人和参考资料",
+        "template": "contact-grid",
+        "controller": "contact-grid",
+        "information": "",
+        "items": [
+            {
+                "reference": "gifts-favors",
+                "nextPage": "ps-gifts-favors-quick-ref"
+            },
+            {
+                "reference": "meals-travels",
+                "nextPage": "ps-meals-travels-quick-ref"
+            },
+            {
+                "reference": "conflicts-of-interest",
+                "nextPage": "ps-conflicts-of-interest-quick-ref"
+            },
+            {
+                "reference": "company-assets",
+                "nextPage": "ps-company-assets-quick-ref"
+            },
+            {
+                "reference": "anti-bribery-corruption",
+                "nextPage": "ps-anti-bribery-corruption-quick-ref"
+            },
+            {
+                "reference": "it-security-and-privacy",
+                "nextPage": "ps-it-security-and-privacy-quick-ref"
+            },
+            {
+                "reference": "working-together",
+                "nextPage": "ps-working-together-quick-ref"
+            },
+            {
+                "reference": "tips-for-managers",
+                "nextPage": "ps-tips-for-managers-quick-ref"
+            }
+        ]
+    },
+    {
+        "pageKey": "nominal-value",
+        "controller": "static",
+        "template": "static",
+        "descriptionContent": "<p align='center'><strong>Nominal Value Amounts by Country (January 2016)</strong><p align='center'><strong>For Gifts or Favors under Directive A-107</strong><table class='nominal-table' border='1' cellspacing='0' cellpadding='0' align='left'><tbody><tr class='table-head'><td><strong>COUNTRY</strong></td><td><strong>NOMINAL VALUE</strong></td></tr><tr><td>Australia</td><td>$50 or less</td></tr><tr><td>Austria</td><td>&#8364;50 or less</td></tr><tr><td>Belgium</td><td>&#8364;50 or less</td></tr><tr><td>Brazil</td><td>R$90 Reais or less</td></tr><tr><td>Canada</td><td>$50 or less</td></tr><tr><td>China</td><td>200 RMB or less</td></tr><tr><td>Czech Republic</td><td>&#8364;50 or less</td></tr><tr><td>Denmark</td><td>&#8364;50 or less.</td></tr><tr><td>Finland</td><td>&#8364;50 or less</td></tr><tr><td>Ford Credit Europe</td><td>&#8364;50 or less</td></tr><tr><td>France</td><td>&#8364;50 or less</td></tr><tr><td>Germany</td><td>&#8364;50 or less</td></tr><tr><td>Greece</td><td>&#8364;50 or less</td></tr><tr><td>Hungary</td><td>&#8364;50 or less</td></tr><tr><td>India</td><td>1000 INR (25 USD) or less</td></tr><tr><td>Ireland</td><td>&#8364;50 or less</td></tr><tr><td>Italy</td><td>&#8364;50 or less</td></tr><tr><td>Japan</td><td>5,000 yen or less</td></tr><tr><td>Mexico</td><td>500 pesos or less</td></tr><tr><td>Netherlands</td><td>&#8364;50 or less</td></tr><tr><td>New Zealand</td><td>NZ$50 or less</td></tr><tr><td>Norway</td><td>&#8364;50 or less</td></tr><tr><td>Philippines</td><td>1000 phb or less</td></tr><tr><td>Poland</td><td>PLN 200 or less</td></tr><tr><td>Portugal</td><td>&#8364;50 or less</td></tr><tr><td>Romania</td><td>100 Lei or less</td></tr><tr><td>Russia</td><td>1,250 RUR or less</td></tr><tr><td>South Africa</td><td>320 R or less</td></tr><tr><tr><td>South Korea</td><td>₩ 50,000</td></tr><tr><td>Spain</td><td>&#8364;50 or less</td></tr><tr><td>Sweden</td><td>500 SEK or less</td></tr><tr><td>Switzerland</td><td>&#8364;50 or less</td></tr><tr><td>Thailand</td><td>1000 Baht or less</td></tr><tr><td>Turkey</td><td>&#8364;50 or less</td></tr><tr><td>United Kingdom</td><td>&#163;50 or less</td></tr><tr><td>United States</td><td>$50 or less</td></tr><tr><td>Vietnam</td><td>320,000 VND or less</td></tr></tbody></table><p>These guidelines can also be found in the References and Contacts section of Directive A-107.</p>",
+        "title": "Nominal Value Amounts"
+    },
+    {
+        "pageKey": "gift-exceed-policies",
+        "controller": "static",
+        "template": "static",
+        "descriptionContent": "<p>如果您收到的礼品超出了福特公司的政策允许范围，最佳的做法就是不要接受该礼品，或者将其从本公司退回给寄件人，并附上感谢便笺和本公司政策说明。此为首选做法。</p><p>如果某一物品无法退回，应将其上缴本公司以作捐赠之用。在美国，此类物品可以上缴福特基金会。向您的人力资源代表了解所在国家或地区的具体流程。</p><p>最后，如果遇到礼品独一无二且可能具有特殊意义的这种罕见情况，您可以申请例外从而获准支付该独特礼品的公允价值并保留该礼品。请联系您当地的人力资源代表以了解流程详情。</p><p>以下是退回礼品时可用于编辑留言的一些措辞：</p><p><i>感谢您送我 [描述礼品]。您送此礼品予我是一番诚意，对此我十分心领。但是，我必须将它退还给您，并请求您接受我拒绝收下此礼品的诚挚歉意。</i></p><p><i>如您所知，福特汽车公司 (Ford Motor Company) 是一家对收受礼品有着明确政策且适用于全球所有员工的国际公司。您的礼品超出了我们公司政策中规定的 [插入当地货币限额] 的限制，因此，我必需拒绝它。</i></p><p><i>感谢您的理解。</i></p>",
+        "title": "超出福特政策范围的礼品"
+    },
+    {
+        "pageKey": "feedback",
+        "controller": "feedback",
+        "template": "feedback",
+        "title": "应用反馈",
+        "descriptionContent": "我们欢迎您就使用 The Right Way 移动应用的体验提供反馈。您可以进入“联系人和参考资料”区域，点击其中的链接向我们发送电子邮件。",
+        "mail": "fordlaw@ford.com?subject=应用反馈"
+    },
+    {
+        "pageKey": "news-updates",
+        "controller": "news-updates",
+        "template": "news-updates",
+        "title": "New Updates"
+    }
+]

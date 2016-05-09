@@ -1,0 +1,1677 @@
+[
+	{
+        "pageKey": "static-labels",
+        "items": {
+			"remember" : "Lembre-se",
+			"selectAnOption" : "Selecione uma opção",
+			"appFeedback": "Feedback do Aplicativo",
+			"sw" : "SW",
+			"sendFeedback" : "Envie o Comentário",
+			"reportASuspectedViolation" :"Relate uma Violação Suspeita",			
+			"complianceNewsUpdates":"Compatibilidade com as Novas Atualizações",
+			"settings" : "Configurações",
+			"languageSettings" : "Configurações de idioma",
+			"new" : "Novo",
+			"viewTermsAndConditions" : "Visualize os Termos e Condições",
+			"submit" : "Enviar",
+			"description" : "Descrição",
+			"fordIntranetAccess" : "Quando você tiver acesso à intranet da Ford, poderá rever estes recursos",
+			"region" : "Região",
+			"reportViolationMail" : "Relate a Violação através do e-mail",
+			"close" : "Fechar",
+			"reportingRegion" : "De qual região você está relatando?",
+			"proceed" : "Continuar",
+			"whatToSearch" : "Sobre o que você gostaria de pesquisar?",
+			"typeToSearch" : "Digite o que você gostaria de pesquisar em palavras",
+			"search" : "Pesquisar",
+			"eua" : "End user Agreement",
+			"terms" : "The Right Way mobile app allows Ford personnel and its business partners quick access to information needed to guide ethical decisions according to Company policy. It does not collect or require you to provide any information. By clicking below, you acknowledge and consent to The Right Way mobile app Terms and Conditions which can be viewed",
+			"here":"here",
+			"dataRates" : "Data rates may apply",
+			"agree" : "I Agree",
+			"nullSearchAlert" : "Você deve inserir um termo para pesquisa.",
+			"noResultAlert" : "No results were found.",
+			"rightWayTitle" : "The Right Way",
+			"okButtonText" : "OK",
+			"cancelButtonText": "Cancelar",
+			"errorMsg": "Falha na comunicação com o servidor. Verifique a sua conexão com a internet e tente novamente.",
+			"updateMsg": "New content update is available.",
+			"donwloadMsg": "Esta função irá fazer o download de uma cópia do Manual de Código de Conduta para seu dispositivo. Ele tem aproximadamente 6MB. Deseja continuar com o download?",
+			"downloadProgressMsg" : "Fazendo o download do Manual de Código de Conduta..",
+			"downloadTxt" : "Download"
+		}
+    },
+	{
+		"pageKey": "home",
+		"title": "Página Inicial"
+	}, {
+		"pageKey": "slide-menu",
+		"items": [
+			{
+				"title": "Página Inicial",
+				"icon": "home_icon.png",
+				"pageKey": "home"
+			},
+			{
+				"title": "Resumo de políticas",
+				"icon": "policy_summary_icon.png",
+				"pageKey": "policy-summary"
+			}, {
+				"title": "Perguntas frequentes",
+				"icon": "common_examples_icon.png",
+				"pageKey": "frequently-asked-questions"
+			}, {
+				"title": "Eu posso...?",
+				"icon": "can_i_icon.png",
+				"pageKey": "can-i"
+			}, {
+				"title": "Contatos e Referências",
+				"icon": "contact_questions_icon.png",
+				"pageKey": "contact-for-questions"
+			}, {
+				"title": "Relate uma Violação Suspeita",
+				"icon": "report_violations_icon.png",
+				"pageKey": "report-violations-info"
+			}, {
+				"pageId": "mi-coc",
+				"title": "Manual de Código de Conduta",
+				"icon": "code_conduct_icon.png",
+				"link": "https://www.fcs.ford.com/coc/pdfs/coc_english.pdf"
+			}, {
+				"title": "Mensagem da Equipe Executiva",
+				"icon": "message_exec_icon.png",
+				"pageKey": "exec-messages"
+			},  {
+				"title": "Pesquisar",
+				"icon": "search_icon.png",
+				"click": true
+			}, {
+				"title": "Configurações",
+				"icon": "settings_icon.png",
+				"nextPage": "language-select"
+			}
+		]
+	}, {
+		"pageKey": "policy-summary",
+		"template": "grid",
+		"controller": "grid",
+		"title": "Resumo de políticas",
+		"items": [
+			{
+				"reference": "gifts-favors",
+				"nextPage": "ps-gifts-favors"
+			}, {
+				"reference": "meals-travels",
+				"nextPage": "ps-meals-travels"
+			}, {
+				"reference": "conflicts-of-interest",
+				"nextPage": "ps-conflicts-of-interest"
+			}, {
+				"reference": "company-assets",
+				"nextPage": "ps-company-assets"
+			}, {
+				"reference": "anti-bribery-corruption",
+				"nextPage": "ps-anti-bribery-corruption"
+			}, {
+				"reference": "it-security-and-privacy",
+				"nextPage": "ps-it-security-and-privacy"
+			}, {
+				"reference": "working-together",
+				"nextPage": "ps-working-together"
+			},{
+				"reference": "tips-for-managers",
+				"nextPage": "ps-tips-for-managers"
+			}
+		]
+	}, {
+		"pageKey": "ps-gifts-favors",
+		"template": "list",
+		"controller": "list",
+		"reference": "gifts-favors"
+	}, {
+		"pageKey": "ps-gifts-favors-summary",
+		"template": "policy-summary-content",
+		"controller": "policy-summary-content",
+		"reference": "gifts-favors"
+	}, {
+		"pageKey": "ps-gifts-favors-quick-ref",
+		"template": "policy-quick-ref",
+		"controller": "policy-quick-ref",
+		"reference": "gifts-favors"
+	}, {
+		"pageKey": "ps-gifts-favors-background-information",
+		"template": "policy-summary-content",
+		"controller": "policy-summary-content",
+		"reference": "gifts-favors"
+	}, {
+		"pageKey": "ps-meals-travels",
+		"template": "list",
+		"controller": "list",
+		"reference": "meals-travels"
+	}, {
+		"pageKey": "ps-meals-travels-summary",
+		"template": "policy-summary-content",
+		"controller": "policy-summary-content",
+		"reference": "meals-travels"
+	}, {
+		"pageKey": "ps-meals-travels-quick-ref",
+		"template": "policy-quick-ref",
+		"controller": "policy-quick-ref",
+		"reference": "meals-travels"
+	}, {
+		"pageKey": "ps-meals-travels-background-information",
+		"template": "policy-summary-content",
+		"controller": "policy-summary-content",
+		"reference": "meals-travels"
+	}, {
+		"pageKey": "ps-conflicts-of-interest",
+		"template": "list",
+		"controller": "list",
+		"reference": "conflicts-of-interest"
+	}, {
+		"pageKey": "ps-conflicts-of-interest-summary",
+		"template": "policy-summary-content",
+		"controller": "policy-summary-content",
+		"reference": "conflicts-of-interest"
+	}, {
+		"pageKey": "ps-conflicts-of-interest-quick-ref",
+		"template": "policy-quick-ref",
+		"controller": "policy-quick-ref",
+		"reference": "conflicts-of-interest"
+	}, {
+		"pageKey": "ps-conflicts-of-interest-background-information",
+		"template": "policy-summary-content",
+		"controller": "policy-summary-content",
+		"reference": "conflicts-of-interest"
+	}, {
+		"pageKey": "ps-company-assets",
+		"template": "list",
+		"controller": "list",
+		"reference": "company-assets"
+	}, {
+		"pageKey": "ps-company-assets-summary",
+		"template": "policy-summary-content",
+		"controller": "policy-summary-content",
+		"reference": "company-assets"
+	}, {
+		"pageKey": "ps-company-assets-quick-ref",
+		"template": "policy-quick-ref",
+		"controller": "policy-quick-ref",
+		"reference": "company-assets"
+	}, {
+		"pageKey": "ps-company-assets-background-information",
+		"template": "policy-summary-content",
+		"controller": "policy-summary-content",
+		"reference": "company-assets"
+	}, {
+		"pageKey": "ps-anti-bribery-corruption",
+		"template": "list",
+		"controller": "list",
+		"reference": "anti-bribery-corruption"
+	}, {
+		"pageKey": "ps-anti-bribery-corruption-summary",
+		"template": "policy-summary-content",
+		"controller": "policy-summary-content",
+		"reference": "anti-bribery-corruption"
+	}, {
+		"pageKey": "ps-anti-bribery-corruption-quick-ref",
+		"template": "policy-quick-ref",
+		"controller": "policy-quick-ref",
+		"reference": "anti-bribery-corruption"
+	}, {
+		"pageKey": "ps-anti-bribery-corruption-background-information",
+		"template": "policy-summary-content",
+		"controller": "policy-summary-content",
+		"reference": "anti-bribery-corruption"
+	}, {
+		"pageKey": "ps-it-security-and-privacy",
+		"template": "list",
+		"controller": "list",
+		"reference": "it-security-and-privacy"
+	}, {
+		"pageKey": "ps-it-security-and-privacy-summary",
+		"template": "policy-summary-content",
+		"controller": "policy-summary-content",
+		"reference": "it-security-and-privacy"
+	}, {
+		"pageKey": "ps-it-security-and-privacy-quick-ref",
+		"template": "policy-quick-ref",
+		"controller": "policy-quick-ref",
+		"reference": "it-security-and-privacy"
+	}, {
+		"pageKey": "ps-it-security-and-privacy-background-information",
+		"template": "policy-summary-content",
+		"controller": "policy-summary-content",
+		"reference": "it-security-and-privacy"
+	}, {
+		"pageKey": "ps-working-together",
+		"template": "list",
+		"controller": "list",
+		"reference": "working-together"
+	}, {
+		"pageKey": "ps-working-together-summary",
+		"template": "policy-summary-content",
+		"controller": "policy-summary-content",
+		"reference": "working-together"
+	}, {
+		"pageKey": "ps-working-together-quick-ref",
+		"template": "policy-quick-ref",
+		"controller": "policy-quick-ref",
+		"reference": "working-together"
+	}, {
+		"pageKey": "ps-working-together-background-information",
+		"template": "policy-summary-content",
+		"controller": "policy-summary-content",
+		"reference": "working-together"
+	}, {
+		"pageKey": "ps-tips-for-managers",
+		"template": "list",
+		"controller": "list",
+		"reference": "tips-for-managers"
+	}, {
+		"pageKey": "ps-tips-for-managers-summary",
+		"template": "policy-summary-content",
+		"controller": "policy-summary-content",
+		"reference": "tips-for-managers"
+	}, {
+		"pageKey": "ps-tips-for-managers-quick-ref",
+		"template": "policy-quick-ref",
+		"controller": "policy-quick-ref",
+		"reference": "tips-for-managers"
+	}, {
+		"pageKey": "ps-tips-for-managers-background-information",
+		"template": "policy-summary-content",
+		"controller": "policy-summary-content",
+		"reference": "tips-for-managers"
+	}, {
+		"pageKey": "frequently-asked-questions",
+		"template": "grid",
+		"controller": "grid",
+		"title": "Perguntas frequentes",
+		"items": [
+			{
+				"reference": "gifts-favors",
+				"nextPage": "faq-gifts-favors"
+			}, {
+				"reference": "meals-travels",
+				"nextPage": "faq-meals-travels"
+			}, {
+				"reference": "conflicts-of-interest",
+				"nextPage": "faq-conflicts-of-interest"
+			}, {
+				"reference": "company-assets",
+				"nextPage": "faq-company-assets"
+			}, {
+				"reference": "anti-bribery-corruption",
+				"nextPage": "faq-anti-bribery-corruption"
+			}, {
+				"reference": "it-security-and-privacy",
+				"nextPage": "faq-it-security-and-privacy"
+			}, {
+				"reference": "working-together",
+				"nextPage": "faq-working-together"
+			}, {
+				"reference":"tips-for-managers",
+				"nextPage":"faq-tips-for-managers"
+			}
+
+		]
+	}, {
+		"pageKey": "faq-gifts-favors",
+		"template": "frequently-asked-questions-list",
+		"controller": "frequently-asked-questions-list",
+		"title": "Perguntas frequentes",
+		"reference": "gifts-favors"
+	}, {
+		"pageKey": "faq-meals-travels",
+		"template": "frequently-asked-questions-list",
+		"controller": "frequently-asked-questions-list",
+		"title": "Perguntas frequentes",
+		"reference": "meals-travels"
+	}, {
+		"pageKey": "faq-conflicts-of-interest",
+		"template": "frequently-asked-questions-list",
+		"controller": "frequently-asked-questions-list",
+		"title": "Perguntas frequentes",
+		"reference": "conflicts-of-interest"
+	}, {
+		"pageKey": "faq-company-assets",
+		"template": "frequently-asked-questions-list",
+		"controller": "frequently-asked-questions-list",
+		"title": "Perguntas frequentes",
+		"reference": "company-assets"
+	}, {
+		"pageKey": "faq-anti-bribery-corruption",
+		"template": "frequently-asked-questions-list",
+		"controller": "frequently-asked-questions-list",
+		"title": "Perguntas frequentes",
+		"reference": "anti-bribery-corruption"
+	}, {
+		"pageKey": "faq-it-security-and-privacy",
+		"template": "frequently-asked-questions-list",
+		"controller": "frequently-asked-questions-list",
+		"title": "Perguntas frequentes",
+		"reference": "it-security-and-privacy"
+	}, {
+		"pageKey": "faq-working-together",
+		"template": "frequently-asked-questions-list",
+		"controller": "frequently-asked-questions-list",
+		"title": "Perguntas frequentes",
+		"reference": "working-together"
+	}, {
+		"pageKey": "faq-tips-for-managers",
+		"template": "frequently-asked-questions-list",
+		"controller": "frequently-asked-questions-list",
+		"title": "Perguntas frequentes",
+		"reference": "tips-for-managers"
+	}, {
+		"pageKey": "faq-gifts-favors-detailed",
+		"template": "frequently-asked-questions-detailed",
+		"controller": "frequently-asked-questions-detailed",
+		"title": "Perguntas frequentes",
+		"reference": "gifts-favors"
+	}, {
+		"pageKey": "faq-meals-travels-detailed",
+		"template": "frequently-asked-questions-detailed",
+		"controller": "frequently-asked-questions-detailed",
+		"title": "Perguntas frequentes",
+		"reference": "meals-travels"
+	}, {
+		"pageKey": "faq-conflicts-of-interest-detailed",
+		"template": "frequently-asked-questions-detailed",
+		"controller": "frequently-asked-questions-detailed",
+		"title": "Perguntas frequentes",
+		"reference": "conflicts-of-interest"
+	}, {
+		"pageKey": "faq-company-assets-detailed",
+		"template": "frequently-asked-questions-detailed",
+		"controller": "frequently-asked-questions-detailed",
+		"title": "Perguntas frequentes",
+		"reference": "company-assets"
+	}, {
+		"pageKey": "faq-anti-bribery-corruption-detailed",
+		"template": "frequently-asked-questions-detailed",
+		"controller": "frequently-asked-questions-detailed",
+		"title": "Perguntas frequentes",
+		"reference": "anti-bribery-corruption"
+	}, {
+		"pageKey": "faq-it-security-and-privacy-detailed",
+		"template": "frequently-asked-questions-detailed",
+		"controller": "frequently-asked-questions-detailed",
+		"title": "Perguntas frequentes",
+		"reference": "it-security-and-privacy"
+	}, {
+		"pageKey": "faq-working-together-detailed",
+		"template": "frequently-asked-questions-detailed",
+		"controller": "frequently-asked-questions-detailed",
+		"title": "Perguntas frequentes",
+		"reference": "working-together"
+	}, {
+		"pageKey": "faq-tips-for-managers-detailed",
+		"template": "frequently-asked-questions-detailed",
+		"controller": "frequently-asked-questions-detailed",
+		"title": "Perguntas frequentes",
+		"reference": "tips-for-managers"
+	},{
+		"pageKey": "can-i",
+		"template": "can-i-grid",
+		"controller": "can-i-grid",
+		"title": "Eu posso...?",
+		"items": [
+			{
+				"reference": "gifts-favors",
+				"nextPage": "ci-gifts-favors"
+			}, {
+				"reference": "meals-travels",
+				"nextPage": "ci-meals-travels"
+			}
+		]
+	}, {
+		"pageKey": "ci-gifts-favors",
+		"template": "can-i",
+		"controller": "can-i",
+		"reference": "gifts-favors"
+	}, {
+		"pageKey": "ci-meals-travels",
+		"template": "can-i",
+		"controller": "can-i",
+		"reference": "meals-travels"
+	}, {
+		"pageKey": "search-page-keys",
+		"keys": ["gifts-favors", "meals-travels", "conflicts-of-interest", "company-assets", "anti-bribery-corruption", "it-security-and-privacy", "working-together","tips-for-managers"]
+	}, {
+		"pageKey": "search-key-words",
+		"keys": [
+			["Autorizar", "emprestar", "suborno", "justo", "favor", "honesto", "impróprio", "influência", "integridade", "oferta", "pagar", "pagamento", "proibir", "promessa", "recrutar", "especial", "valor"],
+            ["Fraude", "trapacear", "engano", "falso", "diligência", "desonesto", "auditoria", "ética", "ético", "farsa", "favor", "fraude", "impróprio", "mentira", "tramoia", "roubar", "furto", "bandido", "violar política", "ilegal", "errado"],
+            ["Agência", "agente", "aprovação", "autorizar", "emprestar um veículo", "certificado", "certificar", "departamento", "entretenimento", "favor", "presente", "governamental", "ação governamental", "funcionário do governo", "governador", "aprovação local", "oficial", "licenças", "política", "região", "regular", "regulação", "regulamentar", "representante", "sanção", "desconto especial", "código", "viagem"],
+		    ["Quantidade", "cobrança", "custo", "moeda", "excessivo", "extra", "taxa", "aumento", "monetário", "dinheiro", "mais", "oferecer", "pagar", "pagamento", "preço", "taxa", "taxa de registro", "venda", "pequenas quantidades", "tratamento especial", "sobretaxa", "valor", "valoroso"],
+		    ["Concordar", "acordo", "automotivo", "auto", "comprar", "carro", "certificado", "certificação", "contrato", "CPA", "empresa familiar", "da família", "empresa", "proprietário", "locação", "LLC", "negócios on-line", "próprio", "prática", "produto", "propriedade", "alugar", "vender", "serviço", "ensinar", "trabalhar"],
+		    ["Consultar", "consultor", "consulta", "contrato"],
+		    ["Associação", "direitos autorais", "comerciante", "desenvolver", "gerenciar", "fabricação", "parceiro", "parte", "patente", "bilhete", "timeshare", "administrador"],
+		    ["Conselho", "BOD"],
+		    ["Associado", "irmão", "filho/filha", "primo", "filha", "família", "pai", "amigo", "sogro", "mãe", "vizinho", "parceiro", "parente", "outro parente", "irmã", "filho", "marido", "esposa", "esposo", "sobrinho", "sobrinha", "tia", "tio"],
+		    ["Cerveja", "garrafa", "bourbon", "coquetéis", "bebidas", "happy hour", "scotch", "vodka", "uísque", "vinho"],
+		    ["Chá de bebê", "aniversário", "casamento", "fornecedor", "Natal", "gratuito", "doação", "doar", "feriado", "Lunar", "marti gras", "ano novo", "presente", "aposentadoria", "conta", "bilhete", "timeshare", "casamento", "desconto"],
+		    ["Atividades", "atividade", "tarifa aérea", "barco", "estatuto", "entretenimento", "voo", "transporte terrestre", "hóspede", "hospedar", "hotel", "conferência internacional", "convite", "limusine", "evento local", "encontro", "reunião", "socializar", "rede", "pernoite", "desempenho", "avião", "avião particular", "recreativo", "aluguel de carros", "intérprete", "social", "patrocinador", "táxi", "formação de equipes", "bilhete", "transporte", "férias"],
+		    ["Bolo", "chocolate", "gratuito", "desconto", "presente", "cesta de presentes", "cartão de presente", "certificado de oferta", "doação", "golfe", "fone de ouvido", "iPad", "iPhone", "iPod", "casacos", "kindle", "e-reader", "leitor", "spa", "presente", "prêmio", "taxa reduzida", "taxa especial", "tablet", "camiseta", "t-shirt", "frutas"],
+		    ["Café da manhã", "café", "jantar", "comer", "comida", "almoço", "restaurante", "conta", "petiscos"],
+		    ["Acomodações", "viagens corporativas", "entretenimento", "aéreo", "estadia gratuita", "limusine", "pernoite", "estadia", "avião", "transporte", "táxi", "bebidas", "viagem", "visita"],		    
+		    ["Construção", "chamada", "informações da empresa", "computador", "e-mail", "fundos", "uso acidental", "laptop", "logotipo", "dinheiro", "número do escritório", "telefone", "campanha política", "recursos", "mercado de ações", "veículo", "horas de trabalho", "tempo de trabalho"],
+		    ["Prédio da empresa", "carro da empresa", "veículo da empresa", "computador", "copiadora", "cópias", "reparo", "garagem", "casa", "laptop", "material", "impressora", "propriedade", "bens imobiliários", "reparação", "recursos", "ferramentas", "trator"],
+		    ["Abastecimento", "classe", "sala de aula", "faculdade", "consultar", "educação", "negócio de família", "da família", "empresa", "franquia", "série", "negócio caseiro", "instrutor", "proprietário", "planos de aula", "LTDA", "propriedade", "parceiro", "projeto", "bens imobiliários", "propriedade de aluguel", "escola", "segundo emprego", "estudante", "inquilino", "ensinar", "professor", "ensino", "formação", "universidade", "horas de trabalho", "tempo de trabalho", "trabalho", "gerenciar"],
+		    ["Emprestar", "uso dos negócios", "uso da empresa", "uso frequente", "acidental", "limitado", "com frequência", "uso pessoal", "uso de final de semana"]
+		]
+
+	}, {
+		"pageKey": "gifts-favors",		
+		"title": "Presentes e Favores",
+		"canITitle": "Posso Aceitar...?",
+		"canIReminder": "Nunca peça presentes ou favores",
+		"icon": "gift_favors.png",
+		"ciicon": "gift_favors.png",
+		"titleicon": "gift_title_icon.png",
+		"items": [
+			{
+				"title": "Resumo da Política da Empresa ",
+				"icon": "favors_list_icon_01.png",
+				"description": "Aceitar presentes ou favores excessivos de empresas que estão atualmente fazendo negócios com a Ford, ou que estão procurando ativamente fazer negócios com a Ford, pode prejudicar a reputação da Empresa, criando a aparência de impropriedade. Presentes excessivos podem influenciar seu julgamento na tomada de decisões para a Empresa ou dar a aparência de que você está \"vendendo\" tratamento favorável. Aceitar favores pode criar problemas entre fornecedores sobre tratamento preferencial ou desleal e pode afetar a moral. Por estas razões, não se esqueça de seguir os limites da Empresa sobre aceitar presentes e favores.",
+				"nextPage": "ps-gifts-favors-summary",
+				"descriptionContent": "<div><p>Princípio Ético</p>Aceitar presentes ou favores excessivos de empresas que estão atualmente fazendo negócios com a Ford, ou que estão procurando ativamente fazer negócios com a Ford, pode prejudicar a reputação da Empresa, criando a aparência de impropriedade. Presentes excessivos podem influenciar seu julgamento na tomada de decisões para a Empresa ou dar a aparência de que você está \"vendendo\" tratamento favorável. Aceitar favores pode criar problemas entre fornecedores sobre tratamento preferencial ou desleal e pode afetar a moral. Por estas razões, não se esqueça de seguir os limites da Empresa sobre aceitar presentes e favores.</div><div> <p>Nunca aceite...</p><ul><li>Presentes acima do valor nominal (US$50 nos EUA - <a href=\"#/nominal-value\">clique para ver as moedas locais</a>)</li><li>Dinheiro, vale presente ou bebida alcoólica</li><li>Ingressos para eventos, a menos que o fornecedor/revendedor também compareça</li><li>Um empréstimo ou desconto especial de um fornecedor/revendedor</li></ul></div><div><p>Lembre-se ao negociar com fornecedores/revendedores: </p><ul><li>Nunca <strong>peça</strong> presentes ou favores, mesmo que esteja dentro das orientações de valor nominal</li><li>Nossas políticas se aplicam a presentes ou favores oferecidos por fornecedores, revendedores e outros com os quais a Empresa faz negócios ou para os quais a Empresa fornece suporte, incluindo instituições de caridade apoiadas pela Empresa, escolas, universidades e grupos de comércio ou outras associações empresariais.</li><li>Você não pode aceitar descontos ou ofertas especiais oferecidos apenas para você (ou sua equipe). A oferta deve estar aberta a todos na Empresa, ao público em geral ou outro grupo amplo (como uma associação profissional à qual você pertence)</li><li>Fornecedores/revendedores não podem fazer contribuições especiais ou pagamentos para eventos com participação em especial do pessoal da Empresa (como festas de aposentadoria)</li><li>Prêmios–até mesmo sorteios aleatórios são tratados como qualquer outro presente ou favor, se concedidos em um evento realizado pelo fornecedor ou oferecidos por um fornecedor/revendedor, e não podem ser aceitos se forem maiores do que o valor nominal</li><li>Tenha cuidado ao pedir doações. Não deve haver nenhuma  pressão pela Empresa para a doação</li></ul></div>"
+			}, {
+				"title": "Contatos e Referências",
+				"icon": "favors_list_icon_02.png",
+				"description": "Contatos e referências para ajudá-lo. Quando você tiver acesso à intranet da Ford, poderá rever estes recursos.",
+				"nextPage": "ps-gifts-favors-quick-ref",
+				"items": [
+					{
+						"title": "Carta Norma No. 3, Padrões de Conduta Corporativa",
+						"link": ""
+					}, {
+						"title": "Diretiva A-107, Normas de Conduta Corporativa",
+						"link": ""
+					}, {
+						"title": "Listagem de valores nominais em moedas locais",
+						"link": "#/nominal-value"
+					}, {
+						"title": "Opções se eu receber um presente não permitido pela política ",
+						"link": "#/gift-exceed-policies"
+					}, {
+						"title": "Para perguntas sobre presentes e favores, entre em contato com seu representante local de RH ou clique aqui para enviar um e-mail para as área de Recursos Humanos no WHQ",
+						"link": "mailto:activity@ford.com?subject=Aplicativo Móvel – Presentes e Favores"
+					}, {
+						"title": "Para perguntas sobre presentes e favores, você pode clicar aqui para enviar um e-mail para o Departamento de Compliance Global",
+						"link": "mailto:fordlaw@ford.com?subject=Aplicativo Móvel – Presentes e Favores"
+					}
+				]
+			}, {
+				"title": "Perguntas frequentes",
+				"icon": "favors_list_icon_03.png",
+				"description": "Participei de um sorteio em uma conferência anual e ganhei uma inscrição gratuita para a próxima conferência. Posso utilizar a inscrição?",
+				"nextPage": "faq-gifts-favors"
+			}
+		],
+		"frequently-asked-questions": [
+			{
+				"question": "<strong>Conferências: </strong>Participei de um sorteio em uma conferência anual e <u>ganhei uma inscrição gratuita</u> para a próxima conferência. Posso utilizar a inscrição?",
+				"answer": "Depende: A inscrição é apenas para você ou pode ser usada pela Empresa? Por exemplo, se a inscrição for transferível para outra pessoa da Ford, então a Empresa pode manter o “presente” e a gerência pode determinar quem participa, se houver alguém. Se a inscrição não for transferível, então a gerência deve decidir se tem valor para a Empresa enviá-lo ou não. Se o departamento estiver disposto a cobrir as outras despesas de viagem, então, a Empresa pode usá-la. Se a gerência não estiver disposta a cobrir os custos extras, será considerado um “presente” a você, o qual você não pode aceitar (supondo que valha mais do que o valor nominal).",
+				"nextPage": "faq-gifts-favors-detailed",
+				"reference": "gifts-favors"
+			}, {
+				"question": "<strong>Despesas de Conferência Pagas:  </strong>Um fornecedor ofereceu-se para <u>pagar todas as minhas despesas para comparecer a uma conferência técnica</u>. O fornecedor ofereceu-se para pagar minhas passagens aéreas, hotel, taxa de conferência e refeições. Há algum problema nisso?",
+				"answer": "<p>Viagens pagas pelo fornecedor a conferências possuem limitações. Geralmente, aceitar uma admissão de conferência gratuita é permissível se a Empresa estiver pagando pela viagem e você recebeu as aprovações apropriadas.</p><br><p>Com as aprovações apropriadas, você pode aceitar os custos de viagem se estiver se apresentando na conferência.</p><br/><p>Detalhes de tais viagens variam e as aprovações dependerão da especificidade da situação. Você deve entrar em contato com o Departamento de Compliance Global ou as Recursos Humanos e fornecer detalhes da oferta, o site da conferência e qualquer outra viagem ou tempo associado que você irá gastar na viagem para obter orientação sobre as aprovações necessárias.</p>",
+				"nextPage": "faq-gifts-favors-detailed",
+				"reference": "gifts-favors"
+			}, {
+				"question": "<strong>Rifas/Conferências: </strong>Participei de uma conferência profissional (paga por mim) e entrei <u>em uma rifa oferecida pelo fornecedor/revendedor</u> que faz negócios com a Ford. Caso eu ganhe, posso ficar com o prêmio? Nem a Empresa nem o fornecedor pagaram pela minha viagem ou deslocamento para a conferência.",
+				"answer": "Não, você não pode ficar com o prêmio oferecido pelo fornecedor, revendedor da Empresa, ou outra organização que faz negócios com a Empresa, se o prêmio estiver acima do valor nominal (US$50 nos EUA – <a href=\"#/nominal-value\">clique para ver os valores de moedas locais</a>). Não importa quem pagou pela conferência, também não importa se você comprou o cupom da rifa ou se ele foi dado a você. Contudo, se você pagou por conta própria, você pode aceitar um prêmio de uma empresa ou organização que não faz negócios com a Empresa e não está buscando ativamente fazer negócios com a Empresa. Se a Empresa ou um fornecedor pagou pela sua participação em uma conferência, você não pode aceitar quaisquer prêmios que excedam as políticas de presentes da Empresa.",
+				"nextPage": "faq-gifts-favors-detailed",
+				"reference": "gifts-favors"
+			}, {
+				"question": "<strong>Descontos/Conferências: </strong>Vou participar de uma conferência em Orlando, Flórida, no próximo mês. O patrocinador do evento conseguiu uma taxa de desconto alta com o hotel da conferência. Como participante da conferência, eles <u>ofereceram a possibilidade de reservar noites adicionais</u> no hotel antes ou depois da conferência com a taxa especial, de modo que posso aproveitar o resort com a minha família. Posso aceitar a taxa com desconto? ",
+				"answer": "Não, você não pode aceitar descontos especiais, a menos que esteja disponível para todos os funcionários da Empresa ou para o público em geral. Você estaria se beneficiando em particular do evento.",
+				"nextPage": "faq-gifts-favors-detailed",
+				"reference": "gifts-favors"
+			}, {
+				"question": "<strong>Cestas de Alimentos: </strong>Recebi uma cesta <u>comemorativa com alimentos e uma garrafa de vinho</u> de um fornecedor. O valor da cesta é maior do que o nosso limite de valor nominal (US$50 nos EUA). Tenho que devolvê-la?",
+				"answer": "Em primeiro lugar, a garrafa de vinho não pode ser aceita e deve ser devolvida ou entregue à Empresa. Segundo, uma vez que cestas de alimentos são perecíveis, é permitido colocar a cesta em um local onde outras pessoa possam compartilhar dos alimentos, de forma que você não estará recebendo mais do que o nosso limite de valor nominal sozinho (US$50 nos EUA – <a href=\"#/nominal-value\"> verifique o link em Referências para valores de moedas locais</a>).",
+				"nextPage": "faq-gifts-favors-detailed",
+				"reference": "gifts-favors"
+			}, {
+				"question": "<strong>Vale-Presente: </strong>Recebi um <u>vale presente para um spa</u> de US$25 de um fornecedor, posso ficar com ele?",
+				"answer": "Não, muito embora seja de valor nominal, é um vale – o que não é permitido.",
+				"nextPage": "faq-gifts-favors-detailed",
+				"reference": "gifts-favors"
+			}, {
+				"question": "<strong>Presente Personalizado: </strong>Um revendedor me enviou uma <u>maleta de couro personalizada</u>, com meu nome gravado no interior. Posso ficar com ela?",
+				"answer": "Esse presente excede o valor nominal e você deve retorná-lo. Caso queira ficar com ele, você precisa pagar ao revendedor ou à Empresa o valor justo de mercado do item. Você deve manter evidência do seu pagamento. Consulte Referências para obter informações sobre \"Opções se eu receber um presente não permitido pela política\"",
+				"nextPage": "faq-gifts-favors-detailed",
+				"reference": "gifts-favors"
+			}, {
+				"question": "<strong>Presentes Exclusivos: </strong>Ao visitar um revendedor para comemorar a melhoria nas vendas, ele me deu uma tela de pintura que é edição limitada. O revendedor e eu desenvolvemos um relacionamento forte e não queria arriscar prejudicar nossa relação recusando o presente. Posso aceitá-lo?",
+				"answer": "Você deve recusar educadamente ou devolver a obra de arte, citando a política da Empresa. Com uma recomendação da gerência e aprovação da  área de Recursos Humanos, você pode também aceitar a tela de pintura em nome da Empresa (que irá doar o item para caridade ou exibi-lo em algum local da Empresa).",
+				"nextPage": "faq-gifts-favors-detailed",
+				"reference": "gifts-favors"
+			}, {
+				"question": "<strong>Patrocínios para a Equipe: </strong>Tudo bem se eu pedir a um fornecedor para <u>patrocinar o time esportivo do meu filho</u>?",
+				"answer": "Não, você nunca pode solicitar um presente ou um favor. Mesmo que o fornecedor se ofereça voluntariamente para doar ao time, isso seria um favor pessoal que excede a política da Empresa ao invés de ser uma contribuição para caridade.",
+				"nextPage": "faq-gifts-favors-detailed",
+				"reference": "gifts-favors"
+			}, {
+				"question": "<strong>Aposentadoria/Festas da Empresa: </strong>Estamos comemorando a <u>aposentadoria de um funcionário da Empresa</u> em um restaurante muito bacana e vendendo ingressos para o acesso. Fornecedores, revendedores e pessoal da Empresa estão todos convidados para comparecerem. Um fornecedor que irá participar <u>se ofereceu para pagar pelas refeições</u>. Isso é permitido?",
+				"answer": "Não, um fornecedor não deve pagar pelos alimentos de eventos com participação em especial do pessoal da Empresa. Você deve recusar a oferta do fornecedor e pagar pelas refeições com o dinheiro da venda dos ingressos. O fornecedor deve pagar o mesmo valor do ingresso oferecido para o pessoal da Ford.",
+				"nextPage": "faq-gifts-favors-detailed",
+				"reference": "gifts-favors"
+			}, {
+				"question": "<strong>Relacionamento Pessoal e Comercial: </strong>Meu <u>vizinho </u>trabalha para um fornecedor. Somos amigos e não interagimos um com o outro em nossos trabalhos. Minha <u>filha vai casar</u> e quero convidá-lo para o casamento. Suponho que ele vai dar um presente de casamento para minha filha. Posso convidá-lo e minha filha pode aceitar o presente?",
+				"answer": "Esta situação precisa de uma análisepara garantir que não há presente do fornecedor disfarçado. Quais outros eventos você compartilha com essa família? O fornecedor é uma empresa grande? Está claro que o presente é um item dado pessoalmente pelo vizinho? O fornecedor é pequeno? O vizinho é único dono ou um dos donos? Se realmente é um presente pessoal do vizinho, a política de presentes da Empresa não precisa ser seguida neste caso. É aconselhável rever a situação com o seu representante de RH e documentar os conselhos que são dados.",
+				"nextPage": "faq-gifts-favors-detailed",
+				"reference": "gifts-favors"
+			}, {
+				"question": "<strong>Férias/Descontos: </strong>Um fornecedor com o qual eu interajo com regularidade tem um ótimo <u>apartamento em uma praia </u>da Grécia, e ele o aluga com frequência. Ele me ofereceu o apartamento <u>durante algumas semanas de folga sem pagar nada </u>(ou pagando uma taxa com desconto). Tudo bem se eu aceitar?",
+				"answer": "Não, você só pode alugá-lo com a taxa normal – ou com um desconto que esteja disponível publicamente.",
+				"nextPage": "faq-gifts-favors-detailed",
+				"reference": "gifts-favors"
+			}, {
+				"question": "<strong>Ofertas de Emprego: </strong>Um fornecedor com o qual trabalho está procurando <u>estagiários</u> . Posso sugerir ao meu contato no fornecedor que <u>meu filho seria um ótimo candidato</u> e enviar o currículo dele?",
+				"answer": "Seu filho pode se candidatar a vagas através do processo normal de recrutamento/solicitação. Você não deve chegar até o seu contato no fornecedor para recomendá-lo, ou enviar seu currículo para um fornecedor da Empresa através de qualquer processo especial. <br/><br/>Você deve garantir que não influencie intencional ou não intencionalmente, ou pareça influenciar, qualquer decisão de contratação do fornecedor. Por exemplo, você não deve nem mencionar ao fornecedor que seu filho se candidatou.",
+				"nextPage": "faq-gifts-favors-detailed",
+				"reference": "gifts-favors"
+			},  {
+				"question": "<strong><u>Definições: </u></strong><u>Como determino</u> se uma empresa ou pessoa é considerada como <u>\"fazendo negócios\" com a Ford</u>?",
+				"answer": "Primeiro, nossa política é interpretada amplamente para incluir instituições de caridade, escolas e universidades, as quais a Empresa apoia através da angariarão de fundos, doações e projetos de pesquisa. As políticas também cobrem grupos comerciais e outras associações comerciais às quais a Empresa pertence ou que recebem apoio significativo dos nossos revendedores ou fornecedores. Segundo, se você não tiver certeza, pergunte. O representante de uma empresa saberá com frequência se eles fazem trabalhos para a Ford. O setor de Compras também pode ser capaz de ajudar na verificação.",
+				"nextPage": "faq-gifts-favors-detailed",
+				"reference": "gifts-favors"
+			}, {
+				"question": "<strong>Presente que Excede a Política: </strong>O que faço se eu receber um presente o qual não posso aceitar porque <u>excede os limites da nossa política</u>?",
+				"answer": "<a href=\"#/gift-exceed-policies\">Clique aqui para ver presentes that Exceed políticas</a>",
+				"nextPage": "faq-gifts-favors-detailed",
+				"reference": "gifts-favors"
+			}
+		],
+		"can-i": [
+			{
+				"title": "Álcool, Cerveja ou Vinho",
+				"text": "É contra a política da empresa aceitar uma garrafa de qualquer tipo de bebida alcoólica como presente de um fornecedor, revendedor ou qualquer outro. Você pode compartilhar cerveja, vinho ou outras bebidas alcoólicas como parte de uma refeição ou evento especial com um fornecedor, revendedor ou outro. Lembre-se de que você representa a Empresa. Sempre beba de maneira responsável."
+			}, {
+				"title": "Dinheiro ou Vale Presentes",
+				"text": "É contra a política aceitar dinheiro e geralmente contra a política aceitar vale/cartões de presente de um fornecedor, revendedor ou outro. Se um vale presente for usado para fornecer um item específico (normalmente perecível) de valor nominal, pode ser apropriado, – por exemplo, durante o Ano-novo Chinês, um vale presente para bolo lunar em uma loja específica no valor nominal, é permitido."
+			}, {
+				"title": "Cestas de Presentes",
+				"items": [
+					{
+						"title": "Abaixo do valor nominal",
+						"text": "Você poderá aceitar se o valor total estiver abaixo do valor nominal e não houver álcool, dinheiro ou vale/cartões de presente não permitidos (veja dinheiro ou certificados de presente para obter detalhes)"
+					}, {
+						"title": "Acima do valor nominal e que tenha itens alimentícios",
+						"text": "Se a cesta for composta principalmente de alimentos, você poderá aceitar, desde que ela seja compartilhada com seus colegas de trabalho (isto é, colocada em uma área comum para compartilhar). Qualquer bebida alcoólica deve ser entregue à Empresa ou devolvida ao remetente"
+					}, {
+						"title": "Acima do valor nominal e que NÃO tenha itens alimentícios ",
+						"text": "Você não deve aceitar uma cesta de presentes ou bolsa de presentes se os conteúdos, quando reunidos, ultrapassarem o valor nominal. Você pode aceitar um item abaixo do valor nominal e  devolver o restante para a Empresa"
+					}
+				]
+			}, {
+				"title": "Outros Itens de Presente",
+				"items": [
+					{
+						"title": "Presentes Pessoais ",
+						"items": [
+							{
+								"title": "Abaixo do valor nominal ",
+								"text": "Você poderá aceitar o presente se o valor estiver abaixo do valor nominal e não houver bebidas alcoólicas, dinheiro ou vale/cartões de presente"
+							}, {
+								"title": "Acima do valor nominal ",
+								"text": "Você não poderá aceitar o presente se o mesmo estiver acima do valor nominal"
+							}, {
+								"title": "Não sei o valor ",
+								"text": "Tente determinar o valor do presente fazendo uma pesquisa na internet por itens semelhantes. Discuta com o RH ou o Escritório de Conformidade se precisar de ajuda"
+							}, {
+								"title": "O que fazer se não puder ficar com o presente ",
+								"reference": "gift-exceed-policies"
+							}
+						]
+					}, {
+						"title": "Ocasiões Especiais ",
+						"text": "Aposentadorias, promoções ou outros eventos relacionados ao trabalho, siga as regras normais (ver abaixo). Se você tiver um relacionamento pessoal fora da Empresa, tal como um amigo de infância que trabalha para um fornecedor ou revendedor, e você ou seu departamento tiver contato com esse fornecedor/revendedor com regularidade, você deverá tomar precauções extras para evitar situações que possam ser vistas como uma violação da política. Se a ocasião for uma celebração pessoal, tal como um casamento ou aniversário e você receber um presente ou algum outro favor especial, você deve consultar o RH ou o Departamento de Compliance antes de aceitar algo que ultrapasse as regras normais.",
+						"items": [
+							{
+								"title": "Abaixo do valor nominal ",
+								"text": "Você poderá aceitar o presente se o valor estiver abaixo do valor nominal e não houver bebidas alcoólicas, dinheiro ou vale presente"
+							}, {
+								"title": "Acima do valor nominal",
+								"text": "Você não poderá aceitar o presente se o valor estiver acima do valor nominal"
+							}, {
+								"title": "Não sei o valor ",
+								"text": "Tente determinar o valor fazendo uma pesquisa na internet por itens semelhantes. Discuta com o RH ou o Departamento de Compliance se precisar de ajuda."
+							}, {
+								"title": "O que fazer se não puder ficar com o presente ",
+								"reference": "gift-exceed-policies"
+							}
+						]
+					}, {
+						"title": "Presentes para Membros da Família ",
+						"text": "Presentes e favores para os membros de sua família, siga as regras normais (ver abaixo). Se você tiver um relacionamento pessoal fora da Empresa, tal como um amigo de infância que trabalha para um fornecedor ou revendedor, e você ou seu departamento tiver contato com esse fornecedor/revendedor com regularidade, você deverá tomar precauções extras para evitar situações que possam ser vistas como uma violação da política. Se a ocasião for uma celebração pessoal, tal como um casamento ou aniversário, e receber um presente ou algum outro favor especial, você deve consultar o RH ou o Departamento de Compliance antes de aceitar algo que ultrapasse as regras normais.",
+						"items": [
+							{
+								"title": "Abaixo do valor nominal ",
+								"text": "Você poderá aceitar se o valor do presente estiver abaixo do valor nominal e não houver bebidas alcoólicas, dinheiro ou certificados/cartões de presente"
+							}, {
+								"title": "Acima do valor nominal ",
+								"text": "Você não poderá aceitar o presente se o valor estiver acima do valor nominal"
+							}, {
+								"title": "Não sei o valor ",
+								"text": "Tente determinar o valor fazendo uma pesquisa na internet por itens semelhantes. Discuta com o RH ou o Departamento de Compliance Global se precisar de ajuda."
+							}, {
+								"title": "O que fazer se não puder ficar com o presente",
+								"reference": "gift-exceed-policies"
+							}
+						]
+					}
+				]
+			}, {
+				"title": "Prêmios ",
+				"text": "Prêmios são tratados como presentes e favores e devem atender à política da Empresa para o tipo de presente ou favor oferecido como um prêmio. Sempre pergunte quando não tiver certeza se você pode aceitar um prêmio"
+			}, {
+				"title": "Favores e Ofertas Especiais",
+				"items": [
+					{
+						"title": "Produtos com Desconto/Gratuitos ",
+						"text": "Nunca peça produtos com desconto de forma  gratuita. Se o item com desconto ou gratuito estiver sendo oferecido ao público ou a todos os funcionários, então ele poderá ser aceito. Se o produto com desconto ou gratuito for oferecido somente a você, você não poderá aceitá-lo"
+					}, {
+						"title": "Serviços com Desconto/Gratuitos",
+						"text": "Nunca aceite serviços com desconto ou gratuitos, a menos que a mesma oferta esteja aberta a todos os funcionários ou ao público em geral"
+					}, {
+						"title": "Viagem Paga pelo Fornecedor",
+						"items": [
+							{
+								"title": "Reunião de Negócios",
+								"text": "Viagem paga pelo fornecedor para as reuniões de negócios e conferências devem ser revisadas pela área de Recursos Humanos e o Departamento de Compliance Global e aprovada por seu LL1."
+							}, {
+								"title": "Conferência Privada ",
+								"text": "Viagem paga pelo fornecedor para as reuniões de negócios e conferências devem ser revisadas pela área de Recursos Humanos e o Departamento de Compliance Global e aprovada por seu LL1."
+							}, {
+								"title": "Viagem em Aeronave Particular do Fornecedor",
+								"text": "A Diretiva A-110 requer a aprovação do Departamento de Viagens Global para viajar em aviões particulares do fornecedor. Dependendo do motivo da viagem, talvez seja necessário obter a revisão da área de Recursos Humanos e do Departamento de Compliance Global e aprovação por seu LL1."
+							}, {
+								"title": "Eventos Sociais/Recreativos ",
+								"items": [
+									{
+										"title": "Eventos Locais",
+										"text": "Se você estiver viajando junto com um fornecedor para um evento local que é permitido pela política da Ford (por exemplo, o fornecedor irá comparecer, não haverá locais inapropriados e o evento não excederá os limites de frequência), não será necessária nenhuma aprovação especial. Os eventos locais são aqueles que se localizam na mesma área metropolitana onde você está localizado. Se o evento envolver voos ou viagens longas para chegar ao evento, não é um evento local."
+									}, {
+										"title": "Viagem Longa ou Pernoite",
+										"text": "Qualquer evento recreativo ou social/de entretenimento que envolva uma viagem longa ou pernoite deve ser revisado pela área de  Recursos Humanose o Departamento de Compliance Global  e aprovado por seu LL1. Isso será verdadeiro se você, a Ford ou o fornecedor pagarem por sua viagem. Se você aceitar participar de eventos sociais ou de entretenimento em um local para o qual você já viajou às custas da Empresa para negócios da Empresa, você não precisará de aprovações especiais, desde que você cumpra todas as outras políticas da Empresa (tais como, o fornecedor irá comparecer e o evento não será em um local inapropriado e a oferta não excederá os limites de frequência)."
+									}
+								]
+							}
+						]
+					}, {
+						"title": "Conferência Paga pelo Fornecedor",
+						"text": "Para aceitar o ingresso a uma conferência gratuita, você deve ter uma aprovação da gerência (LL4 ou superior). Lembre-se de seguir todas as outras regras sobre presentes, almoços/jantares e entretenimento. As refeições fornecidas aos participantes da conferência não contará em seu limite de refeições"
+					}, {
+						"title": "Oportunidade de Trabalho",
+						"text": "Você não pode usar sua posição na Empresa para conseguir um trabalho para um de seus amigos ou parentes. Você não pode pedir para um fornecedor ou revendedor contratar um de seus amigos ou parentes. Você pode ficar sabendo sobre uma oportunidade de trabalho em outra empresa enquanto estiver trabalhando na Ford. Não há problemas em dizer aos seus amigos ou parentes sobre uma vaga em aberto para que eles possam se candidatar, mas eles devem ser entrevistados junto com os outros candidatos e conseguir o cargo com seus próprios méritos. Você não deve pedir nenhum tipo de consideração especial para seus amigos e parentes."
+					}
+				]
+			}, {
+				"title": "Ingressos",
+				"text": "Se o fornecedor for comparecer, acesse Refeições, Viagens & Eventos Sociais para obter orientações. Se o fornecedor não for comparecer com você, você não poderá aceitar ingressos como um presente. Neste caso, o valor do ingresso não importa."
+			}
+		]
+	}, {
+		"pageKey": "meals-travels",
+		"title": "Refeições, Viagens e Eventos Sociais",
+		"canITitle": "Posso comparecer aos ...?",
+		"canIReminder": "Nunca peça por um convite ou favor. Não são permitidos locais de entretenimento adulto.",
+		"icon": "meals-travels.png",
+		"ciicon": "meals-travels.png",
+		"titleicon": "meals-travels-title.png",
+		"items": [
+			{
+				"title": "Resumo da Política da Empresa ",
+				"icon": "favors_list_icon_01.png",
+				"description": "Socializar com contatos comerciais pode ajudar a melhorar a boa relação de trabalho. No entanto, há limitações sobre quais tipos de refeições e entretenimentos são aceitáveis. Somente eventos sociais que sejam úteis para as discussões comerciais devem ser aceitos. Você deve recusar qualquer convite social que possa criar a aparência inadequada – incluindo os que envolvem entretenimento adulto ou outros locais impróprios. Tenha em mente que, quando você está viajando para a Empresa, você é um representante da Empresa. Você deve sempre usar o bom senso e agir de uma forma que proteja a reputação da Empresa. Siga as políticas da Empresa, especialmente as políticas de viagem e despesas aplicáveis e as políticas éticas da Empresa. Procure orientação caso não tenha certeza do que fazer ou se descobrir que não seguiu a política.",
+				"nextPage": "ps-meals-travels-summary",
+				"descriptionContent": "<div><p>Princípio Ético </p>Socializar com contatos comerciais pode ajudar a melhorar a boa relação de trabalho. No entanto, há limitações sobre quais tipos de refeições e entretenimentos são aceitáveis. Somente eventos sociais que sejam úteis para as discussões comerciais devem ser aceitos. Você deve recusar qualquer convite social que possa criar a aparência inadequada – incluindo os que envolvem entretenimento adulto ou outros locais impróprios. Tenha em mente que, quando você está viajando para a Empresa, você é um representante da Empresa. Você deve sempre usar o bom senso e agir de uma forma que proteja a reputação da Empresa. Siga as políticas da Empresa, especialmente as políticas de viagem e despesas aplicáveis e as políticas éticas da Empresa. Procure orientação caso não tenha certeza do que fazer ou se descobrir que não seguiu a política.</div><div><p>Política Base</p><ul><li>Você pode aceitar refeições normais fornecidas por um fornecedor/revendedor ao participar de reuniões de negócios. Siga os limites da política resumidos abaixo sobre refeições e entretenimento.</li><li>Não participe de um evento impróprio, como um que inclua entretenimento adulto, quando estiver fazendo negócios da Empresa. Pergunte ao seu representante de RH e ao seu gerente sobre quaisquer situações que possam não estar dentro dos limites normais da política.</li><li>Ao participar de atividades pagas pelo fornecedor/revendedor, aceite apenas as refeições e eventos sociais que estão dentro dos limites normais da política. Você deve obter aprovação especial para viagens pagas pelo fornecedor/revendedor.</li><li>As regras de viagem e despesas variam ao redor do mundo. Saiba onde encontrar as mais aplicáveis à sua viagem.</li></ul></div><div><p>Limites Normais da Política</p><ul><li>Uma refeição por trimestre para cada fornecedor/revendedor</li><li>Uma refeição por semana, no total, de todos os fornecedores/revendedores</li><li>Refeições rápidas (bebidas, biscoitos, frutas) oferecidas quando você participar de uma reunião de negócios são permitidas</li><li>Dois eventos de entretenimento por ano de qualquer fornecedor/revendedor</li><li>O fornecedor/revendedor deve participar do evento com você. Se você tiver algum convidado,o anfitrião também deve levar um convidado</li></div><div><p>Outras Orientações </p><ul><li>Para aceitar viagem durante a noite ou viagem longa paga por terceiros, você deve obter a aprovação do seu gerente, VP Corporativo (LL1) e Recursos Humanos nos EUA, Am. do Sul, e AP, ou seu representante de RH em outras regiões</li><li>A aceitação de viagens pagas ou outros custos para conferências e seminários é tratada como viagem paga por terceiros e deve ser aprovada</li><li>Quando você participar como palestrante em algum seminário ou conferência, como  parte de seu trabalho para a Empresa, você não pode aceitar quaisquer taxas  ou prêmios financeiros</li><li>Instituições de caridade, escolas, universidades, grupos de comércio e outras associações comerciais que são apoiadas pela Empresa devem ser tratadas como fornecedores/revendedores</li></ul></div>"
+			}, {
+				"title": "Contatos e Referências",
+				"icon": "favors_list_icon_02.png",
+				"description": "Contatos e referências para ajudá-lo. Quando você tiver acesso à intranet da Ford, poderá rever estes recursos.",
+				"nextPage": "ps-meals-travels-quick-ref",
+				"items": [
+					{
+						"title": "Carta Norma No. 3, Padrões de Conduta Corporativa",
+						"link": ""
+					}, {
+						"title": "Diretiva A-107, Normas de Conduta Corporativa",
+						"link": ""
+					}, {
+						"title": "Diretiva A-110, Viagens a Negócios (inclui aeronave do fornecedor/revendedor)",
+						"link": ""
+					}, {
+						"title": "Política Global de Viagens ",
+						"link": ""
+					}, {
+						"title": "Sua página on-line de Despesas de Viagens (TER), se aplicável, para informações sobre o que pode ser gasto durante a viagem",
+						"link": ""
+					}, {
+						"title": "Para perguntas sobre refeições ou viagens oferecidas por fornecedores ou contatos comerciais, ou comparecimento a eventos sociais, entre em contato com seu representante local de RH ou clique aqui para enviar um e-mail para a área de  Recursos Humanos no WHQ",
+						"link": "mailto:activity@ford.com?subject=Aplicativo Móvel – Refeições e Eventos Sociais"
+					}, {
+						"title": "Para perguntas sobre viagens pela Empresa e políticas de despesas e limites, entre em contato com o Departamento  de Viagens local ou com o representante de Controle Interno",
+						"link": ""
+					}
+				]
+			}, {
+				"title": "Perguntas frequentes",
+				"icon": "favors_list_icon_03.png",
+				"description": "Estamos trabalhando em um projeto com um fornecedor que requer que o nosso grupo trabalhe desde o início da manhã até o horário do jantar. O fornecedor ofereceu-se para trazer sanduíches e saladas para o almoço e o jantar. Uma vez que estamos trabalhando durante o horário de almoço e de jantar, isso é permitido?",
+				"nextPage": "faq-meals-travels"
+			}
+		],
+		"frequently-asked-questions": [
+			{
+				"question": "<strong>Reuniões de Dia: </strong> Estamos trabalhando em um projeto com um fornecedor que requer que o nosso grupo trabalhe desde o início da manhã até o horário do jantar. O fornecedor ofereceu-se para <u>trazer</u> sanduíches e saladas para o almoço e o jantar. Uma vez que estamos <u>trabalhando durante o horário de almoço e de jantar</u> , isso é permitido?",
+				"answer": "Geralmente não é permitido que você tenha mais de uma refeição paga pelo fornecedor por semana. Se as circunstâncias realmente o deixam impossibilitado de pagar por uma dessas refeições, você deve procurar orientação e aprovação do RH ou do Departamento de Compliance Global. Eles irão observar todas as circunstâncias com você para que você possa se sentir confortável e não esteja violando a política.",
+				"nextPage": "faq-meals-travels-detailed",
+				"reference": "meals-travels"
+			}, {
+				"question": "<strong>Sugerir uma Refeição: </strong>Posso <u>sugerir a um fornecedor que eles deveriam oferecer o almoço</u> ou fornecer alimentação para uma reunião? Outros fornecedores fizeram isso anteriormente e as pessoas da minha equipe esperam que se repita. Não quero que o fornecedor se sinta constrangido por não oferecer a alimentação para a reunião.",
+				"answer": "Não. Pedir ao fornecedor para fornecer a alimentação de uma reunião é considerado pedir por favor. Embora alguns fornecedores possam fornecer alimentação por conta própria nas reuniões, você não deve pedir a qualquer fornecedor que ele compre o almoço para uma reunião, nem mesmo a sua equipe deve esperar que os fornecedores ofereçam as refeições. Além disso, lembre aos outros fornecedores que você trabalha com o fato de que eles só podem fornecer uma refeição por trimestre para o pessoal da Ford.",
+				"nextPage": "faq-meals-travels-detailed",
+				"reference": "meals-travels"
+			}, {
+				"question": "<strong>Eventos Fora da Cidade: </strong>Recebo convites para comparecer a eventos esportivos de vários fornecedores/revendedores. A maioria dos eventos é local, mas alguns <u>requerem viagens durante a noite</u>.  Posso comparecer a estes eventos? Existe um limite <u>para o número</u> de eventos aos quais posso comparecer?",
+				"answer": "Você pode aceitar até dois eventos por ano por fornecedor/revendedor. Eles não devem exigir viagens extensas ou estadia durante a noite. O fornecedor/revendedor também deve comparecer. Você deve recusar qualquer convite que requeira uma estadia durante a noite, a menos que você tenha a aprovação apropriada – qualquer exceção para estadias durante a noite requer aprovação do seu LL1 e também da área de Recursos Humanos ou do Departamento de Compliance Global.",
+				"nextPage": "faq-meals-travels-detailed",
+				"reference": "meals-travels"
+			}, {
+				"question": "<strong>Revendedor Fornecendo Refeições: </strong>Estou viajando para visitar alguns revendedores em <u>áreas onde os restaurantes podem não ter a higiene apropriada</u>.  Posso não ser capaz de encontrar um restaurante onde me sinta confortável para comer. Sei que os revendedores confirmarão que a comida seja preparada de forma apropriada, mas eles estarão no comando e podem não permitir que eu pague. Posso aceitar mais de uma refeição por semana durante a viagem?",
+				"answer": "Sua saúde e segurança são de importância primária. Reconhecemos que este tipo de situação existe de tempos em tempos e alguns planejamentos antes da sua viagem podem ajudar a evitar problemas, já que você estará realmente viajando. Por exemplo, você pode ser capaz de encontrar o revendedor no restaurante do hotel onde você está confortavelmente se alimentando e pode pagar pela sua própria refeição. Se você estiver preocupado por não poder comer com segurança dentro dos requisitos normais de refeição, entre em contato com a área de Recursos Humanos ou o Departamento de Compliance Global para obter ajuda e orientação. É útil falar com o seu anfitrião sobre as políticas de presentes e favores da Empresa, de forma que vocês podem trabalhar juntos com uma programação que esteja conforme com as políticas éticas da Empresa.",
+				"nextPage": "faq-meals-travels-detailed",
+				"reference": "meals-travels"
+			}, {
+				"question": "<strong>Refeições Extras: </strong>Vou comparecer a uma conferência em outra região, onde <u>vários fornecedores estarão oferecendo jantares durante a noite</u>.  Gostaria de visitar estes fornecedores que, caso contrário, eu não veria – posso ter mais do que o limite normal de uma refeição paga pelo fornecedor por semana?",
+				"answer": "Se acontecer uma situação em que se justifique exceder o limite normal de uma refeição paga pelo fornecedor por semana, consulte o RH/ ou o Departamento de Compliance Global com antecedência, explicando a situação e solicitando orientação. Você deve manter uma cópia do aviso no caso de surgir alguma pergunta sobre suas ações no futuro.",
+				"nextPage": "faq-meals-travels-detailed",
+				"reference": "meals-travels"
+			}, {
+				"question": "<strong>Relacionamento Pessoal e Comercial: </strong>Estou participando de uma conferência internacional e irei passar o fim de semana lá com meu cônjuge após o fim da conferência como parte das minhas férias. Uma <u>amiga de infância que trabalha para um revendedor da Ford</u> também está participando da conferência. Ela nos <u>convidou</u> para ficarmos na sua casa de campo no fim de semana após a conferência, juntamente com seu marido. Posso aceitar a estadia gratuita na casa de campo?",
+				"answer": "Embora o convite venha de um amigo de infância, a situação é complicada, pelo fato de que você estará realizando negócios como parte da viagem. A melhor coisa a se fazer é recusar a estadia gratuita na casa de campo. Caso contrário, aceitar a oferta poderia criar uma aparência de conduta inadequada. Se você ainda achar que é apropriado na sua situação, você deve apresentar todos os fatos a área de /Recursos Humanos ou ao Departamento de Compliance Global para obter orientação.",
+				"nextPage": "faq-meals-travels-detailed",
+				"reference": "meals-travels"
+			}, {
+				"question": "<strong>Entretenimento/Conferências: </strong>Estarei participando de uma conferência e haverá show de um grupo musical <u>ganhador do Grammy durante uma reunião de networking da conferência</u> à noite. Posso comparecer?",
+				"answer": "Sim, mas irá contar como um evento de entretenimento.",
+				"nextPage": "faq-meals-travels-detailed",
+				"reference": "meals-travels"
+			}, {
+				"question": "<strong>Refeições nas Conferências:  </strong>Estarei <u>participando de uma conferência</u> em que os materiais de marketing dizem que o almoço será patrocinado por uma empresa com a qual a Ford faz negócios.  <u>Preciso contar esse almoço</u> como uma das minhas refeições trimestrais com o fornecedor?",
+				"answer": "Não. As refeições padrão que são oferecidas para participantes de conferências não contam como as limitações de refeição. No entanto, quaisquer jantares ou eventos sociais externos com o fornecedor/revendedor <strong>contam</strong> como as orientações de refeição e evento social.",
+				"nextPage": "faq-meals-travels-detailed",
+				"reference": "meals-travels"
+			}, {
+				"question": "<strong>Taxas de Palestrante: </strong>Fui solicitado para falar durante uma conferência de negócios. O patrocinador que é anfitrião do evento ofereceu-se  <u>para me pagar uma taxa</u>. com um dos palestrantes. Posso aceitar?",
+				"answer": "Se estiver relacionado ao seu trabalho na Ford ou faz parte da sua especialidade comercial na Ford, você não pode aceitar qualquer taxa ou honorário. De forma semelhante, você não pode aceitar presentes que excedam nossas políticas em conexão com um prêmio ou outra honra que você receba. Para obter orientações sobre outras situações, como uma área onde você tem experiência pessoal não relacionada à sua posição na Ford, entre em contato com o Departamento de Compliance Global ou com a área de Recursos Humanos.",
+				"nextPage": "faq-meals-travels-detailed",
+				"reference": "meals-travels"
+			}, {
+				"question": "<strong>Ingressos: </strong>Um possível fornecedor/revendedor <u>me enviou por e-mail dois ingressos</u> para comparecer à apresentação de um cantor de ópera reconhecido em todo o mundo. Sou obrigado a devolvê-los?",
+				"answer": "Sim, você deve devolver os ingressos. Você só pode aceitar um ingresso de entretenimento quando o fornecedor/revendedor também irá comparecer. Sob as políticas da Ford, você só pode aceitar dois eventos de entretenimento por fornecedor/revendedor a cada ano e os representantes do fornecedor/revendedor também devem participar com você. Quando seu cônjuge é convidado para um evento, outros cônjuges também devem estar convidados.",
+				"nextPage": "faq-meals-travels-detailed",
+				"reference": "meals-travels"
+			}, {
+				"question": "<strong>Ingressos: </strong>Um fornecedor me convidou para um evento esportivo o qual está com os ingressos esgotados e eu aceitei. No último minuto, o <u>fornecedor teve de cancelar</u> e me disse para comparecer e usar os ingressos. Estou realmente muito ansioso pelo jogo – ainda posso comparecer?",
+				"answer": "Não. Você não deve ir ao jogo sem o fornecedor que o convidou. O propósito de permitir que o pessoal da Ford aceite convites para socializar com um fornecedor é melhorar as relações de negócios. Você poderia perguntar se um representante do fornecedor com o qual você trabalha poderia ser capaz de comparecer, mas é uma violação da política da Ford para apenas aceitar os ingressos e ir por conta própria.",
+				"nextPage": "faq-meals-travels-detailed",
+				"reference": "meals-travels"
+			},{
+				"question": "<strong>Convidados: </strong>Um fornecedor me convidou para levar um convidado a um evento. Sob a política, sou obrigado a <u>levar minha esposa</u>?",
+				"answer": "Você não é obrigado a comparecer com sua esposa quando existe a possibilidade de levar um convidado. Você pode levar outro convidado apropriado, que irá promover a proposta de negócios da Empresa, você também pode escolher comparecer sem um convidado.",
+				"nextPage": "faq-meals-travels-detailed",
+				"reference": "meals-travels"
+			}, {
+				"question": "<strong>Convidados: </strong>Um fornecedor se ofereceu para me levar <u>junto com a minha esposa a um torneio de tênis</u>. Posso aceitar?",
+				"answer": "<strong>Sim, se você não excedeu dois eventos de entretenimento por ano com este fornecedor e se for um evento local. Sua esposa pode comparecer se outras esposas (incluindo a esposa ou convidado do fornecedor) comparecerem.</strong>",
+				"nextPage": "faq-meals-travels-detailed",
+				"reference": "meals-travels"
+			}, {
+				"question": "<strong>Viajar em Aeronave Particular: </strong>Quero <u>viajar em uma aeronave do fornecedor</u> para um local de trabalho. De qual aprovação eu preciso?",
+				"answer": "Viajar em aeronave do fornecedor requer aprovação especial do Departamento de ViagensCorporativas de acordo com a Diretiva A-110. Você também pode precisar de aprovação das Recursos Humanos ou do Departamento de Compliance Global, a depender do propósito do voo. Mesmo que a Empresa não esteja pagando a passagem aérea, você deve ter o nível apropriado de aprovação para a viagem com base nas autoridades atuais para viagens pagas pela Empresa na sua região.",
+				"nextPage": "faq-meals-travels-detailed",
+				"reference": "meals-travels"
+			}, {
+				"question": "<strong>Pagar a Refeição do Fornecedor: </strong>Estou viajando para uma reunião em outro país. Enquanto estiver lá, estarei tentando coordenar reuniões com alguns fornecedores. Um deles esteve em nossa localidade mês passado e me levou para jantar, de forma que não posso aceitar outra refeição da sua empresa este trimestre. Posso <u>pagar pelo jantar do fornecedor</u> e colocar no meu relatório de despesas de viagem?",
+				"answer": "Talvez. Não há uma política global sobre se a Empresa irá ou não pagar se você for o anfitrião do fornecedor. Você deve verificar com o seu gerente e o Financeiro local para descobrir quais limites você deve ter ao viajar. Se você não pode pagar pela refeição do fornecedor, você pode sair para jantar com ele e cada um paga pela própria refeição. Não há limite sobre quantas vezes você pode fazer uma refeição com um fornecedor se cada um paga pela própria refeição.",
+				"nextPage": "faq-meals-travels-detailed",
+				"reference": "meals-travels"
+			} 
+		],
+		"can-i": [
+			{
+				"title": "Almoços/Jantares",
+				"text": "Você aceitou mais de um almoço/jantar gratuito esta semana?",
+				"items": [
+					{
+						"title": "Sim",
+						"text": "Você não pode aceitar mais de um almoço/jantar gratuito por semana. Sob circunstâncias não usuais, consulte a área de  Recursos Humanos ou o Departamento de Compliance Global."
+					}, {
+						"title": "Não",
+						"text": "Você pode aceitar o convite se não tiver aceito nenhum outro almoço/jantar daquele fornecedor no trimestre. Lembre-se de evitar ter uma conduta inapropriada e não vá a nenhum local inapropriado."
+					}
+				]
+			}, {
+				"title": "Petiscos",
+				"text": "Petiscos leves (por exemplo, drinks, cookies, batatinhas, frutas) fornecidas durante as reuniões de negócios são permitidos."
+			}, {
+				"title": "Viagem Paga pelo Fornecedor/Revendedor",
+				"items": [
+					{
+						"title": "Reunião de Negócios",
+						"text": "Viagem paga pelo fornecedor para as reuniões de negócios e conferências devem ser revisadas pela área de Recursos Humanose Departamento de Compliance Global e aprovada por seu LL1."
+					}, {
+						"title": "Conferência Privada",
+						"text": "Viagem paga pelo fornecedor para as reuniões de negócios e conferências devem ser revisadas pelas área de Recursos Humanose Departamento de Compliance Global e aprovada por seu LL1."
+					}, {
+						"title": "Viagem em Aeronave Particular do Fornecedor",
+						"text": "A Diretiva A-110 requer a aprovação do Escritório de Viagens Global para viajar em aviões particulares do fornecedor. Dependendo do motivo da viagem, talvez seja necessário obter a revisão das área de Recursos Humanos e Departamento de Compliance Global por seu LL1."
+					}, {
+						"title": "Eventos Sociais/Recreativos ",
+						"items": [
+							{
+								"title": "Eventos Locais",
+								"text": "Se você estiver viajando junto com um fornecedor para um evento local que é permitido pela política da Ford (por exemplo, o fornecedor irá comparecer e o evento não excederá os limites de frequência), não será necessária nenhuma aprovação especial. Os eventos locais são aqueles que se localizam na mesma área metropolitana onde você está localizado. Se o evento envolver um voo ou uma viagem longa para chegar ao evento, não é um evento local."
+							}, {
+								"title": "Viagem Longa ou Pernoite",
+								"text": "Qualquer evento recreativo ou social/de entretenimento que envolva uma viagem longa ou pernoite deve ser revisado pelas área de Recursos Humanose Departamento de Compliance Global e área de Recursos Humanose aprovado por seu LL1. Isso será verdadeiro se você, a Ford ou o fornecedor pagarem por sua viagem. Se você aceitar participar de eventos sociais ou de entretenimento em um local para o qual você já viajou pelas custas da Empresa para negócios da Empresa, você não precisará de aprovações especiais desde que você cumpra todas as outras políticas da Empresa (por exemplo, o fornecedor irá comparecer e o evento não será em um local inapropriado e não excederá os limites de frequência)."
+							}
+						]
+					}
+				]
+			}, {
+				"title": "Evento Social Local",
+				"text": "Os eventos locais são aqueles que se localizam na mesma área metropolitana onde você está localizado. Se o evento envolver um voo ou uma viagem longa para chegar ao evento, não é um evento local. <strong>Você já aceitou dois eventos sociais/de entretenimento deste fornecedor/representante/associado?</strong> ",
+				"items": [
+					{
+						"title": "Sim",
+						"text": "Não, você não pode aceitar mais de dois eventos sociais/de entretenimento por ano de um mesmo fornecedor, revendedor ou terceiro com o qual a Empresa negocia."
+					}, {
+						"title": "Não",
+						"text": "Desde que o fornecedor ou revendedor compareça, você poderá aceitar o convite. Lembre-se de evitar conduta inapropriada e não vá a nenhum local inapropriado."
+					}
+				]
+			}, {
+				"title": "Evento Social Envolvendo Viagem",
+				"text": "Qualquer evento recreativo ou social/de entretenimento que envolva uma viagem longa ou pernoite deve ser revisado pelas áreas de Recursos Humanos e o Departamento de Compliance Global e aprovado por seu LL1. Isso será verdadeiro se você, a Ford ou o fornecedor pagarem por sua viagem. Se você aceitar participar de eventos sociais ou de entretenimento em um local para o qual você já viajou pelas custas da Empresa para negócios da Empresa, você não precisará de aprovações especiais desde que você cumpra todas as outras políticas da Empresa (por exemplo, o fornecedor irá comparecer e o evento não será em um local inapropriado e não excederá os limites de frequência)."
+			}, {
+				"title": "Leve um Convidado",
+				"text": "Se o hóspede desejar trazer um convidado, você poderá levar um convidado, caso o convite inclua mais uma pessoa. Você nunca deverá pedir para levar um convidado. Se estiver em dúvida, entre em contato com as área de Recursos Humanos ou com o Departamento de Compliance Global."
+			}
+		]
+	}, {
+		"pageKey": "conflicts-of-interest",
+		"title": "Conflitos de Interesse",
+		"canITitle": "Can I work for ...?",
+		"canIReminder": "Nunca peça presentes ou favores",
+		"icon": "conflicts-of-interest.png",
+		"ciicon": "conflicts-of-interest.png",
+		"titleicon": "conflicts-of-interest-title.png",
+		"items": [
+			{
+				"title": "Resumo da Política da Empresa",
+				"icon": "favors_list_icon_01.png",
+				"description": "Um conflito de interesses existe quando uma atividade ou interesse pessoal pode interferir no seu dever de agir no melhor interesse da Empresa. É essencial que você aja com integridade e nunca enriqueça a si ou outras pessoas durante a realização de negócios da Empresa. Evite comportamento que possa ser interpretado pelos outros como impróprio.",
+				"nextPage": "ps-conflicts-of-interest-summary",
+				"descriptionContent": "<div><p>Princípio Ético </p>Um conflito de interesses existe quando uma atividade ou interesse pessoal pode interferir no seu dever de agir no melhor interesse da Empresa. É essencial que você aja com integridade e nunca enriqueça a si ou outras pessoas durante a realização de negócios da Empresa. Evite comportamento que possa ser interpretado pelos outros como impróprio.<p>Você deve manter os negócios da Empresa separados dos negócios pessoais: </p><ul><li>Não seja detentor de negócio que tem possa ter atividade com a Ford</li><li>Não trabalhe com questões da Empresa que envolvam um negócio que pertence a um parente, ou no qual você estará trabalhando com seu parente</li></ul></div><div><p>Divulgue os potenciais conflitos de interesse para a Empresa e sua gestão: </p><ul><li>Se seu parente trabalha para um fornecedor/revendedor</li><li>Se seu parente tem um interesse financeiro em um fornecedor/revendedor</li><li>Se seu parente vai se beneficiar de qualquer transação com a Empresa ou com um fornecedor/revendedor – por exemplo, por possuir uma empresa que é um subfornecedor , ou por ser dada uma taxa de corretagem</li><li>Se você é diretor, gerente ou consultor de uma organização externa, ou possui um negócio, independentemente da relação de negócios com a Empresa</li></ul></div><div><p>Você não pode possuir um interesse em um fornecedor/revendedor: </p><ul><li>Exceções só podem ser concedidas com aprovação por escrito do Presidente ou do GVP e OGC</li><li>Esta restrição cobre toda a cadeia de fornecedorese não apenas os fornecedores diretos</li></ul><p>Pedir doações para instituições de caridade ou incentivar a empresa a trabalhar com um negócio que você deseja apoiar pode ter muitos problemas éticos. Verifique a seção Presentes e Favores para obter mais orientação</p></div>"
+			}, {
+				"title": "Contatos e Referências",
+				"icon": "favors_list_icon_02.png",
+				"description": "Contatos e referências para ajudá-lo. Quando você tiver acesso à intranet da Ford, poderá rever estes recursos.",
+				"nextPage": "ps-conflicts-of-interest-quick-ref",
+				"items": [
+					{
+						"title": "Carta Norma No. 3, Padrões de Conduta Corporativa",
+						"link": ""
+					}, {
+						"title": "Carta Norma No. 22, Prevenção da Divulgação Inadequada de Informações da Empresa",
+						"link": ""
+					}, {
+						"title": "Diretiva B-109, Uso Apropriado de Recursos da Empresa e Bens Similares da Empresa",
+						"link": ""
+					}, {
+						"title": "A Ferramenta de Divulgação do Conflito de Interesses, ou Formulário de Divulgação para Emprego Externo, Interesses financeiros e Relacionamentos (Conflitos de Interesses), também conhecido como Formulário 2402",
+						"link": ""
+					}, {
+						"title": "Para perguntas sobre conflitos de interesse ou divulgações, entre em contato com seu representante local de RH ou clique aqui para enviar um e-mail para a área de Recursos Humanos no WHQ",
+						"link": "mailto: activity@ford.com?subject=Aplicativo Móvel – COI"
+					}, {
+						"title": "Ou você pode clicar aqui para enviar um e-mail para o Departamento de Compliance Global",
+						"link": "mailto: fordlaw@ford.com?subject=Aplicativo Móvel – COI",
+						"title": "Ou você pode clicar aqui para enviar um e-mail para o Departamento de Compliance Global ",
+						"link": "mailto: fordlaw@ford.com?subject=Aplicativo Móvel – COI"
+					}
+				]
+			}, {
+				"title": "Perguntas frequentes",
+				"icon": "favors_list_icon_03.png",
+				"description": "Meu cônjuge é dono de uma empresa de pequeno porte para realização de treinamento de liderança. Mencionei isso a um revendedor com quem eu trabalho e ele disse que sua equipe se beneficiaria deste tipo de treinamento. Algumas semanas depois, vários revendedores tinham contratado a empresa do meu cônjuge para ajudar suas equipes. Tenho certeza de que os revendedores não sentem qualquer pressão para contratar meu cônjuge. Na verdade, eles parecem realmente felizes com isso. Devo divulgar o negócio do meu cônjuge para a Empresa?",
+				"nextPage": "faq-conflicts-of-interest"
+			}
+		],
+		"frequently-asked-questions": [
+			{
+				"question": "<strong>Empresa Familiar: </strong> Meu <u>cônjuge é dono de uma empresa de pequeno porte</u> para realização de treinamento de liderança. Mencionei isso a um revendedor com quem eu trabalho e ele disse que sua equipe se beneficiaria deste tipo de treinamento. Algumas semanas depois, vários <u>revendedores tinham contratado a empresa do meu cônjuge</u> para ajudar suas equipes. Tenho certeza de que os revendedores não sentem qualquer pressão para contratar meu cônjuge. Na verdade, eles parecem realmente felizes com isso. Devo divulgar o negócio do meu cônjuge para a Empresa?",
+				"answer": "Você deve seguir o processo de apresentação da Empresa para divulgações. Você pode usar a ferramenta on-line de divulgação do conflito de interesses, se disponível no seu país, ou requerer junto ao RH uma cópia impressa do Formulário de Divulgação para Emprego Externo, Interesses financeiros e Relacionamentos (Conflitos de Interesses), também conhecido como Formulário 2402. Nesta situação, a Empresa prefere que o negócio do seu cônjuge cesse todos os negócios com a Empresa ou com seus fornecedores/revendedores, devido à estreita conexão com as suas responsabilidades na Ford. Estes tipos de situações de propriedade familiar são complicadas e elas serão avaliadas com base nos fatos de cada caso.",
+				"nextPage": "faq-conflicts-of-interest-detailed",
+				"reference": "conflicts-of-interest"
+			}, {
+				"question": "<strong>Negócios Externos: </strong> <u>Sou dono de um restaurante</u>. Preciso divulgar isso para a Empresa?",
+				"answer": "Sim, você precisa divulgar a propriedade de um restaurante, pois as suas responsabilidades como proprietário de uma empresa podem interferir nas suas funções na Empresa. Divulgue seu interesse ao seu supervisor e siga o processo de apresentação da Empresa para divulgações. Você pode usar a ferramenta on-line de divulgação do conflito de interesses, se disponível no seu país, ou requerer junto ao RH uma cópia impressa do Formulário de Divulgação para Emprego Externo, Interesses financeiros e Relacionamentos (Conflitos de Interesses), também conhecido como Formulário 2402.",
+				"nextPage": "faq-conflicts-of-interest-detailed",
+				"reference": "conflicts-of-interest"
+			}, {
+				"question": "<strong>Propriedade do Fornecedor: </strong> Tenho interesses de <u>20% em um subfornecedor</u>. Isso é permitido? Uma vez que esse subfornecedor não possui um contrato direto com a Empresa?",
+				"answer": "You must disclose your financial interest in the Tier 2 supplier.  Even though there is no contract between the supplier and the Company, the supplier is in the Company’s supply chain which is considered conducting business with the Company.  This type of situation will need to be reviewed carefully and unless there are special circumstances, it will not be allowed. Disclose your interest to your supervisor and file a Disclosure Form for Outside Employment, Financial Interests and Relationships (Conflicts of Interest) also known as Form 2402.",
+				"nextPage": "faq-conflicts-of-interest-detailed",
+				"reference": "conflicts-of-interest"
+			}, {
+				"question": "<strong>Propriedade do Fornecedor: </strong>Trabalho na Ford e tenho também uma <u>parte na propriedade de uma empresa de consultoria em TI</u>. Outros funcionários desta empresa de consultoria prestam serviços à Ford, mas não trabalho nesses projetos da Ford. Isso é um problema?",
+				"answer": "Você deve divulgar a sua participação neste negócio, independente da empresa trabalhar com a Ford ou não. Note que você também precisa fazer a mesma divulgação se o seu cônjuge ou outro parente tem participação na empresa de consultoria em TI. Se você é um funcionário da Ford, não pode possuir um interesse em um fornecedor da Ford sem a aprovação nos níveis mais altos da Empresa (Presidente, ou GVP e OGC). Se você faz parte do pessoal agenciado, deve informar ao seu gerente e ao seu empregador da agência. (Em alguns países, existe um processo para que o pessoal agenciado faça esses tipos de divulgações através de seu empregador.)",
+				"nextPage": "faq-conflicts-of-interest-detailed",
+				"reference": "conflicts-of-interest"
+			}, {
+				"question": "<strong>Segundo Emprego: </strong><u>Dou aulas</u> de negócios algumas noites e fins de semana em uma universidade local. Preciso divulgar meu segundo emprego como professor?",
+				"answer": "Sim, você deve seguir o processo de apresentação da Empresa para divulgações. Você pode usar a ferramenta on-line de divulgação do conflito de interesses, se disponível no seu país, ou requerer junto ao RH uma cópia impressa do Formulário de Divulgação para Emprego Externo, Interesses financeiros e Relacionamentos (Conflitos de Interesses), também conhecido como Formulário 2402. Além disso, tenha cuidado para que você não use seu tempo de trabalho na Ford com essa segunda atividade; por exemplo, não gaste seu tempo no trabalho dando notas ou pesquisando materiais para aula, ou pedindo aos colegas da Ford para empregar seu tempo de trabalho auxiliando-o.",
+				"nextPage": "faq-conflicts-of-interest-detailed",
+				"reference": "conflicts-of-interest"
+			}, {
+				"question": "<strong>Quadro Externo: </strong>Faço parte do <u>conselho administrativo da associação de desenvolvimento do meu bairro</u>. É um cargo não remunerado; preciso requerer uma divulgação junto à Empresa?",
+				"answer": "Não, somente cargos em entidades nacionais ou entidades sem fins lucrativos de alta visibilidade precisam ser divulgados.",
+				"nextPage": "faq-conflicts-of-interest-detailed",
+				"reference": "conflicts-of-interest"
+			}, {
+				"question": "<strong>Quadro Externo: </strong> Sou LL5 e fui convidado para fazer parte do <u>conselho de uma grande entidade sem fins lucrativos</u>. Preciso requerer uma divulgação junto à Empresa antes de aceitar o cargo?",
+				"answer": "Sim, mesmo que o cargo não seja remunerado. Se você estiver abaixo de LL5, você não precisa divulgar estes cargos sem fins lucrativos. Siga o processo de apresentação da Empresa para divulgações. Você pode usar a ferramenta on-line de divulgação do conflito de interesses, se disponível no seu país, ou requerer junto ao RH uma cópia impressa do Formulário de Divulgação para Emprego Externo, Interesses financeiros e Relacionamentos (Conflitos de Interesses), também conhecido como Formulário 2402.",
+				"nextPage": "faq-conflicts-of-interest-detailed",
+				"reference": "conflicts-of-interest"
+			}, {
+				"question": "<strong>Ganho Pessoal: </strong>Sou gerente na Ford. Foi-me solicitado que aprovasse uma alteração na política para a minha localização. Identifiquei que terei <u>benefícios pessoais com a alteração proposta</u>. Estou desconfortável em dar a minha aprovação nesta situação. O que devo fazer?",
+				"answer": "A qualquer momento que você se beneficie pessoalmente de uma alteração que esteja aprovando, você deve garantir que haja transparência para todos os envolvidos e deve elevar a questão. Uma boa maneira de lidar com este tipo de situação é elevar a aprovação ao seu gerente com uma explicação do impacto da alteração, incluindo como você se beneficiaria pessoalmente.",
+				"nextPage": "faq-conflicts-of-interest-detailed",
+				"reference": "conflicts-of-interest"
+			}, {
+				"question": "<strong>Emprego de Parente: </strong> Meu filho trabalha para uma empresa que fornece serviços para a Empresa. Preciso divulgar esse tipo de relação?",
+				"answer": "Você deve divulgar se estiver em um cargo em que você trabalha diretamente com pessoas do negócio do seu filho ou que poderia permiti-lo tomar quaisquer decisões com relação a este fornecedor/revendedor. Divulgue a situação de emprego do seu filho ao seu supervisor e siga o processo de apresentação da Empresa para divulgações. Você pode usar a ferramenta on-line de divulgação do conflito de interesses, se disponível no seu país, ou requerer junto ao RH uma cópia impressa do Formulário de Divulgação para Emprego Externo, Interesses financeiros e Relacionamentos (Conflitos de Interesses), também conhecido como Formulário 2402. Também recomendamos que você divulgue estes tipos de situações mesmo que não trabalhe diretamente com o negócio do seu filho.",
+				"nextPage": "faq-conflicts-of-interest-detailed",
+				"reference": "conflicts-of-interest"
+			}, {
+				"question": "<strong>Emprego de Parente: </strong> Minha filha começou recentemente a trabalhar em uma revendedora da Empresa. Preciso divulgar essa relação?",
+				"answer": "Se você estiver em um cargo em que trabalhe com revendedores ou tenha que tomar quaisquer decisões quanto ao revendedor, você deve divulgar a relação de emprego da sua filha ao seu supervisor e seguir o processo de apresentação da Empresa para divulgações. Você pode usar a ferramenta on-line de divulgação do conflito de interesses, se disponível no seu país, ou requerer junto ao RH uma cópia impressa do Formulário de Divulgação para Emprego Externo, Interesses financeiros e Relacionamentos (Conflitos de Interesses), também conhecido como Formulário 2402. Recomendamos também que você divulgue tais relações mesmo que não tenha responsabilidades diretas com as revendas.",
+				"nextPage": "faq-conflicts-of-interest-detailed",
+				"reference": "conflicts-of-interest"
+			}, {
+				"question": "<strong>Emprego de Parente: </strong>Meu irmão trabalha para uma empresa que fornece serviços de engenharia para a Empresa. Eu não vou entrar em contato com essa empresa, uma vez que trabalho no setor de Marketing e Vendas. O que devo fazer?",
+				"answer": "Uma vez que você não trabalha com este fornecedor, não é necessário divulgar esta relação ao seu supervisor ou à Empresa. Contudo, recomendamos que você divulgue tal relacionamento, pois, uma vez que você não trabalhe atualmente com o fornecedor, pode acontecer de você mudar de cargo na sua carreira na Ford e comece a trabalhar com esse fornecedor no futuro.",
+				"nextPage": "faq-conflicts-of-interest-detailed",
+				"reference": "conflicts-of-interest"
+			}, {
+				"question": "<strong>Propriedade de Parente: </strong> Minha cunhada é dona de uma revenda Ford. Preciso divulgar esse tipo de relação?",
+				"answer": "Sim, você deve divulgar essa situação ao seu supervisor e seguir o processo de apresentação da Empresa para divulgações. Você pode usar a ferramenta on-line de divulgação do conflito de interesses, se disponível no seu país, ou requerer junto ao RH uma cópia impressa do Formulário de Divulgação para Emprego Externo, Interesses financeiros e Relacionamentos (Conflitos de Interesses), também conhecido como Formulário 2402, uma vez que a sua cunhada é um <u>membro da família</u> e você está consciente dessa participação.",
+				"nextPage": "faq-conflicts-of-interest-detailed",
+				"reference": "conflicts-of-interest"
+			}, {
+				"question": "<strong>Propriedade de Parente: </strong> Não tenho uma relação próxima com a minha família. Meu irmão casou com uma mulher que é dona de parte de um negócio familiar, mas eu não sei o nome da empresa ou com o que ela trabalha. Preciso pedir informações a eles, caso essa empresa seja um fornecedor da Ford?",
+				"answer": "Não, você não precisa perguntar ao seu irmão e à sua cunhada onde eles trabalham ou sobre a participação deles. Se você não tem essas informações, você não terá problemas se acontecer de você trabalhar com a empresa deles. Se você descobrir essa informação no futuro e a empresa deles fizer negócios com a Ford, nesse momento, você preenche o Formulário de Divulgação para Emprego Externo, Interesses financeiros e Relacionamentos (Conflitos de Interesses), também conhecido como Formulário 2402.",
+				"nextPage": "faq-conflicts-of-interest-detailed",
+				"reference": "conflicts-of-interest"
+			}, {
+				"question": "<strong>Ex-colegas de Trabalho: </strong> Um de meus <u>ex-colegas de trabalho</u> da Ford trabalha atualmente para um de nossos fornecedores. Ela me telefona às vezes e <u>pede que eu faça algum favor </u>e descubra informações que o fornecedor precisa para completar seu pacote de licitação. Uma vez que eu não faço parte do processo de licitação, às vezes fico pensando se deveria dar tais informações. Existe algum problema em fornecer informações da Ford?",
+				"answer": "Você tem razão em se sentir desconfortável. Você não deveria fazer favores especiais para alguém de outra empresa só porque vocês trabalharam juntos, ou porque a pessoa é sua amiga. Uma vez que não é responsável pelo processo de licitação, você não sabe se o fornecedor tem ou não direito às informações. Ela pode estar usando isso para conseguir vantagem sobre os outros licitantes. Diga que você não pode lhe fornecer informações e que ela precisa conversar com a equipe de licitação para obter informações. Eles poderão dar certeza de que, se um fornecedor recebe informações, todos os outros licitantes obtenham as mesmas informações. Caso ela continue pedindo esse tipo de favores especiais depois de ter uma conversa com ela, relate o ocorrido ao seu supervisor ou ao RH.",
+				"nextPage": "faq-conflicts-of-interest-detailed",
+				"reference": "conflicts-of-interest"
+			}, {
+				"question": "<strong>Definição: </strong> Quem é considerado um <u>membro da família</u>?",
+				"answer": "A Carta Norma No. 3 possui uma definição específica que inclui cônjuge, pais, irmãos e filhos (incluindo sogros e cunhados). Quando se trata de fazer divulgações, recomendamos que você divulgue situações que envolvam qualquer membro da família com o qual você tenha uma relação próxima, ou seu companheiro. Por exemplo, algumas pessoas podem ter uma relação próxima com seus sobrinhos e sobrinhas e interagir semanalmente. Se você tem uma relação próxima com um membro da família, a melhor coisa a fazer é divulgar conflitos de interesse potenciais, de forma que você e a Empresa possam ter certeza de que vocês não estão em uma situação em que você tenha de escolher entre o que é melhor para o membro da sua família e o que é melhor para a Empresa.",
+				"nextPage": "faq-conflicts-of-interest-detailed",
+				"reference": "conflicts-of-interest"
+			}
+		]
+	}, {
+		"pageKey": "company-assets",
+		"title": "Uso dos Bens da Empresa",
+		"canITitle": "Can I use ...?",
+		"canIReminder": "Nunca peça presentes ou favores",
+		"icon": "use-of-company-assets.png",
+		"ciicon": "use-of-company-assets.png",
+		"titleicon": "company-assets-title.png",
+		"items": [
+			{
+				"title": "Resumo da Política da Empresa",
+				"icon": "favors_list_icon_01.png",
+				"description": "Os bens da Empresa são para o benefício da Empresa, e não para nenhum funcionário em especial. É importante entender que os bens da empresa incluem equipamentos (como o seu laptop), serviços (como o e-mail e a internet fornecidos pela Empresa) e itens intangíveis (como o logotipo da Ford e outra propriedade intelectual). Por exemplo, usar o logotipo da Empresa em suas comunicações pessoais pode criar confusão e pode implicar que a Empresa apoia pontos de vista ou transações comerciais com as quais na verdade ela não concorda. Isso poderá criar riscos legais para a empresa, especialmente se for usado para fins ilegais ou antiéticos. Usar suprimentos, equipamento e outros bens físicos –e até o tempo do funcionário – em última análise, custa dinheiro à Empresa. É injusto usar os bens da Empresa em seu benefício próprio.",
+				"nextPage": "ps-company-assets-summary",
+				"descriptionContent": "<div><p>Princípio Ético </p>Os bens da Empresa são para o benefício da Empresa, e não para nenhum funcionário em especial. É importante entender que os bens da empresa incluem equipamentos (como o seu laptop), serviços (como o e-mail e a internet fornecidos pela Empresa) e itens intangíveis (como o logotipo da Ford e outra propriedade intelectual). Por exemplo, usar o logotipo da Empresa em suas comunicações pessoais pode criar confusão e pode implicar que a Empresa apoia pontos de vista ou transações comerciais com as quais na verdade ela não concorda. Isso poderá criar riscos legais para a empresa, especialmente se for usado para fins ilegais ou antiéticos. Usar suprimentos, equipamento e outros bens físicos –e até o tempo do funcionário – em última análise, custa dinheiro à Empresa. É injusto usar os bens da Empresa em seu benefício próprio.</div><div><p>Política Base</p><ul><li>Os funcionários da empresa têm o dever de proteger os bens da mesma e garantir que eles sejam utilizados em conformidade com a política da Empresa</li><li>A mídia social pode confundir as linhas entre seu trabalho e sua vida pessoal – consulte as seções Perguntas Frequentes, Contatos e Referências para obter mais informações</li><li>Os bens da Empresa devem ser usados para fins de negócios da Empresa, embora a Diretiva B-109 permita alguns usos pessoais acidentais que não interfiram em seu trabalho e no de seus colegas -- consulte a seção Perguntas Frequentes para exemplos úteis</li><li>Como está sujeito à exceção limitada para uso pessoal acidental, não use os recursos da Empresa para executar um negócio pessoal, apoiar um segundo emprego, um empreendimento pessoal semelhante ou realizar qualquer atividade de angariação de fundos que não seja para a Empresa</li></ul></div><div><ul><li>Há limites para a realização de fotos e gravações em propriedade da Empresa ou durante a realização de negócios da Empresa – verifique se você está seguindo as orientações da Empresa</li><li>Acessar, reproduzir, exibir, distribuir ou armazenar quaisquer materiais que sejam de conteúdo sexual explícito, obsceno, difamatório, ofensivo, ilegal ou inapropriado é totalmente proibido</li><li>Por estarmos sujeitos às leis locais, você não deve esperar ter privacidade ao usar os computadores da Empresa e outros recursos </li><li>Você não deve usar materiais, informações confidenciais da Empresa para fazer transações de mercado de ações ou ajudar outras pessoas a fazê-las – você poderá estar violando a lei e terá responsabilidade pessoal</li><li>Você não deve compartilhar informações confidenciais da Empresa fora da mesma sem uma autorização adequada</li><li>Os equipamentos da empresa e os veículos são recursos da mesma e você deve seguir as políticas de segurança aplicáveis da Empresa, as quais incluem o uso de cintos de segurança e evitam as distrações aos motoristas</li></ul></div>"
+			}, {
+				"title": "Contatos e Referências",
+				"icon": "favors_list_icon_02.png",
+				"description": "Contatos e referências para ajudá-lo. Quando você tiver acesso à intranet da Ford, poderá rever estes recursos.",
+				"nextPage": "ps-company-assets-quick-ref",
+				"items": [
+					{
+						"title": "Diretiva B-109, Uso Apropriado dos Bens da Empresa, Incluindo Recursos de Computador",
+						"link": ""
+					}, {
+						"title": "Diretiva B-105, Atribuição, Uso e Venda/Aluguel de Veículos da Empresa",
+						"link": ""
+					},{
+						"title": "Diretiva C-114, Dispositivos de Captura de Áudio e Vídeo",
+						"link": ""
+					},{
+						"title": "Requisitos para o Uso de Webcams ou Registros de WebEx",
+						"link": ""
+					},{
+						"title":"Orientações de Mídia Social",
+						"link":""
+					},{
+						"title": "Para perguntas sobre o uso apropriado dos Recursos da Empresa, entre em contato com seu representante local de RH ou clique aqui para enviar um e-mail para as área de Recursos Humanos no WHQ",
+						"link": "mailto: activity@ford.com?subject=Aplicativo Móvel – Uso dos bens da Empresa"
+					}, {
+						"title": "Ou você pode clicar aqui para enviar um e-mail para o Departamento de Compliance Global",
+						"link": "mailto: fordlaw@ford.com?subject=Aplicativo Móvel – Uso dos bens da Empresa"
+					}
+				]
+			}, {
+				"title": "Perguntas frequentes",
+				"icon": "favors_list_icon_03.png",
+				"description": "Eu trabalho no departamento de manutenção e tenho meu próprio negócio de “faz-tudo” durante as noites e finais de semana. Às vezes, pego algumas ferramentas emprestadas do meu departamento para trabalhar em projetos de finais de semana e sempre as devolvo. Isso está certo?",
+				"nextPage": "faq-company-assets"
+			}
+		],
+		"frequently-asked-questions": [
+			{
+				"question": "<strong>Empréstimo de Equipamentos: </strong>Eu trabalho no departamento de manutenção e tenho meu próprio negócio de “faz-tudo” durante as noites e finais de semana. Às vezes, <u>pego algumas ferramentas emprestadas do meu departamento</u> para trabalhar em projetos de finais de semana e sempre as devolvo. Isso está certo?",
+				"answer": "Não, os Bens da empresa pertencem à Empresa e não a você, pessoalmente. Você não pode usar materiais da Empresa ou equipamentos para realizar seus negócios pessoais.",
+				"nextPage": "faq-company-assets-detailed",
+				"reference": "company-assets"
+			}, {
+				"question": "<strong>Trabalho com Veículos Próprios:  </strong>Ouvi que meu colega de trabalho traz <u>seu carro até a oficina mecânica da Empresa</u> para consertar os freios. Ele pediu para que alguns amigos o ajudassem. Isso é permitido?",
+				"answer": "Não. As instalações, ferramentas e equipamentos da empresa são bens da mesma, a serem usados em benefício da Empresa, e não para os funcionários pessoalmente.",
+				"nextPage": "faq-company-assets-detailed",
+				"reference": "company-assets"
+			}, {
+				"question": "<strong>Negócios Externos: </strong>Tenho várias propriedades de aluguel e dei aos meus inquilinos meu número comercial para que eles <u>entrem em contato comigo durante o dia, caso tenham problemas</u>.  Praticamente uma vez por semana, <u>saio do escritório por algumas horas</u> para fazer reparos em minhas propriedades alugadas. Isso é aceitável?",
+				"answer": "Sair do trabalho mais cedo para atender suas questões de empreendimento pessoal é proibido, a menos que você tenha um período de férias aprovado por seu supervisor. Seu telefone de trabalho é um bem da Empresa, que não deve ser utilizado para realizar um negócio pessoal ou apoiar um segundo emprego ou outro empreendimento pessoal; você pode atender uma chamada pessoal ocasional que não interfira em seu trabalho ou no de seus colegas de trabalho, mas o seu número de trabalho não deve ser um número de contato para o seu negócio pessoal.",
+				"nextPage": "faq-company-assets-detailed",
+				"reference": "company-assets"
+			}, {
+				"question": "<strong>E-mails Inapropriados: </strong>Tenho amigos que me enviam e-mails em minha conta do trabalho com materiais que algumas pessoas consideram <u>obscenos ou difamatórios</u> de determinados grupos. Não quero ter problemas no trabalho. O que devo fazer?",
+				"answer": "Primeiramente, peça aos seus amigos para pararem de enviar esses e-mails para o seu e-mail de trabalho. Se desejar receber esse tipo de mensagem, peça para que enviem para a sua conta de e-mail pessoal. Se você suspeitar que um e-mail pessoal contenha materiais inapropriados, não abra-o em seu computador de trabalho –, outras pessoas poderão vê-lo quando passarem por sua mesa e cópias dele ficarão no sistema da Ford. Exclua os e-mails potencialmente inapropriados sem abri-los e envie um lembrete aos seus amigos dizendo-lhes para enviá-los para seu e-mail pessoal.",
+				"nextPage": "faq-company-assets-detailed",
+				"reference": "company-assets"
+			}, {
+				"question": "<strong>Empresa Familiar:  </strong>Meus pais têm um pequeno negócio de alimentação que não tem nenhuma relação com a Empresa. Esse negócio está fornecendo para um evento dos nossos vizinhos. O <u>vizinho ligou para o meu escritório</u> durante o dia e me pediu para passar algumas informações sobre a comida, pois não conseguiram falar com mais ninguém. Tudo bem fornecer informações mesmo quando estou no trabalho?",
+				"answer": "Fazer uma ligação rápida como essa, desde que não seja algo frequente, não significa um problema. Se você precisar enviar um e-mail sobre isso, faça-o de sua conta pessoal. Atender ligações de seus parentes em uma base frequente, no entanto, não é um uso aceitável dos Bens da Empresa – incluindo seu tempo.",
+				"nextPage": "faq-company-assets-detailed",
+				"reference": "company-assets"
+			}, {
+				"question": "<strong>Ensino: </strong>Eu dou aulas em uma escola local à noite. Uso <u>meu laptop da Empresa</u> para acompanhar as notas e fazer o planejamento de aulas no trabalho. Às vezes,  <u>eu imprimo pilhas de trabalhos</u> para a classe enquanto estou no trabalho. Não vejo nada de errado nisso. A Ford apoia diversos tipos de projetos educacionais, portanto, isso é como se a própria empresa estivesse dando suporte à escola. Concorda?",
+				"answer": "Não. A decisão de se a Empresa irá ou não oferecer suporte a um programa educacional não é uma decisão pessoal, mas sim uma decisão tomada pela Empresa. Ao imprimir materiais não relacionados ao trabalho, e usar o seu laptop como um recurso significativo para um trabalho de fora da Ford, você está usando os bens da Empresa para suportar seus negócios pessoais. Se você acreditar que a Empresa deva oferecer suporte à escola local, você precisa falar com a gerência local para obter aprovação. Dependendo do suporte que for fornecido, a gerência precisará acompanhar o processo para doações beneficentes.",
+				"nextPage": "faq-company-assets-detailed",
+				"reference": "company-assets"
+			},
+			{
+                "question": "<strong>Mídia Social:</strong>Gosto de ler artigos on-line e, às vezes, <u>postar comentários</u>.Me disseram para eu ter cuidado com as coisas que posto. Estou fazendo isso fora do meu horário comercial, por que a empresa se importaria? ",
+                "answer": "Internet e as mídias sociais muitas vezes dificultam traçar uma linha de diferenciação entre sua vida pessoal e seu lado profissional. A Empresa possui diretrizes para auxiliá-lo a perceber as áreas com as quais precisa ter cuidado. Temos algumas diretrizes mais detalhadas publicadas na intranet da Empresa, mas nossas principais diretrizes estão postadas em nosso website público. Estas são as mais básicas:<ul><li><strong>Honestidade</strong> sobre a sua identidade</li><li><strong>Clareza</strong> de que as suas opiniões são mesmo suas</li><li><strong>Respeito e humildade</strong> em todas as comunicações</li><li><strong>Bom senso ao compartilhar</strong> somente informações que estejam disponíveis publicamente</li><li><strong>Consciência</strong> de que o que você diz é permanente</li></ul>",
+                "nextPage": "faq-working-together-detailed",
+                "reference": "working-together"
+            },
+            {
+                "question": "<strong>Mídia Social/Fotos ou Vídeos: </strong>Nosso grupo acabou de concluir um grande projeto e eu tirei algumas <u>fotos do nosso almoço de comemoração</u>. Posso <u>postá-las</u> em minha página de mídia social?",
+                "answer": "Talvez. Primeiro, você precisa ter certeza de que as fotos que você tirou poderiam ter sido tiradas. Alguns locais possuem restrições sobre tirar fotos, tais como nossas instalações de design ou de testes. Se as fotos não tiverem nenhuma informação confidencial, você deve se certificar de que todas as pessoas nas fotos deram seu consentimento para que você as postasse. Você deve rever os Requisitos para Uso de Webcams ou Registros de WebEx disponíveis na intranet da Ford para obter informações que se apliquem não apenas aos registros, mas também às fotos.",
+                "nextPage": "faq-company-assets-detailed",
+                "reference": "company-assets"
+            },
+            {
+                "question": "<strong>Fotos ou Vídeos: </strong>Temos reuniões mensais e alguém sugeriu que nós <u>registrássemos as reuniões</u>, em vez de termos reuniões rápidas. Há algum problema nisso?",
+                "answer": "Há leis e políticas que se aplicam ao tirar fotos, gravar vídeos ou outros tipos de registros em relação aos negócios da Ford. Tirar fotos e fazer outros registros somente é permitido sob a Diretiva C-114 para determinados fins e fazer registros das reuniões onde são discutidos os negócios e decisões não é um uso aprovado. Se a política não permitir fotos ou registros, você não poderá tirar fotos ou fazer registros, mesmo se estiver usando um iPhone corporativo ou outro equipamento da Empresa. Lembre-se, alguns países possuem leis específicas relacionadas a tirar fotos ou fazer registros com relação aos negócios da Empresa. Você deve rever os Requisitos para Uso de Webcams ou Registros de WebEx, que resumem as etapas que devem ser seguidas, independentemente do tipo de tecnologia utilizada para fazer um registro.",
+                "nextPage": "faq-company-assets-detailed",
+                "reference": "company-assets"
+            }
+		]
+	}, {
+		"pageKey": "anti-bribery-corruption",
+		"title": "Antisuborno e Anticorrupção",
+		"canITitle": "Can I give ...?",
+		"canIReminder": "Nunca peça presentes ou favores",
+		"icon": "anti-bribery-corruption.png",
+		"ciicon": "anti-bribery-corruption.png",
+		"titleicon": "anti-bribery-corruption-title.png",
+		"items": [
+			{
+				"title": "Resumo da Política da Empresa",
+				"icon": "favors_list_icon_01.png",
+				"description": "A Ford não paga subornos e nem permite que outras pessoas o façam nos negócios da Ford. Nossa boa reputação é um patrimônio inestimável, e tem  sido adquirida através de anos conduzindo nossos negócios de forma ética, mas pode ser perdida rapidamente. Para manter a confiança das partes interessadas, você tem o dever de conduzir os negócios de forma justa, honesta e em conformidade com a política da Empresa e da lei. Quando você demonstra integridade nos negócios, você ajuda a Ford a ir mais longe – pelo caminho correto e protege a valorosa reputação da Empresa.",
+				"nextPage": "ps-anti-bribery-corruption-summary",
+				"descriptionContent": "<div><p>Princípio Ético</p>A Ford não paga subornos e nem permite que outras pessoas o façam nos negócios da Ford. Nossa boa reputação é um patrimônio inestimável, e tem  sido adquirida através de anos conduzindo nossos negócios de forma ética, mas pode ser perdida rapidamente. Para manter a confiança das partes interessadas, você tem o dever de conduzir os negócios de forma justa, honesta e em conformidade com a política da Empresa e da lei. Quando você demonstra integridade nos negócios, você ajuda a Ford a ir mais longe – pelo caminho correto e protege a valorosa reputação da Empresa.<p>Lembre-se</p><ul><li>O suborno vai contra a política da Empresa e viola a lei</li><li>Subornar não é só fazer um pagamento em dinheiro, mas também é oferecer, prometer ou autorizar a dar qualquer coisa de valor para influenciar indevidamente outras pessoas para obter ou manter negócios</li></ul></div><div><ul><li>Nós nunca devemos prometer qualquer coisa de valor (mesmo em pequenas quantidades) para influenciar indevidamente outras pessoas a fim de obter ou manter negócios – tal ato é proibido pela política da Empresa e pode criar riscos legais para você e para a Ford;</li><li>Até mesmo os pequenos pagamentos para garantir o desempenho de uma ação governamental de rotina são contra a política da Empresa</li><li>Nunca permita que um fornecedor/revendedor ou outra pessoa realize subornos na condução dos negócios da Empresa, especialmente ao lidar com funcionários do governo</li><li>Atente-se para comissões excessivas ou aumentos não explicados nos preços de venda, que podem ser uma indicação de que algum dinheiro extra está sendo gerado para pagar um suborno</li><li>Quando for necessário contratar alguém para negociar com funcionários do governo em nome da Empresa, assegure-se de que esse representante seja ético e não se envolva em subornos ou outros atos proibidos (não se esqueça de realizar a devida auditoria)</li></ul></div><div><ul><li>Qualquer contrato com um fornecedor/revendedor, consultor ou agente que possa ter contato com funcionários do governo deve possuir cláusulas que proíbam o suborno e que permitam que a Empresa realize auditorias</il><li>Se você suspeitar que um fornecedor ou qualquer pessoa que represente a Empresa possa estar envolvido em suborno, relate imediatamente suas preocupações ao Departamento de Compliance Global, para que possamos rastrear e corrigir quaisquer problemas</li><li>Caso seja permitido pela legislação local, você pode fornecer almoços/jantares e entretenimento adequados a um funcionário do governo. Para minimizar o risco da Empresa ser acusada de suborno, se você estiver planejando oferecer presentes, viagens ou entretenimento, descontos especiais ou outros favores aos funcionários do governo ou departamentos, entre em contato com o Departamento de Compliance Global e com a área de  Assuntos Governamentais. Há processos a serem seguidos para obter as aprovações necessárias.</li></ul></div>"
+			}, {
+				"title": "Contatos e Referências",
+				"icon": "favors_list_icon_02.png",
+				"description": "Contatos e referências para ajudá-lo. Quando você tiver acesso à intranet da Ford, poderá rever estes recursos.",
+				"nextPage": "ps-anti-bribery-corruption-quick-ref",
+				"items": [
+					{
+						"title": "Carta Norma No. 3, Padrões de Conduta Corporativa.",
+						"link": ""
+					}, {
+						"title": "Diretiva A-109, Fornecimento de Presentes, Prêmios e Itens Relacionados pela Empresa",
+						"link": ""
+					}, {
+						"title": "FM 905-90-10, Contato com Funcionários do Governo e Entidades Governamentais",
+						"link": ""
+					}, {
+						"title": "Site do SharePoint para a Aprovação do Departamento de Compliance Global para obtenção de aprovação para atos que envolvam relacionamentos com governo",
+						"link": ""
+					}, {
+						"title": "Política de Viagens Global (seção 2.9.4 para o fornecimento de viagens aos funcionários do governo)",
+						"link": ""
+					}, {
+						"title": "Para fazer perguntas ou considerações sobre as questões antisuborno, entre em contato com seu representante do OGC ou com o Departamento de Compliance Local, ou clique aqui para enviar um e-mail para o Departamento de Compliance Global <strong>[criar e-mail para fordlaw@ford.com]</strong>. As aprovações devem ser fornecidas pelo Departamento de Compliance Global.",
+						"link": "mailto:fordlaw@ford.com?subject=Aplicativo Móvel – Anticorrupção"
+					}, {
+						"title": "Entre em contato com o seu representante local de Assuntos Governamentais para obter orientações sobre como proceder na hipótese de contatos com funcionários do governo, bem como obter as aprovações necessárias",
+						"link": ""
+					}
+				]
+			}, {
+				"title": "Perguntas frequentes",
+				"icon": "favors_list_icon_03.png",
+				"description": "Estou trabalhando para obter as aprovações locais para poder nomear um novo Distribuidor Ford , mas está demorando muito. Fui informado pelo novo Distribuidor Ford que se a Ford contratar o filho de um prefeito local, ele tem certeza de que este processo seria realizado rapidamente. O filho é recém-formado em uma universidade conceituada. Devo indicar o filho do oficial para contratação?",
+				"nextPage": "faq-anti-bribery-corruption"
+			}
+		],
+		"frequently-asked-questions": [
+			{
+				"question": "<strong>Emprego: </strong>Estou trabalhando para obter as aprovações locais para poder nomear um novo Distribuidor Ford , mas está demorando muito. Fui informado pelo novo Distribuidor Ford que se a Ford contratar o filho de um prefeito local, ele tem certeza de que este processo seria realizado rapidamente. O filho é recém-formado em uma universidade conceituada. Devo indicar o filho do oficial para contratação?",
+				"answer": "Nãorecomendamosque a Ford contrate o filho do funcionário do governo. Em vez disso, indique educadamente o processo de recrutamento da Empresa para o Distribuidor Forde não tome nenhuma medida para ajudar a indicar o filho do funcionário do governo para uma determinada posição. Ajudar na contratação de um membro da família de um funcionário do governo pode ser considerado uma forma de suborno, portanto, assegure-se de não tomar medidas especiais para recomendar o filho do funcionário do governo e deixar que o processo de contratação normal siga seu curso. Você também deverá entrar em contato com o Departamento de Compliance Global para documentar a situação.",
+				"nextPage": "faq-anti-bribery-corruption-detailed",
+				"reference": "anti-bribery-corruption"
+			}, {
+				"question": "<strong>Empréstimo de Veículos: </strong>Um funcionário do governo, com quem eu sempre trabalho, mencionou que ele viria para a cidade para uma visita rápida à sua família e me perguntou se havia <u>algum veículo que ele pudesse emprestar</u> da Empresa. Eu posso emprestar o veículo a um funcionário do governo por alguns dias?",
+				"answer": "Não, emprestar um veículo da Empresa para um funcionário do governo para uso pessoal é um favor e poderia ser considerado um suborno. Em algumas circunstâncias, pode ser apropriado fornecer transporte por motivos de demonstração ou para auxiliar uma agência do governo em situações incomuns. Fornecer veículos ou pagar a viagem de um funcionário do governo exige a aprovação prévia do Departamento de Compliance Global da área de Assuntos Governamentais.",
+				"nextPage": "faq-anti-bribery-corruption-detailed",
+				"reference": "anti-bribery-corruption"
+			}, {
+				"question": "<strong>Taxas Extras: </strong>Estou supervisionando as operações de um novo local programado para abrir em 30 dias. Antes que as instalações possam ser abertas, precisamos de mais três licenças do governo. Estamos esperando há nove meses por elas e o tempo normal de processamento é de seis meses. A funcionária do governo com a qual estive trabalhando informou-me que, se eu <u>pagar a ela uma taxa adicional de US$20 para as licenças</u>, ela poderá acelerar o processo e entregá-las prontas em 10 dias. Posso pagar a taxa de US$20 para garantir que a inauguração ocorra sem problemas?",
+				"answer": "Não, você não deve pagar nenhuma taxa não oficial para a funcionária do governo. Se você estiver encontrando dificuldades, entre em contato com o OGC local, Departamento de Compliance Global ou a área de Assuntos Governamentais para obter ajuda. Realizar tal pagamento não só expõe a Ford a multas e custos legais, como também faz com que os funcionários do governo esperem pequenos subornos no futuro – o que resultará em mais custos operacionais para a Empresa e potencialmente para outros membros da comunidade.",
+				"nextPage": "faq-anti-bribery-corruption-detailed",
+				"reference": "anti-bribery-corruption"
+			}, {
+				"question": "<strong>Entretenimento: </strong>Estamos lançando um novo produto em nossa região e gostaríamos de <u>convidar diversos funcionários do governo para um evento</u> para celebrarmos esta conquista. Há alguma restrição quanto a isso?",
+				"answer": "Podemos hospedar funcionários do governo para fins de negócios legítimos, desde que os custos sejam razoáveis. Você deve entrar em contato com o Departamento de Compliance Global e com a área de Assuntos Governamentais para obter as aprovações necessárias.",
+				"nextPage": "faq-anti-bribery-corruption-detailed",
+				"reference": "anti-bribery-corruption"
+			}, {
+				"question": "<strong>Taxas Extras/Fornecedores: </strong>Nosso grupo é responsável por registrar os veículos da empresa com o governo. Isso deve ser feito no órgão do governo competente e requer muita burocracia.<u>Contratamos um prestador de serviços  local</u> para cuidar disso para a Empresa. Notei que o <u>prestador de serviços</u> enviou um recibo emitido pelo governo referente ao pagamento da taxa de registro e, em seguida, <u>adicionou uma “taxa de manutenção especial”</u> na fatura, além da taxa de serviço negociada. Isso está certo?",
+				"answer": "Foi bom que você observou essa taxa inesperada – ela pode ser um suborno disfarçado e precisa de uma investigação mais aprofundada. Você deve entrar em contato com o Departamento de Compliance Global para reportar a situação e para obter orientações sobre como lidar com a situação.",
+				"nextPage": "faq-anti-bribery-corruption-detailed",
+				"reference": "anti-bribery-corruption"
+			}, {
+				"question": "<strong>Ações do Revendedor: </strong>Trabalho na área de Marketing e <u>um de nossos revendedores deseja custear uma viagem</u> aos EUA para os funcionários do governo local. O revendedor pagará por tudo, mas perguntou se a Ford pode fornecer um passeio por nossas instalações e a oportunidade de conhecer alguns membros de nossa equipe. Podemos fazer isso, já que a <u>Ford não está pagando nada da viagem</u>?",
+				"answer": "Mesmo que a Ford não esteja pagando pela viagem, ela sabe sobre a viagem e está cooperando ao fornecer um passeio e participando de reuniões. Ignorar suspeitas de suborno põe a Empresa em risco. Entre em contato com o Departamento de Compliance Global para obter orientações e as aprovações necessárias. Lembre-se, se a Ford não puder fazer algo diretamente, não podemos permitir que outras pessoas o façam em relação aos nossos negócios.",
+				"nextPage": "faq-anti-bribery-corruption-detailed",
+				"reference": "anti-bribery-corruption"
+			},{
+				"question": "<strong>Almoços/jantares com Funcionários do Governo: </strong>Estou <u>realizando uma visita com funcionários do governo em outro país</u> para ver se podemos desenvolver uma parceria de pesquisa que irá beneficiar a Ford e a comunidade. Uma das funcionárias locais e eu decidimos <u>almoçar juntos após nossas reuniões </u>e eu pensei que seria educado pagar seu almoço como uma demonstração de cortesia e respeito por sua posição. Posso fazer isso?",
+				"answer": "Você pode pagar por uma refeição razoável para um funcionário do governo segundo a política da Ford. Se for algo além de uma refeição leve ou básica para um funcionário do governo, será necessário obter uma autorização prévia do Departamento de Compliance Global . Como as legislações locais variam e nós não queremos prejudicar o funcionário, você também deve perguntar a ele(a) se isso violaria as próprias regras de ética do governo. E lembre-se –antes de marcar reuniões com funcionários do governo, certifique-se de que você esteja trabalhando de alinhado com a área de  Assuntos Governamentais.",
+				"nextPage": "faq-anti-bribery-corruption-detailed",
+				"reference": "anti-bribery-corruption"
+			}
+		]
+	}, {
+		"pageKey": "it-security-and-privacy",
+		"title": "Privacidade e Segurança de TI (PII)",
+		"canITitle": "Can We do ...?",
+		"canIReminder": "Nunca peça presentes ou favores",
+		"icon": "it-security-and-privacy.png",
+		"ciicon": "it-security-and-privacy.png",
+		"titleicon": "it-security-and-privacy-title.png",
+		"items": [
+			{
+				"title": "Resumo da Política da Empresa",
+				"icon": "favors_list_icon_01.png",
+				"description": "O sucesso da nossa Empresa depende da confiança das partes interessadas (clientes, funcionários, fornecedores e revendedores). Além disso, informação é um ativo estratégico de negócios que todos devemos proteger. Uma gestão eficaz das informações da Empresa auxilia a Mesma a proteger informações confidenciais, cumprir as suas metas de negócios e manter uma vantagem competitiva.",
+				"nextPage": "ps-it-security-and-privacy-summary",
+				"descriptionContent": "<div><p>Princípio Ético </p>O sucesso da nossa Empresa depende da confiança das partes interessadas (clientes, funcionários, fornecedores e revendedores). Além disso, informação é um ativo estratégico de negócios que todos devemos proteger. Uma gestão eficaz das informações da Empresa auxilia a Mesma a proteger informações confidenciais, cumprir as suas metas de negócios e manter uma vantagem competitiva.<br/><br/> A divulgação não autorizada de informações da Empresa pode comprometer a posição competitiva da Empresa e sua reputação. Isso é especialmente verdade para informações pessoais identificáveis (PII). As PII devem ser utilizadas em conformidade com as políticas da Empresa, a lei e a finalidade para a qual foram recolhidas. Somos responsáveis pela segurança e integridade de todos os dados que coletamos. Se as PII são transferidas de uma empresa para outra dentro da Ford ou a uma empresa externa, precisamos assegurar que o destinatário esteja contratualmente obrigado a fornecer níveis adequados de proteção e que todas as exigências legais aplicáveis sejam cumpridas.</div><div><p>Noções Básicas de Segurança de TI</p><ul><li>Você tem o dever de manter a informação da Empresa de forma segura e com precisão (saber como classificar as informações e os passos necessários para proteger os documentos)</li><li>Ao trabalhar com informações Confidenciais ou Secretas<ul><li>Criptografar e-mail e proteger os dados armazenados</li><li>Apenas compartilhar informações quando existe uma necessidade comercial para ser reconhecida</li><li>Estabelecer controles de acesso apropriados para sites do SharePoint e outros sistemas ou bases de dados. Revise esses controles de acesso regularmente para garantir que eles ainda são válidos</li></ul></li><li>Não use aplicativo ou software não aprovado para o negócio da Empresa. Esse uso pode expor informações da Ford para divulgação</li><li>Mantenha seus dispositivos atuais com atualizações de software</li><li>Não coloque informações da Empresa em dispositivos pessoais (por exemplo, pen drive, computador pessoal ou celular), exceto quando permitido através de um programa oferecido pela Empresa</li><li>Caso precise compartilhar informações não-públicas com alguém fora da Empresa (incluindo empreendimentos conjuntos), tenha certeza de ter o acordo de confidencialidade adequado aprovado pela Empresa que cobre as informações que você quer compartilhar</li><li>Mantenha sempre seus dispositivos móveis (ou seja, telefones, iPads, pen drives) em seu poder</li></ul></div><div><p>Práticas Seguras</p><ul><li>Use senhas fortes (combine 8 a 12 letras e números/caracteres especiais, usando letras maiúsculas e minúsculas, quando suportado pelo sistema)</li><li>Não compartilhe sua senha com ninguém</li><li>Evite usar a mesma senha em vários sistemas, sempre que possível, e evite usar sua ID de CDS Ford para se inscrever em contas que não sejam da Ford</li><li>Criminosos cibernéticos não têm como meta apenas sistemas da Empresa, eles também têm como alvo indivíduos dentro da Empresa para obter acesso aos sistemas da Mesma ou atacar outros</li><li>Criminosos cibernéticos também podem roubar sua identidade pessoal e cometer fraudes com suas informações (contas bancárias, cartões de crédito e histórico médico)</li><li>Não clique em links suspeitos de e-mails, mesmo que você ache que conhece o remetente</li><li>Ao viajar a negócios pela Empresa, sempre estabeleça uma sessão VPN (SecurID) ao utilizar Wi-Fi público</li><li>Ataques pela internet são comuns. Se algo parecer suspeito ou errado, realmente há algum problema. Relate-o</li></ul></div><div><p>Considerações Especiais para Informações Pessoais Identificáveis (PII)</p><ul><li>As PII são as informações que podem ser relacionadas com um indivíduo em particular ou que podem ser usadas para identificar um único indivíduo </li><li>Ao manusear PII, espera-se que você tome medidas razoáveis e apropriadas para proteger as PII de perda ou uso indevido</li><li>Se você está coletando PII, indique a finalidade da coleta das PII e limite o uso para esse fim – e considere se você pode reunir adequadamente os dados que precisa sem incluir as PII</li><li>Se você suspeitar que a segurança ou confidencialidade de PII foi comprometida, envie imediatamente um relatório de incidente para Segurança/Investigações Globais</li><li>Você deve ter acordos adequados no local, como o Suplemento de PII, antes de compartilhar as PII com uma empresa independente, como um fornecedor</li></ul></div><div><p>Antes de compartilhar PII:</p><ul><li>Descubra quais PII serão compartilhadas e por que foram originalmente coletadas (o propósito original)</li><li>Descubra por que as PII são necessárias <strong>e se o uso é consistente com o propósito original</strong></li><li>Certifique-se de que o destinatário protege adequadamente as PII através de um <strong>acordo/requisito de contrato</strong></li><li>Se houver uma transferência internacional de PII (nota: qualquer acesso às PII constitui uma transferência), entre em contato com seu escritório jurídico local ou safeharb@ford.com para determinar o que é necessário para transferir as PII. Os requisitos podem incluir consentimento do indivíduo ou de um acordo de transferência de PII.</li></ul></div>"
+			}, {
+				"title": "Contatos e Referências",
+				"icon": "favors_list_icon_02.png",
+				"description": "Contatos e referências para ajudá-lo. Quando você tiver acesso à intranet da Ford, poderá rever estes recursos.",
+				"nextPage": "ps-it-security-and-privacy-quick-ref",
+				"items": [
+					{
+						"title": "Carta Norma No. 23, Privacidade e Proteção de Informações Pessoais Identificáveis",
+						"link": ""
+					}, {
+						"title": "Diretiva B-104, Confidencialidade de Registros de Empregados e Proteção de Informações Pessoais Identificáveis ",
+						"link": ""
+					}, {
+						"title": "Diretiva C-110, Obtenção de Informações de Fora da Empresa",
+						"link": ""
+					}, {
+						"title": "Diretiva C-113, Padrões de Privacidade do Consumidor e Proteção de Informações Pessoais Identificáveis",
+						"link": ""
+					}, {
+						"title": "Diretiva C-116, Proteção pelo Fornecedor de Informações Pessoais Identificáveis",
+						"link": ""
+					}, {
+						"title": "Manual da Política de TI",
+						"link": ""
+					}, {
+						"title": "Site de Privacidade Corporativa",
+						"link": ""
+					}, {
+						"title": "Digital Worker",
+						"link": ""
+					}, {
+						"title": "Protegendo o Treinamento Humano",
+						"link": ""
+					}, {
+						"title": "GIS1 – Gerência de Registros",
+						"link": ""
+					}, {
+						"title": "GIS2 – Segurança de Informações",
+						"link": ""
+					}, {
+						"title": "Central de Serviços da Segurança de TI",
+						"link": ""
+					}, {
+						"title": "Para perguntas sobre Segurança de TI, entre em contato com seu representante local de TI ou clique aqui para enviar um e-mail para <strong>Segurança de TI</strong>",
+						"link": "mailto: secureit@ford.com?subject=Aplicativo Móvel – Segurança de TI"
+					}, {
+						"title": "Para perguntas sobre Privacidade e PII, entre em contato com seu representante local de OGC ou clique aqui para enviar um e-mail para o <strong>Departamento de Compliance Global/Privacidade</strong>",
+						"link": "mailto: privacy@ford.com?subject=Aplicativo Móvel – Privacidade"
+					}
+				]
+			}, {
+				"title": "Perguntas frequentes",
+				"icon": "favors_list_icon_03.png",
+				"description": "Quais são os exemplos comuns de PII?",
+				"nextPage": "faq-it-security-and-privacy"
+			}
+		],
+		"frequently-asked-questions": [
+			{
+				"question": "<strong>Definição de PII: </strong>Quais são os exemplos <u>comuns de PII</u>?",
+				"answer": "As PII são quaisquer informações que possam identificar um indivíduo único ou ser identificadas para aquele indivíduo, tais como: nome, endereço, número de telefone, endereço de e-mail, números de identificação do veículo (VIN) e itens semelhantes. Um subconjunto crítico de PII são as Informações Pessoais Identificáveis Confidenciais (SPII), e têm direito à proteção adicional. Definimos as SPII para os nossos propósitos como elementos de dados poderosos que identificam um indivíduo único e podem permitir que outra pessoa “assuma” a identidade daquela pessoa. Isto pode ocorrer quando os elementos de dados são utilizados sozinhos combinados com o nome de uma pessoa ou combinados com outras PII.",
+				"nextPage": "faq-it-security-and-privacy-detailed",
+				"reference": "it-security-and-privacy"
+			}, {
+				"question": "<strong>Compartilhando as PII: </strong> Posso <u>compartilhar PII de consumidor</u> do banco de dados do meu departamento com outro departamento no mesmo país?",
+				"answer": "Depende se as PII serão usadas para finalidades consistentes com aquelas divulgadas no momento da coleta. Se o uso for consistente com a finalidade divulgada, o compartilhamento de PII com outro departamento no mesmo país normalmente não origina preocupações de proteção de dados. O departamento de compartilhamento é responsável por garantir que o beneficiário das PII proteja adequadamente as mesmas. Além disso, apenas PII que sejam solicitadas devem ser compartilhadas. O consentimento pode ser necessário antes de usar as PII para um novo propósito.",
+				"nextPage": "faq-it-security-and-privacy-detailed",
+				"reference": "it-security-and-privacy"
+			}, {
+				"question": "<strong>TransferênciasInternacionais: </strong> Um colega de trabalho que trabalha em  <u>uma divisão de outro país</u> me pediu para <u>compartilhar PII</u>. Qual é a melhor linha de ação?",
+				"answer": "Transferir PII internancionalmente é um assunto complicado, portanto, você deve sempre procurar por orientação do seu escritório jurídico local antes de compartilhar ou dar acesso às PII a indivíduos localizados fora do seu país.",
+				"nextPage": "faq-it-security-and-privacy-detailed",
+				"reference": "it-security-and-privacy"
+			}, {
+				"question": "<strong>Utilizando os Fornecedores: </strong>Temos um <u>fornecedor que enviará comunicações de marketing</u> em nome da Ford. O que é preciso?",
+				"answer": "O Suplemento de PII ou um acordo que cumpra a Diretiva C-116 deve estar vigente entre as partes (isso inclui os termos que proíbem o uso de PII para qualquer outra finalidade e requerem controles de segurança adequados). Disposições adicionais em um acordo podem ser necessárias se as PII forem transferidos para outros países . Consulte a Diretiva C-116 para obter os requisitos que se aplicam.",
+				"nextPage": "faq-it-security-and-privacy-detailed",
+				"reference": "it-security-and-privacy"
+			}, {
+				"question": "<strong>Serviços de Armazenamento Gratuitos/Não aprovados: </strong> Estou viajando para visitar minha irmã e quero ser capaz de editar alguns documentos em tempo de atender um prazo. Existem alguns serviços gratuitos ótimos para armazenamento de documentos. Posso usar um <u>serviço de armazenamento para recuperar os documentos</u> a partir do computador da minha irmã para atender ao meu prazo?",
+				"answer": "Não. Você não pode colocar informações da Ford em um serviço de nuvem não autorizado, uma vez que isso aumenta o risco de que informações da Ford sejam divulgadas. Você também deve evitar usar qualquer dispositivo inseguro, que não seja da Empresa, para trabalhar com documentos da Ford (tal como o computador da sua irmã). Ao trabalhar fora do escritório, você tem várias opções para recuperar de forma segura e trabalhar com seus documentos. As opções incluem: <ul><li>Usar um laptop da Empresa</li><li>Usar um pen drive criptografado ou webvpn (apagar todos os arquivos que podem ter sido copiados para um computador que não seja da Empresa)</li></ul>",
+				"nextPage": "faq-it-security-and-privacy-detailed",
+				"reference": "it-security-and-privacy"
+			}, {
+				"question": "<strong>Encaminhamento Automático: </strong> Estou saindo de férias e quero ficar atualizado com os meus e-mails. Posso <u>encaminhar automaticamente meus e-mails de trabalho para o meu e-mail pessoal </u> e recuperá-los a partir do meu computador pessoal?",
+				"answer": "Não, você não deve usar o e-mail pessoal para negócios da Empresa. Você pode usar seu e-mail pessoal quando as informações no e-mail forem públicas ou proprietárias. No entanto, quando você usa o encaminhamento automático, é provável que algo que é confidencial ou secreto seja enviado para o seu e-mail pessoal e isso não é permitido. Você pode usar a solução de acesso de e-mail baseada na web da Empresa, fmail.ford.com. Considere se inscrever em ePOD para receber e-mails da Empresa no seu dispositivo móvel de propriedade pessoal. Você só deve encaminhar automaticamente para outra conta de e-mail Ford",
+				"nextPage": "faq-it-security-and-privacy-detailed",
+				"reference": "it-security-and-privacy"
+			}, {
+				"question": "<strong>Materiais Roubados: </strong> Estou fazendo uma viagem de negócios e <u>alguém roubou minha maleta</u>.  Ela estava com meu laptop e cópias impressas de algumas anotações de reuniões sobre planos futuros da Empresa. O que devo fazer?",
+				"answer": "Você deve entrar em contato com Segurança para relatar os itens que foram roubados. Você também deve apresentar um boletim policial e anotar cuidadosamente cada item que estava na sua maleta.",
+				"nextPage": "faq-it-security-and-privacy-detailed",
+				"reference": "it-security-and-privacy"
+			}, {
+				"question": "<strong>Solicitações de Senhas:  </strong> Recebi um e-mail indicando que o centro de serviços do TI precisa realizar algumas atualizações de software no meu laptop disponibilizado pela Ford, mas <u>eles precisam do meu nome de usuário e senha</u> a fim de atualizá-lo. O e-mail contém um link, o qual eles me pedem para acessar imediatamente a fim de fornecer estes dados. Devo enviar?",
+				"answer": "Não. O centro de serviços do TI nunca pediria suas credenciais. Esta é uma técnica comum – chamada “phishing” que os hackers usam para conseguir suas credenciais. Quando você receber esse tipo de e-mail e achar que pode ser legítimo, entre em contato com a empresa ou o grupo que aparece no nome do e-mail através de outro método que não seja clicando em um link ou respondendo ao e-mail. Procure por informações do contato através de uma busca na qual confie.",
+				"nextPage": "faq-it-security-and-privacy-detailed",
+				"reference": "it-security-and-privacy"
+			}, {
+				"question": "<strong>Informações Isoladas: </strong> Todos me dizem que os dados com os quais trabalho são confidenciais, mas eles não significam nada por si só. Se eu enviar a você um arquivo do que eu recolho, você não saberia nem mesmo o que significa, pois você  <u>precisa de outras informações</u> que estão em um sistema diferente para conectá-las a um indivíduo ou empresa. Por que preciso ser tão cuidadoso com esses dados?",
+				"answer": "Quando alguém está tentando roubar informações da Empresa, com frequência esse alguém coleta um pouco por vez e coletará esses dados de lugares diferentes. O pouco que eles conseguem de você pode ser apenas o que precisam para formar uma imagem maior que revela informações estratégicas sobre o negócio ou um indivíduo.",
+				"nextPage": "faq-it-security-and-privacy-detailed",
+				"reference": "it-security-and-privacy"
+			}, {
+				"question": "<strong>Viagens Internacionais: </strong> Faço muitas viagens internacionais. Entendo que existem riscos especiais para a divulgação ou o roubo de dados quando estou em viagens por alguns países. Vocês têm alguma dica para <u>viagens com um laptop</u>?",
+				"answer": "Você está certo. Às vezes, oficiais da alfândega pegarão seu laptop para inspeção e podem possivelmente fazer o download de dados. Sabe-se que esses que estão tentando roubar informações comerciais trabalham com pessoal de hotéis para obter acesso a quartos de hóspedes para copiar dados de dispositivos ou papéis deixados no quarto. Para ajudar a proteger tanto suas informações quanto as informações da Empresa, não deixe seu laptop ou papéis confidenciais no seu quarto de hotel, ou, caso contrário, sem supervisão. Ao viajar para algumas áreas do mundo, recomendamos levar um laptop limpo do departamento com apenas as informações que precisa para a viagem, quando possível.",
+				"nextPage": "faq-it-security-and-privacy-detailed",
+				"reference": "it-security-and-privacy"
+			}
+		]
+	},  {
+		"pageKey": "working-together",
+		"title": "Trabalhando em Conjunto",
+		"canITitle": "Can I do ...?",
+		"canIReminder": "Nunca peça presentes ou favores",
+		"icon": "working-together.png",
+		"ciicon": "working-together.png",
+		"titleicon": "working-together-title.png",
+		"items": [
+			{
+				"title": "Resumo da Política da Empresa",
+				"icon": "favors_list_icon_01.png",
+				"description": "Espera-se que todos aqueles associados aos nossos negócios se comportem respeitosamente no trabalho. Isso significa que respeitamos, ouvimos, ajudamos e agradecemos a todos, sejam eles nossos colegas de trabalho, clientes, fornecedores, revendedores ou qualquer outra pessoa com quem entramos em contato durante a realização de negócios da Empresa. Trabalhamos juntos para criar um ambiente onde todos são respeitados e valorizados.",
+				"nextPage": "ps-working-together-summary",
+				"descriptionContent": "<div><p>Princípio Ético  </p>Espera-se que todos aqueles associados aos nossos negócios se comportem respeitosamente no trabalho. Isso significa que respeitamos, ouvimos, ajudamos e agradecemos a todos, sejam eles nossos colegas de trabalho, clientes, fornecedores, revendedores ou qualquer outra pessoa com quem entramos em contato durante a realização de negócios da Empresa. Trabalhamos juntos para criar um ambiente onde todos são respeitados e valorizados. <br/><br/>A segurança de nossos funcionários, de nossos clientes e de nossas comunidades é de extrema importância para a Empresa e deve ser considerada conforme projetamos e fabricamos nossos produtos e tomamos decisões que afetam nossos trabalhadores ou as comunidades em que atuamos. A Empresa sempre se esforça para ser um bom cidadão corporativo e para beneficiar as comunidades em que atuamos.</div><div>Sabemos que trabalhar de forma respeitosa em conjunto e que considerar diferentes pontos de vista irá gerar melhores resultados. Ao mesmo tempo, é importante estar ciente de comportamentos que podem destruir um ambiente de trabalho respeitoso e inclusivo. Consulte a seção Perguntas Frequentes para obter exemplos e lembre-se destas noções básicas:<ul><li>Trate todos com respeito</li><li>Não discrimine com base em raça, cor, religião, idade, sexo, orientação sexual, identidade de gênero, estado civil, nacionalidade, deficiência ou condição militar.</li><li>Abstenha-se de comportamento que possa interferir no desempenho do trabalho dos outros, ou possa criar um ambiente que poderia ser intimidante, hostil ou ofensivo – que não só viola a política da Empresa, mas pode violar a lei local</li><li>Relate violações suspeitas da política ou da lei que governa o nosso negócio – que inclui falar se você observar alguém fazendo bullying ou assédio no curso de nosso trabalho ou na propriedade da Ford</li><li>Pode haver considerações especiais ao usar a mídia social – consulte a seção sobre Uso dos bens da Empresa para obter mais informações</li><li>Gerentes têm responsabilidades adicionais – consulte a seção sobre Dicas para Gerentes para obter mais informações</li></ul></div><div>Onde quer que estejamos fazendo negócios no mundo, devemos respeitar a segurança do trabalhador, a segurança do produto e a segurança ambiental para todas as comunidades – o que obviamente inclui respeitar os direitos humanos das pessoas que trabalham para fabricar e montar nossos produtos.<ul><li>As decisões não podem ser tomadas com base apenas no custo – lembre-se de considerar saúde, segurança e impactos ambientais ao tomar decisões </li><li>Nunca permita o trabalho infantil ou o trabalho escravo (incluindo tráfico de seres humanos) </li><li>Sempre permita que os trabalhadores possam se associar livremente e participem de negociações coletivas</li><li>Incentive aqueles em nossa cadeia de abastecimento para seguir as nossas políticas em matéria de direitos humanos, condições de trabalho, antissuborno e proteção ao meio ambiente </li></ul></div>"
+			}, {
+				"title": "Contatos e Referências",
+				"icon": "favors_list_icon_02.png",
+				"description": "Contatos e referências para ajudá-lo. Quando você tiver acesso à intranet da Ford, poderá rever estes recursos.",
+				"nextPage": "ps-working-together-quick-ref",
+				"items": [
+					{
+						"title": "Carta Norma No. 1, Política de Qualidade da Ford",
+						"link": ""
+					}, {
+						"title": "Carta Norma No. 2, Relações com os Empregados",
+						"link": ""
+					}, {
+						"title": "Carta Norma No. 6, Oportunidades Iguais",
+						"link": ""
+					}, {
+						"title": "Carta Norma No. 17, Proteção da Saúde e do Meio Ambiente",
+						"link": ""
+					}, {
+						"title": "Carta Norma No. 24, Código de Condições Básicas de Trabalho e Responsabilidade Social",
+						"link": ""
+					}, {
+						"title": "Diretiva B-110, Antiassédio – Tolerância Zero",
+						"link": ""
+					}, {
+						"title": "RH ON-LINE para informações adicionais e recursos sobre antiassédio e discriminação",
+						"link": ""
+					}, {
+						"title": "Para perguntas sobre assédio, discriminação ou retaliação, entre em contato com seu representante local de RH ou clique aqui para enviar um e-mail para a área de Recursos Humanos no WHQ",
+						"link": "mailto: activity@ford.com?subject=Aplicativo Móvel – Trabalhando em Conjunto"
+					}, {
+						"title": "Para perguntas sobre direitos humanos nos fornecedores ou empreendimentos conjuntos, entre em contato com a equipe de Sustentabilidade de Compras ou clique aqui para enviar um e-mail para esse grupo no WHQ",
+						"link": "mailto: fwcp@ford.com?subject=Aplicativo Móvel – Trabalhando em Conjunto"
+					}, {
+						"title": "Para perguntas sobre direitos humanos e operações da Ford, entre em contato com a equipe de Sustentabilidade ou clique aqui para enviar um e-mail para esse grupo no WHQ",
+						"link": "mailto: sustaina@ford.com?subject=Aplicativo Móvel – Trabalhando em Conjunto"
+					}, {
+						"title": "Você também pode entrar em contato com o Departamento de Compliance Global para fazer perguntas sobre qualquer um destes tópicos clicando aqui",
+						"link": "mailto: fordlaw@ford.com?subject=Aplicativo Móvel – Trabalhando em Conjunto"
+					}, {
+						"title": "Você deve comunicar imediatamente qualquer assédio ao RH; nos EUA, você pode ligar para a linha contra assédio: 888-735-6650",
+						"link": ""
+					}
+				]
+			}, {
+				"title": "Perguntas frequentes",
+				"icon": "favors_list_icon_03.png",
+				"description": "Sei que o assédio sexual é proibido no trabalho. Não tenho certeza do que isso quer dizer. Quais são os exemplos de assédio sexual?",
+				"nextPage": "faq-working-together"
+			}
+		],
+		"frequently-asked-questions": [
+			{
+				"question": "<strong>Assédio Sexual: </strong> Sei que o assédio sexual é proibido no trabalho. Não tenho certeza do que isso quer dizer. Quais são os <u>exemplos de assédio sexual?</u>",
+				"answer": "Lembre-se que o que é aceitável, divertido ou inofensivo para você pode ser indesejável, abusivo ou ofensivo para os outros. Pense em como suas palavras e ações podem ser percebidas pelos outros. Exemplos comuns de comportamento que são proibidos na Ford e podem ser considerados assédio sexual incluem: <ul><li>Conversas de cunho sexual abusivas, ofensivas ou indesejadas, investidas, insinuações, piadas, brincadeiras ou contato físico</li><li>Exibir mensagens explícitas ou sugestivas sexualmente por meio de desenhos, fotografias ou outros itens – incluindo na tela do seu computador ou no seu armário</li><li>Contato físico que não seja apropriado em um ambiente comercial</li><li>Continuar a perseguir alguém – chamando para sair ou pedindo atenção – quando a pessoa indicou que ele ou ela não tem interesse</li><li>Usar o seu cargo para conseguir favores sexuais através de ameaças ou recompensas</li><li>Enviar material gráfico sexual através do sistema de e-mails da Empresa ou de outros dispositivos eletrônicos (por exemplo, mensagem de voz, pagers, rádios, etc.) ou usar a internet da Empresa, o e-mail da Empresa ou os computadores da Empresa para visualizar tais materiais</li></ul>",
+				"nextPage": "faq-working-together-detailed",
+				"reference": "working-together"
+			}, {
+				"question": "<strong>Assédio e Bullying: </strong> Um dos meus colegas de trabalho parece fazer muitas piadas sobre outra pessoa do grupo. Isso é assédio? Quais são os <u>exemplos de assédio ou bullying</u>?",
+				"answer": "Comentários grosseiros e repetitivos a alguém podem sim ser assédio ou bullying. Lembre-se que o que é aceitável, divertido ou um estereótipo comum para você pode ser indesejável, abusivo ou ofensivo para os outros. Aqui estão alguns exemplos de comportamento que podem ser vistos como assédio: <ul><li>Contar piadas ou histórias, ou fazer sinais ou desenhos que são depreciativos relativamente a membros de um grupo em particular, estejam ou não presentes os membros daquele grupo</li><li>Usar insultos ou termos depreciativos, ou contar piadas sobre raça, cor, religião, idade, sexo, orientação sexual, identidade de gênero, estado civil, nacionalidade ou grupo étnico, deficiência ou condição militar de alguém</li><li>Ameaçar, intimidar, sabotar, danificar ou interferir no trabalho de alguém </li><li>Enviar comunicações não desejadas ou postar mensagens impróprias em mídias sociais sobre um colega de trabalho</li></ul>",
+				"nextPage": "faq-working-together-detailed",
+				"reference": "working-together"
+			}, {
+				"question": "<strong>E-mail Pessoal ou Dispositivos:  </strong> Tudo bem se eu enviar  <u>mensagens sexuais</u> para alguns colegas de trabalho como uma brincadeira usando meu <u>telefone pessoal</u> quando não houver muito trabalho? Isso violaria as políticas da Empresa, uma vez que estou usando meu próprio telefone?",
+				"answer": "Comportamento que possa ser considerado assédio é inaceitável, seja enquanto você usa seu próprio telefone ou e-mail, seja com recursos da Empresa. Você não deve enviar materiais sexuais (por exemplo, piadas, comentários ou fotografias) a seus colegas de trabalho ou contatos comerciais.",
+				"nextPage": "faq-working-together-detailed",
+				"reference": "working-together"
+			}, {
+				"question": "<strong>E-mail da Empresa: </strong> De vez em quando, recebo  <u>piadas grosseiras</u> no meu <u>e-mail da Empresa</u> que são destinadas a um determinado grupo étnico ou têm <u>imagens obscenas</u> em anexo. Posso encaminhá-las a outras pessoas, uma vez que não fui eu quem criou o e-mail?",
+				"answer": "Não. Encaminhar e-mails inapropriados é considerado o mesmo que criar e enviar o e-mail. Apague o e-mail inapropriado e peça ao remetente para não enviar mais esse tipo de material para o seu e-mail da Empresa. Caso venha de um colega de trabalho ou contato comercial, você deve reportar o ocorrido a área de Recursos Humanos ou ao seu supervisor.",
+				"nextPage": "faq-working-together-detailed",
+				"reference": "working-together"
+			}, {
+				"question": "<strong>Lidar com uma Interação Ruim: </strong> Membros da minha <u>equipe gostam de contar piadas</u> nas reuniões. Às vezes, fico ofendido e, algumas vezes, consigo notar que outros membros também se ofendem. O que devo fazer se <u>as piadas começarem a se tornar</u> inapropriadas e chegarem a me ofender ou a ofender outros membros da equipe?",
+				"answer": "Se você sentir que está sendo tratado com assédio ou discriminação, ou se você presenciar que outra pessoa está sendo tratada desta forma, fale para a pessoa parar, caso você se sinta à vontade para tanto. Se você for o gerente do grupo, deve intervir imediatamente e cessar esse comportamento. Lembre-se de reportar qualquer comportamento que possa ser considerado assédio, discriminação ou retaliação ao seu representante local de RH ou ao Departamento de Compliance Global, se você não se sentir à vontade para relatar à sua gerência.",
+				"nextPage": "faq-working-together-detailed",
+				"reference": "working-together"
+			}, {
+				"question": "<strong>Comportamento Não-verbal: </strong> Meu gerente conversou comigo e contou que eu estava tratando um dos meus colegas de trabalho de forma inapropriada, e o que eu estava fazendo poderia ser considerado assédio. <u>Nunca falo com essa pessoa</u> – Eu nem mesmo gosto dele. Como posso ter tratado alguém com assédio se eu não disse nada?",
+				"answer": "Coisas que você faz, assim como coisas que você diz, podem ser vistas como assédio ou bullying. Mesmo que você não diga nada a uma pessoa, algumas coisas, como gestos grosseiros, toques inapropriados, bloquear o movimento de uma pessoa ou desenhos/imagens ofensivas, podem ser assédio ou bullying. Se você não tem certeza ainda, peça ao seu gerente maiores esclarecimentos.",
+				"nextPage": "faq-working-together-detailed",
+				"reference": "working-together"
+			}, {
+				"question": "<strong>Comportamentos do Gerente: </strong> Entendo que o meu comportamento como gerente pode afetar se as pessoas da minha área virão ou não até mim para <u>relatar problemas</u> que tenham. O que devo fazer para encorajá-las a vir até mim com seus problemas?",
+				"answer": "A resposta do gerente tem um impacto real sobre a forma como o pessoal pode estar disposto a relatar problemas que eles têm ou veem. Você pode falar com o RH ou com o Departamento de Compliance Global se tiver perguntas específicas, mas abaixo encontra-se uma lista de dicas úteis.<br/><br/><p><strong>FAÇA: </strong></p><ul><li>Defina o tom certo para a sua equipe – demonstre os comportamentos One Ford e promova a importância de política, procedimentos e dos treinamentos que recebemos</li><li>Reserve um tempo para ouvir alguém que queira fazer um relato e garanta a essa pessoa que a Empresa quer fazer a coisa certa – mas não faça quaisquer promessas sobre o que a Empresa irá fazer, uma vez que não temos ainda todos os fatos </li><li>Informe a qualquer um que faça um relato que você irá manter em confidencialidade a informação – e o fato de que ele ou ela fez um – relato. Depois, certifique-se de não compartilhar informações sobre relatórios de assédio, discriminação, retaliação ou fraude com outros de fora do RH, do OGC, ao seu Coordenador de Incidentes Locais ou ao seu Coordenador de Investigações Regionais</li><li>Verifique depois com a pessoa que fez o relato se o problema foi resolvido</li></ul><p><strong>E NÃO FAÇA: </strong></p><ul><li>Nunca menospreze a importância dos nossos comportamentos One Ford ou comprometa o treinamento que a sua equipe recebe ignorando-o você mesmo</li><li>Nunca diga aos trabalhadores para simplesmente ignorar comportamentos grosseiros ou de assédio </li><li>Nunca diga aos trabalhadores para cuidarem dos próprios problemas quando eles relatarem comportamentos inapropriados ou violações suspeitas</li><li>Nunca diga aos trabalhadores para realizarem o trabalho independente de qualquer coisa – deixe claro que você espera que todos finalizem o trabalho da forma certa; se você achar que não conseguiremos concluí-lo, não faça atalhos que não foram aprovados – ao invés disso, leve o problema à gerência sênior</li></ul>",
+				"nextPage": "faq-working-together-detailed",
+				"reference": "working-together"
+			}, {
+				"question": "<strong>Recursos Humanos: </strong> Ouvi falar sobre tráfico de pessoas e compreendo que isso pode acontecer ao nosso redor sem que percebamos. Em quais sinais devo prestar atenção que possam ser <u>indicações de tráfico de pessoas</u>, <u>trabalho infantil</u>, ou <u>trabalho escravo</u> quando eu visitar instalações de fornecedores?",
+				"answer": "Você tem razão ao dizer que nem sempre é fácil identificar o tráfico de pessoas e o trabalho escravo. Deixe que os especialistas determinem se existem violações aos direitos humanos – mas se você vir alguns destes sinais de aviso, relate-os à Empresa e os nossos especialistas irão investigar a situação. Sinais comuns de aviso que você deve observar incluem: <br/><br/><p><u>Trabalho Escravo e Tráfico de Pessoas em um Local</u></p><p><ul><li>Guardas armados</li><li>Portas de saída trancadas</li><li>Movimento restrito</li><li>Vigilância constante/ imprópria</li><li>Lesões suspeitas</li><li>Tempo de descanso proibido</li><li>Prédio isolado</li><li>Isolamento</li></ul></p><p><u>Trabalho Infantil</u></p><p><ul><li>Trabalhadores pré-adolescentes</li><li>Áreas fora dos limites</li><li>Gerência evasiva quanto aos dados demográficos da mão de obra</li><li>Trabalhadores jovens operando equipamentos pesados</li></ul></p><p><u>Assuntos Relativos a Saúde e Segurança</u></p><p><ul><li>Condições de trabalho inseguras</li><li>Nenhum equipamento de segurança </li><li>Nenhum plano de emergência/primeiros socorros</li><li>Nenhuma supressão de incêndio </li><li>Condições perigosas de ventilação, temperatura ou iluminação</li><li>Prédio sem estrutura sólida </li><li>Dormitórios em condições precárias</li></ul></p>",
+				"nextPage": "faq-working-together-detailed",
+				"reference": "working-together"
+			}, {
+				"question": "<strong>Recursos Humanos: </strong>Viajo para muitas fábricas como parte do meu trabalho, incluindo instalações da Empresa e de fornecedores. O que devo fazer caso presencie quaisquer sinais de <u>violação aos direitos humanos</u> ou <u>condições de trabalho inseguras</u>?",
+				"answer": "Relate o que você viu ao seu ao Departamento de Compras ou através do sistema de relatórios da nossa Empresa, independentemente do fato de ser em uma instalação da Empresa, uma instalação de uma joint venture  ou fornecedor ou ainda um sub fornecedor. Esses problemas são bem complicados, portanto, não tente realizar uma investigação, ou solucionar o problema, por conta própria. Não discuta as suas preocupações com o gerente da instalação ou comprometa a relação de trabalho com a instalação, uma vez que você pode, na verdade, colocar os trabalhadores numa situação ainda mais arriscada. Ao invés disso, relate imediatamente o que você viu e os nossos especialistas irão realizar uma investigação e conversar com a fábrica.",
+				"nextPage": "faq-working-together-detailed",
+				"reference": "working-together"
+			}, {
+				"question": "<strong>Recursos Humanos: </strong> Caso eu <u>veja apenas um dos sinais de aviso em potencial</u> para violação dos direitos humanos, devo reportá-lo?",
+				"answer": "Sim. Existe um potencial ainda maior para problemas quando você observa vários sinais de aviso. Contudo, mesmo um destes sinais pode representar um problema sério.",
+				"nextPage": "faq-working-together-detailed",
+				"reference": "working-together"
+			}, {
+				"question": "<strong>Definição de Sustentabilidade: </strong> Tenho escutado as pessoas falarem de <u>sustentabilidade</u>, mas não sei o que isso significa.",
+				"answer": "Na Ford, definimos sustentabilidade como um modelo de negócio que cria valor consistente com a preservação e a melhoria a longo prazo do capital ambiental, social e financeiro. Isso significa que buscamos o ponto de equilíbrio nas decisões que nos permite ser uma empresa rentável, enquanto nos esforçamos para ser bons administradores do meio ambiente e considerar as pessoas.",
+				"nextPage": "faq-working-together-detailed",
+				"reference": "working-together"
+			}
+		]
+	},  {
+		"pageKey": "tips-for-managers",
+		"title": "Dicas para Gerentes",
+		"canITitle": "Can I do ...?",
+		"canIReminder": "Nunca peça presentes ou favores",
+		"icon": "tips-for-managers.png",
+		"ciicon": "tips-for-managers.png",
+		"titleicon": "tips-for-managers-title.png",
+		"items": [
+			{
+				"title": "Resumo da Política da Empresa",
+				"icon": "favors_list_icon_01.png",
+				"description": "Na Ford, os Gerentes recebem uma responsabilidade significativa e têm uma função principal para definirem o tom adequado em cada região ao redor do mundo. Os Gerentes da Ford têm a responsabilidade de modelar nossos comportamentos One Ford e de demonstrar como Ir Mais Longe –, pelo Caminho Correto (Go Further – The Right Way).. Para ajudar a maximizar seu impacto positivo em nosso ambiente de trabalho, revise as dicas e os lembretes a seguir e confira as Perguntas Frequentes.",
+				"nextPage": "ps-tips-for-managers-summary",
+				"descriptionContent": "<div><p>Princípio Ético </p>Na Ford, os Gerentes recebem uma responsabilidade significativa e têm uma função principal para definirem o tom adequado em cada região ao redor do mundo. Os Gerentes da Ford têm a responsabilidade de modelar nossos comportamentos One Ford e de demonstrar como Ir Mais Longe –, pelo Caminho Correto (Go Further – The Right Way).. Para ajudar a maximizar seu impacto positivo em nosso ambiente de trabalho, revise as dicas e os lembretes a seguir e confira as Perguntas Frequentes.<p>Dicas a Serem Lembradas</p><ul><li>Interrompa imediatamente qualquer comportamento inapropriado e entre em contato com a área de Recursos Humanos se precisar de suporte para determinar o curso apropriado da ação – não vá pelo caminho errado</li><li>Seja um modelo de seu função, é muito importante seguir nossos treinamentos, políticas e procedimentos – não subestime sua influência; se você respeitar nossas regras, sua equipe também irá respeitá-las</li></ul></div><div><ul><li>Incentive as pessoas do grupo a falarem caso haja algum problema – principalmente se alguém suspeitar de que houve uma violação de nossas políticas ou da lei</li><li>Considere todos os relatórios de violações suspeitas e passe-os imediatamente para área  de Recursos Humanos, Coordenador de Investigação Regional, Coordenador de Incidentes Local, o Departamento de Compliance Global ou uma das outras fontes listadas em \"Reportar uma Violação Suspeita\"</li><li>As violações suspeitas podem parecer com algo que você pode lidar, mas não tente investigar as alegações por si mesmo – a Empresa possui investigadores especialmente treinados para lidar com esses relatórios</li></ul></div><div><ul><li>Considere todas as alegações e passe-as adiante para investigação, mesmo se acreditar que falta credibilidade da fonte – às vezes, as melhores dicas vêm de fontes inesperadas</li><li>Mantenha todos os relatórios de violações suspeitas em confidencial e coloque um fim em qualquer tipo de fofoca sobre os relatórios em potencial</li><li>Certifique-se de não retaliar ninguém que tenha relatado uma violação suspeita – e isso inclui prestar atenção em suas interações para assegurar que nenhuma impressão que você tenha sobre o relatório que foi feito seja refletida em seu comportamento com relação ao indivíduo que fez o relatório</li><li>Você possui uma influência verdadeira sobre sua equipe e seu respeito para com nossos comportamentos One Ford – assegure-se de ser uma influência positiva</li></ul></div>"
+			}, {
+				"title": "Contatos e Referências",
+				"icon": "favors_list_icon_02.png",
+				"description": "Contatos e referências para ajudá-lo. Quando você tiver acesso à intranet da Ford, poderá rever estes recursos.",
+				"nextPage": "ps-tips-for-managers-quick-ref",
+				"items": [
+					{
+						"title": "Carta Norma No. 2, Relações com os Empregados",
+						"link": ""
+					}, {
+						"title": "Carta Norma No. 6, Oportunidades Iguais",
+						"link": ""
+					}, {
+						"title": "Carta Norma 19, Programas de Conformidade para Evitar e Detectar Infrações da Lei",
+						"link": ""
+					}, {
+						"title": "Diretiva B-110, Antiassédio – Tolerância Zero",
+						"link": ""
+					}, {
+						"title": "RH ON-LINE para informações adicionais e recursos – consulte a Caixa de Ferramentas do Gerente e as orientações Antiassédio/Discriminação ",
+						"link": ""
+					}, {
+						"title": "Para perguntas ou conselhos sobre a sua função como um gerente, entre em contato com seu representante local de RH ou clique aqui para enviar um e-mail para a área de Recursos Humanos no WHQ",
+						"link": "mailto: activity@ford.com?subject=Aplicativo Móvel – Dicas para Gerentes"
+					}, {
+						"title": "Para perguntas sobre como definir o tom correto, assédio, discriminação ou retaliação, você também pode entrar em contato com seu representante de OGC local ou com o Departamento de Compliance regional, ou clique aqui para enviar um e-mail para o Departamento de Compliance Global",
+						"link": "mailto: fordlaw@ford.com?subject=Aplicativo Móvel – Dicas para Gerentes"
+					}, {
+						"title": "Você deve comunicar qualquer tipo de assédio imediatamente aárea de Recursos Humanos. Nos EUA, você pode ligar para a linha direta contra assédio: 888-735-6650",
+						"link": ""
+					}
+				]
+			}, {
+				"title": "Perguntas frequentes",
+				"description": "Alguém no meu grupo veio me dizer que acredita que um colega de trabalho está fornecendo declarações incorretas sobre nossas métricas. Eu não acho que ele está certo e não quero passar informações incorretas ao WHQ – posso apenas investigar essa história e resolvê-la por conta própria?",
+				"icon": "favors_list_icon_03.png",
+				"nextPage": "faq-tips-for-managers"
+			}
+		],
+		"frequently-asked-questions": [
+			{
+				"question": "<strong>Manipulando um Relatório: </strong>Alguém no meu grupo veio me dizer que acredita que um colega de trabalho está fornecendo declarações incorretas sobre nossas métricas. Eu não acho que ele está certo e não quero passar informações incorretas ao WHQ – <u>posso apenas investigar</u> essa história e resolvê-la por conta própria?",
+				"answer": "Não, você deve relatar as alegações a uma das áreas designadas na Empresa que está autorizada a receber relatórios sobre violações suspeitas. Temos investigadores especialmente treinados que irão examinar as alegações, colocar os especialistas no assunto adequados em ação e garantir que a Ford entenda o que está acontecendo e faça todas as correções necessárias. Ao passar adiante este relatório, você estará ajudando a Empresa a Ir Mais Longe – Pelo Caminho Correto.",
+				"nextPage": "faq-tips-for-managers-detailed",
+				"reference": "tips-for-managers"
+			}, {
+				"question": "<strong>Manipulando um Relatório: </strong> Um fornecedor que acaba de perder uma licitação me disse que o fornecedor que venceu está economizando para ser o concorrente mais inferior. Eu acho que o <u>fornecedor só está reclamando</u> porque não ganhou a licitação. Preciso incomodar a Empresa e enviar este relatório?",
+				"answer": "Não é um incômodo para nós – queremos saber sobre todas as notificações de suspeitas de violações da política ou de leis referentes aos nossos negócios. Embora seja possível que este relatório esteja sendo motivado por sentimentos ruins por parte do concorrente perdedor, lembre-se que o motivo não significa que o relatório é falso – um comportamento ruim é muitas vezes revelado por indivíduos que sentem que foram maltratados pelo autor",
+				"nextPage": "faq-tips-for-managers-detailed",
+				"reference": "tips-for-managers"
+			}, {
+				"question": "<strong>Manipulando um Relatório: </strong> Uma pessoa em nosso grupo <u>que está sempre reclamando</u> veio até mim com outro problema. Não posso apenas <u>ater-me ao meu trabalho</u> e mandá-lo voltar ao trabalho?",
+				"answer": "Na verdade, a melhor abordagem é levar todos os relatórios a sério, mesmo se a fonte do relatório não parecer confiável – às vezes, relatórios significativos de má conduta vêm de fontes inesperadas. Responda de maneira respeitosa e passe as informações adiante para o Departamento de Compliance Global ou a outros membros de equipe de grupos designados a receber os relatórios.",
+				"nextPage": "faq-tips-for-managers-detailed",
+				"reference": "tips-for-managers"
+			}, {
+				"question": "<strong>Relatórios feitos por Funcionários com Baixo Desempenho: </strong> Tenho um funcionário que está deixando seu trabalho de lado. Assim que o colocarmos em um plano de melhoria de desempenho, ele virá com uma alegação de que acha que estamos violando a regulamentação local. Parece óbvio que essa pessoa deseja  fazer uma denúncia e por isso não podemos impor a ele nosso plano de desempenho. Posso ignorar seu relatório?",
+				"answer": "Embora seja possível que o seu funcionário tenha motivos ruins, você deve passar seu relatório para o Departamento de Compliance Global ou a outra fonte apropriada para ser investigado. Às vezes, as pessoas que se preocupam com o seu próprio desempenho serão motivadas a revelar informações sobre o que realmente está acontecendo no local de trabalho. Quando você relatar isso para as fontes corretas dentro da empresa, poderemos determinar a validade das alegações – e assegurar que a situação seja tratada adequadamente, de modo que você e a Empresa poderão continuar com as ações de desempenho adequadas.",
+				"nextPage": "faq-tips-for-managers-detailed",
+				"reference": "tips-for-managers"
+			}, {
+				"question": "<strong>Assédio: </strong> Tem um homem na minha equipe que é meio bruto e tenho ouvido de outras pessoas que ele pode estar <u>assediando as mulheres</u> em nosso prédio. <u>Não vi esse mau comportamento</u> e nenhuma das mulheres veio reclamar dele; além disso, esse cara possui um ótimo desempenho. Como nenhuma das mulheres falou comigo, posso ignorar isso?",
+				"answer": "Se você ouviu relatórios de comportamento de assédio, você deve reportá-los. Mesmo que você não tenha visto o comportamento por si mesmo, você tem relatos dele. Nosso comportamento One Ford é extremamente importante – e você não pode ignorar um comportamento inadequado apenas porque a pessoa \"faz o trabalho bem feito\"",
+				"nextPage": "faq-tips-for-managers-detailed",
+				"reference": "tips-for-managers"
+			}, {
+				"question": "<strong>Incentivando os Relatos: </strong> Entendo que o <u>meu comportamento como gerente</u> pode afetar se as pessoas da minha área virão ou não até mim para relatar problemas que tenham. O que devo fazer para encorajá-las a vir até mim com seus problemas?",
+				"answer": "A resposta do gerente tem um impacto significativo sobre a forma como o pessoal pode estar disposto a relatar problemas. Você pode falar com o RH ou com o Departamento de Compliance Global se tiver perguntas específicas, mas a seguir encontra-se uma lista de dicas úteis.<br/><br/><p>FAÇA</p><ul><li>Definir o tom correto para sua equipe – se você seguir nossas regras e levar o treinamento a sério, sua equipe também o fará</li><li>Reserve um tempo para ouvir alguém que queira fazer um relato e enfatize que a Empresa quer fazer a coisa certa – mas não faça quaisquer promessas sobre o que a Empresa irá fazer, uma vez que não temos ainda todos os fatos</li><li>Diga a qualquer um que faça uma denúncia que você irá manter as informações em confidencial e, em seguida, certifique-se de não revelar as informações a qualquer outra pessoa além das equipes autorizadas a receber e investigar relatórios</li></ul><br/><p>NÃO FAÇA</p><ul><li>Nunca haja como se as regras tenham sido criadas para serem quebradas ou que o treinamento é algo no qual se sofre – se você fizer isso, estará modelando os comportamentos errados para a sua equipe</li><li>Nunca diga a sua equipe para ignorar problemas – se alguém relatar um problema, leve-o a sério e leve o problema para a Gerência, área de Recursos Humanos ou ao Departamento de Compliance Global</li><li>Nunca diga aos trabalhadores para realizarem o trabalho independente de qualquer coisa – deixe claro que você espera que todos finalizem o trabalho da forma certa; se você achar que não conseguiremos concluí-lo, não faça atalhos que não foram aprovados – ao invés disso, leve o problema à gerência sênior</li></ul>",
+				"nextPage": "faq-tips-for-managers-detailed",
+				"reference": "tips-for-managers"
+			}, {
+				"question": "<strong>Retaliação: </strong> Eu sei que a Empresa possui uma política contra a retaliação, mas eu não tenho certeza sobre o <u>que poderia ser considerado como retaliação</u>. Pode me dar alguns exemplos?",
+				"answer": "Você pode pensar em retaliação como algo que possa afetar negativamente a carreira de alguém ou ser visto como assédio ou discriminação. Abaixo estão alguns exemplos de coisas que podem ser consideradas retaliatórias se o motivo for punir alguém por fazer algo que ele(a) tem o direito de fazer – como fazer um relato de boa fé de uma suspeita de violação. Lembre-se, ameaçar de fazer algo pode ser considerado retaliação, mesmo se você não seguir literalmente: <ul><li>Demitir um funcionário</li><li>Dar a um trabalhador uma atribuição indesejável ou planejamento de trabalho</li><li>Dar ao trabalhador uma avaliação de baixo desempenho</li><li>Não permitir que um trabalhador mude para uma nova atribuição</li></ul>",
+				"nextPage": "faq-tips-for-managers-detailed",
+				"reference": "tips-for-managers"
+			}, {
+				"question": "<strong>Discriminação: </strong> Estou tendo problemas com um <u>dos membros do meu grupo</u>.  Temos uma reunião de equipe semanal, no mesmo horário, todas as semanas. Uma pessoa sempre perde metade da reunião, pois diz que tem <u>uma observação religiosa para seu dia santo</u> neste horário. O que devo fazer? Eu não posso dar nenhum projeto importante para essa pessoa, já que ela perde metade da reunião.",
+				"answer": "Você já considerou mudar o horário da reunião para que todos possam comparecer? Como não podemos interromper o nosso negócio principal para acomodar um membro da equipe, você deve considerar se uma acomodação razoável é possível em uma situação como esta. E isso é especialmente verdadeiro ao lidar com classificações que podem ser legalmente protegidas – como religiões ou deficiência, por exemplo, – onde a não consideração de acomodações razoáveis pode ser considerada como uma discriminação. Essas questões podem ser complicadas – fale com o seu representante de Recursos Humanos ou cOGC (Departamento Jurídico) local para obter orientações.",
+				"nextPage": "faq-tips-for-managers-detailed",
+				"reference": "tips-for-managers"
+			}
+		]
+	}, {
+		"pageKey": "report-violations-info",
+		"reference": "report-violations"
+	}, {
+		"pageKey": "report-violations",
+		"title": "Relate uma Violação Suspeita",
+		"information": "<p>Você suspeita que haja alguma violação das políticas e deseja fazer um relatório? Nós encorajamos você a falar.</p><p>Quando relata violações suspeitas, nos ajudará se pudermos entrar em contato com você para obter mais detalhes ou informações atualizadas. Se enviar um relatório de seu dispositivo móvel via e-mail, nós poderemos enviar perguntas a você. A Empresa também possui Coordenadores de Investigações Regionais (RIC) e Coordenadores de Incidentes Locais (LIC) designados para receber relatórios de violações suspeitas. Esses indivíduos também podem ajudar a responder quaisquer dúvidas que você possa ter sobre o processo.</p><p>No entanto, você também pode fazer um relatório anônimo ao ligar para uma linha direta ou enviar um formulário de relatório de incidente obtido no website de Prevenção contra Incêndios e Segurança Corporativa identificado abaixo.</p><p>Você deve comunicar qualquer tipo de assédio imediatamente aárea de  Recursos Humanos. Nos EUA, você pode ligar para a linha direta contra assédio: 888-735-6650.</p><p>As pessoas que reportarem violações suspeitas não devem ter medo de retaliações. Nossa política proíbe qualquer tipo de retaliação contra indivíduos que denunciem, de boa-fé, suspeitas de violação ou que colaborem em uma investigação. Todos os relatórios são confidenciais.</p><p><strong><u>ENVIAR UM RELATÓRIO</u></strong></p><p>Você pode enviar um relatório de uma violação suspeita agora mesmo clicando em \"Continuar\" abaixo.</p><p>Você também pode encontrar outras formas de relatórios no Ford Intranet: </p><ul><li>Seu RIC ou LIC listado no website Prevenção contra Incêndios e Segurança Corporativa</li><li>O Escritório do Escritório de Conformidade do Conselho Geral ou seu Escritório local do Conselho Geral</li><li>O Escritório do Auditor Geral</li><li>Website de Prevenção contra Incêndios e Segurança Corporativa nos EUA ou endereço de e-mail dos EUA</li><li>A Linha Direta Corporativa gratuita nos EUA (800-847-7911)</li><li>As linhas diretas em seu país ou região listadas no website Prevenção contra Incêndios e Segurança Corporativa</li><li>Recursos Humanos/Próxima Tela</li></ul>",
+		"items": [
+			{
+				"region": "América do Norte (EUA e Canadá)",
+				"email": "Fordlaw@ford.com?subject=Mobile App Reporting"
+			}, {
+				"region": "América do Norte (México)",
+				"email": "EthicsMX@ford.com?subject=Mobile App Reporting"
+			}, {
+				"region": "América do Sul",
+				"email": "EthicsSA@ford.com?subject=Mobile App Reporting"
+			}, {
+				"region": "Europa",
+				"email": "EthicsEU@ford.com?subject=Mobile App Reporting"
+			}, {
+				"region": "Ásia-Pacífico",
+				"email": "EthicsAP@ford.com?subject=Mobile App Reporting"
+			}, {
+				"region": "Oriente Médio e África",
+				"email": "EthicMEA@ford.com?subject=Mobile App Reporting"
+			}
+		]
+	}, {
+		"pageKey": "exec-messages",
+		"title": "Mensagem da Equipe Executiva",
+		"items": [
+			{
+				"type": "text",
+				"title": "Mark Fields Talks about Compliance & Transparency",
+				"icon": "mark-fields.png",
+				"iconDataURL": "data:image/png;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx4BBQUFBwYHDggIDh4UERQeHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHv/AABEIAEwATAMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AOw8F2OhfGL4bXs0t1HFc28W6MHG5JACfyyP1r5/B4V4apNyla34n2Oa4qniqNN043jP/wAlf9fej598b3GsWOqrbT24iksv3bKP4x6/SvVpuMo80XufJzoyo1HCa1RY0TV47xF2OUm9AcGmtzSavE0NV8UXejA27SvNcYH7st936/4VpfscaoqWrMS18e6pbXDSJ9nBJyBg8fjUtmvsYHqXwv8AjXFFrltbapax2/8AClxGxOD/ALQ9KzdzGeF6wep7N4t8fQ/ZYmmu4OPnUg9a0VV2szianJ6nlPxB8QQeN5IoYrOWeZMgNGn9azniIU1qz0sJleLrP3INnPeH/B3iW4uEVnayiibg9WI9K86rmNNrlirn1uA4ar0JKtVqKPpqzhv2wrBLFvCyquGZboM397Hk/wCNdGV4ipUUozd0rW+dzTi2oqnsZJfzfoJ8APEU/h25aKV3jhkk2SqcjHPcV69LJnm1Gap/FFXR5GVY/wCo4j2VZe7LR36PueyfFLwininTo9X0pFa+jUBlH/LRa+XwOKdGTo1D2M6yuVT95D4l+KPH7rSh4NmbV9SgIuo1P2a3cEBpexYHsOvvgCvbUlLY+UlGaVpKxy2h2Os+K9UkS1iN1cysZJJWzwT3NFWpGCuyqVKdV2ijdv8A4YeKEj3CONjjnBrnWLp9zqeX1uxjz+A/FOnxterb7/KG4qrfNx7VccTTlomZTwdWnq0et/s4ano3iqW40nXoxLf26+ZAzn7ydx+FcWOlKnZ30PXyqVJwbUE5p9uh7ZDbafYPstbONBnAIWvHdZXPpk6k46ssi0mmtbi7iKBIeSO5rWm1NNmftownGnLdny/+2x5m7wkZEKki8Iz/ANsK9fKd5/L9TwuJuW1Kz/m/Q1/jNeeHJ/FEOo+HbTakoDXCxrgE+v1rp4czOvglNw0urI24kwXJGl7WzqK97dulzt/hd4yt73FtBuEtttyj55FeHmdGaqe16vU9nKq8cwwjhJ+9HT5dDiv2sdfXxF420axt4xEYLJd4H993I/ko/OvRyuq6tJzasfJZvhXhqkaLd+v3/wDDHpnw98K6f4e0OBbS2XzJI1MkndjjrmsMTKUnqdmDpxpxVjWvooxwRgn2rksd1zndQjCE4X604tpmc43Wp5d8ILNtO+PklrAMRATttHQKUz/WurMpc2DTfkcWVR5cXON9Lfqj6OlPXmvl/aSifVRRSuZpo42jWRlR/vAHg/Wr9vodNOnGTTa1R82/tmXMtw/hXzW3bRdgcf8AXGvo+H6jn7S/l+p8txXSjTVHl/vf+2nbfDGxQxz/ANoWoOyTahYZytcua1n7qp9D6rLMpr4GNb2y+J2V9dEd2NK0a21AXVlBHHIy4YqMZrzamMqyjytm2Hw0aTlNQSbPG/jVp08fxM0278pjb3CQhX7ZV8EfkRXv5RO+Gfqz43iWH+1wl5fqz2XXtT1PSrSEWclnZ2sSDdNctweOgFayUXvqzkc5L4dEV/Cmr3eqafcXGoXNlcvGpZWgBGR9DXLVSvojqoTk17zOG1XxZqd3rMsdnLp0duOFikb53rWNKPLqmc9TETcrKwfA+yGq/tJRvdo0Vv8AYpJZzuA2Dysdf94gV0ypUqlFQquyOFV6tKs50lrY9w1YQQ6hPDby+bGrlUb+8M8V8ViOSFWUYO6TPt8K5zpRlNWbRm3CyOj4UkKOfasld6nbTcU0fNX7YYO/wxwR/wAff/tGvp+GHf2v/bv6nzPF+1H/ALe/9tPUtHna3iIQDGa8lVpH6tiqaqSuzctr2KTazjaQeau8KkbbM8upQlHRFDxbp1hrd1YxStskSZJoHxx8mSVP1r08ubprlXU+Iz7DXleW6sdFrmkW+o2kclzAs4VflR+QPf611TcoO6PLpUo1V7xlaXotvpkE/kxeSZIyMDjI/wAKzk3KN2bQpxi7JHG2PhixeR5DbozZOSwzj6VTrSWhgsNCWtje+G1iIviRqFzageaNNjjYt/CDIB+tTXo+3pKDdupFCrDD1HOSv0/U9h0zwxPea0LOaYIrJvDgV5f9g1XVjG+j6np1M+oqg501drSxJpOmWsHiiXSNSu1WPJBYkDdxwM9q48Ph4vGfV6srR1uy8Vi6k8GsRRjr+R8v/t7vo6a14asdInSYW/2zzCrZxnyMc/ga+iyOhCjXrxpu8dLP7zwM4+sSoUaldWb5v0Ovt2KnGK+X1ufuFRX1Jrm5itI2mmcJGvJJq4pt6GPLdFnw14u0O7guESeKd1XKgYY59vevTwrlQdqit2Pl84wH12HPhpKVr3szsbu/NtpcYRRukACsei+/5V6dWXQ+Lw8rRuUri9ZbETxsro6EKTg5yOuapxSjYr20m7o4qyv3t7xrdmEjH72CM+xxWNSKtzIVKq03Fm34NEkTXeoSsImnIVCDyVB5/UCuPFY90Xyw36npZflKxEeeqtHseh6b4vht1Ms8pDxJ8hB5rgxOZ4ivaMdLG0uHFH3aUd9zwP4v/EjUL/XRpGjzEXkzEySA8oPT613ZZliqfvau35muc5jDJqKwuHt7RrV/yr/M+efHl9fXl3FHfu0ksLSKWYkknjOfyr62jCMFaKsfnVetUrS5qju/M+uIbINKAPWvgeU/fJ17I88+PklxDZWekWrMr3koQ464r1spoqVZyfRHy3FWPnSy1Rg7Obt8kbngv4NajZaLa6lDDLHOwBznr9RX0FakqsbSVz80wOYVsHVVSjKzPSopUudLW2kUF0x19q8ypHmPYhNxkDRHSdOaO2kKwScrEVDKpzngHpzT9o+U39nTb1icFcKtte3N04D3FwfmY9ST8oqJS51d7Iz5LT5ILVmolwLeJIeoRcV87Ukpzcn1P1TCYJUaMaa6Iz9c1GeSykW0A87YQoz3og48yvsd0MNKEW479PXoeOW3h7xJaeIF1SS3WWUOXZt3XIIr6mGY4VQUU9D8pxnCecV60qk43bd73OK+J2lX9jfQ3d8iobySV1UHOMFSf/QhXfg8XTxF1DpY8TNsjxWVRpvEK3Pe3yt/mfWlozxSAh9wB718Qrp6H7JVSkjI13RV1/4oeEo3QNEbr5hjjp/9avcyiX7yS8j4fi+DWBpvtJ/ij134leJ/+EYu7Hw25C+Ze28rleot1cFvpkjH0zX0cdI6n5xFamZ8WNEm0DWZL+3hk/s26bzo5lXKoW5Kk9vUe30ry8TSdKfMtme7hqqr01F/EjlbnUIZLQs5dgRxjoK5ZPsdtOryq0jkIhPeajcXIgM0GnW8t9KhJwViUtz+IA/GtIUudcnc55Yl0qirL7L0Gp4o0a7fbcW81kzdDu3p+fX9K86rk1SOsHf8D6/AcaU3aNdW89ySf7KFEkNwkqHoVOa8yphqlN2kj7nBZlQxceanNP5jfElu+haVbajqTCCG5/1e7qaVCDrS5Yq5lWzjD0+a8rcuh4N8a9astXm0xbOTf5Hnbj9dmP5V9Vk+FnQU3Jb2/U/MuM83o5jKkqTvy8342/yPo7RvEvhzVFX7Lfxhm/hLYP5V4dbL6tLdH1+HzfDYlXp1E/wJtS16LTr63udMZZLu2bckuMqhx+pr0cuwVSnJVZ6eR8xxDndCrRlhYe8316KxzGp317q15JfahcSXFzKcvI5yTXvKd9z4Rqx9U/CTWLTxn8NbSLUY4rmSKP7LdxuM7ioxk/UYP41cbTjZiu4u6PP/AIh/DKXw9BdX+hSmXTdpke2lbmEDk7WPb2NeXiMG0/cPWw2OUtKhP4L8IWtn4B1KaWSC4u9XtnjkMbBgiFSAmR355rejRlS0ktTmxdXnlZbHzIkBW3WGX/WREoxPscVqjmuTWzvEcK5AoaT3KhUlB3i7DvFd3Pr2lw2WrTy3UNsCYQzH5PpWdOhTpycoRs2a1MVVnD2cpXW55V8U9C0rRbHRX0+5aWa5WZp1ZslMbMcfi1GDq1p1akai0VrfiehmuHwdPCYerht5J813fVW+7qSeHvH+n6Q3mjw2bifnEj3uMfQeXxXfJXPDUmjZb4xZH/IuY/7ff/sKy9j5j5xf+Fx/u9v/AAjg+v23/wCwoVLzDnOx+Fn7T1x4Gubtl8H/AG+C52kxf2n5e1hnnPlHt7dqap2ldMXNpY6Xxt+2Vd+ItJGmweAEsYXfNxu1YTeamPucwDAzjPXOMVr1TEnY5Dwh+0i/hrVZriz8Hn7BOhEtguqbYy2ch1/dHaRyMAYOaKl6iSb2Lc7nI6z8Wor7Vbq8h8NfZo533iL7bu2nAzz5Yzzk9O9YqlbqLnKZ+JwwMaHg/wDX3/8AYU/ZeYcwknxM3qR/YmM/9PX/ANhR7LzFzHLeKdeXXDat9j+ztAhUnzd24cY7DHQ/nVxjyibuf//Z",
+				"teaser": "Nós somos uma empresa ética porque isso é a coisa certa a fazer e porque isso é parte do nosso DNA. Então, não se trata apenas de um slogan,não é apenas algo escrito em um cartão – é algo que vivenciamos todos os dias. E é parte do comportamento One Ford esperado de cada um de nós.",
+				"message": "<p><a class='blue-link' href=\"javascript:window.open('http://www.at.ford.com/news/multimedia/pages/default.aspx?t=v&n=1631','_blank')\">View Mark's Video</a></p><p><b>Mark Fields: </b> Nós somos uma empresa ética porque isso é a coisa certa a fazer e porque isso é parte do nosso DNA. Então, não se trata apenas de um slogan, não é apenas algo escrito em um cartão – é algo que vivenciamos todos os dias. E é parte do comportamento One Ford esperado de cada um de nós.</p><p><b>Narrator: </b> Fazer o que é certo é essencial para nosso sucesso e um ingrediente necessário no processo de revisão global do plano de negócios, o BPR.O BPR reúne informações de todos os aspectos de nosso negócio e afunila  para a liderança sênior do time.</p><p><b>Mark Fields: </b> Nós, então, utilizamos essas informações para transformá-las em uma estratégia, que condensamos em um plano.</p><p><b>Narrator: </b> Para nos certificarmos que alcançaremos os melhores resultados,cada empregado deve seguir as políticas assegurar-se de que estamos sendo transparentes em cada nível da administração, para proporcionar um visão apurada do nosso negócio.</p><p><b>Mark Fields: </b> É fundamental termos a certeza que somos transparentes porque é assim que agimos e trabalhamos conjuntamente, tanto para aproveitar oportunidades, quanto para solucionar alguns impasses. Então, compliance, ética e transparência representam a base do BPR.</p><p><b>Narrator: </b> O não cumprimento das políticas e procedimentos ,como a escolha por atalhos para cumprir um deadline, ou, para alcançar o “verde” nas métricas do BPR, nunca será a alternativa correta. Encobrir problemas ou reter  informações pode ter um preço alto no fim do caminho.</p><p><b>Mark Fields: </b> Você sabe que não poderá esconder um segredo por muito tempo. Você até pode indicar artificialmente que algum objetivo conste como “verde” no BPR mas, no fim das contas, a realidade virá à tona  e isso mostrará que “temos um problema”. É sempre bom identificar um problema o mais rápido possível para que você possa lidar com ele ao invés de negá-lo, tornando-o pior e fazendo com que o problema aumente e se torne mais complexo de resolver. Não há problema em expor problemas de uma forma segura e num ambiente transparente e, então,lidar de forma conjunta para resolvê-los. </p><p><b>Narrator: </b> Caso você considere que uma política ou prática necessite de atualização ou tem algum motivo para acreditar que algo que fazemos não parece Correto, por favor, comunique. <p><b>Mark Fields: </b> Se você vê que algo em sua rotina de trabalho fora dos padrões, comunique assim que perceber. Assim, sua observação seguirá um fluxo correto até chegar ao nível correto para tratá-lo de forma proativa.O negócio da Ford será melhor por isso, a satisfação de nossos clientes será melhor por isso e acredito que nossa reputação como uma companhia será melhor por isso.</p><p><b>Narrator: </b> É por isso que nós devemos nos comprometer a Ir Além,pelo caminho correto. E, por isso, por cinco anos consecutivos a Ford foi reconhecida como uma das empresas mais éticas pelo Ethisphere Institute. </p><p><b>Mark Fields: </b> É um distintivo de honra para nós como uma companhia. E , com a mesma intensidade que olhamos para nossos índices de qualidade, relatórios de consumo da J.D. Power, ou qualquer outro relatório, nós olhamos para o relatório do Ethisphere e perguntamos \"como fizemos isso\"? E acredito que esse é um indicador real de quão sério nós lidamos com o negócio como um time sênior E quão sério nós avaliamos isso como uma companhia. </p><p><b>Narrator: </b> Se orgulhe da nossa reputação.Se você se deparar com algum problema, reporte para o time de Recursos Humanos, GAO ou OGC,ou ao escritório de Corporate Compliance no fordlaw@ford.com . Ou reporte a questão ou preocupação de maneira anônima por meio do canal de comunicação seguro na homepage do @FordOnline.Juntos iremos além, da maneira correta.</p>"
+			}
+		]
+	}, {
+		"pageKey": "search"
+	}, {
+		"pageKey": "contact-for-questions",
+		"title": "Contatos e Referências",
+        "template": "contact-grid",
+        "controller": "contact-grid",
+		"information": "",
+		"items": [
+			{
+				"reference": "gifts-favors",
+				"nextPage": "ps-gifts-favors-quick-ref"
+			}, {
+				"reference": "meals-travels",
+				"nextPage": "ps-meals-travels-quick-ref"
+			}, {
+				"reference": "conflicts-of-interest",
+				"nextPage": "ps-conflicts-of-interest-quick-ref"
+			}, {
+				"reference": "company-assets",
+				"nextPage": "ps-company-assets-quick-ref"
+			}, {
+				"reference": "anti-bribery-corruption",
+				"nextPage": "ps-anti-bribery-corruption-quick-ref"
+			}, {
+				"reference": "it-security-and-privacy",
+				"nextPage": "ps-it-security-and-privacy-quick-ref"
+			}, {
+				"reference": "working-together",
+				"nextPage": "ps-working-together-quick-ref"
+			}, {
+				"reference":"tips-for-managers",
+				"nextPage":"ps-tips-for-managers-quick-ref"
+			}
+		]
+	}, {
+		"pageKey": "nominal-value",
+		"controller": "static",
+		"template": "static",
+		"descriptionContent": "<p align='center'><strong>Nominal Value Amounts by Country (January 2016)</strong><p align='center'><strong>For Gifts or Favors under Directive A-107</strong><table class='nominal-table' border='1' cellspacing='0' cellpadding='0' align='left'><tbody><tr class='table-head'><td><strong>COUNTRY</strong></td><td><strong>NOMINAL VALUE</strong></td></tr><tr><td>Australia</td><td>$50 or less</td></tr><tr><td>Austria</td><td>&#8364;50 or less</td></tr><tr><td>Belgium</td><td>&#8364;50 or less</td></tr><tr><td>Brazil</td><td>R$90 Reais or less</td></tr><tr><td>Canada</td><td>$50 or less</td></tr><tr><td>China</td><td>200 RMB or less</td></tr><tr><td>Czech Republic</td><td>&#8364;50 or less</td></tr><tr><td>Denmark</td><td>&#8364;50 or less.</td></tr><tr><td>Finland</td><td>&#8364;50 or less</td></tr><tr><td>Ford Credit Europe</td><td>&#8364;50 or less</td></tr><tr><td>France</td><td>&#8364;50 or less</td></tr><tr><td>Germany</td><td>&#8364;50 or less</td></tr><tr><td>Greece</td><td>&#8364;50 or less</td></tr><tr><td>Hungary</td><td>&#8364;50 or less</td></tr><tr><td>India</td><td>1000 INR (25 USD) or less</td></tr><tr><td>Ireland</td><td>&#8364;50 or less</td></tr><tr><td>Italy</td><td>&#8364;50 or less</td></tr><tr><td>Japan</td><td>5,000 yen or less</td></tr><tr><td>Mexico</td><td>500 pesos or less</td></tr><tr><td>Netherlands</td><td>&#8364;50 or less</td></tr><tr><td>New Zealand</td><td>NZ$50 or less</td></tr><tr><td>Norway</td><td>&#8364;50 or less</td></tr><tr><td>Philippines</td><td>1000 phb or less</td></tr><tr><td>Poland</td><td>PLN 200 or less</td></tr><tr><td>Portugal</td><td>&#8364;50 or less</td></tr><tr><td>Romania</td><td>100 Lei or less</td></tr><tr><td>Russia</td><td>1,250 RUR or less</td></tr><tr><td>South Africa</td><td>320 R or less</td></tr><tr><tr><td>South Korea</td><td>₩ 50,000</td></tr><tr><td>Spain</td><td>&#8364;50 or less</td></tr><tr><td>Sweden</td><td>500 SEK or less</td></tr><tr><td>Switzerland</td><td>&#8364;50 or less</td></tr><tr><td>Thailand</td><td>1000 Baht or less</td></tr><tr><td>Turkey</td><td>&#8364;50 or less</td></tr><tr><td>United Kingdom</td><td>&#163;50 or less</td></tr><tr><td>United States</td><td>$50 or less</td></tr><tr><td>Vietnam</td><td>320,000 VND or less</td></tr></tbody></table><p>These guidelines can also be found in the References and Contacts section of Directive A-107.</p>",
+		"title": "Nominal Value Amounts"
+	}, {
+		"pageKey": "gift-exceed-policies",
+        "controller": "static",
+        "template": "static",
+		"descriptionContent": "<p>Se você receber um presente que exceda a política da Ford, a melhor coisa é simplesmente não aceitar o presente ou devolvê-lo ao remetente a partir da Empresa com um bilhete de agradecimento e uma explicação sobre a política da Empresa. Essa é uma ação preferencial. </p><p>Se um item não puder ser retornado, deixe-o na Empresa para doação. Nos EUA, tais itens podem ser depositados no Fundo da Ford (Ford Fund). Verifique com o representante de recursos humanos (RH) sobre o processo específico de seu país ou região. </p><p>Finalmente, no caso raro de o presente ser exclusivo e poder ter um significado especial, você pode procurar uma exceção a ser autorizada para pagar o valor justo do item exclusivo e ficar com ele. Entre em contato com seu representante de RH local para obter os detalhes do processo.</p><p>A seguir, está um exemplo que pode ser editado para criar um bilhete para quando você devolver um presente:</p><p><i>Gostaria de agradecê-lo(a) pelo [descreva o presente]. Agradeço sua gentileza em enviá-lo a mim. No entanto, preciso devolvê-lo e pedir que aceite minhas sinceras desculpas por recusar o presente. </i></p><p><i>Como sabe, a Ford Motor Company é uma empresa internacional com políticas claras sobre presentes, e elas são aplicáveis a todos os funcionários globalmente. Seu presente está acima do limite de [insira o limite de custo local] definido pela política de nossa empresa e, por esse motivo, preciso recusá-lo.</i></p><p><i>Desde já agradeço sua compreensão.</i></p>",
+		"title": "Presentes que excedem as políticas da Ford"
+	}, {
+		"pageKey": "feedback",
+		"controller": "feedback",
+		"template": "feedback",
+		"title": "Feedback do Aplicativo",
+		"descriptionContent": "Gostaríamos muito de receber seu feedback sobre a sua experiência com o aplicativo móvel ”The Right Way”. Você pode nos enviar um e-mail ao acessar o capítulo sobre Contatos e Referências e clicar nos links.",
+		"mail": "fordlaw@ford.com?subject=Feedback do Aplicativo"
+	}, {
+		"pageKey": "news-updates",
+		"controller": "news-updates",
+		"template": "news-updates",
+		"title": "New Updates"
+	}
+]

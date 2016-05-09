@@ -1,0 +1,1988 @@
+[
+    {
+        "pageKey": "static-labels",
+        "items": {
+			"remember" : "พึงระลึกไว้เสมอว่า",
+			"selectAnOption" : "เลือกตัวเลือก",
+			"appFeedback": "คำติชมแอพ",
+			"sw" : "SW",
+			"sendFeedback" : "ส่งคำติชม",
+			"reportASuspectedViolation" :"รายงานการละเมิดที่สงสัย ",			
+			"complianceNewsUpdates":"ข่าวสารอัพเดตเรื่องการปฏิบัติตามกฎระเบียบ ",
+			"settings" : "การตั้งค่า",
+			"languageSettings" : "ตั้งค่าภาษา ",
+			"new" : "ใหม่",
+			"viewTermsAndConditions" : "ดูข้อตกลงและเงื่อนไข",
+			"submit" : "ส่ง",
+			"description" : "ลักษณะ",
+			"fordIntranetAccess" : "คุณสามารถพบแหล่งข้อมูลเหล่านี้ได้เมื่อเข้าไปยังอินทราเน็ตของฟอร์ด ",
+			"region" : "ภูมิภาค",
+			"reportViolationMail" : "รายงานการละเมิดทางอีเมลล์",
+			"close" : "ปิด",
+			"reportingRegion" : "ทางกำลังรายงานจากภูมิภาคใด?",
+			"proceed" : "ดำเนินการ",
+			"whatToSearch" : "คุณต้องการค้นหาอะไร?",
+			"typeToSearch" : "พิมพ์คำที่คุณต้องการค้นหา ",
+			"search" : "ค้นหา ",
+			"eua" : "End user Agreement",
+			"terms" : "The Right Way mobile app allows Ford personnel and its business partners quick access to information needed to guide ethical decisions according to Company policy. It does not collect or require you to provide any information. By clicking below, you acknowledge and consent to The Right Way mobile app Terms and Conditions which can be viewed",
+			"here":"here",
+			"dataRates" : "Data rates may apply",
+			"agree" : "I Agree",
+			"nullSearchAlert" : "คุณต้องใส่คำค้นหา.",
+			"noResultAlert" : "ไม่พบผลการค้นหา .",
+			"rightWayTitle" : "The Right Way",
+			"okButtonText" : "OK",
+			"cancelButtonText": "ยกเลิก",
+			"errorMsg": "Server communication failed. Please check your connectivity and try again.",
+			"updateMsg": "มีอัพเดทเนื้อหาใหม่.",
+			"donwloadMsg": "ฟังก์ชันนี้จะดาวน์โหลดสำเนาคู่มือแนวทางปฏิบัติทางธุรกิจลงอุปกรณ์ของคุณ ซึ่งมีขนาดประมาณ 6 MB คุณต้องการดาวน์โหลดหรือไม่ ยกเลิกหรือดาวน์โหลด",
+			"downloadProgressMsg" : "กำลังดาวน์โหลดคู่มือแนวทางปฏิบัติทางธุรกิจ..",
+			"downloadTxt" : "ดาวน์โหลด"
+		}
+    },
+    {
+        "pageKey": "home",
+        "title": "หน้าแรก"
+    },
+    {
+        "pageKey": "slide-menu",
+        "items": [
+            {
+                "title": "หน้าแรก",
+                "icon": "home_icon.png",
+                "pageKey": "home"
+            },
+            {
+                "title": "สรุปนโยบาย",
+                "icon": "policy_summary_icon.png",
+                "pageKey": "policy-summary"
+            },
+            {
+                "title": "คำถามที่พบบ่อย",
+                "icon": "common_examples_icon.png",
+                "pageKey": "frequently-asked-questions"
+            },
+            {
+                "title": "ฉันจะ... ได้หรือไม่?",
+                "icon": "can_i_icon.png",
+                "pageKey": "can-i"
+            },
+            {
+                "title": "ข้อมูลติดต่อและอ้างอิง ",
+                "icon": "contact_questions_icon.png",
+                "pageKey": "contact-for-questions"
+            },
+            {
+                "title": "รายงานการละเมิดที่สงสัย",
+                "icon": "report_violations_icon.png",
+                "pageKey": "report-violations-info"
+            },
+            {
+                "pageId": "mi-coc",
+                "title": "คู่มือแนวทางปฏิบัติทางธุรกิจ",
+                "icon": "code_conduct_icon.png",
+                "link": "https://www.fcs.ford.com/coc/pdfs/coc_english.pdf"
+            },
+            {
+                "title": "สาส์นจากผู้บริหาร",
+                "icon": "message_exec_icon.png",
+                "pageKey": "exec-messages"
+            },
+            {
+                "title": "ค้นหา",
+                "icon": "search_icon.png",
+                "click": true
+            },
+            {
+                "title": "การตั้งค่า",
+                "icon": "settings_icon.png",
+                "nextPage": "language-select"
+            }
+        ]
+    },
+    {
+        "pageKey": "policy-summary",
+        "template": "grid",
+        "controller": "grid",
+        "title": "หน้าแรก",
+        "items": [
+            {
+                "reference": "gifts-favors",
+                "nextPage": "ps-gifts-favors"
+            },
+            {
+                "reference": "meals-travels",
+                "nextPage": "ps-meals-travels"
+            },
+            {
+                "reference": "conflicts-of-interest",
+                "nextPage": "ps-conflicts-of-interest"
+            },
+            {
+                "reference": "company-assets",
+                "nextPage": "ps-company-assets"
+            },
+            {
+                "reference": "anti-bribery-corruption",
+                "nextPage": "ps-anti-bribery-corruption"
+            },
+            {
+                "reference": "it-security-and-privacy",
+                "nextPage": "ps-it-security-and-privacy"
+            },
+            {
+                "reference": "working-together",
+                "nextPage": "ps-working-together"
+            },
+            {
+                "reference": "tips-for-managers",
+                "nextPage": "ps-tips-for-managers"
+            }
+        ]
+    },
+    {
+        "pageKey": "ps-gifts-favors",
+        "template": "list",
+        "controller": "list",
+        "reference": "gifts-favors"
+    },
+    {
+        "pageKey": "ps-gifts-favors-summary",
+        "template": "policy-summary-content",
+        "controller": "policy-summary-content",
+        "reference": "gifts-favors"
+    },
+    {
+        "pageKey": "ps-gifts-favors-quick-ref",
+        "template": "policy-quick-ref",
+        "controller": "policy-quick-ref",
+        "reference": "gifts-favors"
+    },
+    {
+        "pageKey": "ps-gifts-favors-background-information",
+        "template": "policy-summary-content",
+        "controller": "policy-summary-content",
+        "reference": "gifts-favors"
+    },
+    {
+        "pageKey": "ps-meals-travels",
+        "template": "list",
+        "controller": "list",
+        "reference": "meals-travels"
+    },
+    {
+        "pageKey": "ps-meals-travels-summary",
+        "template": "policy-summary-content",
+        "controller": "policy-summary-content",
+        "reference": "meals-travels"
+    },
+    {
+        "pageKey": "ps-meals-travels-quick-ref",
+        "template": "policy-quick-ref",
+        "controller": "policy-quick-ref",
+        "reference": "meals-travels"
+    },
+    {
+        "pageKey": "ps-meals-travels-background-information",
+        "template": "policy-summary-content",
+        "controller": "policy-summary-content",
+        "reference": "meals-travels"
+    },
+    {
+        "pageKey": "ps-conflicts-of-interest",
+        "template": "list",
+        "controller": "list",
+        "reference": "conflicts-of-interest"
+    },
+    {
+        "pageKey": "ps-conflicts-of-interest-summary",
+        "template": "policy-summary-content",
+        "controller": "policy-summary-content",
+        "reference": "conflicts-of-interest"
+    },
+    {
+        "pageKey": "ps-conflicts-of-interest-quick-ref",
+        "template": "policy-quick-ref",
+        "controller": "policy-quick-ref",
+        "reference": "conflicts-of-interest"
+    },
+    {
+        "pageKey": "ps-conflicts-of-interest-background-information",
+        "template": "policy-summary-content",
+        "controller": "policy-summary-content",
+        "reference": "conflicts-of-interest"
+    },
+    {
+        "pageKey": "ps-company-assets",
+        "template": "list",
+        "controller": "list",
+        "reference": "company-assets"
+    },
+    {
+        "pageKey": "ps-company-assets-summary",
+        "template": "policy-summary-content",
+        "controller": "policy-summary-content",
+        "reference": "company-assets"
+    },
+    {
+        "pageKey": "ps-company-assets-quick-ref",
+        "template": "policy-quick-ref",
+        "controller": "policy-quick-ref",
+        "reference": "company-assets"
+    },
+    {
+        "pageKey": "ps-company-assets-background-information",
+        "template": "policy-summary-content",
+        "controller": "policy-summary-content",
+        "reference": "company-assets"
+    },
+    {
+        "pageKey": "ps-anti-bribery-corruption",
+        "template": "list",
+        "controller": "list",
+        "reference": "anti-bribery-corruption"
+    },
+    {
+        "pageKey": "ps-anti-bribery-corruption-summary",
+        "template": "policy-summary-content",
+        "controller": "policy-summary-content",
+        "reference": "anti-bribery-corruption"
+    },
+    {
+        "pageKey": "ps-anti-bribery-corruption-quick-ref",
+        "template": "policy-quick-ref",
+        "controller": "policy-quick-ref",
+        "reference": "anti-bribery-corruption"
+    },
+    {
+        "pageKey": "ps-anti-bribery-corruption-background-information",
+        "template": "policy-summary-content",
+        "controller": "policy-summary-content",
+        "reference": "anti-bribery-corruption"
+    },
+    {
+        "pageKey": "ps-it-security-and-privacy",
+        "template": "list",
+        "controller": "list",
+        "reference": "it-security-and-privacy"
+    },
+    {
+        "pageKey": "ps-it-security-and-privacy-summary",
+        "template": "policy-summary-content",
+        "controller": "policy-summary-content",
+        "reference": "it-security-and-privacy"
+    },
+    {
+        "pageKey": "ps-it-security-and-privacy-quick-ref",
+        "template": "policy-quick-ref",
+        "controller": "policy-quick-ref",
+        "reference": "it-security-and-privacy"
+    },
+    {
+        "pageKey": "ps-it-security-and-privacy-background-information",
+        "template": "policy-summary-content",
+        "controller": "policy-summary-content",
+        "reference": "it-security-and-privacy"
+    },
+    {
+        "pageKey": "ps-working-together",
+        "template": "list",
+        "controller": "list",
+        "reference": "working-together"
+    },
+    {
+        "pageKey": "ps-working-together-summary",
+        "template": "policy-summary-content",
+        "controller": "policy-summary-content",
+        "reference": "working-together"
+    },
+    {
+        "pageKey": "ps-working-together-quick-ref",
+        "template": "policy-quick-ref",
+        "controller": "policy-quick-ref",
+        "reference": "working-together"
+    },
+    {
+        "pageKey": "ps-working-together-background-information",
+        "template": "policy-summary-content",
+        "controller": "policy-summary-content",
+        "reference": "working-together"
+    },
+    {
+        "pageKey": "ps-tips-for-managers",
+        "template": "list",
+        "controller": "list",
+        "reference": "tips-for-managers"
+    },
+    {
+        "pageKey": "ps-tips-for-managers-summary",
+        "template": "policy-summary-content",
+        "controller": "policy-summary-content",
+        "reference": "tips-for-managers"
+    },
+    {
+        "pageKey": "ps-tips-for-managers-quick-ref",
+        "template": "policy-quick-ref",
+        "controller": "policy-quick-ref",
+        "reference": "tips-for-managers"
+    },
+    {
+        "pageKey": "ps-tips-for-managers-background-information",
+        "template": "policy-summary-content",
+        "controller": "policy-summary-content",
+        "reference": "tips-for-managers"
+    },
+    {
+        "pageKey": "frequently-asked-questions",
+        "template": "grid",
+        "controller": "grid",
+        "title": "คำถามที่พบบ่อย",
+        "items": [
+            {
+                "reference": "gifts-favors",
+                "nextPage": "faq-gifts-favors"
+            },
+            {
+                "reference": "meals-travels",
+                "nextPage": "faq-meals-travels"
+            },
+            {
+                "reference": "conflicts-of-interest",
+                "nextPage": "faq-conflicts-of-interest"
+            },
+            {
+                "reference": "company-assets",
+                "nextPage": "faq-company-assets"
+            },
+            {
+                "reference": "anti-bribery-corruption",
+                "nextPage": "faq-anti-bribery-corruption"
+            },
+            {
+                "reference": "it-security-and-privacy",
+                "nextPage": "faq-it-security-and-privacy"
+            },
+            {
+                "reference": "working-together",
+                "nextPage": "faq-working-together"
+            },
+            {
+                "reference": "tips-for-managers",
+                "nextPage": "faq-tips-for-managers"
+            }
+        ]
+    },
+    {
+        "pageKey": "faq-gifts-favors",
+        "template": "frequently-asked-questions-list",
+        "controller": "frequently-asked-questions-list",
+        "title": "คำถามที่พบบ่อย",
+        "reference": "gifts-favors"
+    },
+    {
+        "pageKey": "faq-meals-travels",
+        "template": "frequently-asked-questions-list",
+        "controller": "frequently-asked-questions-list",
+        "title": "คำถามที่พบบ่อย",
+        "reference": "meals-travels"
+    },
+    {
+        "pageKey": "faq-conflicts-of-interest",
+        "template": "frequently-asked-questions-list",
+        "controller": "frequently-asked-questions-list",
+        "title": "คำถามที่พบบ่อย",
+        "reference": "conflicts-of-interest"
+    },
+    {
+        "pageKey": "faq-company-assets",
+        "template": "frequently-asked-questions-list",
+        "controller": "frequently-asked-questions-list",
+        "title": "คำถามที่พบบ่อย",
+        "reference": "company-assets"
+    },
+    {
+        "pageKey": "faq-anti-bribery-corruption",
+        "template": "frequently-asked-questions-list",
+        "controller": "frequently-asked-questions-list",
+        "title": "คำถามที่พบบ่อย",
+        "reference": "anti-bribery-corruption"
+    },
+    {
+        "pageKey": "faq-it-security-and-privacy",
+        "template": "frequently-asked-questions-list",
+        "controller": "frequently-asked-questions-list",
+        "title": "คำถามที่พบบ่อย",
+        "reference": "it-security-and-privacy"
+    },
+    {
+        "pageKey": "faq-working-together",
+        "template": "frequently-asked-questions-list",
+        "controller": "frequently-asked-questions-list",
+        "title": "คำถามที่พบบ่อย",
+        "reference": "working-together"
+    },
+    {
+        "pageKey": "faq-tips-for-managers",
+        "template": "frequently-asked-questions-list",
+        "controller": "frequently-asked-questions-list",
+        "title": "คำถามที่พบบ่อย",
+        "reference": "tips-for-managers"
+    },
+    {
+        "pageKey": "faq-gifts-favors-detailed",
+        "template": "frequently-asked-questions-detailed",
+        "controller": "frequently-asked-questions-detailed",
+        "title": "คำถามที่พบบ่อย",
+        "reference": "gifts-favors"
+    },
+    {
+        "pageKey": "faq-meals-travels-detailed",
+        "template": "frequently-asked-questions-detailed",
+        "controller": "frequently-asked-questions-detailed",
+        "title": "คำถามที่พบบ่อย",
+        "reference": "meals-travels"
+    },
+    {
+        "pageKey": "faq-conflicts-of-interest-detailed",
+        "template": "frequently-asked-questions-detailed",
+        "controller": "frequently-asked-questions-detailed",
+        "title": "คำถามที่พบบ่อย",
+        "reference": "conflicts-of-interest"
+    },
+    {
+        "pageKey": "faq-company-assets-detailed",
+        "template": "frequently-asked-questions-detailed",
+        "controller": "frequently-asked-questions-detailed",
+        "title": "คำถามที่พบบ่อย",
+        "reference": "company-assets"
+    },
+    {
+        "pageKey": "faq-anti-bribery-corruption-detailed",
+        "template": "frequently-asked-questions-detailed",
+        "controller": "frequently-asked-questions-detailed",
+        "title": "คำถามที่พบบ่อย",
+        "reference": "anti-bribery-corruption"
+    },
+    {
+        "pageKey": "faq-it-security-and-privacy-detailed",
+        "template": "frequently-asked-questions-detailed",
+        "controller": "frequently-asked-questions-detailed",
+        "title": "คำถามที่พบบ่อย",
+        "reference": "it-security-and-privacy"
+    },
+    {
+        "pageKey": "faq-working-together-detailed",
+        "template": "frequently-asked-questions-detailed",
+        "controller": "frequently-asked-questions-detailed",
+        "title": "คำถามที่พบบ่อย",
+        "reference": "working-together"
+    },
+    {
+        "pageKey": "faq-tips-for-managers-detailed",
+        "template": "frequently-asked-questions-detailed",
+        "controller": "frequently-asked-questions-detailed",
+        "title": "คำถามที่พบบ่อย",
+        "reference": "tips-for-managers"
+    },
+    {
+        "pageKey": "can-i",
+        "template": "can-i-grid",
+        "controller": "can-i-grid",
+        "title": "ฉันจะ... ได้หรือไม่",
+        "items": [
+            {
+                "reference": "gifts-favors",
+                "nextPage": "ci-gifts-favors"
+            },
+            {
+                "reference": "meals-travels",
+                "nextPage": "ci-meals-travels"
+            }
+        ]
+    },
+    {
+        "pageKey": "ci-gifts-favors",
+        "template": "can-i",
+        "controller": "can-i",
+        "reference": "gifts-favors"
+    },
+    {
+        "pageKey": "ci-meals-travels",
+        "template": "can-i",
+        "controller": "can-i",
+        "reference": "meals-travels"
+    },
+    {
+        "pageKey": "search-page-keys",
+        "keys": [
+            "gifts-favors",
+            "meals-travels",
+            "conflicts-of-interest",
+            "company-assets",
+            "anti-bribery-corruption",
+            "it-security-and-privacy",
+            "working-together",
+            "tips-for-managers"
+        ]
+    },
+    {
+        "pageKey": "search-key-words",
+        "keys": [
+            ["อนุญาต", " ยืม", " สินบน", " ยุติธรรม", " การตอบแทนพิเศษ", " ซื่อสัตย์", " ไม่เหมาะสม", " โน้มน้าว", " ความซื่อสัตย์สุจริต", " ข้อเสนอ", " จ่าย", " การจ่ายเงิน", " ห้าม", " สัญญา", " สรรหา", " พิเศษ", " มูลค่า"],
+            ["การโกง", " หลอก", " หลอกลวง", " คดโกง", " สอบทาน", " ไม่ซื่อสัตย์", " การสอบทาน", " จรรยาบรรณ", " หลักจรรยาบรรณ", " มีจรรยาบรรณ", " ปลอม", " การตอบแทนพิเศษ", " ทุจริต", " ไม่เหมาะสม", " โกหก", " มิจฉาชีพ", " ขโมย", " โจรกรรม", " โจร", " ไม่จริง", " ละเมิดนโยบาย", " ผิด", " ทำผิด"],
+            ["หน่วยงาน", " ตัวแทน", " การอนุมัติ", " อนุญาต", " ยืมรถ", " ใบรับรอง", " รับรอง", " ฝ่าย", " สิ่งบันเทิง", " การตอบแทนพิเศษ", " ของขวัญ", " รัฐ", " การทำงานของรัฐ", " เจ้าหน้าที่ของรัฐ", " ผู้ว่า", " การอนุมัติในพื้นที่", " ทางการ", " ใบอนุญาต", " การเมือง", " ภูมิภาค", " บังคับ", " ข้อบังคับ", " อำนาจบังคับ", " ผู้แทน", " คว่ำบาตร", " ส่วนลดพิเศษ", " ของที่ระลึก", " การเดินทาง"],
+            ["จำนวน", " ค่าใช้จ่าย", " ต้นทุน", " สกุลเงิน", " เกินปกติวิสัย", " เพิ่มเติม", " ค่าธรรมเนียม", " เพิ่ม", " ตัวเงิน", " เงิน", " มากกว่า", " ข้อเสนอ", " จ่าย", " การจ่ายเงิน", " ราคา", " อัตรา", " ค่าธรรมเนียมการจดทะเบียน", " ขาย", " จำนวนเล็กน้อย", " การจัดการพิเศษ", " ค่าใช้จ่ายเพิ่มเติม", " มูลค่า", " คุ้มค่า"],
+            ["ตกลง", " ข้อตกลง", " ยานยนต์", " รถยนต์", " ซื้อ", " รถ", " ใบรับรอง", " การรับรอง", " สัญญา", " CPA", " ธุรกิจของครอบครัว", " ของครอบครัว", " บริษัท", " เจ้าของที่ดิน", " ให้เช่า", " LLC", " ธุรกิจออนไลน์", " เป็นเจ้าของ", " ฝึก", " สินค้า", " อสังหาริมทรัพย์", " เช่า", " ขาย", " บริการ", " สอน", " ทำงาน"],
+            ["แนะนำ", " ที่ปรึกษา", " ปรึกษา", "สัญญา"],
+            ["สมาคม", " ลิขสิทธิ์", " ตัวแทนจำหน่าย", " พัฒนา", " จัดการ", " ผลิต", " คู่ค้า", " ชิ้นส่วน", " สิทธิบัตร", " ตั๋ว", " ซื้อสิทธิ์เป็นระยะเวลา", " ผู้จัดการดูแลทรัพย์สิน"],
+            ["คณะกรรมการ", " คณะกรรมการบริษัท"],
+            ["เพื่อนร่วมงาน", " พี่ชาย", " ลูก", " ลูกพี่ลูกน้อง", " ลูกสาว", " ครอบครัว", " พ่อ", " เพื่อน", " ความสัมพันธ์ครอบครัวในทางกฏหมาย", "แม่", " เพื่อนบ้าน", " หุ้นส่วน", " ญาติ", " คนรัก", " น้องสาว", " ลูกชาย", " สามี ภรรยา", " คู่สมรส", " หลานชาย", " หลานสาว", " ป้า", " ลุง"],
+            ["เบียร์", " ขวด", " เบอร์เบิน", " ค็อกเทล", " เครื่องดื่ม", " แฮปปี้อาวร์", " สก็อตช์", " วอดก้า", " วิสกี้", " ไวน์"],
+            ["งานเบบี้ชาวเวอร์", "วันเกิด", " เจ้าสาว", " คนจัดเลี้ยง", " คริสต์มาส", " สมนาคุณ", " ให้ฟรี", " แจกฟรี", " วันหยุด", " ตรุษจีน", " มาร์ติกราส", " ปีใหม่", " ของขวัญ", " เกษียณ", " แท็บ", " ตั๋ว", " ซื้อสิทธิ์เป็นระยะเวลา", " แต่งงาน", " ส่วนลด "],
+            ["กิจกรรม", " งานกิจกรรม", " ตั๋วเครื่องบิน", " เรือ", " เช่าเหมาลำ", " สิ่งบันเทิง", " เที่ยวบิน", " การเดินทางทางรถ", " แขก", " เจ้าภาพ", " โรงแรม", " งานประชุมนานาชาติ", " เชิญ", " รถลีมูซีน", " งานในท้องถิ่น", " พบ", " ประชุม", " สังสรรค์", " เครือข่าย", " ค้างคืน", " การแสดง", " เครื่องบิน", " เครื่องบินส่วนตัว", " สันทนาการ", " รถเช่า", " นักร้อง", " สังคม", " ผู้สนับสนุน", " แท็กซี่", " ทีม", " ตั๋ว", " การขนส่งวันหยุด"],
+            ["เค้ก", " ช็อกโกแลต", " สมนาคุณ", " ส่วนลด", " ของขวัญ", " กระเช้าของขวัญ", " บัตรกำนัล", " บัตรของขวัญ", " แจกฟรี", " กอล์ฟ", " หูฟัง", " ไอแพด", " ไอโฟน", " ไอพอด", " แจ็คเก็ต", " คินเดิล", " e-reader", " โปรแกรมอ่าน", " สปา", " ของขวัญ", " ของรางวัล", " ราคาลด", " ราคาพิเศษ", " แท็บเล็ต", " เสื้อยืด", " เสื้อ", " ผลไม้"],
+            ["อาหารเช้า", " คาเฟ่", " อาหารค่ำ", " กิน", " การบริโภค", " อาหาร", " อาหารกลางวัน", " ร้านอาหาร", " แท็บ", " อาหารว่าง"],
+            ["ที่พัก", " การเดินทางติดต่องาน", " สิ่งบันเทิง", " เที่ยวบิน", " การเข้าพักฟรี", " รถลีมูซีน", " ค้างคืน", " การเข้าพัก", " เครื่องบิน", " การขนส่ง", " แท็กซี่", " เครื่องดื่ม", " การเดินทาง", " การเยี่ยมชม"],
+            ["อาคาร", " การโทร", " ข้อมูลบริษัท", " คอมพิวเตอร์", " อีเมล", " เงินทุน", " การใช้ในยามฉุกเฉิน แล็ปท็อป", " โลโก้", " เงิน", " หมายเลขโทรศัพท์สำนักงาน", " โทรศัพท์", " แคมเปญทางการเมือง", " ทรัพยากร", " การซื้อขายหุ้น", " ยานพาหนะ", " ชั่วโมงทำการ", " เวลาทำงาน"],
+            ["อาคารบริษัท", " รถบริษัท", " ยานพาหนะบริษัท", " คอมพิวเตอร์", " เครื่องถ่ายเอกสาร", " สำเนา", " ซ่อม", " โรงรถ", " บ้าน", " แล็ปท็อป", " สิ่งของ", " เครื่องพิมพ์", " ทรัพย์สิน", " อสังหาริมทรัพย์", " บ้านและที่ดิน", " ซ่อมแซม", " ทรัพยากร", " เครื่องมือ", " รถแทร็กเตอร์"],
+            ["การจัดเลี้ยง", " ชั้นเรียน", " ห้องเรียน", " วิทยาลัย", " ปรึกษา", " การศึกษา", " ธุรกิจครอบครัว", " ของครอบครัว", " บริษัท", " แฟรนไชส์", " เกรด", " ธุรกิจช่างซ่อม", " อาจารย์", " เจ้าของที่ดิน", " แผนการสอน", " LLC", " เป็นเจ้าของ", " หุ้นส่วน", " โครงการ", " อสังหาริมทรัพย์", " สิ่งปลูกสร้างสำหรับเช่า", " โรงเรียน", " งานนอก", " นักเรียน", " ผู้เช่า", " สอน", " ครู", " การสอน", " การอบรม", " มหาวิทยาลัย", " ชั่วโมง", " ทำการ", " เวลาทำงาน", " งาน", " จัดการ"],
+            ["ยืม", " ใช้ในงานธุรกิจ", " ใช้ในงานบริษัท", " ใช้บ่อย", " อุบัติเหตุ", " จำกัด", " ใช้บ่อยครั้ง", " ใช้ส่วนตัว", " ใช้วันเสาร์อาทิตย์"]
+        ]
+    },
+    {
+        "pageKey": "gifts-favors",
+        "title": "ของขวัญและการตอบแทนพิเศษ",
+        "canITitle": "ฉันจะรับ...?",
+        "canIReminder": "คุณจะต้องไม่ขอของขวัญหรือการตอบแทนพิเศษโดยเด็ดขาด",
+        "icon": "gift_favors.png",
+        "ciicon": "gift_favors.png",
+        "titleicon": "gift_title_icon.png",
+        "items": [
+            {
+                "title": "สรุปนโยบายของบริษัท ",
+                "icon": "favors_list_icon_01.png",
+                "description": "การรับของขวัญหรือการตอบแทนพิเศษอันเกินปกติวิสัยจากหน่วยงานธุรกิจที่ดำเนินธุรกิจร่วมกับฟอร์ดในปัจจุบันหรือพยายามร่วมงานกับฟอร์ด อาจส่งผลเสียต่อชื่อเสียงของบริษัทจากการกระทำที่ดูไม่เหมาะสม ของขวัญอันเกินปกติวิสัยอาจบดบังวิจารณญาณของคุณเมื่อต้องทำการตัดสินใจแทนบริษัทหรือทำให้ดูเหมือนว่า คุณกำลัง “ขาย” การตอบแทนพิเศษได้ การรับการตอบแทนพิเศษอาจก่อให้เกิดปัญหาในหมู่ซัพพลายเออร์ในแง่การ เลือกปฏิบัติหรือการปฏิบัติอันไม่เท่าเทียม และอาจกระทบต่อศีลธรรมได้ จากเหตุผลที่กล่าวมานี้ คุณจึงต้องดำเนินการตามข้อจำกัดของบริษัทว่าด้วยเรื่องการรับของขวัญและการตอบแทนพิเศษ",
+                "nextPage": "ps-gifts-favors-summary",
+                "descriptionContent": "<div><p>หลักจรรยาบรรณ </p>การรับของขวัญหรือการตอบแทนพิเศษอันเกินปกติวิสัยจากหน่วยงานธุรกิจที่ดำเนินธุรกิจร่วมกับฟอร์ดในปัจจุบันหรือพยายามร่วมงานกับฟอร์ด อาจส่งผลเสียต่อชื่อเสียงของบริษัทจากการกระทำที่ดูไม่เหมาะสม ของขวัญอันเกินปกติวิสัยอาจบดบังวิจารณญาณของคุณเมื่อต้องทำการตัดสินใจแทนบริษัทหรือทำให้ดูเหมือนว่า คุณกำลัง “ขาย” การตอบแทนพิเศษได้ การรับการตอบแทนพิเศษอาจก่อให้เกิดปัญหาในหมู่ซัพพลายเออร์ในแง่การ เลือกปฏิบัติหรือการปฏิบัติอันไม่เท่าเทียม และอาจกระทบต่อศีลธรรมได้ จากเหตุผลที่กล่าวมานี้ คุณจึงต้องดำเนินการตามข้อจำกัดของบริษัทว่าด้วยเรื่องการรับของขวัญและการตอบแทนพิเศษ</div><div> <p>ห้ามรับ...</p><ul><li>ของขวัญที่เกินมูลค่าตามสมควร (50 ดอลลาร์สหรัฐฯ ในสหรัฐอเมริกา – <a href=\"#/nominal-value\">คลิกเพื่อดูสกุลเงินในท้องถิ่น</a>)</li><li>เงินสด ใบของขวัญ บัตรของขวัญ หรือเครื่องดื่มแอลกอฮอล์ที่บรรจุหีบห่อ</li><li>ตั๋วเข้าร่วมงาน เว้นแต่ว่าซัพพลายเออร์/ตัวแทนจำหน่ายจะเข้าร่วมด้วย</li><li>เงินกู้หรือส่วนลดพิเศษจากซัพพลายเออร์/ตัวแทนจำหน่าย</li></ul></div><div><p>ข้อควรจำขณะติดต่องานกับซัพพลายเออร์/ตัวแทนจำหน่าย:</p><ul><li>ห้าม  <strong>เรียกร้อง</strong>ของขวัญหรือการตอบแทนพิเศษใด ๆ แม้จะไม่เกินมูลค่าตามสมควรในแนวทางที่กำหนดก็ตาม</li><li>นโยบายของเราบังคับใช้กับของขวัญหรือการตอบแทนพิเศษที่เสนอโดยซัพพลายเออร์ ตัวแทนจำหน่าย และบุคคลอื่นที่ดำเนินธุรกิจกับบริษัท หรือผู้ที่บริษัทให้การสนับสนุน รวมทั้งการกุศล โรงเรียน มหาวิทยาลัย และกลุ่มการค้าหรือสมาคมธุรกิจอื่น ๆ ที่บริษัทให้การสนับสนุนด้วย</li><li>คุณไม่สามารถรับส่วนลดหรือข้อเสนอพิเศษที่เสนอให้กับคุณ (หรือทีมของคุณ) โดยเฉพาะได้ ข้อเสนอ ดังกล่าวต้องเสนอให้กับทุกคนในบริษัท สาธารณชน หรือกลุ่มอื่นทั่วไป (เช่น สมาคมวิชาชีพที่คุณเป็น สมาชิก)</li><li>ซัพพลายเออร์/ตัวแทนจำหน่ายต้องไม่มอบเงินสมทบทุนพิเศษหรือออกค่าใช้จ่ายให้กับงานที่พนักงานของบริษัทเข้าร่วมเป็นหลัก (เช่น งานเลี้ยงเกษียณอายุ)</li><li>ของรางวัลหรือแม้แต่การสุ่มจับรางวัลก็ถือเป็นของขวัญหรือการตอบแทนพิเศษ หากมอบให้ในงานที่ซัพพลาย เออร์เป็นผู้ออกค่าใช้จ่าย หรือซัพพลายเออร์/ตัวแทนจำหน่ายเป็นผู้ให้ และจะไม่สามารถรับได้หากเกินมูลค่า ตามสมควร</li><li>ขอให้ใช้ความระมัดระวังเมื่อขอรับบริจาค จะต้องไม่มีการสื่อให้เห็นว่าบริษัทกดดันให้บริจาค</li></ul></div>"
+            },
+            {
+                "title": "ข้อมูลติดต่อและอ้างอิง",
+                "icon": "favors_list_icon_02.png",
+                "description": "คุณสามารถพบแหล่งข้อมูลเหล่านี้ได้เมื่อเข้าไปยังอินทราเน็ตของฟอร์ด",
+                "nextPage": "ps-gifts-favors-quick-ref",
+                "items": [
+                    {
+                        "title": "เอกสารแถลงนโยบาย 3 มาตรฐานการดำเนินงานขององค์กร",
+                        "link": ""
+                    },
+                    {
+                        "title": "ข้อกำหนด A-107 มาตรฐานการดำเนินงานขององค์กร",
+                        "link": ""
+                    },
+                    {
+                        "title": "หากมีข้อสงสัยเรื่องของขวัญและการตอบแทนพิเศษ โปรดติดต่อเจ้าหน้าที่ฝ่ายทรัพยากรบุคคล ในพื้นที่หรือคลิกที่นี่เพื่อส่งอีเมลถึงฝ่ายพนักงานสัมพันธ์ใน WHQ",
+                        "link": "mailto:activity@ford.com?subject=แอพบนอุปกรณ์เคลื่อนที่ – ของขวัญและการตอบแทนพิเศษ"
+                    },
+                    {
+                        "title": "หากมีข้อสงสัยเรื่องของขวัญและการตอบแทนพิเศษ คุณสามารถคลิกที่นี่เพื่อส่งอีเมลถึงฝ่ายกำกับ ดูแลการปฏิบัติตามกฎขององค์กร ",
+                        "link": "mailto:fordlaw@ford.com?subject=แอพบนอุปกรณ์เคลื่อนที่ – ของขวัญและการตอบแทนพิเศษ"
+                    },
+                    {
+                        "title": "รายการมูลค่าตามสมควรในสกุลเงินท้องถิ่น",
+                        "link": "#/nominal-value"
+                    },
+                    {
+                        "title": "ทางเลือกในกรณีที่ฉันได้รับของขวัญที่นโยบายไม่อนุญาต",
+                        "link": "#/gift-exceed-policies"
+                    }
+                ]
+            },
+            {
+                "title": "คำถามที่พบบ่อย",
+                "icon": "favors_list_icon_03.png",
+                "description": "ฉันเข้าร่วมชิงรางวัลในงานประชุมประจำปีและได้รับรางวัลเป็นสิทธิ์ลงทะเบียนฟรีเพื่อเข้าร่วมงานประชุมครั้งหน้า ฉันจะใช้สิทธิ์ลงทะเบียนนี้ได้หรือไม่",
+                "nextPage": "faq-gifts-favors"
+            }
+        ],
+        "frequently-asked-questions": [
+            {
+                "question": "<strong>งานประชุม: </strong>ฉันเข้าร่วมชิงรางวัลในงานประชุมประจำปีและ<u>ได้รับรางวัลเป็นสิทธิ์ลงทะเบียนฟรี</u>เพื่อเข้าร่วมงานประชุมครั้งหน้า ฉันจะใช้สิทธิ์ลงทะเบียนนี้ได้หรือไม่ ",
+                "answer": "ขึ้นอยู่กับปัจจัยต่อไปนี้: สิทธิ์ลงทะเบียนนั้นจำกัดเฉพาะคุณคนเดียวหรือว่าบริษัทสามารถใช้ได้เช่นกัน ตัวอย่างเช่น หากสิทธิ์ลงทะเบียนนั้นสามารถโอนให้กับพนักงานฟอร์ดคนอื่นได้ บริษัทย่อมสามารถเก็บ “ของขวัญ” นั้น และผู้บริหารสามารถกำหนดได้ว่าใครจะเป็นผู้เข้าร่วม แต่หากสิทธิ์ลงทะเบียนนั้นไม่สามารถโอนได้ ผู้บริหารควรเป็นผู้ตัดสินใจ ว่าการส่งคุณเข้าร่วมการประชุมในครั้งหน้านั้นจะเกิดประโยชน์กับบริษัทหรือไม่ หากแผนกของคุณยินดีออกค่าใช้จ่ายในการเดินทางส่วนอื่น บริษัทก็สามารถใช้สิทธิ์นั้นได้ หากผู้บริหารไม่ยินยอมออกค่าใช้จ่ายส่วนอื่นดังกล่าว กรณีนี้จะถือว่า “ของขวัญ” นี้เป็นของคุณซึ่งคุณไม่สามารถรับไว้ได้ (หากเกินมูลค่าตามสมควร)",
+                "nextPage": "faq-gifts-favors-detailed",
+                "reference": "gifts-favors"
+            },
+            {
+                "question": "<strong>การเข้าร่วมงานประชุมที่มีผู้ออกค่าใช้จ่ายให้: </strong>ซัพพลายเออร์ได้เสนอ <u>ออกค่าใช้จ่ายทั้งหมดให้กับฉันสำหรับการเข้าร่วมงานประชุมเชิงเทคนิค</u>. ซัพพลายเออร์รายนี้ได้เสนอออกค่าตั๋วเครื่องบิน ค่าโรงแรม ค่าธรรมเนียมการเข้าร่วมงานประชุม และค่าอาหารให้กับฉัน การกระทำเช่นนี้มีประเด็นปัญหาใดหรือไม่  ",
+                "answer": "<p>การเดินทางไปเข้าร่วมงานประชุมที่ซัพพลายเออร์เป็นผู้ออกค่าใช้จ่ายนั้นมีข้อจำกัดบางประการ โดยทั่วไป การตอบรับเข้าร่วมงานประชุมที่ไม่มีค่าใช้จ่ายนั้นสามารถทำได้ หากบริษัทเป็นผู้ออกค่าใช้จ่ายในการเดินทางและคุณได้รับการอนุมัติที่เหมาะสม เมื่อได้รับการอนุมัติที่เหมาะสม คุณสามารถรับค่าใช้จ่ายในการเดินทางได้หากคุณเป็นวิทยากรในงานประชุมนั้น รายละเอียดของการเดินทางลักษณะนี้แตกต่างกันไปตามกรณีและจะพิจารณาอนุมัติเป็นกรณีไปคุณควรติดต่อฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กรหรือฝ่ายพนักงานสัมพันธ์พร้อมแจ้งรายละเอียดข้อเสนอเว็บไซต์ของงานประชุม และการเดินทางที่เกี่ยวข้องหรือเวลาที่จะใช้ในการเดินทางครั้งนี้เพื่อขอคำชี้แนะในการขออนุมัติที่จำเป็น</p>",
+                "nextPage": "faq-gifts-favors-detailed",
+                "reference": "gifts-favors"
+            },
+            {
+                "question": "<strong>รางวัลชิงโชค/งานประชุม: </strong>ฉันเข้าร่วมงานประชุมวิชาชีพ (โดยออกค่าใช้จ่ายเอง) และเข้าร่วม <u>รางวัล ชิงโชคที่จัดโดยซัพพลายเออร์/ตัวแทนจำหน่าย</u>ซึ่งดำเนินธุรกิจร่วมกับฟอร์ด หากฉันได้รับรางวัล ฉันจะสามารถเก็บรางวัลได้หรือไม่ ทั้งนี้ บริษัทหรือซัพพลายเออร์ไม่ได้เป็นผู้ออกค่าใช้จ่ายในการเดินทางเข้าร่วมงานประชุมนี้ ",
+                "answer": "ไม่ได้ คุณไม่สามารถเก็บรางวัลที่ซัพพลายเออร์ของบริษัท ตัวแทนจำหน่าย หรือองค์กรอื่น ๆ ที่ดำเนินธุรกิจร่วมกับบริษัทมอบให้ได้ หากรางวัลนั้นเกินมูลค่าตามสมควร (50 ดอลลาร์สหรัฐฯ ในสหรัฐอเมริกา – <a href=\"#/nominal-value\">คลิกเพื่อดูจำนวนในสกุลเงินท้องถิ่น</a>). ไม่สำคัญว่าใครเป็นผู้ออกค่าใช้จ่ายในการเข้าร่วมงานประชุมนี้และไม่สำคัญว่าคุณจะเป็นผู้ซื้อฉลากชิงโชคหรือมีผู้มอบให้คุณมา อย่างไรก็ตาม หากคุณเป็นผู้ออกค่าใช้จ่ายเอง คุณสามารถรับรางวัลจากธุรกิจหรือองค์กรที่ไม่ได้ดำเนินธุรกิจร่วมกับบริษัทและไม่ได้พยายามร่วมงานกับบริษัทได้ หากบริษัทหรือซัพพลายเออร์เป็นผู้ออกค่าใช้จ่ายในการเข้าร่วมงานประชุม คุณไม่สามารถรับรางวัลใด ๆ ที่มีมูลค่าเกินกว่าที่กำหนดไว้ในนโยบายของขวัญของบริษัทได้",
+                "nextPage": "faq-gifts-favors-detailed",
+                "reference": "gifts-favors"
+            },
+            {
+                "question": "<strong>ส่วนลด/งานประชุม: </strong>ฉันจะเข้าร่วมงานประชุมในเมืองออร์แลนโด รัฐฟลอริดาในเดือนหน้า ผู้สนับสนุนงานนี้ได้รับส่วนลดค่าโรงแรมที่ใช้จัดงานประชุมค่อนข้างมาก ในฐานะผู้เข้าร่วมงานประชุม ผู้สนับสนุนงานนี้ได้<u>เสนอที่จะจองห้องพักในคืนอื่น ๆ เพิ่มเติมให้</u>ที่โรงแรมนี้ใหในช่วงก่อนหรือหลังงานประชุม โดยเสนออัตราพิเศษเพื่อให้ฉันใช้บริการที่รีสอร์ทกับครอบครัวได้ ฉันจะรับอัตราส่วนลดนี้ได้หรือไม่ ",
+                "answer": "ไม่ได้ คุณไม่สามารถรับส่วนลดพิเศษได้ เว้นแต่ว่าจะมีการเสนอให้กับพนักงานทุกคนในบริษัทหรือสาธารณชนทั่วไป มิเช่นนั้น อาจจะเข้ากรณีที่คุณได้รับประโยชน์ส่วนตัวจากงานนี้",
+                "nextPage": "faq-gifts-favors-detailed",
+                "reference": "gifts-favors"
+            },
+            {
+                "question": "<strong>กระเช้าอาหาร: </strong>ฉันได้รับ <u>กระเช้าช่วงเทศกาลซึ่งประกอบด้วยอาหารและไวน์ 1 ขวด</u>จากซัพพลายเออร์ กระเช้าใบนี้เกินมูลค่าตามสมควรที่กำหนด (50 ดอลลาร์สหรัฐฯ ในสหรัฐอเมริกา) ฉันต้องส่งคืนกระเช้าใบนี้หรือไม่ ",
+                "answer": "คุณไม่สามารถรับไวน์ขวดนั้นได้และจะต้องส่งคืนไปยังผู้ให้หรือมอบให้กับบริษัท ประการต่อมา เนื่องจากกระเช้าอาหารนี้มีสิ่งของที่อาจเน่าเสียได้ บริษัทอนุญาตให้วางกระเช้าในบริเวณส่วนกลางซึ่งสามารถจะแบ่งปันแก่พนักงานคนอื่นๆ ได้ ทั้งนี้ เพื่อไม่ให้คุณได้รับของที่เกินมูลค่าตามสมควรตามที่กำหนดสำหรับตัวคุณ (50 ดอลลาร์สหรัฐฯ ในสหรัฐอเมริกา – <a href=\"#/nominal-value\">คลิกลิงก์ในส่วนอ้างอิงเพื่อดูจำนวนในสกุลเงินท้องถิ่น</a>).",
+                "nextPage": "faq-gifts-favors-detailed",
+                "reference": "gifts-favors"
+            },
+            {
+                "question": "<strong>บัตรของขวัญ: </strong>ฉันได้รับ<u>บัตรของขวัญสปา</u> มูลค่า 25 ดอลลาร์จากซัพพลายเออร์ ฉันจะเก็บบัตรใบนี้ไว้ได้หรือไม่  ",
+                "answer": "ไม่ได้ แม้จะมีมูลค่าตามสมควร แต่บัตรใบนี้เป็นบัตรของขวัญ ซึ่งบริษัทไม่อนุญาต",
+                "nextPage": "faq-gifts-favors-detailed",
+                "reference": "gifts-favors"
+            },
+            {
+                "question": "<strong>ของขวัญที่จัดทำขึ้นเฉพาะ: </strong>ตัวแทนจำหน่ายส่ง <u>กระเป๋าเอกสารทำจากหนังซึ่งสั่งทำให้ฉันโดยเฉพาะ</u>และปักชื่อฉันไว้ในสาบด้านใน ฉันจะเก็บกระเป๋าใบนี้ไว้ได้หรือไม่ ",
+                "answer": "ของขวัญนี้เกินมูลค่าตามสมควรและคุณต้องส่งคืนให้กับผู้ให้ หากต้องการเก็บกระเป๋าใบนี้ไว้ คุณต้องจ่ายค่ากระเป๋าใบนี้ตามราคาตลาดอันสมควรแก่ตัวแทนจำหน่ายหรือบริษัท คุณควรเก็บหลักฐานการจ่ายเงินไว้ด้วย โปรดดูส่วนอ้างอิงสำหรับข้อมูลเกี่ยวกับ “ทางเลือกในกรณีที่ฉันได้รับของขวัญที่นโยบายไม่อนุญาต”",
+                "nextPage": "faq-gifts-favors-detailed",
+                "reference": "gifts-favors"
+            },
+            {
+                "question": "<strong>ของขวัญเฉพาะตัว: </strong>ขณะเยี่ยมชมตัวแทนจำหน่ายเพื่อฉลองยอดขายที่ดีขึ้น ตัวแทนจำหน่ายได้มอบ <u>ภาพวาดรุ่นจำนวนจำกัด</u>. ให้กับฉัน ฉันกับตัวแทนจำหน่ายรายนี้มีความสัมพันธ์อันดีกันมาและฉันไม่อยากทำลายน้ำใจด้วยการปฏิเสธของขวัญ ฉันจะรับของไว้ได้หรือไม่  ",
+                "answer": "คุณควรปฏิเสธอย่างสุภาพหรือคืนภาพวาดชิ้นนี้โดยกล่าวอธิบายนโยบายของบริษัท หากได้รับคำแนะนำจากผู้บริหารและคำอนุมัติจากฝ่ายพนักงานสัมพันธ์ คุณสามารถรับภาพวาดนี้ในนามของบริษัทได้ (ซึ่งบริษัทจะบริจาคภาพชิ้นนี้ให้กับการกุศลหรือจัดแสดงในพื้นที่ของบริษัท).",
+                "nextPage": "faq-gifts-favors-detailed",
+                "reference": "gifts-favors"
+            },
+            {
+                "question": "<strong>การสนับสนุนทีม: </strong>ฉันจะขอให้ซัพพลายเออร์<u>ช่วยสนับสนุนทีมกีฬาของลูกฉัน</u>ได้หรือไม่ ",
+                "answer": "ไม่ได้ คุณต้องไม่เรี่ยไรของขวัญหรือการตอบแทนพิเศษ แม้ว่าซัพพลายเออร์จะอาสาบริจาคให้กับทีม การกระทำนี้ถือเป็นการตอบแทนพิเศษส่วนตัวซึ่งเกินจากนโยบายของบริษัท มากกว่าจะเป็นการบริจาคเพื่อการกุศล",
+                "nextPage": "faq-gifts-favors-detailed",
+                "reference": "gifts-favors"
+            },
+            {
+                "question": "<strong>การขอรับบริจาค: </strong>ฝ่ายของเราต้องการช่วยเหลือโรงพยาบาลเด็กในท้องถิ่น เราอยากจะ<u>ให้โอกาสซัพพลายเออร์บางราย </u> ได้โฆษณาตนเองใน<u>งานระดมทุนประจำปี</u>ของโรงพยาบาล เราคิดว่าซัพพลายเออร์น่าจะอยากมีโอกาสในการโฆษณาบริษัทครั้งนี้ มีสิ่งใดที่เราควรทราบบ้างหรือไม่ ",
+                "answer": "มี ประการแรก นโยบายของเราระบุไว้ว่าจะต้องไม่มีนัยใดๆ ที่สื่อว่าบริษัทกดดันให้มีการบริจาค คุณควรใส่ถ้อยคำในลักษณะที่ว่า: “การเข้าร่วมงานของคุณเป็นไปด้วยความสมัครใจ การตัดสินใจของคุณที่จะสนับสนุนหรือไม่สนับสนุนงานระดมทุนในครั้งนี้จะไม่กระทบกับความสัมพันธ์ทางธุรกิจในปัจจุบันหรือในอนาคตที่คุณมีกับบริษัท” ประการต่อมา คุณจะต้องได้รับการอนุมัติจากผู้บริหาร และหากมีซัพพลายเออร์หลายรายเข้าร่วม คุณจะต้องตรวจสอบกับฝ่ายจัดซื้อด้วยว่ามีขั้นตอนการอนุมัติอื่นใดที่ต้องทำหรือไม่ โปรดทราบว่าการระดมทุนจะต้องไม่กระทบกับหน้าที่รับผิดชอบของคุณกับบริษัท ประการสุดท้าย คุณจะต้องพิจารณาว่าตัวคุณเองหรือคนใกล้ชิดของคุณได้ประโยชน์จากงานการกุศลครั้งนี้หรือไม่ หากมีผลประโยชน์ส่วนตัวเข้ามาเกี่ยวข้อง คุณอาจมีผลประโยชน์ทับซ้อน ซึ่งในกรณีนี้คุณจะต้องปรึกษาฝ่ายทรัพยากรบุคคล/พนักงานสัมพันธ์หรือฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กรด้วย",
+                "nextPage": "faq-gifts-favors-detailed",
+                "reference": "gifts-favors"
+            },
+            {
+                "question": "<strong>งานเลี้ยงเกษียณอายุ/งานเลี้ยงของบริษัท: </strong>เรากำลังจะฉลอง<u>วาระเกษียณอายุของพนักงานคนหนึ่งในบริษัทที่</u> ร้านอาหารหรูและเปิดจำหน่ายบัตรเข้าร่วมงาน ซัพพลายเออร์ ตัวแทนจำหน่าย และพนักงานของบริษัททุกคนได้รับเชิญให้เข้าร่วมงานด้วย ซัพพลายเออร์รายหนึ่งที่เข้าร่วมงานด้วย<u>เสนอตัวออกค่าอาหารในงานนี้</u>การกระทำนี้สามารถทำได้หรือไม่ ",
+                "answer": "ไม่ได้ ซัพพลายเออร์ไม่ควรจ่ายค่าอาหารในงานที่มีพนักงานของบริษัทเข้าร่วมเป็นส่วนใหญ่ คุณควรปฏิเสธข้อเสนอของซัพพลายเออร์และจ่ายค่าอาหารโดยใช้เงินที่ได้จากการจำหน่ายบัตร ซัพพลายเออร์ควรจ่ายค่าบัตรในจำนวนที่เท่ากับที่พนักงานของฟอร์ดจ่าย",
+                "nextPage": "faq-gifts-favors-detailed",
+                "reference": "gifts-favors"
+            },
+            {
+                "question": "<strong>กิจธุระส่วนตัวที่รวมกับธุรกิจ: </strong><u>เพื่อนบ้าน</u> ของฉันทำงานในบริษัทของซัพพลายเออร์ เราทั้งสองเป็นเพื่อนกัน แต่ไม่ได้ติดต่อทำงานร่วมกัน <u>ลูกสาวของฉันกำลังจะแต่งงาน</u>และฉันอยากจะเชิญเพื่อนบ้านมาร่วมงานด้วย ฉันคิดว่าเพื่อนบ้านคงจะมอบของขวัญวันแต่งงานให้กับลูกสาวฉันด้วย ฉันจะเชิญเขามาในงานและลูกสาวของฉันจะรับของขวัญได้หรือไม่ ",
+                "answer": "สถานการณ์นี้จำเป็นต้องมีการตรวจสอบเพื่อให้แน่ใจว่าของขวัญที่ได้รับจากซัพพลายเออร์นั้นไม่มีอะไรแอบแฝงอยู่ คุณไปงานอื่นใดร่วมกับครอบครัวนี้บ้าง ซัพพลายเออร์เป็นบริษัทใหญ่หรือไม่ และของขวัญที่ได้รับนี้มาจากเพื่อนบ้านเป็นการส่วนตัวจริงหรือไม่ ซัพพลายเออร์เป็นบริษัทเล็ก ๆ และเพื่อนบ้านของคุณเป็นเจ้าของคนเดียวหรือร่วมกับเจ้าของคนอื่น ๆ หรือไม่ หากของขวัญนี้เป็นของขวัญส่วนตัวจากเพื่อนบ้านจริง ๆ คุณไม่จำเป็นต้องทำตามนโยบายของขวัญของบริษัทในกรณีนี้ ขอแนะนำให้คุณปรึกษาสถานการณ์นี้กับฝ่ายทรัพยากรบุคคลและบันทึกคำแนะนำที่ได้รับ",
+                "nextPage": "faq-gifts-favors-detailed",
+                "reference": "gifts-favors"
+            },
+            {
+                "question": "<strong>วันหยุด/ส่วนลด: </strong>ตัวแทนจำหน่ายที่ฉันติดต่อด้วยเป็นประจำมี <u>มีอพาร์ตเมนต์สวยริมชายหาด</u> ในประเทศกรีซ ซึ่งโดยปกติเขาจะปล่อยเช่า เขาได้เสนอให้ฉัน <u>เข้าพักฟรีในช่วงวันหยุด</u> (หรือจ่ายในราคาส่วนลด) ฉันจะรับข้อเสนอได้หรือไม่ ",
+                "answer": "ไม่ได้ คุณสามารถเช่าอพาร์ตเมนต์นี้ได้ในราคาปกติหรือในราคาส่วนลดที่เสนอให้กับสาธารณชนโดยทั่วไป",
+                "nextPage": "faq-gifts-favors-detailed",
+                "reference": "gifts-favors"
+            },
+            {
+                "question": "<strong>การเสนองาน: </strong>ซัพพลายเออร์ที่ฉันร่วมงานด้วยกำลังรับ <u>พนักงานฝึกงานช่วงฤดูร้อน</u> ฉันจะแนะนำบุคคลที่ฉันรู้จักในบริษัทซัพพลายเออร์รายนี้ได้ไหมว่า <u>ลูกชายของฉันเหมาะกับงานนี้</u> และส่งใบประวัติของลูกชายให้กับเขา ",
+                "answer": "ลูกชายของคุณสามารถสมัครตำแหน่งนี้ได้ตามขั้นตอนการสรรหาพนักงาน/การสมัครงานตามปกติ คุณไม่ควรติดต่อคนที่คุณรู้จักในบริษัทซัพพลายเออร์รายนี้เพื่อแนะนำลูกชายของคุณ หรือส่งใบประวัติของลูกให้กับซัพพลายเออร์ของบริษัทโดยใช้ขั้นตอนพิเศษ <br/><br/>คุณต้องแน่ใจว่าคุณไม่ได้โน้มน้าวหรือมีท่าทีโน้มน้าวการตัดสินใจว่าจ้างงานของซัพพลายเออร์ไม่ว่าจะจงใจหรือไม่ก็ตาม เช่น คุณไม่ควรบอกซัพพลายเออร์ว่าลูกของคุณสมัครตำแหน่งนี้ด้วย",
+                "nextPage": "faq-gifts-favors-detailed",
+                "reference": "gifts-favors"
+            },
+            {
+                "question": "<strong>คำจำกัดความ: </strong>ฉันจะทราบได้อย่างไรว่าบริษัทหรือบุคคลหนึ่ง ๆ <u>“ดำเนินธุรกิจ” กับฟอร์ด</u>",
+                "answer": ":ประการแรก นโยบายของเรามีการตีความอย่างกว้าง เพื่อรวมหน่วยงานการกุศล โรงเรียน และมหาวิทยาลัยที่บริษัทให้การสนับสนุนผ่านการระดมทุน การบริจาค หรือโครงการวิจัย นโยบายนี้ยังครอบคลุมถึงกลุ่มการค้าและสมาคมธุรกิจอื่น ๆ ที่บริษัทเข้าร่วมหรือได้รับการสนับสนุนจำนวนมากจากตัวแทนจำหน่ายหรือซัพพลายเออร์ของบริษัท ประการที่สอง หากคุณเกิดความไม่แน่ใจประการใด ขอให้สอบถามประเด็นดังกล่าว ผู้แทนของธุรกิจมักจะทราบว่าตนทำงานกับฟอร์ด ฝ่ายจัดซื้อก็อาจจะช่วยตรวจสอบในเรื่องนี้ได้เช่นกัน",
+                "nextPage": "faq-gifts-favors-detailed",
+                "reference": "gifts-favors"
+            },
+            {
+                "question": "<strong>ของขวัญเกินกว่าที่นโยบายกำหนด: </strong>ฉันจะทำอย่างไรหากได้รับของขวัญที่ไม่สามารถรับไว้ได้เนื่องจาก <u>เกินกว่าที่นโยบายของเรากำหนด</u>?",
+                "answer": "<a href=\"#/gift-exceed-policies\">ลิงก์ไปยังหน้าข้อมูลหากคุณได้รับของขวัญที่เกินกว่าที่กำหนด... อยู่ในเอกสารอีกฉบับหนึ่ง</a>",
+                "nextPage": "faq-gifts-favors-detailed",
+                "reference": "gifts-favors"
+            }
+        ],
+        "can-i": [
+            {
+                "title": "เครื่องดื่มแอลกอฮอล์ เบียร์หรือไวน์ ",
+                "text": "การรับเครื่องดื่มแอลกอฮอล์เป็นของขวัญจากซัพพลายเออร์ ตัวแทนจำหน่าย หรือบุคคลที่สามรายอื่น ถือเป็นการละเมิดนโยบายของเรา คุณอาจดื่มเบียร์ ไวน์ หรือ เครื่องดื่มแอลกอฮอล์อื่น ๆ ในระหว่างมื้ออาหารหรืองานพิเศษร่วมกับซัพพลายเออร์ ตัวแทนจำหน่าย หรือบุคคลที่สามรายอื่นได้ พึงระลึกว่าคุณเป็นตัวแทนของบริษัท และควรดื่มอย่างรับผิดชอบเสมอ"
+            },
+            {
+                "title": "เงินสดหรือบัตรกำนัล",
+                "text": "การรับเงินสดและการรับบัตรกำนัลจากซัพพลายเออร์ ตัวแทนจำหน่าย หรือบุคคล ที่สามรายอื่นถือเป็นการละเมิดนโยบายของเรา หากมีการใช้บัตรกำนัลเพื่อมอบสิ่งของบางอย่าง (ซึ่งโดยมาก จะเน่าเสียได้) ที่มีมูลค่าตามสมควร (Nominal value) การกระทำนี้ถือว่าเป็นสิ่งที่เหมาะสม เช่น ในช่วง เทศกาลตรุษจีน บริษัทอนุญาตให้รับบัตรกำนัลรับขนมไหว้พระจันทร์ที่มีมูลค่าตามสมควรในร้านค้าหนึ่ง ๆ ได้ "
+            },
+            {
+                "title": "กระเช้าของขวัญหรือถุงของขวัญ",
+                "items": [
+                    {
+                        "title": "ต่ำกว่ามูลค่าตามสมควร",
+                        "text": "คุณสามารถรับกระเช้าหรือถุงของขวัญได้หากมูลค่ารวมต่ำกว่ามูลค่าตามสมควรและไม่มีเครื่องดื่มแอลกอฮอล์ เงินสด หรือบัตรกำนัลที่บริษัทไม่อนุญาต (โปรดดูรายละเอียดในส่วน เงินสดและบัตรกำนัล)"
+                    },
+                    {
+                        "title": "เกินกว่ามูลค่าตามสมควรและมีอาหาร ",
+                        "text": "หากสิ่งของส่วนใหญ่ในกระเช้านั้นเป็นอาหาร คุณสามารถรับกระเช้านั้นได้ในกรณีที่นำมา แบ่งปันกับเพื่อนร่วมงาน (กล่าวคือวางไว้ในพื้นที่ส่วนกลางเพื่อแบ่งกัน) ส่วนเครื่องดื่มแอลกอฮอล์นั้นต้องมอบให้กับบริษัทหรือมอบคืนผู้ให้"
+                    },
+                    {
+                        "title": "เกินกว่ามูลค่าตามสมควรและไม่มีอาหาร ",
+                        "text": "คุณไม่สามารถรับกระเช้าของขวัญหรือถุงของขวัญได้ หากสิ่งของภายในมีมูลค่ารวมเกิน มูลค่าตามสมควร คุณสามารถรับสิ่งของชิ้นหนึ่งที่มีมูลค่าต่ำกว่ามูลค่าตามสมควร และ คืนส่วนที่เหลือหรือมอบให้กับทางบริษัท"
+                    }
+                ]
+            },
+            {
+                "title": "ของขวัญประเภทอื่น",
+                "items": [
+                    {
+                        "title": "ของขวัญส่วนตัว ",
+                        "items": [
+                            {
+                                "title": "ต่ำกว่ามูลค่าตามสมควร",
+                                "text": "คุณสามารถรับของขวัญได้หากมีมูลค่าต่ำกว่ามูลค่าตามสมควรและไม่มีเครื่องดื่มแอลกอฮอล์ เงินสด หรือบัตรกำนัล"
+                            },
+                            {
+                                "title": "เกินกว่ามูลค่าตามสมควร ",
+                                "text": "คุณไม่สามารถรับของขวัญได้หากของขวัญนั้นมีมูลค่าเกินกว่ามูลค่าตามสมควร"
+                            },
+                            {
+                                "title": "ไม่ทราบมูลค่า",
+                                "text": "ลองประเมินมูลค่าของของขวัญโดยค้นหามูลค่าของสินค้าที่ใกล้เคียงกันในอินเทอร์เน็ต ปรึกษาฝ่ายทรัพยากรบุคคลหรือฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กร หากต้องการความช่วยเหลือ"
+                            },
+                            {
+                                "title": "สิ่งที่ควรทำหากรับของขวัญไว้ไม่ได้",
+                                "reference": "gift-exceed-policies"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "โอกาสพิเศษ",
+                        "text": "เกษียณอายุ การเลื่อนขั้น หรืองานกิจกรรมอื่น ๆ ที่เกี่ยวกับงานในหน้าที่จะต้องเป็นไปตามกฎระเบียบ ปกติ (ดูข้อมูลด้านล่าง) หากคุณมีความสัมพันธ์ส่วนตัวนอกที่ทำงาน เช่น เพื่อนสมัยเด็กที่ทำงาน ในบริษัทซัพพลายเออร์หรือตัวแทนจำหน่าย และคุณหรือฝ่ายติดต่องานกับซัพพลายเออร์หรือ ตัวแทนจำหน่ายรายนั้นเป็นประจำ คุณควรใช้ความระมัดระวังเป็นพิเศษเพื่อหลีกเลี่ยงสถานการณ์ที่ อาจเข้าข่ายละเมิดนโยบายได้ หากโอกาสนั้นเป็นงานเลี้ยงฉลองส่วนตัว เช่น งานแต่งงานหรือ วันเกิด และคุณได้รับของขวัญหรือการตอบแทนพิเศษอื่น ๆ บางอย่าง คุณควรปรึกษาฝ่ายทรัพยากร บุคคลหรือฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กรก่อนรับสิ่งของหรือความช่วยเหลือที่เกินกว่าที่กฎระเบียบปกติกำหนดไว้ ",
+                        "items": [
+                            {
+                                "title": "ต่ำกว่ามูลค่าตามสมควร",
+                                "text": "คุณสามารถรับของขวัญได้หากมีมูลค่าต่ำกว่ามูลค่าตามสมควรและไม่มีเครื่องดื่มแอลกอฮอล์ เงินสด หรือบัตรกำนัล"
+                            },
+                            {
+                                "title": "เกินกว่ามูลค่าตามสมควร",
+                                "text": "คุณไม่สามารถรับของขวัญได้หากมีมูลค่าเกินกว่ามูลค่าตามสมควร"
+                            },
+                            {
+                                "title": "ไม่ทราบมูลค่า ",
+                                "text": "ลองประเมินมูลค่าโดยค้นหามูลค่าของสินค้าที่ใกล้เคียงกันในอินเทอร์เน็ต ปรึกษาฝ่ายทรัพยากรบุคคลหรือฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กร หากต้องการความช่วยเหลือ"
+                            },
+                            {
+                                "title": "สิ่งที่ควรทำหากรับของขวัญไว้ไม่ได้  ",
+                                "reference": "gift-exceed-policies"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "ของขวัญที่มอบให้กับสมาชิกในครอบครัว ",
+                        "text": "ของขวัญและการตอบแทนพิเศษที่มอบให้กับสมาชิกในครอบครัวจะต้องเป็นไปตามกฎระเบียบปกติ (ดูข้อมูลด้านล่าง) หากคุณมีความสัมพันธ์ส่วนตัวนอกที่ทำงาน เช่น เพื่อนสมัยเด็กที่ทำงานใน บริษัทซัพพลายเออร์หรือตัวแทนจำหน่าย และคุณหรือฝ่ายติดต่องานกับซัพพลายเออร์หรือตัวแทน จำหน่ายรายนั้นเป็นประจำ คุณควรใช้ความระมัดระวังเป็นพิเศษเพื่อหลีกเลี่ยงสถานการณ์ที่อาจเข้า ข่ายละเมิดนโยบายได้ หากโอกาสนั้นเป็นงานเลี้ยงฉลองส่วนตัว เช่น งานแต่งงานหรือวันเกิด และคุณได้รับของขวัญหรือการตอบแทนพิเศษอื่น ๆ บางอย่าง คุณควรปรึกษาฝ่ายทรัพยากร บุคคลหรือฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กรก่อนรับสิ่งของหรือความช่วยเหลือที่เกินกว่าที่กฎระเบียบปกติกำหนดไว้",
+                        "items": [
+                            {
+                                "title": "ต่ำกว่ามูลค่าตามสมควร",
+                                "text": "คุณสามารถรับของขวัญได้หากมีมูลค่าต่ำกว่ามูลค่าตามสมควรและไม่มีเครื่องดื่มแอลกอฮอล์ เงินสด หรือบัตรกำนัล"
+                            },
+                            {
+                                "title": "เกินกว่ามูลค่าตามสมควร",
+                                "text": "คุณไม่สามารถรับของขวัญได้หากมีมูลค่าเกินกว่ามูลค่าตามสมควร"
+                            },
+                            {
+                                "title": "ไม่ทราบมูลค่า",
+                                "text": "ลองประเมินมูลค่าโดยค้นหามูลค่าของสินค้าที่ใกล้เคียงกันในอินเทอร์เน็ต ปรึกษาฝ่ายทรัพยากรบุคคลหรือฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กร หากต้องการความช่วยเหลือ"
+                            },
+                            {
+                                "title": "สิ่งที่ควรทำหากรับของขวัญไว้ไม่ได้",
+                                "reference": "gift-exceed-policies"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "ของรางวัล ",
+                "text": "ของรางวัลจะถือว่าเหมือนกับของขวัญและการตอบแทนพิเศษและต้องเป็นไปตามนโยบาย ของบริษัทในแง่ของประเภทของขวัญหรือการตอบแทนพิเศษที่มอบให้เป็นของรางวัล หากไม่แน่ใจว่าคุณ จะรับของรางวัล ได้หรือไม่ โปรดตรวจสอบก่อนเสมอ"
+            },
+            {
+                "title": "การตอบแทนพิเศษและข้อเสนอพิเศษ",
+                "items": [
+                    {
+                        "title": "สินค้าฟรี/ลดราคา",
+                        "text": "คุณต้องไม่ขอสินค้าฟรี/ลดราคาโดยเด็ดขาด หากมีการเสนอ สินค้าฟรีหรือลดราคาสู่สาธารณะหรือให้กับพนักงานทุกคน คุณสามารถรับสินค้าชิ้นนั้น หากมีการเสนอสินค้า ฟรีหรือลดราคาให้กับคุณคนเดียว คุณจะไม่สามารถรับสินค้าชิ้นนั้นได้"
+                    },
+                    {
+                        "title": "การบริการฟรี/ลดราคา",
+                        "text": "คุณต้องไม่รับการบริการฟรี/ลดราคาโดยเด็ดขาด เว้นแต่ว่ามีการเสนอการบริการเดียวกันนี้ให้กับพนักงานทุกคนหรือสาธารณะเป็นการทั่วไป"
+                    },
+                    {
+                        "title": "การเดินทางที่ซัพพลายเออร์เป็นผู้ออกค่าใช้จ่าย",
+                        "items": [
+                            {
+                                "title": "การประชุมทางธุรกิจ",
+                                "text": "ฝ่ายทรัพยากรบุคคล/พนักงานสัมพันธ์และฝ่ายกำกับดูแลการปฏิบัติ ตามกฎขององค์กรจะต้องตรวจสอบการเดินทางเข้าประชุมทางธุรกิจที่ซัพพลายเออร์เป็นผู้ออกค่าใช้จ่าย และการเดินทางนี้ต้องได้รับอนุมัติจาก LL1 ของคุณ"
+                            },
+                            {
+                                "title": "การประชุมส่วนตัว",
+                                "text": "ฝ่ายทรัพยากรบุคคล/พนักงานสัมพันธ์และฝ่ายกำกับดูแลการปฏิบัติตาม กฎขององค์กรจะต้องตรวจสอบการเดินทางเข้าประชุมทางธุรกิจที่ซัพพลายเออร์เป็นผู้ออกค่าใช้จ่าย และการเดินทางนี้ต้องได้รับอนุมัติจาก LL1 ของคุณ"
+                            },
+                            {
+                                "title": "การเดินทางโดยเครื่องบินส่วนตัวของซัพพลายเออร์",
+                                "text": "ข้อกำหนด A-110 กำหนดให้ต้องขอ การอนุมัติการเดินทางโดยเครื่องบินส่วนตัวของซัพพลายเออร์จากสำนักการเดินทางกลาง (Global Travel Office) คุณควรต้องได้รับการตรวจสอบจากฝ่ายทรัพยากรบุคคล/พนักงาน สัมพันธ์และฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กรและได้รับอนุมัติจาก LL1 ของคุณ ทั้งนี้ขึ้นอยู่กับวัตถุประสงค์ในการเดินทาง"
+                            },
+                            {
+                                "title": "งานสังคม/สันทนาการ ",
+                                "items": [
+                                    {
+                                        "title": "งานในท้องถิ่น",
+                                        "text": "หากคุณเดินทางพร้อมกับซัพพลายเออร์ไปยังงานใน ท้องถิ่นที่นโยบายของฟอร์ดอนุญาต (เช่น ซัพพลายเออร์เข้าร่วม ด้วย สถานที่จัดงานมีความเหมาะสม และข้อเสนอนี้ไม่เกินจำนวนครั้งที่จำกัด) คุณไม่จำเป็นต้องได้รับการอนุมัติกรณีพิเศษ งานใน ท้องถิ่นหมายถึงงาน ที่อยู่ในพื้นที่เดียวกันกับที่คุณอาศัยอยู่ หาก จำเป็นต้องขึ้นเที่ยวบิน หรือเดินทางโดยใช้เวลานานไปยังงานนี้ จะถือว่าไม่ใช่งานในท้องถิ่น"
+                                    },
+                                    {
+                                        "title": "การเดินทางที่ใช้เวลานานหรือข้ามคืน",
+                                        "text": "ฝ่ายทรัพยากรบุคคล/ พนักงานสัมพันธ์และฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กรจะต้องตรวจสอบงานสังคม/งานบันเทิงหรืองานสันทนาการที่ต้องใช้เวลาเดินทางข้ามคืนหรือเป็นเวลานาน และงานนี้ต้องได้รับอนุมัติจาก LL1 ของคุณ เงื่อนไขนี้บังคับใช้เสมอ ไม่ว่าคุณจะออกค่าเดินทางเอง หรือฟอร์ดหรือซัพพลายเออร์จะเป็นผู้ออกค่าเดินทางให้กับคุณก็ตาม หากคุณตอบรับงานบันเทิงหรืองานสังคมในสถานที่ที่คุณเดินทางไปถึงเพื่อการติดต่อธุรกิจของบริษัทและบริษัทเป็นผู้ออกค่าใช้จ่าย คุณไม่จำเป็นต้องได้รับอนุมัติกรณีพิเศษ ตราบเท่าที่คุณปฏิบัติตามนโยบายอื่น ๆ ทั้งหมดของบริษัท (เช่น ซัพพลายเออร์เข้า ร่วมด้วย สถานที่จัดงานมีความเหมาะสม และข้อเสนอนี้ไม่เกินจำนวนครั้งที่จำกัด)"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "การประชุมที่ซัพพลายเออร์เป็นผู้ออกค่าใช้จ่าย ",
+                        "text": "คุณต้องได้รับการอนุมัติจาก ผู้บริหาร (ระดับ LL4 ขึ้นไป) จึงจะตอบรับการเข้าร่วมประชุมฟรีได้ โปรดปฏิบัติตามกฎระเบียบอื่น ๆ ว่าด้วยเรื่องของขวัญ การเลี้ยงอาหาร และสิ่งบันเทิง มื้ออาหารที่จัดให้กับผู้เข้าร่วมการประชุมจะไม่นับรวมในมื้ออาหารที่กำหนดของคุณ"
+                    },
+                    {
+                        "title": "โอกาสในการจ้างงาน",
+                        "text": "คุณต้องไม่ใช้ตำแหน่งของคุณในบริษัทเพื่อให้ได้มาซึ่งตำแหน่งงาน สำหรับเพื่อนหรือญาติพี่น้องของคุณ คุณต้องไม่ขอให้ซัพพลายเออร์หรือตัวแทนจำหน่ายว่าจ้างเพื่อนหรือญาติพี่น้องของคุณ ในระหว่างทำงานที่ฟอร์ด คุณอาจทราบโอกาสงานที่บริษัทอื่นเปิดรับ การแจ้งให้เพื่อน หรือญาติพี่น้องทราบถึงตำแหน่งงานที่เปิดรับเพื่อให้เพื่อนหรือญาติของคุณสมัครตำแหน่งนั้นเป็นเรื่องที่สามารถทำได้ แต่การพิจารณารับเข้าทำงานจะต้องเป็นไปตามขั้นตอนการรับสมัครเช่นเดียวกับผู้สมัคร คนอื่น ๆ และเพื่อนหรือญาติของคุณต้องได้รับงานนั้นจากความสามารถของตนเอง คุณไม่ควรขอให้มีการพิจารณา เพื่อนหรือญาติพี่น้องของคุณเป็นกรณีพิเศษ"
+                    }
+                ]
+            },
+            {
+                "title": "ตั๋ว",
+                "text": "หากซัพพลายเออร์จะเข้าร่วมด้วย โปรดดูแนวทางในส่วนการเลี้ยงอาหาร การเดินทาง และงานสังคม หากซัพพลายเออร์ไม่เข้าร่วมด้วย คุณไม่สามารถรับตั๋วดังกล่าวเป็นของขวัญได้ มูลค่าของตั๋วไม่ถือว่าเป็น สาระสำคัญในกรณีนี้"
+            }
+        ]
+    },
+    {
+        "pageKey": "meals-travels",
+        "title": "การเลี้ยงอาหาร การเดินทาง และงานสังคม",
+        "canITitle": "ฉันสามารถเข้าร่วม...? ",
+        "canIReminder": "คุณจะต้องไม่ขอของขวัญหรือการตอบแทนพิเศษโดยเด็ดขาด.",
+        "icon": "meals-travels.png",
+        "ciicon": "meals-travels.png",
+        "titleicon": "meals-travels-title.png",
+        "items": [
+            {
+                "title": "สรุปนโยบายของบริษัท ",
+                "icon": "favors_list_icon_01.png",
+                "description": "การสังสรรค์กับผู้ติดต่อธุรกิจอาจช่วยให้ความสัมพันธ์ในการทำงานดีขึ้น อย่างไรก็ตาม บริษัทได้ จำกัดประเภทการเลี้ยงอาหารและสิ่งบันเทิงที่สามารถรับได้ คุณควรตอบรับงานสังคมที่เอื้อต่อการพูดคุยธุรกิจเท่านั้น คุณควรปฏิเสธคำเชิญร่วมงานสังคมใด ๆ ที่อาจดูไม่เหมาะสม รวมทั้งคำเชิญที่เกี่ยวข้องกับสิ่งบันเทิงสำหรับผู้ใหญ่ หรือสถานที่อันไม่เหมาะสมอื่น ๆ โปรดทราบว่าขณะเดินทางติดต่อธุรกิจของบริษัท คุณคือตัวแทนของบริษัท คุณควรใช้วิจารณญาณอย่างเหมาะสมที่สุดและดำเนินการในลักษณะที่ปกป้องชื่อเสียงของบริษัท ปฏิบัติตามนโยบายของ บริษัท โดยเฉพาะนโยบายว่าด้วยการเดินทางและค่าใช้จ่ายที่เกี่ยวข้อง รวมทั้งนโยบายจรรยาบรรณของบริษัทด้วย ขอคำชี้แนะหากคุณไม่แน่ใจว่าควรทำอย่างไรหรือพบว่าคุณไม่ได้ปฏิบัติตามนโยบาย",
+                "nextPage": "ps-meals-travels-summary",
+                "descriptionContent": "<div><p>หลักจรรยาบรรณ</p>การสังสรรค์กับผู้ติดต่อธุรกิจอาจช่วยให้ความสัมพันธ์ในการทำงานดีขึ้น อย่างไรก็ตาม บริษัทได้ จำกัดประเภทการเลี้ยงอาหารและสิ่งบันเทิงที่สามารถรับได้ คุณควรตอบรับงานสังคมที่เอื้อต่อการพูดคุยธุรกิจเท่านั้น คุณควรปฏิเสธคำเชิญร่วมงานสังคมใด ๆ ที่อาจดูไม่เหมาะสม รวมทั้งคำเชิญที่เกี่ยวข้องกับสิ่งบันเทิงสำหรับผู้ใหญ่ หรือสถานที่อันไม่เหมาะสมอื่น ๆ โปรดทราบว่าขณะเดินทางติดต่อธุรกิจของบริษัท คุณคือตัวแทนของบริษัท คุณควรใช้วิจารณญาณอย่างเหมาะสมที่สุดและดำเนินการในลักษณะที่ปกป้องชื่อเสียงของบริษัท ปฏิบัติตามนโยบายของ บริษัท โดยเฉพาะนโยบายว่าด้วยการเดินทางและค่าใช้จ่ายที่เกี่ยวข้อง รวมทั้งนโยบายจรรยาบรรณของบริษัทด้วย ขอคำชี้แนะหากคุณไม่แน่ใจว่าควรทำอย่างไรหรือพบว่าคุณไม่ได้ปฏิบัติตามนโยบาย</div><div><p>นโยบายพื้นฐาน</p><ul><li>คุณสามารถรับของว่างทั่วไปที่ซัพพลายเออร์/ตัวแทนจำหน่ายจัดหาให้ขณะเข้าประชุมทางธุรกิจได้ โปรด ปฏิบัติตามข้อจำกัดการเลี้ยงอาหารและสิ่งบันเทิงที่นโยบายกำหนด ดังที่สรุปไว้ต่อไปนี้</li><li>ห้ามเข้าร่วมงานที่ไม่เหมาะสมขณะติดต่อธุรกิจของบริษัท เช่น งานที่มีสิ่งบันเทิงสำหรับผู้ใหญ่ สอบถาม เจ้าหน้าที่ฝ่ายทรัพยากรบุคคลหรือผู้จัดการของคุณในกรณีที่อาจไม่เป็นไปตามข้อจำกัดทั่วไปที่นโยบาย กำหนด</li><li>ขณะร่วมกิจกรรมที่ซัพพลายเออร์/ตัวแทนจำหน่ายเป็นผู้ออกค่าใช้จ่าย ให้รับเฉพาะการเลี้ยงอาหารและงาน สังคมที่เป็นไปตามข้อจำกัดที่นโยบายกำหนด คุณต้องได้รับการอนุมัติพิเศษในการเดินทางที่ซัพพลายเออร์ หรือตัวแทนจำหน่ายเป็นผู้ออกค่าใช้จ่าย</li><li>กฎการเดินทางและค่าใช้จ่ายนั้นแตกต่างกันไปทั่วโลก คุณควรทราบว่ากฎที่บังคับใช้กับการเดินทางของคุณ อยู่ที่ใด</li></ul></div><div><p>ข้อจำกัดทั่วไปที่นโยบายกำหนด </p><ul><li>การเลี้ยงอาหารหนึ่งมื้อต่อไตรมาสจากซัพพลายเออร์/ตัวแทนจำหน่ายแต่ละราย </li><li>การเลี้ยงอาหารรวมหนึ่งมื้อต่อสัปดาห์จากซัพพลายเออร์/ตัวแทนจำหน่ายทั้งหมด</li><li>คุณสามารถรับของว่าง (เช่น เครื่องดื่ม คุกกี้ ผลไม้) ที่จัดหาให้ขณะที่เข้าร่วมการประชุมทางธุรกิจได้</li><li>สิ่งบันเทิงสองงานต่อปีจากซัพพลายเออร์/ตัวแทนจำหน่ายแต่ละราย</li><li>โดยซัพพลายเออร์/ตัวแทนจำหน่ายจะต้องเข้าร่วมงานกับคุณ หากคุณมีผู้ติดตาม เจ้าภาพควรพาผู้ติดตามไปด้วยเช่นกัน</li></div><div><p>แนวทางอื่น ๆ </p><ul><li>ในการตอบรับการเดินทางค้างคืนหรือการเดินทางที่ใช้เวลานาน คุณจะต้องได้รับการอนุมัติจากผู้จัดการ รองประธานองค์กร (LL1) และฝ่ายพนักงานสัมพันธ์ในสหรัฐอเมริกา อเมริกาใต้ และเอเชียแปซิฟิก หรือเจ้าหน้าที่ฝ่ายทรัพยากรบุคคลในภูมิภาคอื่น</li><li>การตอบรับการเดินทางหรือค่าใช้จ่ายอื่นๆ ในการเข้าร่วมงานประชุมและสัมมนาที่มีผู้ออกค่าใช้จ่ายให้ถือว่า เป็นการเดินทางที่มีบุคคลที่สามออกค่าใช้จ่ายให้และจะต้องได้รับการอนุมัติ</li><li>ขณะเป็นวิทยากรในงานใด ๆ ตามหน้าที่ความรับผิดชอบในบริษัท คุณต้องไม่รับค่าธรรมเนียมหรือรางวัลใดก็ตามซึ่งเป็นตัวเงินที่มอบให้กับวิทยากร</li><li>องค์กรการกุศล โรงเรียน มหาวิทยาลัย กลุ่มการค้า และสมาคมการค้าอื่น ๆ ที่บริษัทสนับสนุนยังถือเป็นซัพพลายเออร์/ตัวแทนจำหน่ายด้วย</li></ul></div>"
+            },
+            {
+                "title": "ข้อมูลติดต่อและอ้างอิง",
+                "icon": "favors_list_icon_02.png",
+                "description": "คุณสามารถพบแหล่งข้อมูลเหล่านี้ได้เมื่อเข้าไปยังอินทราเน็ตของฟอร์ด",
+                "nextPage": "ps-meals-travels-quick-ref",
+                "items": [
+                    {
+                        "title": "เอกสารแถลงนโยบาย 3 มาตรฐานการดำเนินงานขององค์กร",
+                        "link": ""
+                    },
+                    {
+                        "title": "ข้อกำหนด A-107 มาตรฐานการดำเนินงานขององค์กร",
+                        "link": ""
+                    },
+                    {
+                        "title": "ข้อกำหนด A-110 การเดินทางเพื่อติดต่อธุรกิจ (รวมทั้งเครื่องบินของซัพพลายเออร์/ตัวแทนจำหน่าย)",
+                        "link": ""
+                    },
+                    {
+                        "title": "นโยบายการเดินทางกลาง ",
+                        "link": ""
+                    },
+                    {
+                        "title": "เว็บไซต์ค่าใช้จ่ายในการเดินทาง (TER) ออนไลน์ (หากมี) เพื่อดูข้อมูลสิ่งที่ถือเป็นค่าใช้จ่ายขณะเดินทาง",
+                        "link": ""
+                    },
+                    {
+                        "title": "หากมีข้อสงสัยเรื่องการเลี้ยงอาหารหรือการเดินทางที่ซัพพลายเออร์หรือผู้ติดต่อธุรกิจเป็นผู้จัดหา หรือการเข้าร่วมงานสังคม โปรดติดต่อเจ้าหน้าที่ฝ่ายทรัพยากรบุคคลในพื้นที่หรือคลิกที่นี่เพื่อส่งอีเมลถึงฝ่ายพนักงานสัมพันธ์ใน WHQ",
+                        "link": "mailto:activity@ford.com?subject=อุปกรณ์เคลื่อนที่ – การเลี้ยงอาหารและงานสังคม"
+                    },
+                    {
+                        "title": "หากมีข้อสงสัยเรื่องนโยบายของบริษัทว่าด้วยการเดินทางและค่าใช้จ่ายตลอดจนข้อจำกัดต่าง ๆ โปรดติดต่อเจ้าหน้าที่ฝ่ายการเดินทางและการควบคุมภายในในพื้นที่",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "title": "คำถามที่พบบ่อย",
+                "icon": "favors_list_icon_03.png",
+                "description": "เรากำลังทำโครงการหนึ่งร่วมกับซัพพลายเออร์โดยกลุ่มของเราต้องทำงานตั้งแต่เช้าตรู่จนถึงช่วงเวลาอาหารค่ำ ซัพพลายเออร์ได้เสนอจัดแซนด์วิชและสลัดเป็นอาหารกลางวันและ อาหารค่ำ เนื่องจากเราต้องทำงานยาวทั้งช่วงอาหารกลางวันและอาหารค่ำ การกระทำนี้สามารถทำได้หรือไม่",
+                "nextPage": "faq-meals-travels"
+            }
+        ],
+        "frequently-asked-questions": [
+            {
+                "question": "<strong>การประชุมทั้งวัน:</strong>เรากำลังทำโครงการหนึ่งร่วมกับซัพพลายเออร์โดยกลุ่มของเราต้องทำงานตั้งแต่เช้าตรู่จนถึงช่วงเวลาอาหารค่ำ ซัพพลายเออร์ได้เสนอ <u>จัด</u> แซนด์วิชและสลัดเป็นอาหารกลางวันและ อาหารค่ำ เนื่องจากเราต้อง <u>ทำงานยาวทั้งช่วงอาหารกลางวันและอาหารค่ำ</u> การกระทำนี้สามารถทำได้หรือไม่ ",
+                "answer": "โดยทั่วไป บริษัทไม่อนุญาตให้คุณตอบรับการเลี้ยงอาหารที่ซัพพลายเออร์เป็นผู้ออกค่าใช้จ่ายเกิน 1 มื้อต่อสัปดาห์ หากสถานการณ์บังคับให้คุณไม่ต้องออกค่าใช้จ่ายมื้อใดมื้อหนึ่ง คุณควรขอคำชี้แนะและการอนุมัติจากฝ่ายทรัพยากรบุคคลหรือฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กร ฝ่ายดังกล่าวจะพิจารณาสถานการณ์ทั้งหมดร่วมกับคุณเพื่อให้คุณสบายใจได้ว่าไม่ได้กระทำการละเมิดนโยบาย",
+                "nextPage": "faq-meals-travels-detailed",
+                "reference": "meals-travels"
+            },
+            {
+                "question": "<strong>การแนะนำการเลี้ยงอาหาร: </strong>ฉันจะ <u>แนะนำให้ซัพพลายเออร์ออกค่าอาหารกลางวัน</u> หรือจัดอาหารสำหรับการประชุมได้หรือไม่ ซัพพลายเออร์รายอื่น ๆ เคยทำมาก่อนแล้วและพนักงานในทีมของฉันก็คาดหวังว่าจะได้รับข้อเสนอนี้ ฉันไม่ต้องการให้ซัพพลายเออร์รู้สึกเสียหน้าที่ไม่ได้จัดหาอาหารสำหรับการประชุม ",
+                "answer": "ไม่ได้ การเรียกร้องให้ซัพพลายเออร์จัดอาหารสำหรับการประชุมถือเป็นการเรียกร้องการตอบแทนพิเศษ แม้ซัพพลายเออร์บางรายจะจัดหาอาหารให้ในระหว่างการประชุมอยู่แล้ว คุณจะต้องไม่เรียกร้องให้ซัพพลายเออร์รายใดก็ตามซื้ออาหารกลางวันสำหรับการประชุม และทีมของคุณต้องไม่คาดหวังให้ซัพพลายเออร์จัดเลี้ยงอาหาร นอกจากนี้ คุณควรย้ำเตือนซัพพลายเออร์รายอื่น ๆ ที่ร่วมงานด้วยว่าเขาสามารถจัดเลี้ยงอาหารให้แก่พนักงานของฟอร์ดได้เพียง 1 มื้อต่อไตรมาส",
+                "nextPage": "faq-meals-travels-detailed",
+                "reference": "meals-travels"
+            },
+            {
+                "question": "<strong>งานกิจกรรมนอกเมือง: </strong>ฉันได้รับคำเชิญเข้าร่วมงานแข่งขันกีฬาจากซัพพลายเออร์/ตัวแทนจำหน่ายหลายราย งานส่วนใหญ่จัดขึ้นในท้องถิ่น แต่บางงาน<u>จำเป็นต้องมีการเดินทางค้างคืน </u>ฉันจะเข้าร่วมงานเหล่านี้ได้หรือไม่ มี<u>การจำกัดจำนวน</u>งานกิจกรรมที่ฉันเข้าร่วมได้ไว้หรือไม่ ",
+                "answer": "คุณสามารถตอบรับงานกิจกรรมได้ไม่เกิน 2 งานต่อปีจากซัพพลายเออร์/ตัวแทนจำหน่ายแต่ละราย และงานเหล่านี้ไม่ควรมีการเดินทางที่ใช้เวลานานหรือการพักค้างคืน ซัพพลายเออร์/ตัวแทนจำหน่ายที่เชิญจะต้องเข้าร่วมงานด้วย คุณต้องปฏิเสธคำเชิญใด ๆ ที่จำเป็นต้องมีการพักค้างคืน เว้นแต่ว่าได้รับการอนุมัติอย่างเป็นกิจจะลักษณะ ข้อยกเว้นสำหรับการพักค้างคืนจะต้องได้รับการอนุมัติจาก LL1 ของคุณและฝ่ายพนักงานสัมพันธ์หรือฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กร",
+                "nextPage": "faq-meals-travels-detailed",
+                "reference": "meals-travels"
+            },
+            {
+                "question": "<strong>ตัวแทนจำหน่ายเลี้ยงอาหาร: </strong>ฉันเดินทางไปเยี่ยมชมตัวแทนจำหน่ายบางรายใน <u>พื้นที่ที่ร้านอาหารอาจไม่มีสุขลักษณะที่เหมาะสม</u>ฉันอาจไม่สามารถหาร้านอาหารที่เข้ารับประทานอาหารได้อย่างสบายใจ ฉันรู้ว่าตัวแทนจำหน่ายจะช่วยดูให้ว่ามีการปรุงอาหารอย่างเหมาะสม แต่ตัวแทนจำหน่ายรายนั้นจะเป็นผู้จัดการเรื่องนี้ให้และอาจไม่ยอมให้ฉันออกค่าใช้จ่ายใดเลย ฉันจะตอบรับการเลี้ยงอาหารมากกว่า 1 มื้อต่อสัปดาห์ในระหว่างเดินทางได้หรือไม่ ",
+                "answer": "สุขภาพและความปลอดภัยของคุณถือเป็นสิ่งที่สำคัญเป็นหลัก เรารู้ดีว่าสถานการณ์เช่นนี้อาจเกิดขึ้นในบางเวลาและการวางแผนล่วงหน้าก่อนเดินทางจะช่วยเลี่ยงปัญหาเหล่านี้ได้เมื่อถึงเวลาออกเดินทางจริง เช่น คุณอาจนัดพบตัวแทนจำหน่ายที่ห้องอาหารของโรงแรมซึ่งคุณสามารถรับประทานอาหารได้อย่างสบายใจและจ่ายค่าอาหารเอง หากคุณกังวลว่าคุณไม่สามารถรับประทานอาหารได้อย่างปลอดภัยตามข้อกำหนดด้านมื้ออาหารทั่วไป โปรดติดต่อขอความช่วยเหลือหรือคำชี้แนะจากฝ่ายทรัพยากรบุคคล/พนักงานสัมพันธ์หรือฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กร การแจ้งให้เจ้าภาพทราบถึงนโยบายของขวัญและการตอบแทนพิเศษของบริษัทจะช่วยในเรื่องนี้ได้ เพื่อให้คุณทำงานร่วมกันตามวาระที่เป็นไปตามนโยบายด้านจรรยาบรรณของบริษัท",
+                "nextPage": "faq-meals-travels-detailed",
+                "reference": "meals-travels"
+            },
+            {
+                "question": "<strong>การเลี้ยงอาหารเพิ่มเติม: </strong>ฉันจะเข้าร่วมงานประชุมในภูมิภาคอื่น <u>ซึ่งซัพพลายเออร์หลายรายจะจัดเลี้ยงอาหารค่ำในช่วงเย็น</u>ฉันต้องการเยี่ยมชมซัพพลายเออร์ที่ฉันอาจไม่มีโอกาสได้เยี่ยมชมเหล่านี้ ฉันจะตอบรับการเลี้ยงอาหารที่ซัพพลายเออร์เป็นผู้ออกค่าใช้จ่ายให้เกินจาก 1 มื้อต่อสัปดาห์ที่กำหนดไว้ได้หรือไม่  ",
+                "answer": "หากสถานการณ์ของคุณมีเหตุผลรับรองการตอบรับการเลี้ยงอาหารที่ซัพพลายเออร์เป็นผู้ออกค่าใช้จ่ายให้เกินจาก 1 มื้อต่อสัปดาห์ที่กำหนดไว้ โปรดติดต่อฝ่ายทรัพยากรบุคคล/พนักงานสัมพันธ์หรือฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กรล่วงหน้าเพื่ออธิบายสถานการณ์และขอคำชี้แนะ คุณควรเก็บคำแนะนำนั้นไว้ในกรณีที่เกิดข้อสงสัยเกี่ยวกับการกระทำของคุณในภายหลัง",
+                "nextPage": "faq-meals-travels-detailed",
+                "reference": "meals-travels"
+            },
+            {
+                "question": "<strong>กิจธุระส่วนตัวที่รวมกับธุรกิจ: </strong>ฉันเข้าร่วมงานประชุมนานาชาติและลาพักร้อนเพื่ออยู่ต่อช่วงเสาร์อาทิตย์กับสามีของฉันหลังจากงานประชุมเสร็จสิ้น<u>เพื่อนสมัยเด็กคนหนึ่งซึ่งทำงานที่ตัวแทนจำหน่ายฟอร์ด</u>ได้เข้าร่วมงานนี้ด้วย เพื่อนได้<u>เชิญฉันกับสามี</u>เข้าพักที่วิลลาของเธอร่วมกับตัวเธอและสามีในช่วงเสาร์อาทิตย์หลังจากจบงานประชุม ฉันจะตอบรับการเข้าพักฟรีที่วิลลาได้หรือไม่ ",
+                "answer": "แม้คำเชิญนี้จะมาจากเพื่อนสมัยเด็ก แต่สถานการณ์นี้กลับซับซ้อนขึ้นเนื่องจากคุณเดินทางเพื่อติดต่อธุรกิจด้วย ทางออกที่ดีที่สุดคือปฏิเสธการเข้าพักฟรีที่วิลลา ไม่เช่นนั้น การตอบรับข้อเสนออาจดูไม่เหมาะสม หากยังเชื่อว่าสถานการณ์ของคุณถือว่าเหมาะสม คุณควรอธิบายข้อเท็จจริงทั้งหมดให้ฝ่ายทรัพยากรบุคคล/พนักงานสัมพันธ์หรือฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กรได้ทราบล่วงหน้าและขอคำชี้แนะ",
+                "nextPage": "faq-meals-travels-detailed",
+                "reference": "meals-travels"
+            },
+            {
+                "question": "<strong>สิ่งบันเทิง/งานประชุม: </strong>ฉันจะเข้าร่วมงานประชุม ซึ่งทางเจ้าภาพได้จัด<u>วงดนตรีที่ได้รับรางวัลแกรมมี่มาแสดงในงานเลี้ยงสร้างเครือข่าย</u>ที่งานในช่วงเย็น ฉันจะเข้าร่วมงานได้หรือไม่ ",
+                "answer": "ได้ แต่งานนี้จะถือว่าเป็นงานบันเทิงงานหนึ่ง",
+                "nextPage": "faq-meals-travels-detailed",
+                "reference": "meals-travels"
+            },
+            {
+                "question": "<strong>การเลี้ยงอาหารที่งานประชุม: </strong>ฉันกำลังจะ<u>เข้าร่วมงานประชุม</u> ซึ่งมีการแจ้งในเอกสารการตลาดว่าบริษัทที่ฟอร์ดดำเนินธุรกิจด้วยจะเป็นผู้สนับสนุนอาหารกลางวัน<u>ฉันต้องนับอาหารกลางวันมื้อนั้น</u> เป็นการเลี้ยงอาหาร 1 มื้อในไตรมาสจากซัพพลายเออร์รายนั้นหรือไม่ ",
+                "answer": "ไม่ การเลี้ยงอาหารตามปกติที่จัดให้แก่ผู้เข้าร่วมงานประชุมไม่นับรวมอยู่ในข้อจำกัดการเลี้ยงอาหารอย่างไรก็ตามการเลี้ยงอาหารค่ำหรืองานสังคมนอกงานประชุมกับซัพพลายเออร์/ตัวแทนจำหน่ายรายนั้นจะนับว่าเป็นการเลี้ยงอาหารและงานสังคมตามแนวทางที่กำหนดไว้",
+                "nextPage": "faq-meals-travels-detailed",
+                "reference": "meals-travels"
+            },
+            {
+                "question": "<strong>ค่าวิทยากร: </strong>: ฉันได้รับเชิญให้เป็นวิทยากรในงานประชุมธุรกิจ ผู้สนับสนุนงานนี้ได้เสนอ<u>จ่ายค่าวิทยากรให้กับฉัน</u>ฉันจะรับไว้ได้หรือไม่ ",
+                "answer": "หากการเป็นวิทยากรนี้เกี่ยวข้องกับงานของคุณที่ฟอร์ดหรือเป็นส่วนหนึ่งของความเชี่ยวชาญทางธุรกิจที่คุณมีที่ฟอร์ด คุณไม่สามารถรับค่าธรรมเนียมหรือเงินสมนาคุณใด ๆ ได้ เช่นเดียวกัน คุณไม่สามารถรับของขวัญที่เกินกว่าที่นโยบายกำหนดซึ่งเกี่ยวข้องกับรางวัลหรือการสมนาคุณอื่น ๆ ที่คุณได้รับ หากต้องการคำชี้แนะในสถานการณ์อื่น ๆ เช่น เมื่อคุณมีความประสบการณ์ส่วนตัวที่ไม่เกี่ยวข้องกับตำแหน่งงานที่ฟอร์ด โปรดติดต่อฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กรหรือฝ่ายพนักงานสัมพันธ์",
+                "nextPage": "faq-meals-travels-detailed",
+                "reference": "meals-travels"
+            },
+            {
+                "question": "<strong>ตั๋ว: </strong><u>ซัพพลายเออร์/ตัวแทนจำหน่ายที่มีโอกาสร่วมงานกับเรารายหนึ่งได้ส่งตั๋ว 2 ใบ</u> เพื่อเข้าร่วมการแสดงของอุปรากรที่มีชื่อเสียงระดับโลกมาให้ฉัน ฉันต้องส่งตั๋วคืนให้ผู้ให้หรือไม่ ",
+                "answer": "ใช่ คุณต้องส่งตั๋วกลับคืน คุณจะรับตั๋วความบันเทิงได้ก็ต่อเมื่อซัพพลายเออร์/ตัวแทนจำหน่ายรายนั้นเข้าร่วมด้วย ภายใต้นโยบายของฟอร์ด คุณสามารถตอบรับงานบันเทิงได้เพียง 2 งานต่อปีจากซัพพลายเออร์/ตัวแทนจำหน่ายแต่ละราย และซัพพลายเออร์/ตัวแทนจำหน่ายรายนั้นต้องเข้าร่วมงานกับคุณด้วย เมื่อคู่สมรสของคุณได้รับเชิญเจ้าร่วมงาน คู่สมรสคนอื่น ๆ ควรได้รับคำเชิญด้วย",
+                "nextPage": "faq-meals-travels-detailed",
+                "reference": "meals-travels"
+            },
+            {
+                "question": "<strong>ตั๋ว: </strong>ซัพพลายเออร์เชิญฉันเข้างานแข่งขันกีฬาระดับอาชีพซึ่งจำหน่ายตั๋วหมดแล้ว และฉันตอบรับร่วมงาน<u>ซัพพลายเออร์มีเหตุให้ต้องยกเลิก</u>การเข้าร่วมงานในนาทีสุดท้ายและบอกให้ฉันใช้ตั๋วใบนั้นเข้างานได้เลย ฉันตั้งตารองานครั้งนี้อย่างมาก ฉันจะยังร่วมงานได้หรือไม่ ",
+                "answer": "ไม่ได้ คุณไม่ควรร่วมงานที่ซัพพลายเออร์รายที่เชิญไม่ได้เข้าร่วมด้วย การอนุญาตให้พนักงานของฟอร์ดรับคำเชิญเข้าสังสรรค์กับซัพพลายเออร์นั้นเป็นไปเพื่อกระชับความสัมพันธ์ทางธุรกิจ คุณอาจขอให้พนักงานคนอื่นของซัพพลายเออร์ที่คุณร่วมงานด้วยเข้าแทนได้ แต่การใช้ตั๋วเข้าร่วมงานเองถือเป็นการละเมิดนโยบายของฟอร์ด",
+                "nextPage": "faq-meals-travels-detailed",
+                "reference": "meals-travels"
+            },
+            {
+                "question": "<strong>ผู้ติดตาม: </strong>ซัพพลายเออร์เชิญให้ฉันพาผู้ติดตามไปในงาน ๆ หนึ่ง ตามนโยบายของบริษัท ฉันจะพา<u>คู่สมรส</u>ไปด้วยได้หรือไม่ ",
+                "answer": "คุณไม่จำเป็นต้องพาคู่สมรสไปด้วยเมื่อสามารถพาผู้ติดตามไปได้ คุณอาจพาผู้ติดตามที่เหมาะสมอีกคนหนึ่งซึ่งเอื้อต่อวัตถุประสงค์ทางธุรกิจของบริษัท หรือจะร่วมงานโดยไม่พาผู้ติดตามไปด้วยก็ได้",
+                "nextPage": "faq-meals-travels-detailed",
+                "reference": "meals-travels"
+            },
+            {
+                "question": "<strong>ผู้ติดตาม: </strong>ซัพพลายเออร์ได้เสนอพา <u>ฉันและภรรยาไปชมการแข่งขันเทนนิส</u>ฉันจะรับไว้ได้หรือไม่  ",
+                "answer": "ได้; <strong>หาก</strong>ยังไม่เกินจากจำนวนงานบันเทิง 2 งานต่อปีจากซัพพลายเออร์รายนี้ตามที่กำหนดไว้และงานนั้นเป็นงานในท้องถิ่น คู่สมรสของคุณสามารถเข้าร่วมการแข่งขันได้<strong>หาก </strong>คู่สมรสคนอื่น ๆ (รวมทั้งคู่สมรสของซัพพลายเออร์หรือผู้ติดตาม) เข้าร่วมด้วย",
+                "nextPage": "faq-meals-travels-detailed",
+                "reference": "meals-travels"
+            },
+            {
+                "question": "<strong>การเดินทางโดยเครื่องบินส่วนตัว: </strong>ฉันต้องการ <u>เดินทางด้วยเครื่องบินส่วนตัวของซัพพลายเออร์</u>ไปยังไซต์งาน ฉันต้องได้รับการอนุมัติใดบ้าง ",
+                "answer": "การเดินทางโดยเครื่องบินส่วนตัวของซัพพลายเออร์ต้องได้รับการอนุมัติพิเศษจากฝ่ายการเดินทางขององค์กรภายใต้ข้อกำหนดA-110คุณยังต้องได้รับการอนุมัติจากฝ่ายพนักงานสัมพันธ์หรือฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กรด้วยทั้งนี้ขึ้นอยู่กับวัตถุประสงค์ในการเดินทางโดยเที่ยวบินนี้แม้ว่าบริษัทจะไม่ได้ออกค่าตั๋วเครื่องบินแต่คุณจะต้องได้รับการอนุมัติการเดินทางอย่างเป็นกิจจะลักษณะจากผู้มีอำนาจปัจจุบันในภูมิภาคของคุณสำหรับการเดินทางที่บริษัทเป็นผู้ออกค่าเดินทาง",
+                "nextPage": "faq-meals-travels-detailed",
+                "reference": "meals-travels"
+            },
+            {
+                "question": "<strong>การเลี้ยงอาหารซัพพลายเออร์: </strong>ฉันกำลังเดินทางไปประชุมในอีกประเทศหนึ่ง ขณะที่อยู่ในประเทศนั้น ฉันพยายามประสานการประชุมกับซัพพลายเออร์รายอื่น ซัพพลายเออร์รายหนึ่งมาที่โรงงานของเราเมื่อเดือนที่แล้วและพาฉันไปเลี้ยงอาหารค่ำ ฉันจึงไม่สามารถตอบรับการเลี้ยงอาหารจากบริษัทของซัพพลายเออร์รายนี้ได้อีกในไตรมาสนี้ ฉันจะ<u>เลี้ยงอาหารค่ำแก่ซัพพลายเออร์รายนี้</u>และลงในรายงานค่าใช้จ่ายในการเดินทางได้หรือไม่ ",
+                "answer": "อาจได้ เราไม่ได้จัดทำนโยบายกลางที่ระบุว่าบริษัทจะออกค่าใช้จ่ายได้หรือไม่ เมื่อคุณเลี้ยงรับรองซัพพลายเออร์ คุณควรตรวจสอบกับผู้จัดการของคุณหรือฝ่ายการเงินในท้องถิ่นเพื่อดูข้อจำกัดต่าง ๆ ในระหว่างเดินทาง หากคุณไม่สามารถเลี้ยงอาหารซัพพลายเออร์ได้ คุณยังสามารถรับประทานอาหารค่ำร่วมกันและให้แต่ละฝ่ายรับผิดชอบค่าใช้จ่ายในส่วนของตัวเอง หากแต่ละฝ่ายรับผิดชอบค่าอาหารในส่วนของตัวเอง บริษัทไม่ได้จำกัดจำนวนมื้ออาหารที่คุณสามารถรับประทานร่วมกับซัพพลายเออร์ไว้",
+                "nextPage": "faq-meals-travels-detailed",
+                "reference": "meals-travels"
+            }
+        ],
+        "can-i": [
+            {
+                "title": "มื้ออาหาร",
+                "text": "ในสัปดาห์นี้ คุณได้ตอบรับการเข้าร่วมรับประทานอาหารฟรีเกิน 1 มื้อหรือไม่",
+                "items": [
+                    {
+                        "title": "ใช่ ",
+                        "text": "คุณตอบรับการเข้าร่วมรับประทานอาหารฟรีได้ไม่เกิน 1 มื้อต่อสัปดาห์ หากเกิดสถานการณ์ที่ ไม่ปกติขึ้น โปรดปรึกษาฝ่ายพนักงานสัมพันธ์หรือฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กร"
+                    },
+                    {
+                        "title": "ไม่",
+                        "text": "คุณสามารถตอบรับคำเชิญได้ หากยังไม่ได้ตอบรับเข้าร่วมการรับประทานอาหารใดเลยจาก ซัพพลายเออร์ในไตรมาสนี้ โปรดหลีกเลี่ยงการกระทำที่ดูไม่เหมาะสมและอย่าเข้าไปในสถานที่ที่ ไม่เหมาะสม"
+                    }
+                ]
+            },
+            {
+                "title": "ของว่าง",
+                "text": "บริษัทอนุญาตให้รับของว่างมื้อเบา (เช่น เครื่องดื่ม คุกกี้ มันฝรั่งทอด ผลไม้) ที่จัดไว้ในระหว่าง การประชุมทางธุรกิจได้ "
+            },
+            {
+                "title": "การเดินทางที่ซัพพลายเออร์/ตัวแทนจำหน่ายเป็นผู้ออกค่าใช้จ่าย",
+                "items": [
+                    {
+                        "title": "การประชุมทางธุรกิจ",
+                        "text": "ฝ่ายพนักงานสัมพันธ์และฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กร จะต้องตรวจสอบการเดินทางเข้าประชุมทางธุรกิจที่ซัพพลายเออร์เป็นผู้ออกค่าใช้จ่าย และการเดินทางนี้ต้องได้รับอนุมัติจาก LL1 ของคุณ"
+                    },
+                    {
+                        "title": "การประชุมส่วนตัว",
+                        "text": "ฝ่ายพนักงานสัมพันธ์และฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กร จะต้องตรวจสอบการเดินทางเข้าประชุมทางธุรกิจที่ซัพพลายเออร์เป็นผู้ออกค่าใช้จ่าย และการเดินทางนี้ต้องได้รับอนุมัติจาก LL1 ของคุณ"
+                    },
+                    {
+                        "title": "การเดินทางโดยเครื่องบินส่วนตัวของซัพพลายเออร์",
+                        "text": " ข้อกำหนด A-110 กำหนดให้ต้องขอ การอนุมัติการเดินทางโดยเครื่องบินส่วนตัวของซัพพลายเออร์จากสำนักการเดินทางกลาง (Global Travel Office) คุณอาจต้องได้รับการตรวจสอบจากฝ่ายพนักงานสัมพันธ์และฝ่ายกำกับ ดูแลการปฏิบัติตามกฎขององค์กรและได้รับอนุมัติจาก LL1 ของคุณ ทั้งนี้ขึ้นอยู่กับวัตถุประสงค์ ในการเดินทาง"
+                    },
+                    {
+                        "title": "งานสังคม/สันทนาการ ",
+                        "items": [
+                            {
+                                "title": "งานในท้องถิ่น",
+                                "text": "หากคุณเดินทางพร้อมกับซัพพลายเออร์ไปยังงานใน ท้องถิ่นที่นโยบายของฟอร์ดอนุญาต (เช่น ซัพพลายเออร์เข้าร่วม ด้วย สถานที่จัดงานมีความเหมาะสม และข้อเสนอนี้ไม่เกินจำนวนครั้งที่ จำกัด) คุณไม่จำเป็นต้องได้รับการอนุมัติกรณีพิเศษ งานในท้องถิ่น หมายถึงงานที่อยู่ในพื้นที่เดียวกันกับที่คุณอาศัยอยู่ หากจำเป็นต้องขึ้นเที่ยวบินหรือเดินทางโดยใช้เวลานานไปยังงานนี้ จะถือว่าไม่ใช่งานในท้องถิ่น"
+                            },
+                            {
+                                "title": "การเดินทางที่ใช้เวลานานหรือข้ามคืน",
+                                "text": "ฝ่ายพนักงานสัมพันธ์และฝ่าย กำกับดูแลการปฏิบัติตามกฎขององค์กรจะต้องตรวจสอบงานสังคม/งานบันเทิงหรืองานสันทนาการที่ต้องใช้เวลาเดินทางข้ามคืนหรือเป็นเวลานาน และงานนี้ต้องได้รับอนุมัติจาก LL1 ของคุณ เงื่อนไข นี้บังคับใช้เสมอ ไม่ว่าคุณจะออกค่าเดินทางเอง หรือฟอร์ดหรือซัพพลายเออร์จะเป็นผู้ออกค่าเดินทางให้กับคุณก็ตาม หากคุณตอบรับงานบันเทิงหรืองานสังคมในสถานที่ที่คุณเดินทางไปถึงเพื่อการติดต่อธุรกิจของบริษัทและบริษัทเป็นผู้ออกค่าใช้จ่าย คุณไม่ จำเป็นต้องได้รับอนุมัติกรณีพิเศษตราบเท่าที่คุณปฏิบัติตามนโยบาย อื่น ๆ ทั้งหมดของบริษัท (เช่น ซัพพลายเออร์เข้าร่วมด้วย สถานที่จัดงานมีความเหมาะสม และข้อเสนอนี้ไม่เกินจำนวนครั้งที่จำกัด) "
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "งานสังคมในท้องถิ่น",
+                "text": "งานในท้องถิ่นหมายถึงงานที่อยู่ในพื้นที่เดียวกันกับที่คุณอาศัยอยู่ หากจำเป็นต้องขึ้นเที่ยวบินหรือเดินทางโดยใช้เวลานานไปยังงานนี้ จะถือว่าไม่ใช่งานในท้องถิ่น <strong>คุณเคยตอบรับเข้าร่วมงานสังคม/งานบันเทิงสองครั้งจากซัพพลายเออร์/ตัวแทนจำหน่าย/คู่ค้าทางธุรกิจหรือไม่</strong>",
+                "items": [
+                    {
+                        "title": "เคย",
+                        "text": "ไม่ได้ คุณไม่สามารถตอบรับเข้าร่วมงานสังคม/งานบันเทิงจากซัพพลายเออร์/ตัวแทน จำหน่าย/คู่ค้าที่ดำเนินธุรกิจร่วมกับบริษัทได้เกิน 2 ครั้งต่อปี"
+                    },
+                    {
+                        "title": "ไม่เคย ",
+                        "text": "หากซัพพลายเออร์หรือตัวแทนจำหน่ายเข้าร่วมด้วย คุณสามารถตอบรับคำเชิญได้ โปรดหลีกเลี่ยงการกระทำที่ดูไม่เหมาะสมและอย่าเข้าไปในสถานที่ที่ไม่เหมาะสม"
+                    }
+                ]
+            },
+            {
+                "title": "การเดินทางที่ใช้เวลานานหรือข้ามคืน ",
+                "text": "ฝ่ายทรัพยากรบุคคล/พนักงานสัมพันธ์และฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กรจะต้องตรวจสอบงานสังคม/งานบันเทิงหรืองานสันทนาการที่ต้องใช้เวลาเดินทางข้ามคืนหรือเป็นเวลานาน และงานนี้ต้องได้รับ อนุมัติจาก LL1 ของคุณ เงื่อนไขนี้บังคับใช้เสมอ ไม่ว่าคุณจะออกค่าเดินทางเอง หรือฟอร์ดหรือซัพพลายเออร์จะเป็นผู้ออกค่าเดินทางให้กับคุณก็ตาม หากคุณตอบรับงานบันเทิงหรืองานสังคมในสถานที่ที่คุณเดินทางไปถึงเพื่อการติดต่อธุรกิจของบริษัทและบริษัทเป็นผู้ออกค่าใช้จ่าย คุณไม่จำเป็นต้องได้รับอนุมัติกรณีพิเศษ ตราบเท่าที่คุณปฏิบัติตามนโยบายอื่น ๆ ทั้งหมดของบริษัท (เช่น ซัพพลายเออร์เข้าร่วมด้วย สถานที่จัดงานเหมาะสม และข้อเสนอนี้ไม่เกินจำนวนครั้งที่จำกัด) "
+            },
+            {
+                "title": "การพาผู้ติดตามไปด้วย ",
+                "text": "หากเจ้าภาพพาผู้ติดตามไปด้วย คุณก็อาจพาผู้ติดตามของคุณไปด้วยได้หากคำเชิญระบุให้เชิญผู้ติดตามได้ คุณไม่ควรเอ่ยขอพาผู้ติดตาม ไปด้วยโดยเด็ดขาด หากมีข้อไม่แน่ใจประการใด โปรดติดต่อฝ่ายพนักงานสัมพันธ์หรือฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กร"
+            }
+        ]
+    },
+    {
+        "pageKey": "conflicts-of-interest",
+        "title": "ผลประโยชน์ทับซ้อน",
+        "canITitle": "Can I work for ...?",
+        "canIReminder": "คุณจะต้องไม่ขอของขวัญหรือการตอบแทนพิเศษโดยเด็ดขาด",
+        "icon": "conflicts-of-interest.png",
+        "ciicon": "conflicts-of-interest.png",
+        "titleicon": "conflicts-of-interest-title.png",
+        "items": [
+            {
+                "title": "สรุปนโยบายของบริษัท ",
+                "icon": "favors_list_icon_01.png",
+                "description": "ผลประโยชน์ทับซ้อนเกิดขึ้นเมื่อผลประโยชน์หรือกิจกรรมส่วนตัวเข้าแทรกแซงหน้าที่รับผิดชอบของท่านในการดำเนินงานเพื่อผลประโยชน์สูงสุดของบริษัท คุณจะต้องดำเนินงานด้วยความซื่อสัตย์สุจริตและไม่กระทำการใดๆเพื่อผลประโยชน์ของตนเองหรือผู้อื่นขณะดำเนินธุรกิจของบริษัท หลีกเลี่ยงพฤติกรรมที่อาจเปิดช่องให้ผู้อื่นตีความได้ว่าไม่เหมาะสม ไม่ว่าจะในท้องถิ่นหรือในฐานะส่วนหนึ่งของทีมงานกลางของเรา ",
+                "nextPage": "ps-conflicts-of-interest-summary",
+                "descriptionContent": "<div><p>หลักจรรยาบรรณ </p>ผลประโยชน์ทับซ้อนเกิดขึ้นเมื่อผลประโยชน์หรือกิจกรรมส่วนตัวเข้าแทรกแซงหน้าที่รับผิดชอบของท่านในการดำเนินงานเพื่อผลประโยชน์สูงสุดของบริษัท คุณจะต้องดำเนินงานด้วยความซื่อสัตย์สุจริตและไม่กระทำการใดๆเพื่อผลประโยชน์ของตนเองหรือผู้อื่นขณะดำเนินธุรกิจของบริษัท หลีกเลี่ยงพฤติกรรมที่อาจเปิดช่องให้ผู้อื่นตีความได้ว่าไม่เหมาะสม ไม่ว่าจะในท้องถิ่นหรือในฐานะส่วนหนึ่งของทีมงานกลางของเรา <p>คุณจะต้องแยกแยะกิจธุระของบริษัทออกจากกิจธุระส่วนตัว</p><ul><li>ไม่มีผลประโยชน์ส่วนตัวในธุรกิจที่ร่วมงานกับฟอร์ด</li><li>ไม่ดำเนินงานในหน้าที่ของบริษัทซึ่งเกี่ยวข้องกับธุรกิจที่ญาติพี่น้องของคุณเป็นเจ้าของหรือธุรกิจหรือในสถานการณ์ที่คุณจะได้ร่วมงานกับญาติของคุณ </li></ul></div><div><p>เปิดเผยผลประโยชน์ทับซ้อนที่อาจมีขึ้นให้บริษัทและผู้บริหารของคุณทราบ: </p><ul><li>หากญาติพี่น้องของคุณทำงานให้กับซัพพลายเออร์/ตัวแทนจำหน่าย</li><li>หากญาติพี่น้องของคุณมีผลประโยชน์ทางการเงินในซัพพลายเออร์/ตัวแทนจำหน่าย</li><li>หากญาติพี่น้องของคุณจะได้รับผลประโยชน์จากธุรกรรมที่ทำกับบริษัทหรือซัพพลายเออร์/ตัวแทนจำหน่าย เช่น จากการเป็นเจ้าของบริษัทที่เป็นซัพพลายเออร์ขั้นที่ 2 (Tier 2) หรือได้รับค่านายหน้า ในการจัดหา</li><li>หากคุณเป็นกรรมการ พนักงาน หรือที่ปรึกษาให้กับองค์กรภายนอก หรือเป็นเจ้าของธุรกิจ ไม่ว่าจะมีความสัมพันธ์ทางธุรกิจกับบริษัทหรือไม่ก็ตาม</li></ul></div><div><p>คุณต้องไม่มีผลประโยชน์ในซัพพลายเออร์/ตัวแทนจำหน่าย</p><ul><li>บริษัทอาจมีข้อยกเว้นให้ในกรณีที่มีการอนุมัติเป็นลายลักษณ์อักษรจากประธานบริษัทหรือ GVP และ ที่ปรึกษาทั่วไป</li><li>ข้อจำกัดนี้ครอบคลุมซัพพลายเออร์ทั้งหมด ไม่ใช่เพียงซัพพลายเออร์ขั้นที่ 1 (Tier 1) เท่านั้น</li></ul><p>การขอรับบริจาคเพื่อการกุศลหรือสนับสนุนให้บริษัทร่วมงานกับธุรกิจที่คุณต้องการสนับสนุนอาจก่อให้เกิดปัญหาด้านจรรยาบรรณหลายประการ โปรดดูแนวทางเพิ่มเติมได้ในส่วนของขวัญและการตอบแทนพิเศษ</p></div>"
+            },
+            {
+                "title": "ข้อมูลติดต่อและอ้างอิง",
+                "icon": "favors_list_icon_02.png",
+                "description": "คุณสามารถพบแหล่งข้อมูลเหล่านี้ได้เมื่อเข้าไปยังอินทราเน็ตของฟอร์ด",
+                "nextPage": "ps-conflicts-of-interest-quick-ref",
+                "items": [
+                    {
+                        "title": "เอกสารแถลงนโยบาย 3 มาตรฐานการดำเนินงานขององค์กร",
+                        "link": ""
+                    },
+                    {
+                        "title": "เอกสารแถลงนโยบาย 22 การป้องกันการเปิดเผยข้อมูลของบริษัทอย่างไม่เหมาะสม ",
+                        "link": ""
+                    },
+                    {
+                        "title": "ข้อกำหนด B-109 การใช้ทรัพยากรของบริษัทและทรัพย์สินที่คล้ายกันของบริษัทอย่างเหมาะสม",
+                        "link": ""
+                    },
+                    {
+                        "title": "เครื่องมือการเปิดเผยผลประโยชน์ทับซ้อน หรือแบบฟอร์มเปิดเผยข้อมูลการว่าจ้างงานภายนอก ผลประโยชน์ ทางการเงินและความสัมพันธ์ (ผลประโยชน์ทับซ้อน) ที่เรียกอีกอย่างหนึ่งว่าแบบฟอร์ม 2402",
+                        "link": ""
+                    },
+                    {
+                        "title": "หากมีข้อสงสัยเรื่องผลประโยชน์ทับซ้อนหรือการเปิดเผยข้อมูล โปรดติดต่อเจ้าหน้าที่ฝ่ายทรัพยากร บุคคลในพื้นที่หรือคลิกที่นี่เพื่อส่งอีเมลถึงฝ่ายพนักงานสัมพันธ์ใน WHQ",
+                        "link": "mailto: activity@ford.com?subject=แอพบนอุปกรณ์เคลื่อนที่ – COI"
+                    },
+                    {
+                        "title": "หรือคลิกที่นี่เพื่อส่งอีเมลถึงฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กร ",
+                        "link": "mailto: fordlaw@ford.com?subject=แอพบนอุปกรณ์เคลื่อนที่ – COI"
+                    }
+                ]
+            },
+            {
+                "title": "คำถามที่พบบ่อย",
+                "icon": "favors_list_icon_03.png",
+                "description": "คู่สมรสของฉันเป็นเจ้าของธุรกิจเล็ก ๆ ที่จัดอบรมภาวะผู้นำ ฉันเคยเล่าให้ ตัวแทนจำหน่ายรายหนึ่งที่ทำงานด้วยกันฟัง การอบรมประเภทนี้จะเป็นประโยชน์กับทีมงานของเขา ไม่กี่สัปดาห์หลังจากนั้น มีตัวแทนจำหน่ายหลายรายได้ติดต่อทางธุรกิจกับคู่สมรสของฉันเพื่อให้ ช่วยอบรมทีมงาน ฉันแน่ใจว่าตัวแทนจำหน่ายเหล่านี้ไม่ได้รู้สึกกดดันว่าจะต้องว่าจ้างคู่สมรสของฉัน ซึ่งจริง ๆ แล้วพวกเขาต่างก็พอใจที่ทำเช่นนั้นด้วยซ้ำ ฉันควรเปิดเผยข้อมูลธุรกิจของคู่สมรสกับ บริษัทหรือไม่",
+                "nextPage": "faq-conflicts-of-interest"
+            }
+        ],
+        "frequently-asked-questions": [
+            {
+                "question": "<strong>ธุรกิจของครอบครัว:</strong> <u>คู่สมรสของฉันเป็นเจ้าของธุรกิจเล็ก ๆ</u> ที่จัดอบรมภาวะผู้นำ ฉันเคยเล่าให้ ตัวแทนจำหน่ายรายหนึ่งที่ทำงานด้วยกันฟัง การอบรมประเภทนี้จะเป็นประโยชน์กับทีมงานของเขา ไม่กี่สัปดาห์หลังจากนั้น <u>มีตัวแทนจำหน่ายหลายรายได้ติดต่อทางธุรกิจกับคู่สมรสของฉัน</u> เพื่อให้ ช่วยอบรมทีมงาน ฉันแน่ใจว่าตัวแทนจำหน่ายเหล่านี้ไม่ได้รู้สึกกดดันว่าจะต้องว่าจ้างคู่สมรสของฉัน ซึ่งจริง ๆ แล้วพวกเขาต่างก็พอใจที่ทำเช่นนั้นด้วยซ้ำ ฉันควรเปิดเผยข้อมูลธุรกิจของคู่สมรสกับ บริษัทหรือไม่ ",
+                "answer": "คุณจะต้องทำตามขั้นตอนกระบวนการการเปิดเผยผลประโยชน์ทับซ้อนให้แก่บริษัท คุณสามารถใช้เครื่องมือการเปิดเผยผลประโยชน์ทับซ้อนแบบออนไลน์ในประเทศของคุณได้ (หากมี) หรือ กรอกแบบฟอร์มเปิดเผยข้อมูลการว่าจ้างงานภายนอก ผลประโยชน์ทางการเงินและความสัมพันธ์ (ผลประโยชน์ทับซ้อน) ที่เรียกอีกอย่างหนึ่งว่าแบบฟอร์ม 2402 ในรูปแบบกระดาษกับฝ่ายทรัพยากรบุคคล ในสถานการณ์เช่นนี้ บริษัทอาจต้องการให้ธุรกิจของคู่สมรสของคุณหยุดดำเนินธุรกิจทั้งหมดกับบริษัทหรือซัพพลายเออร์/ตัวแทนจำหน่ายของบริษัท เนื่องจากมีความเกี่ยวข้องใกล้ชิดกับหน้าที่รับผิดชอบของคุณที่ฟอร์ด สถานการณ์ที่เกี่ยวข้องกับธุรกิจของครอบครัวประเภทนี้มีความซับซ้อนและจะได้รับการประเมินตามข้อเท็จจริงเป็นรายกรณีไป",
+                "nextPage": "faq-conflicts-of-interest-detailed",
+                "reference": "conflicts-of-interest"
+            },
+            {
+                "question": "<strong>ธุรกิจภายนอก:</strong> <u>ฉันเป็นเจ้าของร้านอาหาร</u>  ฉันต้องเปิดเผยข้อมูลนี้ต่อบริษัทหรือไม่ ",
+                "answer": "ใช่ คุณต้องเปิดเผยว่าคุณเป็นเจ้าของ ร้านอาหารเพราะหน้าที่รับผิดชอบของคุณในฐานะเจ้าของ ร้านอาหารอาจกระทบกับหน้าที่รับผิดชอบของคุณในบริษัทได้ แจ้งผลประโยชน์ของคุณให้หัวหน้างานได้รับ ทราบและทำตามกระบวนการการเปิดเผยผลประโยชน์ทับซ้อนของบริษัทเพื่อจัดทำบันทึก คุณสามารถใช้เครื่องมือเปิดเผยผลประโยชน์ทับซ้อนแบบออนไลน์ในประเทศของคุณได้ (หากมี) หรือกรอกแบบฟอร์มเปิดเผยข้อมูลการว่าจ้างงานภายนอก ผลประโยชน์ทางการเงินและความสัมพันธ์ (ผลประโยชน์ทับซ้อน) ที่เรียกอีกอย่างหนึ่งว่า แบบฟอร์ม 2402 ในรูปแบบกระดาษกับฝ่ายทรัพยากรบุคคล",
+                "nextPage": "faq-conflicts-of-interest-detailed",
+                "reference": "conflicts-of-interest"
+            },
+            {
+                "question": "<strong>การเป็นเจ้าของซัพพลายเออร์:</strong> ฉันมีผลประโยชน์ <u>20% ในฐานะซัพพลายเออร์ขั้นที่ 2 (Tier 2)</u> ฉัน สามารถทำได้หรือไม่เนื่องจากซัพพลายเออร์ขั้นที่ 2 ไม่ได้ติดต่อกับบริษัทโดยตรง ",
+                "answer": "คุณต้องเปิดเผยผลประโยชน์ทางการเงินในซัพพลายเออร์ขั้นที่ 2 นี้ แม้บริษัทและซัพพลายเออร์จะไม่มีสัญญาต่อกัน แต่ซัพพลายเออร์อยู่ในซัพพลายเชนของบริษัทซึ่งถือได้ว่าดำเนินธุรกิจกับบริษัท สถานการณ์ประเภทนี้จะต้องได้รับการตรวจสอบอย่างรอบคอบและจะไม่สามารถอนุญาตได้เว้นเฉพาะในสถานการณ์พิเศษ แจ้งผลประโยชน์ของคุณให้หัวหน้างานได้รับทราบและทำตามกระบวนการการเปิดเผยผลประโยชน์ทับซ้อนของบริษัทเพื่อจัดทำบันทึก คุณสามารถใช้เครื่องมือเปิดเผยผลประโยชน์ทับซ้อนแบบออนไลน์ในประเทศ ของคุณได้ (หากมี) หรือกรอกแบบฟอร์มเปิดเผยข้อมูลการว่าจ้างงานภายนอก ผลประโยชน์ทางการเงินและ ความสัมพันธ์ (ผลประโยชน์ทับซ้อน) ที่เรียกอีกอย่างหนึ่งว่าแบบฟอร์ม 2402 ในรูปแบบกระดาษกับฝ่าย ทรัพยากรบุคคล",
+                "nextPage": "faq-conflicts-of-interest-detailed",
+                "reference": "conflicts-of-interest"
+            },
+            {
+                "question": "<strong>การเป็นเจ้าของซัพพลายเออร์:</strong>ฉันทำงานที่ฟอร์ดและถือ<u>หุ้นร่วมในบริษัทที่ปรึกษาด้านไอทีแห่งหนึ่ง</u>พนักงานคนอื่น ๆ ในบริษัทที่ปรึกษาแห่งนี้ให้การบริการแก่ฟอร์ด แต่ฉันไม่ได้ดูแลโครงการฟอร์ด เหล่านั้นจะมีปัญหาหรือไม่ ",
+                "answer": "ดำเนินธุรกิจร่วมกับฟอร์ดหรือไม่ก็ตาม โปรดทราบว่าคุณจะต้องเปิดเผยข้อมูลในแบบเดียวกันนี้ด้วย หากคู่ สมรสหรือญาติพี่น้องของคุณเป็นเจ้าของบริษัทที่ปรึกษาด้านไอทีแห่งนี้ หากคุณเป็นพนักงานของฟอร์ด คุณ จะต้องไม่มีผลประโยชน์ในฐานะซัพพลายเออร์ของฟอร์ดโดยไม่ได้รับการอนุมัติจากผู้บริหารระดับสูงสุดของ บริษัท (ประธานบริษัท หรือ GVP หรือที่ปรึกษาทั่วไป) หากคุณเป็นพนักงานบริษัทเอเจนซี คุณต้องแจ้งให้ ผู้จัดการของคุณที่ฟอร์ดและเอเจนซีที่จ้างงานของคุณได้ทราบ (ในบางประเทศ จะมีกระบวนการที่จัดทำขึ้น ให้พนักงานบริษัทเอเจนซีเปิดเผยข้อมูลเหล่านี้กับผู้จัดการของตน)",
+                "nextPage": "faq-conflicts-of-interest-detailed",
+                "reference": "conflicts-of-interest"
+            },
+            {
+                "question": "<strong>งานนอก:</strong> <u>ฉันเป็นอาจารย์สอน</u> หลักสูตรธุรกิจภาคค่ำในวันธรรมดาบางวันและช่วงเสาร์อาทิตย์บาง สัปดาห์ที่มหาวิทยาลัยในท้องถิ่น ฉันต้องเปิดเผยงานนอกในฐานะอาจารย์นี้หรือไม่  ",
+                "answer": "ใช่ คุณจะต้องทำตามกระบวนการการเปิดเผยผลประโยชน์ทับซ้อนของบริษัทเพื่อจัดทำบันทึก คุณสามารถใช้เครื่องมือเปิดเผยผลประโยชน์ทับซ้อนแบบออนไลน์ในประเทศของคุณได้ (หากมี) กรอกแบบฟอร์มเปิดเผยข้อมูลการว่าจ้างงานภายนอก ผลประโยชน์ทางการเงินและความสัมพันธ์ (ผลประโยชน์ทับซ้อน) ที่เรียกอีกอย่างหนึ่งว่าแบบฟอร์ม 2402 ในรูปแบบกระดาษกับฝ่ายทรัพยากรบุคคล และระมัดระวังอย่านำเวลาทำงานที่ฟอร์ดไปใช้กับงานนอกลักษณะนี้ เช่น อย่าตรวจข้อสอบหรือหาข้อมูลในการบรรยายในเวลางาน หรือขอให้เพื่อนร่วมงานที่ฟอร์ดช่วยเหลือคุณในเวลางาน",
+                "nextPage": "faq-conflicts-of-interest-detailed",
+                "reference": "conflicts-of-interest"
+            },
+            {
+                "question": "<strong>คณะกรรมการภายนอก:</strong> ฉันเป็นหนึ่งใน<u>คณะกรรมการกำกับดูแลสมาคมพัฒนาท้องถิ่น</u>ฉันไม่ได้รับ ค่าตอบแทนจากการรับตำแหน่งนี้ ฉันต้องบันทึกการเปิดเผยข้อมูลนี้กับบริษัทหรือไม่ ",
+                "answer": "ไม่ มีเพียงข้อมูลการรับตำแหน่งในองค์กรไม่แสวงหาผลกำไรระดับชาติหรือในองค์กรที่เป็นที่รู้จัก เท่านั้นที่ต้องมีการเปิดเผย",
+                "nextPage": "faq-conflicts-of-interest-detailed",
+                "reference": "conflicts-of-interest"
+            },
+            {
+                "question": "<strong>คณะกรรมการภายนอก:</strong>ฉันดำรงตำแหน่ง LL5 และได้รับการทาบทามให้เป็น<u>คณะกรรมการองค์กร ไม่แสวงหาผลกำไรรายใหญ่</u>ฉันต้องบันทึกการเปิดเผยข้อมูลนี้กับบริษัทก่อนรับตำแหน่งหรือไม่  ",
+                "answer": "ใช่ แม้จะไม่ได้รับค่าตอบแทนในการดำรงตำแหน่งนี้ก็ตาม หากคุณอยู่ในตำแหน่งต่ำ กว่า LL5 คุณไม่จำเป็นต้องเปิดเผยข้อมูลการรับตำแหน่งในองค์กรไม่แสวงหาผลกำไรเหล่านี้ โปรดทำตาม กระบวนการการเปิดเผยผลประโยชน์ทับซ้อนของบริษัทเพื่อจัดทำบันทึก คุณสามารถใช้เครื่องมือเปิดเผยผลประโยชน์ทับซ้อน แบบออนไลน์ในประเทศของคุณได้ (หากมี) หรือกรอกแบบฟอร์มเปิดเผยข้อมูลการว่าจ้างงานภายนอก ผลประโยชน์ทางการเงินและความสัมพันธ์ (ผลประโยชน์ทับซ้อน) ที่เรียกอีกอย่างหนึ่งว่าแบบฟอร์ม 2402 ในรูปแบบกระดาษกับฝ่ายทรัพยากรบุคคล",
+                "nextPage": "faq-conflicts-of-interest-detailed",
+                "reference": "conflicts-of-interest"
+            },
+            {
+                "question": "<strong>ผลประโยชน์ส่วนตัว: </strong>ฉันเป็นผู้จัดการของฟอร์ด มีผู้ขอให้ฉันอนุมัติการเปลี่ยนแปลงนโยบายในที่ ทำงานของฉัน ฉันเห็นว่าการเปลี่ยนแปลงที่เสนอนั้นจะทำให้ฉัน<u>ได้ประโยชน์ส่วนตัว</u>ฉันอึดอัดใจที่ จะต้องทำการอนุมัติในสถานการณ์นี้ ฉันควรทำอย่างไร ",
+                "answer": "ทุกครั้งที่คุณจะได้รับ ประโยชน์ส่วนตัวจากการเปลี่ยนแปลงที่คุณเป็นผู้อนุมัติ คุณควรตรวจสอบว่าการดำเนินการนี้โปร่งใสต่อทุก ฝ่ายที่เกี่ยวข้องและแจ้งเรื่องนี้ให้ทราบ ในการรับมือกับสถานการณ์ประเภทนี้ ทางที่ดีคือควรแจ้งการอนุมัตินี้ ให้ผู้จัดการของคุณทราบพร้อมอธิบายผลกระทบจากการเปลี่ยนแปลง รวมทั้งผลประโยชน์ส่วนตัวที่คุณจะ ได้รับด้วย",
+                "nextPage": "faq-conflicts-of-interest-detailed",
+                "reference": "conflicts-of-interest"
+            },
+            {
+                "question": "<strong>งานของญาติพี่น้อง:</strong> ลูกชายของฉัน <u>ทำงานในบริษัทที่ให้การบริการกับบริษัทของเรา</u>ฉันต้อง เปิดเผยความสัมพันธ์นี้ต่อบริษัทหรือไม่ ",
+                "answer": "คุณต้องเปิดเผยข้อมูลนี้หากอยู่ในตำแหน่ง ที่ต้องทำงานกับพนักงานของบริษัทที่ลูกชายของคุณทำงานอยู่หรืออาจทำให้คุณต้องทำการตัดสินใจที่ เกี่ยวข้องกับซัพพลายเออร์/ตัวแทนจำหน่ายรายนี้ แจ้งให้หัวหน้างานของคุณทราบเรื่องตำแหน่งงานของลูก ชายของคุณและทำตามกระบวนการการเปิดเผยผลประโยชน์ทับซ้อนของบริษัทเพื่อจัดทำบันทึก คุณสามารถใช้เครื่องมือเปิดเผยผลประโยชน์ทับซ้อนแบบออนไลน์ในประเทศของคุณได้ (หากมี) กรอกแบบฟอร์มเปิดเผยข้อมูลการว่าจ้างงานภายนอก ผลประโยชน์ทางการเงินและความสัมพันธ์ (ผลประโยชน์ทับซ้อน) ที่เรียกอีกอย่างหนึ่งว่า แบบฟอร์ม 2402 ในรูปแบบกระดาษกับฝ่ายทรัพยากรบุคคล เราขอแนะนำให้คุณเปิดเผยสถานการณ์ประเภทนี้ด้วย แม้ว่าคุณจะไม่ได้ทำงานกับบริษัทที่ลูกชายของคุณทำงานอยู่โดยตรง",
+                "nextPage": "faq-conflicts-of-interest-detailed",
+                "reference": "conflicts-of-interest"
+            },
+            {
+                "question": "<strong>งานของญาติพี่น้อง:</strong>ลูกสาวของฉันเพิ่งเริ่ม<u>งานกับตัวแทนจำหน่ายของบริษัท</u>. ฉันต้องเปิดเผย ความสัมพันธ์นี้หรือไม่ ",
+                "answer": "หากคุณอยู่ในตำแหน่งที่ต้องทำงานกับตัวแทนจำหน่ายรายนี้ หรืออาจต้องทำการตัดสินใจที่เกี่ยวข้องกับตัวแทนจำหน่ายรายนี้ คุณต้องเปิดเผยความสัมพันธ์ด้านตำแหน่ง ของลูกสาวกับหัวหน้างานของคุณและทำตามกระบวนการการเปิดเผยผลประโยชน์ทับซ้อนของบริษัทเพื่อจัดทำบันทึก คุณสามารถใช้เครื่องมือเปิดเผยผลประโยชน์ทับซ้อนแบบออนไลน์ในประเทศของคุณได้ (หากมี) กรอกแบบฟอร์มเปิดเผยข้อมูลการว่าจ้างงานภายนอก ผลประโยชน์ทางการเงินและความสัมพันธ์ (ผลประโยชน์ทับซ้อน) ที่เรียกอีกอย่างหนึ่งว่าแบบฟอร์ม 2402 ในรูปแบบกระดาษกับฝ่ายทรัพยากรบุคคล เราขอแนะนำให้คุณ เปิดเผยความสัมพันธ์ประเภทนี้ด้วย แม้ว่าคุณจะไม่ได้รับผิดชอบตัวแทนจำหน่ายรายนี้โดยตรง",
+                "nextPage": "faq-conflicts-of-interest-detailed",
+                "reference": "conflicts-of-interest"
+            },
+            {
+                "question": "<strong>งานของญาติพี่น้อง:</strong> น้องชายของฉันทำงานในบริษัทที่ <u>ให้การบริการด้านวิศวกรรม</u> แก่บริษัท ฉัน ไม่ได้ติดต่องานกับบริษัทนี้เนื่องจากฉันทำงานในฝ่ายการตลาดและการขาย ฉันควรทำอย่างไร ",
+                "answer": "เนื่องจากคุณไม่ได้ทำงานกับซัพพลายเออร์รายนี้ คุณไม่จำเป็นต้องเปิดเผย ความสัมพันธ์นี้ให้หัวหน้างานหรือบริษัททราบ อย่างไรก็ดี เราขอแนะนำให้คุณเปิดเผยความสัมพันธ์นี้เพราะ แม้จะไม่ได้ทำงานกับซัพพลายเออร์รายนี้ในขณะนี้ ตำแหน่งงานของคุณที่ฟอร์ดอาจเปลี่ยนแปลงไปและคุณ อาจได้ร่วมงานกับซัพพลายเออร์รายนี้ในอนาคต",
+                "nextPage": "faq-conflicts-of-interest-detailed",
+                "reference": "conflicts-of-interest"
+            },
+            {
+                "question": "<strong>การเป็นเจ้าของธุรกิจของญาติพี่น้อง:</strong>พี่สะใภ้ของฉัน<u>เป็นเจ้าของธุรกิจตัวแทนจำหน่ายฟอร์ด</u>ฉันต้องเปิดเผยความสัมพันธ์นี้ต่อบริษัทหรือไม่ ",
+                "answer": "ใช่ คุณต้องเปิดเผยสถานการณ์ นี้ให้หัวหน้างานของคุณทราบและทำตามกระบวนการการเปิดเผยผลประโยชน์ทับซ้อนของบริษัทเพื่อจัดทำบันทึก คุณสามารถใช้เครื่องมือเปิดเผยผลประโยชน์ทับซ้อนแบบออนไลน์ในประเทศของคุณได้ (หากมี) หรือกรอกแบบฟอร์มเปิดเผยข้อมูลการว่าจ้างงานภายนอก ผลประโยชน์ทางการเงินและความสัมพันธ์ (ผลประโยชน์ทับซ้อน) ที่เรียกอีกอย่างหนึ่งว่าแบบฟอร์ม 2402 ในรูปแบบกระดาษกับฝ่ายทรัพยากรบุคคล เนื่องจากพี่สะใภ้ของคุณเป็นสมาชิกในครอบครัวและคุณรับรู้ถึงผลประโยชน์ในการเป็นเจ้าของนี้",
+                "nextPage": "faq-conflicts-of-interest-detailed",
+                "reference": "conflicts-of-interest"
+            },
+            {
+                "question": "<strong>การเป็นเจ้าของธุรกิจของญาติพี่น้อง:</strong>ฉันไม่สนิทกับครอบครัว พี่ชายของฉันแต่งงานกับผู้หญิง ที่มีหุ้นในธุรกิจของครอบครัว แต่<u>ฉันไม่รู้ชื่อบริษัทและไม่รู้ด้วยว่าบริษัทนั้นประกอบธุรกิจอะไร</u>ฉันต้องสอบถามฝ่ายนั้นหรือไม่ เผื่อว่าบริษัทนั้นจะเป็นซัพพลายเออร์ให้กับฟอร์ด ",
+                "answer": "ไม่ต้อง คุณไม่จำเป็นต้องสอบถามพี่ชายและพี่สะใภ้ถึงเรื่องที่ทำงานหรือการเป็นเจ้าของธุรกิจ หากคุณไม่ทราบเรื่องต่าง ๆ เหล่านี้ ถือว่าคุณไม่มีผลประโยชน์ทับซ้อนหากต้องทำงานกับบริษัทนั้น หากคุณทราบข้อมูลในภายหลังและบริษัทนั้นดำเนินธุรกิจร่วมกับฟอร์ด คุณจะต้องกรอกแบบฟอร์มเปิดเผยข้อมูลการว่าจ้างงานภายนอก ผลประโยชน์ทางการเงินและความสัมพันธ์ (ผลประโยชน์ทับซ้อน) ที่เรียกอีกอย่างหนึ่งว่าแบบฟอร์ม 2402 ในเวลาดังกล่าว",
+                "nextPage": "faq-conflicts-of-interest-detailed",
+                "reference": "conflicts-of-interest"
+            },
+            {
+                "question": "<strong>อดีตเพื่อนร่วมงาน:</strong><u>อดีตเพื่อนร่วมงาน</u>ของฉันคนหนึ่งที่ฟอร์ดทำงานให้กับซัพพลายเออร์รายหนึ่งของเราในตอนนี้ บางครั้ง เพื่อนร่วมงานรายนี้จะโทรมาหาฉันและ<u>ขอให้ฉันช่วย</u>หาข้อมูลที่ซัพพลายเออร์ต้องใช้ในการเตรียมซองประมูลให้ครบ เนื่องจากฉันไม่ได้มีส่วนร่วมในขั้นตอนการประมูล บางครั้งฉันก็สงสัยว่าควรให้ข้อมูลนั้นกับเพื่อนหรือไม่ การให้ข้อมูลของฟอร์ดกับเพื่อนร่วมงานจะก่อให้เกิดปัญหาหรือไม่ ",
+                "answer": "การที่คุณรู้สึกอึดอัดใจนั้นถูกต้องแล้ว คุณไม่ควรให้การตอบแทนพิเศษกับบุคคลจากบริษัทอื่น เพียงเพราะเคยทำงานร่วมกันมาก่อนหรือเพราะบุคคลนั้นเป็นเพื่อนของคุณ เนื่องจากคุณไม่มีส่วนรับผิดชอบขั้นตอนการประมูล คุณไม่ทราบว่าซัพพลายเออร์รายนี้มีสิทธิ์ได้รับข้อมูลนี้หรือไม่ เพื่อนของคุณอาจใช้ข้อมูลนี้เป็นข้อได้เปรียบเหนือผู้ประมูลรายอื่น คุณควรแจ้งให้เพื่อนทราบว่าคุณไม่สามารถให้ข้อมูลนั้นได้และเพื่อนของคุณควรขอข้อมูลจากทีมประมูล ทีมประมูลจะได้แน่ใจว่าหากซัพพลายเออร์รายหนึ่งได้รับข้อมูล ผู้ร่วมประมูลรายอื่น ๆ ทั้งหมดก็จะได้รับข้อมูลเดียวกันนั้นด้วย หากเพื่อนของคุณยังคงขอการตอบแทนพิเศษในลักษณะนี้จากคุณอีกหลังจากที่พูดคุยกับเธอแล้ว โปรดรายงานเรื่องนี้ให้หัวหน้างานของคุณหรือฝ่ายทรัพยากรบุคคลทราบ",
+                "nextPage": "faq-conflicts-of-interest-detailed",
+                "reference": "conflicts-of-interest"
+            },
+            {
+                "question": "<strong>คำจำกัดความ:</strong><u>สมาชิกในครอบครัว</u>หมายถึงใครบ้าง ",
+                "answer": "เอกสารแถลงนโยบาย 3 ได้ระบุคำจำกัดความเฉพาะเจาะจงเอาไว้ซึ่งหมายรวมถึงคู่สมรสบิดามารดาพี่น้องและบุตร(รวมทั้งความสัมพันธ์ครอบครัวในทางกฎหมายเช่นพ่อแม่ของคู่สมรส)ในการเปิดเผยข้อมูลนั้นเราขอแนะนำให้คุณเปิดเผยสถานการณ์ที่เกี่ยวข้องกับสมาชิกในครอบครัวที่คุณมีความสัมพันธ์ใกล้ชิดหรือที่มีความสำคัญด้วยเช่นบางคนอาจสนิทกับหลานสาวและหลานชายและได้พบปะพูดคุยกันทุกสัปดาห์หากคุณมีความสัมพันธ์ใกล้ชิดกับสมาชิกในครอบครัวทางที่ดีที่สุดคือเปิดเผยสิ่งที่เข้าข่ายผลประโยชน์ทับซ้อนเพื่อให้คุณและบริษัทมั่นใจว่าคุณไม่ได้ตกอยู่ในสถานการณ์ที่ต้องเลือกระหว่างผลประโยชน์สูงสุดของครอบครัวและผลประโยชน์สูงสุดของบริษัท",
+                "nextPage": "faq-conflicts-of-interest-detailed",
+                "reference": "conflicts-of-interest"
+            }
+        ]
+    },
+    {
+        "pageKey": "company-assets",
+        "title": "การใช้ทรัพย์สินของบริษัท",
+        "canITitle": "Can I use ...?",
+        "canIReminder": "คุณจะต้องไม่ขอของขวัญหรือการตอบแทนพิเศษโดยเด็ดขาด",
+        "icon": "use-of-company-assets.png",
+        "ciicon": "use-of-company-assets.png",
+        "titleicon": "company-assets-title.png",
+        "items": [
+            {
+                "title": "สรุปนโยบายของบริษัท ",
+                "icon": "favors_list_icon_01.png",
+                "description": "ทรัพย์สินของบริษัทมีไว้เพื่อประโยชน์ของบริษัท ไม่ใช่เพื่อประโยชน์ส่วนตัวของพนักงาน คุณจะต้องเข้าใจว่าทรัพย์สินของบริษัท รวมถึงอุปกรณ์ (เช่น แล็ปท็อปที่คุณใช้งานอยู่) การบริการ (เช่น อีเมลและอินเทอร์เน็ตที่บริษัทจัดให้) และสิ่งของในรูปนามธรรมอื่น ๆ (เช่น โลโก้และทรัพย์สินทางปัญญาของฟอร์ด) ตัวอย่างเช่น การใช้โลโก้ของบริษัทในการสื่อสารส่วนตัวของคุณอาจทำให้เกิดความสับสนและสื่อว่าบริษัทสนับสนุนความคิดเห็นหรือธุรกรรมทางธุรกิจ ทั้งที่ไม่เป็นความจริง การกระทำเช่นนี้ก่อให้เกิดความเสี่ยงทางกฎหมายแก่บริษัท โดยเฉพาะหากนำไปใช้ในลักษณะที่ขัดต่อจรรยาบรรณหรือมิชอบด้วยกฎหมาย การใช้วัสดุอุปกรณ์และทรัพย์สินทางกายภาพอื่น ๆ และแม้แต่เวลาทำงานของพนักงาน อาจส่งผลให้บริษัทต้องเสียเงินในที่สุด การใช้ทรัพย์สินของบริษัทเพื่อประโยชน์ส่วนตัวถือเป็นเรื่องที่ไม่ยุติธรรม",
+                "nextPage": "ps-company-assets-summary",
+                "descriptionContent": "<div><p>หลักจรรยาบรรณ</p>ทรัพย์สินของบริษัทมีไว้เพื่อประโยชน์ของบริษัท ไม่ใช่เพื่อประโยชน์ส่วนตัวของพนักงาน คุณจะต้องเข้าใจว่าทรัพย์สินของบริษัท รวมถึงอุปกรณ์ (เช่น แล็ปท็อปที่คุณใช้งานอยู่) การบริการ (เช่น อีเมลและอินเทอร์เน็ตที่บริษัทจัดให้) และสิ่งของในรูปนามธรรมอื่น ๆ (เช่น โลโก้และทรัพย์สินทางปัญญาของฟอร์ด) ตัวอย่างเช่น การใช้โลโก้ของบริษัทในการสื่อสารส่วนตัวของคุณอาจทำให้เกิดความสับสนและสื่อว่าบริษัทสนับสนุนความคิดเห็นหรือธุรกรรมทางธุรกิจ ทั้งที่ไม่เป็นความจริง การกระทำเช่นนี้ก่อให้เกิดความเสี่ยงทางกฎหมายแก่บริษัท โดยเฉพาะหากนำไปใช้ในลักษณะที่ขัดต่อจรรยาบรรณหรือมิชอบด้วยกฎหมาย การใช้วัสดุอุปกรณ์และทรัพย์สินทางกายภาพอื่น ๆ และแม้แต่เวลาทำงานของพนักงาน อาจส่งผลให้บริษัทต้องเสียเงินในที่สุด การใช้ทรัพย์สินของบริษัทเพื่อประโยชน์ส่วนตัวถือเป็นเรื่องที่ไม่ยุติธรรม</div><div><p>นโยบายพื้นฐาน </p><ul><li>พนักงานของบริษัทมีหน้าที่ปกป้องทรัพย์สินของบริษัทและรับรองว่ามีการใช้ทรัพย์สินตามนโยบายของบริษัท</li><li>สังคมออนไลน์อาจทำให้ชีวิตงานและชีวิตส่วนตัวของคุณปะปนกัน ดูข้อมูลเพิ่มเติมในคำถามที่พบบ่อยและข้อมูลติดต่อและอ้างอิง</li><li>ทรัพย์สินของบริษัทควรนำไปใช้เพื่อวัตถุประสงค์ทางธุรกิจของบริษัทแม้ข้อกำหนดB-109จะอนุญาตให้มีการใช้งานเป็นการส่วนตัวในบางกรณีซึ่งไม่ขัดการทำงานในวันทำงานของคุณหรือเพื่อนร่วมงานของคุณ โปรดดูตัวอย่างที่เป็นประโยชน์จากส่วนคำถามที่พบบ่อย</li><li>อย่าใช้ทรัพยากรของบริษัทในการดำเนินธุรกิจส่วนตัว สนับสนุนงานนอกหรือกิจการส่วนตัวที่คล้ายกัน หรือทำกิจกรรมระดมทุนที่ไม่เกี่ยวข้องกับบริษัท ทั้งนี้มีข้อยกเว้นบางอย่างสำหรับการใช้งานส่วนตัวในบางกรณี</li><li>มีข้อจำกัดด้านภาพถ่ายและการบันทึกภาพในสถานที่ของบริษัทหรือในขณะดำเนินธุรกิจ โปรดตรวจสอบว่าคุณทำตามแนวทางของบริษัท ดังนี้</li><li>ห้ามไม่ให้มีการเข้าถึงทำซ้ำแสดงแจกจ่าย หรือจัดเก็บวัสดุใด ๆ ที่แสดงเรื่องเพศอย่างโจ่งแจ้ง ลามกอนาจาร หมิ่นประมาท คุกคาม ผิดกฎหมาย หรือไม่เหมาะสมโดยเด็ดขาด</li></ul></div><div><ul><li>เมื่อใช้คอมพิวเตอร์หรือทรัพยากรอื่นของบริษัท โปรดอย่าคาดหวังความเป็นส่วนตัว ทั้งนี้ขึ้นอยู่กับกฎหมายในพื้นที่</li><li>คุณต้องไม่ใช้ข้อมูลสำคัญของบริษัทที่ยังไม่ได้เปิดเผยสู่สาธารณชนเพื่อซื้อขายหุ้นหรือให้การช่วยเหลือผู้อื่น เพราะคุณอาจกำลังละเมิดกฎหมายและมีความรับผิดส่วนตัว</li><li>คุณต้องไม่แบ่งปันข้อมูลสำคัญของบริษัทที่ยังไม่ได้เปิดเผยสู่สาธารณชนออกนอกบริษัทโดยไม่ได้รับการอนุญาตอย่างเป็นกิจจะลักษณะ</li><li>อุปกรณ์และยานพาหนะของบริษัทเป็นทรัพยากรของบริษัทและคุณจะต้องทำตามนโยบายความปลอดภัยที่เกี่ยวข้องของบริษัท ซึ่งรวมการคาดเข็มขัดนิรภัยและเลี่ยงการทำให้ผู้ขับขี่เสียสมาธิ</li></ul></div>"
+            },
+            {
+                "title": "ข้อมูลติดต่อและอ้างอิง ",
+                "icon": "favors_list_icon_02.png",
+                "description": "คุณสามารถพบแหล่งข้อมูลเหล่านี้ได้เมื่อเข้าไปยังอินทราเน็ตของฟอร์ด",
+                "nextPage": "ps-company-assets-quick-ref",
+                "items": [
+                    {
+                        "title": "ข้อกำหนด B-109 การใช้ทรัพย์สินของบริษัท รวมทั้งทรัพยากรคอมพิวเตอร์อย่างเหมาะสม",
+                        "link": ""
+                    },
+                    {
+                        "title": "ข้อกำหนด B-105 การมอบหมาย ใช้งานและขาย/ให้เช่ารถของบริษัท",
+                        "link": ""
+                    },
+                    {
+                        "title": "ข้อกำหนด C-114 อุปกรณ์ถ่ายภาพและเสียงในพื้นที่ของบริษัท",
+                        "link": ""
+                    },
+                    {
+                        "title": "ข้อกำหนดในการใช้เว็บแคมหรือการบันทึก WebEx ",
+                        "link": ""
+                    },
+                    {
+                        "title": "แนวทางการใช้สังคมออนไลน์",
+                        "link": ""
+                    },
+                    {
+                        "title": "หากมีข้อสงสัยเรื่องการใช้ทรัพยากรของบริษัทอย่างเหมาะสม โปรดติดต่อเจ้าหน้าที่ฝ่ายทรัพยากรบุคคลในพื้นที่หรือคลิกที่นี่เพื่อส่งอีเมลถึงฝ่ายพนักงานสัมพันธ์ใน WHQ",
+                        "link": "mailto: activity@ford.com?subject=อุปกรณ์เคลื่อนที่ – การใช้ทรัพย์สินของบริษัท"
+                    },
+                    {
+                        "title": "หรือคลิกที่นี่เพื่อส่งอีเมลถึงฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กร",
+                        "link": "mailto: fordlaw@ford.com?subject=อุปกรณ์เคลื่อนที่ – การใช้ทรัพย์สินของบริษัท"
+                    }
+                ]
+            },
+            {
+                "title": "คำถามที่พบบ่อย",
+                "icon": "favors_list_icon_03.png",
+                "description": "ฉันทำงานในฝ่ายบำรุงรักษาและทำธุรกิจช่างซ่อมส่วนตัวในช่วงค่ำและวันเสาร์อาทิตย์ บางครั้งฉันจะขอยืมเครื่องมือจากฝ่ายเพื่อใช้ทำงานช่วงวันเสาร์อาทิตย์และนำมาคืนเสมอ การกระทำนี้สามารถทำได้หรือไม่ ",
+                "nextPage": "faq-company-assets"
+            }
+        ],
+        "frequently-asked-questions": [
+            {
+                "question": "<strong>การยืมอุปกรณ์: </strong>ฉันทำงานในฝ่ายบำรุงรักษาและทำธุรกิจช่างซ่อมส่วนตัวในช่วงค่ำและวันเสาร์อาทิตย์ บางครั้งฉันจะ<u>ขอยืมเครื่องมือจากฝ่าย</u> เพื่อใช้ทำงานช่วงวันเสาร์อาทิตย์และนำมาคืนเสมอ การกระทำนี้สามารถทำได้หรือไม่ ",
+                "answer": "ไม่ได้ ทรัพย์สินของบริษัทเป็นของบริษัท ไม่ใช่ทรัพย์สินส่วนตัวของคุณ คุณไม่สามารถนำวัสดุหรืออุปกรณ์ของบริษัทไปใช้ในธุรกิจส่วนตัวของคุณได้",
+                "nextPage": "faq-company-assets-detailed",
+                "reference": "company-assets"
+            },
+            {
+                "question": "<strong>การบริการรถส่วนตัว: </strong>ฉันได้ยินมาว่าเพื่อนร่วมงานของฉันได้นัดหมาย <u>นำรถส่วนตัวของเขาเข้ารับบริการในศูนย์ซ่อมของบริษัท</u> เพื่อซ่อมเบรก เขาขอให้เพื่อนบางคนที่นั่นช่วยดำเนินการให้ การกระทำนี้สามารถทำได้หรือไม่ ",
+                "answer": "ไม่ได้ อาคาร เครื่องมือ และอุปกรณ์ของบริษัทเป็นทรัพย์สินของบริษัทและใช้เพื่อประโยชน์ของบริษัท ไม่ใช่เพื่อประโยชน์ส่วนตัวของพนักงาน",
+                "nextPage": "faq-company-assets-detailed",
+                "reference": "company-assets"
+            },
+            {
+                "question": "<strong>ธุรกิจภายนอก: </strong>ฉันมีพื้นที่ให้เช่าหลายแห่งและได้ให้หมายเลขโทรศัพท์ที่ทำงานของฉันเพื่อให้ผู้เช่า <u>โทรติดต่อเมื่อมีปัญหาระหว่างวัน</u>.  ประมาณสัปดาห์ละครั้ง ฉันจะ<u>ออกจากที่ทำงานเป็นเวลา 2-3 ชั่วโมง</u>เพื่อทำการซ่อมแซมพื้นที่ให้เช่าของฉัน การกระทำนี้ถือว่ารับได้หรือไม่ ",
+                "answer": "บริษัทห้ามไม่ให้ออกจากที่ทำงานเพื่อทำหน้าที่ของเจ้าของที่ เว้นแต่ว่าคุณจะลาพักร้อนซึ่งได้รับอนุมัติจากหัวหน้างานแล้ว โทรศัพท์ที่ทำงานของคุณเป็นทรัพย์สินของบริษัทที่ไม่ควรนำไปใช้ในการทำธุรกิจส่วนตัว สนับสนุนงานนอก หรือกิจการส่วนตัวอื่น ๆ คุณสามารถรับสายที่เข้ามาเป็นครั้งคราวและไม่ขัดจังหวะการทำงานของคุณหรือเพื่อนร่วมงาน แต่หมายเลขโทรศัพท์ที่ทำงานของคุณไม่ควรใช้เป็นหมายเลขติดต่อสำหรับธุรกิจส่วนตัวของคุณ",
+                "nextPage": "faq-company-assets-detailed",
+                "reference": "company-assets"
+            },
+            {
+                "question": "<strong>อีเมลที่ไม่เหมาะสม: </strong>ฉันมีเพื่อนที่ส่งสิ่งที่บางคนมองว่า<u>ลามกอนาจารหรือเป็นการหมิ่นประมาท</u> บุคคลบางกลุ่มมายังบัญชีที่ทำงานของฉัน ฉันไม่อยากมีปัญหาในที่ทำงาน ฉันควรทำอย่างไร ",
+                "answer": "ก่อนอื่น บอกเพื่อนของคุณให้หยุดส่งอีเมลมายังบัญชีอีเมลที่ทำงานของคุณ หากคุณต้องการรับอีเมลประเภทนี้ บอกให้เพื่อนส่งไปยังบัญชีอีเมลส่วนตัวของคุณ หากคุณสงสัยว่าอีเมลส่วนตัวมีเนื้อความที่ไม่เหมาะสม อย่าเปิดอีเมลฉบับนั้นในจากคอมพิวเตอร์ของที่ทำงาน ผู้อื่นอาจเห็นได้เมื่อเดินผ่านโต๊ะทำงานของคุณและจะมีการทำสำเนาไว้ในระบบของฟอร์ด ลบอีเมลที่เข้าข่ายไม่เหมาะสมโดยไม่เปิดดูและส่งอีเมลกลับไปยังเพื่อนโดยเตือนว่าให้ส่งมายังบัญชีส่วนตัวของคุณ",
+                "nextPage": "faq-company-assets-detailed",
+                "reference": "company-assets"
+            },
+            {
+                "question": "<strong>ธุรกิจของครอบครัว: </strong>พ่อแม่ของฉันมีธุรกิจรับจัดเลี้ยงเล็ก ๆ ที่ไม่ได้ทำธุรกิจร่วมกับบริษัท ธุรกิจนี้จัดเลี้ยงอาหารสำหรับงานกิจกรรมต่าง ๆ ให้กับเพื่อนบ้าน<u>เพื่อนบ้านคนนี้โทรมายังที่ทำงานของฉัน</u> ในช่วงวันธรรมดาและฝากแจ้งข้อมูลอาหารเนื่องจากติดต่อใครไม่ได้เลย การฝากแจ้งข้อมูลนั้นทำได้หรือไม่ แม้ว่าฉันจะอยู่ที่ทำงานก็ตาม ",
+                "answer": "การโทรติดต่อสั้น ๆ ลักษณะนี้แบบไม่บ่อยนักไม่ถือว่าเป็นปัญหา หากคุณต้องการส่งอีเมลเรื่องนี้ โปรดทำจากบัญชีส่วนตัวของคุณ อย่างไรก็ตาม การรับสายแทนพ่อแม่ในลักษณะที่บ่อยกว่านี้จะถือเป็นการใช้ทรัพย์สินของบริษัทรวมทั้งเวลาทำงานของคุณ ซึ่งการกระทำนี้ไม่สามารถยอมรับได้",
+                "nextPage": "faq-company-assets-detailed",
+                "reference": "company-assets"
+            },
+            {
+                "question": "<strong>การสอน: </strong>ฉันสอนหนังสือที่โรงเรียนในท้องถิ่นช่วงค่ำ ฉัน<u>ใช้แล็ปท็อปของบริษัท</u> ลงเกรดและวางแผนการสอนในที่ทำงาน บางครั้ง<u>ฉันก็พิมพ์เอกสารเป็นตั้ง </u>สำหรับชั้นเรียนขณะที่อยู่ในที่ทำงาน ฉันไม่เห็นว่าจะเป็นการไม่สมควรทำแต่อย่างใด ฟอร์ดสนับสนุนโครงการเพื่อการศึกษาหลายโครงการอยู่แล้ว นี่ก็เหมือนกับว่าฟอร์ดได้สนับสนุนโรงเรียนด้วยเหมือนกัน คุณเห็นด้วยหรือไม่ ",
+                "answer": "ไม่เห็นด้วย การตัดสินใจว่าบริษัทจะให้การสนับสนุนโครงการเพื่อการศึกษาหรือไม่นั้นไม่ใช่การตัดสินใจของบุคคล แต่เป็นการตัดสินใจของบริษัท การพิมพ์เอกสารเป็นตั้งสำหรับงานนอกและการใช้แล็ปท็อปเป็นแหล่งสำคัญสำหรับงานที่ไม่เกี่ยวข้องกับฟอร์ดเป็นการใช้ทรัพย์สินของบริษัทเพื่อสนับสนุนธุรกิจส่วนตัวของคุณ หากคุณคิดว่าบริษัทควรสนับสนุนโรงเรียนในท้องถิ่น คุณจะต้องขออนุมัติจากผู้บริหารในพื้นที่ของคุณ ผู้บริหารอาจต้องปฏิบัติตามขั้นตอนในการบริจาคเพื่อการกุศล โดยขึ้นอยู่กับการสนับสนุนที่มอบให้",
+                "nextPage": "faq-company-assets-detailed",
+                "reference": "company-assets"
+            },
+            {
+                "question": "<strong>สื่อสังคมออนไลน์:</strong>ฉันชอบอ่านบทความออนไลน์และ<u>โพสต์ความคิดเห็น</u>อยู่บ่อยครั้ง มีคนบอกฉันว่าให้ระวังสิ่งที่โพสต์ ฉันโพสต์ในเวลาส่วนตัว เหตุใดบริษัทจึงต้องสนใจเรื่องนี้ด้วย ",
+                "answer": "อินเทอร์เน็ตและสื่อสังคมออนไลน์มักจะทำให้แยกแยะชีวิตส่วนตัวและหน้าที่การงานได้ยาก บริษัทได้จัดทำแนวทางเพื่อช่วยให้คุณเห็นด้านที่ต้องใช้ความระมัดระวัง เรามีแนวทางอย่างละเอียดที่เผยแพร่ในอินทราเน็ตของบริษัท แต่แนวทางหลักนั้นได้โพสต์ไว้ในเว็บไซต์สาธารณะของเราแล้ว ข้อมูลเบื้องต้นมีดังนี้:<ul><li>ความซื่อสัตย์เกี่ยวกับตัวตนของคุณ</li><li>ความกระจ่างที่ระบุว่าความคิดเห็นต่าง ๆ เป็นความคิดเห็นของคุณเอง</li><li>ความเคารพและความอ่อนน้อมถ่อมตนในการสื่อสาร</li><li>วิจารณญาณที่ดีในการแชร์เฉพาะข้อมูลที่เปิดเผยต่อสาธารณชนเท่านั้น</li><li>การรับรู้ว่าสิ่งที่คุณเขียนจะคงอยู่ถาวร]</li></ul>",
+                "nextPage": "faq-company-assets-detailed",
+                "reference": "working-together"
+            },
+            {
+                "question": "<strong>ภาพถ่าย/วิดีโอในสื่อสังคมออนไลน์: </strong>กลุ่มของเราเพิ่งทำโครงการใหญ่เสร็จไปและฉันถ่าย <u>ภาพการรับประทานอาหารกลางวันเพื่อฉลองความสำเร็จ</u>ฉันจะ<u>โพสต์ภาพ</u>ในหน้าสื่อสังคมออนไลน์ของฉันได้หรือไม่ ",
+                "answer": "อาจได้ คุณจะต้องแน่ใจว่าภาพที่คุณถ่ายนั้นอนุญาตให้ถ่ายได้เสียก่อน บริษัทได้ห้ามการถ่ายภาพในสถานที่บางแห่ง เช่น ฝ่ายออกแบบหรือทดสอบ หากภาพถ่ายไม่มีข้อมูลที่ไม่เปิดเผย คุณต้องแน่ใจก่อนว่าบุคคลทั้งหมดในภาพได้ยินยอมให้คุณโพสต์ภาพเหล่านั้น คุณควรอ่านข้อกำหนดในการใช้เว็บแคมหรือการบันทึก WebEx ในอินทราเน็ตของฟอร์ดเพื่อรับข้อมูลที่ไม่เพียงใช้กับการบันทึกเท่านั้น แต่ยังใช้กับภาพถ่ายด้วย",
+                "nextPage": "faq-company-assets-detailed",
+                "reference": "company-assets"
+            },
+            {
+                "question": "<strong>ภาพถ่ายหรือวิดีโอ: </strong>เรามีประชุมทุกเดือนและมีใครบางคนเสนอให้<u>อัดบันทึกการประชุม</u>แทนการจดบันทึกการประชุม การกระทำเช่นนี้จะก่อให้เกิดปัญหาหรือไม่ ",
+                "answer": "มีข้อกฎหมายและนโยบายที่บังคับใช้ขณะที่คุณถ่ายภาพ วิดีโอ หรือการบันทึกประเภทอื่น ๆ ซึ่งเกี่ยวข้องกับธุรกิจของฟอร์ด การถ่ายภาพหรือการอัดบันทึกอื่น ๆ จะสามารถทำได้ภายใต้ข้อกำหนด C-114 เพื่อวัตถุประสงค์บางอย่าง และการอัดบันทึกการประชุมขณะที่มีการพูดคุยงานและตัดสินใจนั้นไม่ใช่การกระทำที่บริษัทอนุมัติ หากนโยบายได้ระบุห้ามภาพถ่ายหรือการบันทึก คุณจะไม่สามารถถ่ายภาพหรือทำการอัดบันทึกได้ แม้ว่าจะใช้ iPhone ของบริษัทหรืออุปกรณ์อื่น ๆ ที่เป็นของบริษัทก็ตาม พึงระลึกไว้เสมอว่าบางประเทศมีข้อกฎหมายที่เจาะจงการถ่ายภาพหรือการบันทึกที่เกี่ยวข้องกับธุรกิจของบริษัทด้วย คุณควรอ่านข้อกำหนดในการใช้เว็บแคมหรือการบันทึก WebEx ซึ่งสรุปขั้นตอนที่ควรปฏิบัติตามเอาไว้ โดยไม่คำนึงถึงเทคโนโลยีที่ใช้ในการบันทึกนั้น",
+                "nextPage": "faq-company-assets-detailed",
+                "reference": "company-assets"
+            }
+        ]
+    },
+    {
+        "pageKey": "anti-bribery-corruption",
+        "title": "การต่อต้านการติดสินบนและการต่อต้านการทุจริต",
+        "canITitle": "Can I give ...?",
+        "canIReminder": "คุณจะต้องไม่ขอของขวัญหรือการตอบแทนพิเศษโดยเด็ดขาด",
+        "icon": "anti-bribery-corruption.png",
+        "ciicon": "anti-bribery-corruption.png",
+        "titleicon": "anti-bribery-corruption-title.png",
+        "items": [
+            {
+                "title": "สรุปนโยบายของบริษัท ",
+                "icon": "favors_list_icon_01.png",
+                "description": "ฟอร์ดจะไม่จ่ายสินบนหรืออนุญาตให้บุคคลอื่นใดจ่ายสินบนที่เกี่ยวข้องกับธุรกิจของฟอร์ด ชื่อเสียงอันดีงามของเราเป็นทรัพย์สินที่ประเมินค่าไม่ได้ เราสั่งสมชื่อเสียงมานานแรมปีจากการประกอบธุรกิจโดยยึดมั่น ในจรรยาบรรณ แต่ชื่อเสียงดังกล่าวนั้นก็อาจสูญเสียได้ในเวลาอันรวดเร็ว คุณมีหน้าที่ในการดำเนินธุรกิจอย่างเป็นธรรม ซื่อตรง และสอดคล้องกับนโยบายของบริษัทและกฎหมายเพื่อรักษาความเชื่อมั่นของผู้ถือผลประโยชน์ร่วมของเราให้ คงอยู่ เมื่อคุณดำเนินธุรกิจด้วยความซื่อสัตย์สุจริต คุณได้ช่วยฟอร์ดพัฒนาไปในทางที่ถูกต้อง (Go Further – The Right Way) และปกป้องชื่อเสียงอันดีงามของบริษัท",
+                "nextPage": "ps-anti-bribery-corruption-summary",
+                "descriptionContent": "<div><p>หลักจรรยาบรรณ </p>ฟอร์ดจะไม่จ่ายสินบนหรืออนุญาตให้บุคคลอื่นใดจ่ายสินบนที่เกี่ยวข้องกับธุรกิจของฟอร์ด ชื่อเสียงอันดีงามของเราเป็นทรัพย์สินที่ประเมินค่าไม่ได้ เราสั่งสมชื่อเสียงมานานแรมปีจากการประกอบธุรกิจโดยยึดมั่น ในจรรยาบรรณ แต่ชื่อเสียงดังกล่าวนั้นก็อาจสูญเสียได้ในเวลาอันรวดเร็ว คุณมีหน้าที่ในการดำเนินธุรกิจอย่างเป็นธรรม ซื่อตรง และสอดคล้องกับนโยบายของบริษัทและกฎหมายเพื่อรักษาความเชื่อมั่นของผู้ถือผลประโยชน์ร่วมของเราให้ คงอยู่ เมื่อคุณดำเนินธุรกิจด้วยความซื่อสัตย์สุจริต คุณได้ช่วยฟอร์ดพัฒนาไปในทางที่ถูกต้อง (Go Further – The Right Way) และปกป้องชื่อเสียงอันดีงามของบริษัท<p>พึงระลึกไว้เสมอว่า</p><ul><li>การติดสินบนเป็นการกระทำที่ขัดต่อนโยบายของบริษัทและอาจเป็นการฝ่าฝืนกฎหมายด้วย</li><li>การติดสินบนไม่ได้หมายถึงการจ่ายเงินเท่านั้น แต่ยังรวมถึงข้อเสนอ คำสัญญา หรือการอนุญาตให้มอบ สิ่งของใด ๆ ที่มีมูลค่า (Anything of value) ในการโน้มน้าวผู้อื่นเพื่อให้ได้มาหรือรักษาเอาไว้ซึ่งธุรกิจอย่าง ไม่เหมาะสม</li></ul></div><div><ul><li>เราจะไม่สัญญาว่าจะมอบสิ่งของใด ๆ ที่มีมูลค่า (แม้เพียงเล็กน้อย) ในการโน้มน้าวผู้อื่นเพื่อให้ได้มาหรือ รักษาเอาไว้ซึ่งธุรกิจอย่างไม่เหมาะสมโดยเด็ดขาด นโยบายของบริษัทได้ห้ามมิให้กระทำการดังกล่าวและอาจก่อให้เกิดความเสี่ยงทางกฎหมายต่อตัวคุณและบริษัทได้</li><li>การจ่ายเงินแม้มีจำนวนเล็กน้อยเพื่อให้หน่วยงานของรัฐดำเนินการตามปกติ ก็ถือว่าขัดต่อนโยบายของบริษัท</li><li>ไม่อนุญาตให้ซัพพลายเออร์/ตัวแทนจำหน่าย หรือบุคคลใดก็ตามกระทำการติดสินบนอันเกี่ยวข้องกับธุรกิจ ของบริษัท โดยเฉพาะในการติดต่อกับเจ้าหน้าที่ของรัฐ</li><li>เฝ้าระวังค่านายหน้าที่มีระดับสูงเกินปกติหรือราคาขายมีระดับสูงขึ้นโดยไม่มีคำอธิบาย ซึ่งอาจเป็นสัญญาณบ่งบอกว่ามีการจ่ายเงินพิเศษเพื่อติดสินบนได้</li><li>หากจำเป็นต้องว่าจ้างบุคคลในการติดต่อประสานงานกับเจ้าหน้าที่ของรัฐในนามของบริษัท โปรดตรวจสอบว่า ตัวแทนดังกล่าวยึดมั่นในหลักจรรยาบรรณและไม่มีส่วนเกี่ยวข้องกับการติดสินบนหรือการกระทำต้องห้ามอื่น ๆ (โปรดแน่ใจว่าได้ดำเนินการตามขั้นตอนการตรวจสอบ (Due Diligence) ที่เหมาะสม)</li></ul></div><div><ul><li>สัญญาใด ๆ ที่ทำกับซัพพลายเออร์/ตัวแทนจำหน่าย ที่ปรึกษา หรือตัวแทนซึ่งอาจติดต่อกับเจ้าหน้าที่ของรัฐจ ะต้องมีข้อกำหนดห้ามมิให้มีการติดสินบนและอนุญาตให้บริษัทดำเนินการตรวจสอบย้อนหลังได้</li><li>หากคุณสงสัยว่าซัพพลายเออร์หรือบุคคลใดที่เป็นตัวแทนของบริษัทอาจมีส่วนเกี่ยวข้องในการติดสินบน ให้ รายงานข้อกังวลดังกล่าวต่อฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กร (Corporate Compliance Office)ในทันทีเพื่อให้เราตรวจสอบหาสาเหตุและแก้ไขปัญหาที่เกิดขึ้นได้</li><li>หากกฎหมายท้องถิ่นอนุญาต คุณสามารถจัดเลี้ยงอาหารและจัดสิ่งบันเทิงที่สมเหตุสมผลแก่เจ้าหน้าที่ของรัฐ ได้ โปรดติดต่อฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กรและฝ่ายรัฐกิจสัมพันธ์ (Government Affairs) หากคุณวางแผนจะจัดของขวัญ การ เดินทางหรือสิ่งบันเทิง ส่วนลดพิเศษ หรือการตอบแทนพิเศษอื่น ๆ ให้กับเจ้าหน้าที่หรือหน่วยงานของรัฐ ทั้งนี้ เพื่อลดความเสี่ยงของบริษัทในการถูกกล่าวหาในเรื่องการติดสินบน บริษัทได้จัดทำขั้นตอนที่ต้องปฏิบัติตามในการขออนุมัติที่จำเป็นไว้</li></ul></div>"
+            },
+            {
+                "title": "ข้อมูลติดต่อและอ้างอิง",
+                "icon": "favors_list_icon_02.png",
+                "description": "คุณสามารถเข้าถึงแหล่งข้อมูลเหล่านี้ได้เมื่อเข้าไปยังอินทราเน็ตของฟอร์ด ",
+                "nextPage": "ps-anti-bribery-corruption-quick-ref",
+                "items": [
+                    {
+                        "title": "เอกสารแถลงนโยบาย 3 มาตรฐานการดำเนินงานขององค์กร",
+                        "link": ""
+                    },
+                    {
+                        "title": "ข้อกำหนด A-109 การมอบของขวัญ ของรางวัลและสิ่งของใด ๆ โดยบริษัท",
+                        "link": ""
+                    },
+                    {
+                        "title": "FM 905-90-10 การติดต่อประสานงานกับเจ้าหน้าที่ของรัฐและหน่วยงานของรัฐ ",
+                        "link": ""
+                    },
+                    {
+                        "title": "หน้าเวปไซต์ SharePoint สำหรับขอการอนุมัติจากฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กรเพื่อติดต่อประสานงาน กับหน่วยงานของรัฐ",
+                        "link": ""
+                    },
+                    {
+                        "title": "นโยบายการเดินทางกลาง (ส่วน 2.9.4 สำหรับจัดหาการเดินทางให้กับเจ้าหน้าที่ของรัฐ)",
+                        "link": ""
+                    },
+                    {
+                        "title": "หากมีข้อสงสัยหรือข้อกังวลในเรื่องการต่อต้านการติดสินบน โปรดติดต่อเจ้าหน้าที่ฝ่าย OGC ใน พื้นที่หรือเจ้าหน้าที่ฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กรประจำภูมิภาค หรือคลิกที่นี่เพื่อส่ง อีเมลไปยังฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กร  คุณต้องได้รับอนุมัติจากฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กร",
+                        "link": "mailto:fordlaw@ford.com?subject=แอพบนอุปกรณ์เคลื่อนที่ – การต่อต้านการทุจริต"
+                    },
+                    {
+                        "title": "โปรดติดต่อเจ้าหน้าที่ฝ่ายรัฐกิจสัมพันธ์ในพื้นที่ของคุณเพื่อสอบถามข้อชี้แนะในการติดต่อประสานงานกับเจ้าหน้าที่ของรัฐและการอนุมัติที่จำเป็น",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "title": "คำถามที่พบบ่อย",
+                "icon": "favors_list_icon_03.png",
+                "description": "ฉันกำลังดำเนินเรื่องขออนุมัติจากหน่วยงานท้องถิ่นเพื่อแต่งตั้งตัวแทนจำหน่ายใหม่ แต่ใช้ เวลานานมาก ซัพพลายเออร์/ตัวแทนจำหน่ายรายใหม่บอกฉันว่าหากฟอร์ดว่าจ้างลูกชายของผู้ว่าราชการจังหวัด เขามั่นใจว่ากระบวนการนี้จะสำเร็จอย่างรวดเร็ว ลูกชายของผู้ว่าฯ เพิ่งเรียนจบจากมหาวิทยาลัยที่มีชื่อเสียง ฉันควรแนะนำให้บริษัทว่าจ้างลูกชายของผู้ว่าฯ หรือไม่ ",
+                "nextPage": "faq-anti-bribery-corruption"
+            }
+        ],
+        "frequently-asked-questions": [
+            {
+                "question": "<strong>การว่าจ้าง: </strong>ฉันกำลังดำเนินเรื่องขออนุมัติจากหน่วยงานท้องถิ่นเพื่อแต่งตั้งตัวแทนจำหน่ายใหม่ แต่ใช้ เวลานานมาก ซัพพลายเออร์/ตัวแทนจำหน่ายรายใหม่บอกฉันว่าหากฟอร์ด <u>ว่าจ้างลูกชายของผู้ว่าราชการจังหวัด</u>, เขามั่นใจว่ากระบวนการนี้จะสำเร็จอย่างรวดเร็ว ลูกชายของผู้ว่าฯ เพิ่งเรียนจบจากมหาวิทยาลัยที่มีชื่อเสียง ฉันควรแนะนำให้บริษัทว่าจ้างลูกชายของผู้ว่าฯ หรือไม่ ",
+                "answer": "ไม่ควร อย่าแนะนำให้เจ้าหน้าที่ของฟอร์ดคนใดว่าจ้างลูกชายของผู้ว่าฯ แต่อธิบาย กระบวนการสรรหาพนักงานของบริษัทให้ซัพพลายเออร์/ตัวแทนจำหน่ายฟังอย่างสุภาพแทน และไม่ ดำเนินการใด ๆ อันเป็นการช่วยเหลือแนะนำลูกชายของผู้ว่าฯ เพื่อให้ได้รับการว่าจ้างในบริษัท การผลักดันการว่าจ้างสมาชิกในครอบครัวของเจ้าหน้าที่รัฐอาจถือเป็นการติดสินบนอย่างหนึ่งได้ โปรดอย่ากระทำการใด ๆอันเป็นการแนะนำลูกชายของผู้ว่าฯเป็นพิเศษ แต่ปล่อยให้กระบวนการว่าจ้างพนักงานเป็นไปตามขั้นตอนปกติ นอกจากนี้ คุณควรติดต่อฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กรเพื่อบันทึกเหตุการณ์นี้ด้วย",
+                "nextPage": "faq-anti-bribery-corruption-detailed",
+                "reference": "anti-bribery-corruption"
+            },
+            {
+                "question": "<strong>การยืมรถ: </strong>เจ้าหน้าที่ของรัฐคนหนึ่งซึ่งฉันติดต่องานด้วยเป็นระยะ ๆ กล่าวว่าเขากำลังจะเข้ามาใน เมืองเพื่อเยี่ยมครอบครัว และถามว่ามี <u>รถที่พอจะยืมได้</u>จากบริษัทหรือไม่ ฉันสามารถให้ เจ้าหน้าที่ของรัฐรายนี้ยืมรถไปใช้สัก 2-3 วันได้หรือไม่ ",
+                "answer": "ไม่ได้ การให้เจ้าหน้าที่ ของรัฐยืมรถของบริษัทไปใช้เป็นการส่วนตัวนั้นถือเป็นการตอบแทนพิเศษและอาจมองว่าเป็นการติดสินบนได้ ในบางกรณี คุณอาจจัดหารถเพื่อใช้ในการสาธิตผลิตภัณฑ์หรือช่วยเหลือหน่วยงานของรัฐในสถานการณ์ที่ไม่ ปกติได้ การจัดหารถหรือการจ่ายค่าเดินทางให้กับเจ้าหน้าที่ของรัฐจำเป็นต้องได้รับการอนุมัติล่วงหน้าจาก ฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กรและฝ่ายรัฐกิจสัมพันธ์เสียก่อน",
+                "nextPage": "faq-anti-bribery-corruption-detailed",
+                "reference": "anti-bribery-corruption"
+            },
+            {
+                "question": "<strong>ค่าธรรมเนียมเพิ่มเติม: </strong>ฉันดูแลการปฏิบัติงานของไซต์งานใหม่ที่มีกำหนดเปิดทำการในอีก 30 วัน ก่อนเปิดไซต์งาน เราต้องได้รับใบอนุญาตจากทางราชการอีก 3 ใบ เรารอใบอนุญาตนี้มา 9 เดือน แล้ว ทั้งที่ปกติจะใช้เวลาดำเนินการเพียง 6 เดือน เจ้าหน้าที่ของรัฐที่ฉันติดต่องานด้วยแนะนำว่าหาก<u>ฉันจ่ายเงินให้เขาเพิ่มอีก 600 บาทสำหรับใบอนุญาต</u>, เขาจะช่วยเร่งกระบวนการและออก ใบอนุญาตให้ภายใน 10 วัน ฉันสามารถจ่ายเงินเพิ่ม 600 บาทเพื่อให้เปิดไซต์งานอย่างเป็นทางการ ได้อย่างราบรื่นได้หรือไม่ ",
+                "answer": "ไม่ได้ คุณไม่อาจจ่ายเงินที่ไม่ใช่ค่าธรรมเนียมรัฐให้กับเจ้าหน้าที่ของรัฐ หากมีอุปสรรคเกิดขึ้น โปรดติดต่อขอความช่วยเหลือจากเจ้าหน้าที่ฝ่ายกฎหมาย ฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กร หรือฝ่ายรัฐกิจสัมพันธ์ในพื้นที่ การจ่ายเงินในลักษณะดังกล่าวไม่เพียงทำให้ฟอร์ดอาจ ต้องเสียค่าปรับและค่าดำเนินการทางกฎหมายเท่านั้น แต่ยังเป็นการตั้งความคาดหวังแก่เจ้าหน้าที่ของรัฐว่าจะ ได้รับเงินสินบนเล็ก ๆ น้อย ๆ อีกในอนาคต ซึ่งทำให้เกิดต้นทุนในการปฏิบัติงานที่สูงขึ้นกับบริษัทและอาจ ส่งผลต่อสมาชิกรายอื่น ๆ ในชุมชนอีกด้วย",
+                "nextPage": "faq-anti-bribery-corruption-detailed",
+                "reference": "anti-bribery-corruption"
+            },
+            {
+                "question": "<strong>สิ่งบันเทิง: </strong>เรากำลังจะเปิดตัวสินค้าใหม่ในภูมิภาคและต้องการ<u>เชิญเจ้าหน้าที่ของรัฐหลายคนมาเข้า ร่วมงานเ</u> เพื่อฉลองความสำเร็จนี้ด้วย บริษัทมีข้อจำกัดใดในการเชิญนี้หรือไม่ ",
+                "answer": "เรา สามารถเชิญเจ้าหน้าที่ของรัฐมาร่วมงานเพื่อวัตถุประสงค์ทางธุรกิจที่ถูกต้องตามกฎหมายได้ หากค่าใช้จ่ายนั้นสมเหตุสมผล คุณจะต้องติดต่อขออนุมัติจากฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กรและฝ่ายรัฐกิจสัมพันธ์.",
+                "nextPage": "faq-anti-bribery-corruption-detailed",
+                "reference": "anti-bribery-corruption"
+            },
+            {
+                "question": "<strong>ค่าธรรมเนียมเพิ่มเติม/ซัพพลายเออร์: </strong>กลุ่มของเรามีหน้าที่จดทะเบียนรถของบริษัทกับหน่วยงาน ของรัฐ โดยต้องดำเนินการที่สำนักงานราชการในท้องถิ่นและจัดทำเอกสารจำนวนมาก เราได้<u>ว่าจ้าง บริษัทในท้องถิ่น</u> ให้ดำเนินเรื่องนี้แทนบริษัท ฉันสังเกตเห็นว่าบริษัทที่เราว่าจ้างได้ยื่นใบเสร็จ ค่าธรรมเนียมการจดทะเบียนที่ได้จากหน่วยงานของรัฐ และ <u>ใส่ “ค่าธรรมเนียมการจัดการพิเศษ”</u>ลง ในใบแจ้งหนี้ นอกเหนือจากค่าบริการตามที่ตกลงกันไว้ การทำเช่นนี้ถือว่ารับได้หรือไม่ ",
+                "answer": "ถือว่าเป็นการดีที่คุณสังเกตเห็นค่าธรรมเนียมที่ไม่คาดคิดนี้ – เพราะอาจมีการติดสินบนแอบแฝงอยู่ และจำเป็นต้องได้รับการสอบสวนต่อไป คุณควรติดต่อฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กรเพื่อรายงาน เหตุการณ์ที่เกิดขึ้นและขอคำชี้แนะในการจัดการสถานการณ์นี้.",
+                "nextPage": "faq-anti-bribery-corruption-detailed",
+                "reference": "anti-bribery-corruption"
+            },
+            {
+                "question": "<strong>การดำเนินงานของตัวแทนจำหน่าย: </strong>ฉันทำงานในฝ่ายการตลาดและ<u>ตัวแทนจำหน่ายรายหนึ่งของ เราต้องการจัดการเดินทาง</u> ไปยังสหรัฐฯ ให้กับเจ้าหน้าที่ของรัฐในท้องถิ่น ตัวแทนจำหน่ายรายนี้จะ เป็นผู้ออกค่าใช้จ่ายทั้งหมด แต่ได้สอบถามมายังฟอร์ดว่าเราจะสามารถจัดเยี่ยมชมโรงงานบางแห่ง ของเราและถือโอกาสเยี่ยมเยียนพนักงานของเราบางคนด้วยได้หรือไม่ เราสามารถดำเนินการ ดังกล่าวได้หรือไม่<u>เนื่องจากฟอร์ดไม่ได้ออกค่าใช้จ่ายในการเดินทางใดเลย </u>",
+                "answer": "ฟอร์ดจะไม่ได้ออกค่าใช้จ่ายในการเดินทาง แต่ฟอร์ดรู้เรื่องการเดินทางครั้งนี้และให้ความร่วมมือโดยจัดการ เยี่ยมชมและเข้าร่วมการประชุมด้วย การละเลยการกระทำที่เข้าข่ายติดสินบนนั้นก่อให้เกิดความเสี่ยงกับบริษัท โปรดติดต่อขอคำชี้แนะและการอนุมัติที่จำเป็นจากฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กร โปรดทราบว่า หากฟอร์ดไม่สามารถดำเนินการบางอย่างโดยตรง เราจะไม่สามารถอนุญาตให้ผู้อื่นดำเนินการในเรื่องดังกล่าว ซึ่งเกี่ยวข้องกับธุรกิจของเราได้.",
+                "nextPage": "faq-anti-bribery-corruption-detailed",
+                "reference": "anti-bribery-corruption"
+            },
+            {
+                "question": "<strong>การเลี้ยงอาหารเจ้าหน้าที่รัฐ: </strong>ฉันจะไป<u>เยี่ยมเยียนเจ้าหน้าที่ของรัฐในอีกประเทศหนึ่ง</u> เพื่อดูว่าเราจะร่วมมือทำงานวิจัยที่เป็นประโยชน์กับทั้งฟอร์ดและชุมชนท้องถิ่นได้หรือไม่ ฉันและเจ้าหน้าที่คนหนึ่งตัดสินใจรับประทาน<u>อาหารกลางวันร่วมกันหลังจากเสร็จสิ้นการประชุม</u> ฉันคิดว่าควรแสดงน้ำใจและให้เกียรติเจ้าหน้าที่รายนี้โดยการเลี้ยงอาหารมื้อนี้ ฉันสามารถทำได้ หรือไม่ ",
+                "answer": "คุณสามารถออกค่าอาหารที่สมเหตุสมผลให้กับเจ้าหน้าที่ของรัฐได้ตามโยบายของฟอร์ดแต่ในกรณีที่ต้องการเลี้ยงรับรองที่มากกว่าของว่างหรืออาหารมื้อธรรมดาแก่เจ้าหน้าที่ของรัฐจะต้องขออนุมัติล่วงหน้าจากฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กรก่อน เนื่องจากกฎข้อบังคับแตกต่างกันไปในแต่ละท้องถิ่นและเราไม่ต้องการให้เกิดปัญหากับเจ้าหน้าที่รายนี้ คุณจึงควรสอบถาม เจ้าหน้าที่รายนี้ด้วยว่าการเลี้ยงอาหารลักษณะนี้เป็นการฝ่าฝืนระเบียบจรรยาบรรณของทางราชการฝ่ายนั้นด้วยหรือไม่ โปรดทราบว่า คุณควรติดต่อฝ่ายรัฐกิจสัมพันธ์ก่อนจัดการประชุมร่วมกับเจ้าหน้าที่ของรัฐ.",
+                "nextPage": "faq-anti-bribery-corruption-detailed",
+                "reference": "anti-bribery-corruption"
+            }
+        ]
+    },
+    {
+        "pageKey": "it-security-and-privacy",
+        "title": "ความปลอดภัยและนโยบายด้านไอที (PII)",
+        "canITitle": "Can We do ...?",
+        "canIReminder": "คุณจะต้องไม่ขอของขวัญหรือการตอบแทนพิเศษโดยเด็ดขาด",
+        "icon": "it-security-and-privacy.png",
+        "ciicon": "it-security-and-privacy.png",
+        "titleicon": "it-security-and-privacy-title.png",
+        "items": [
+            {
+                "title": "สรุปนโยบายของบริษัท ",
+                "icon": "favors_list_icon_01.png",
+                "description": "ความสำเร็จของบริษัทขึ้นอยู่กับความไว้วางใจและความเชื่อมั่นที่ผู้มีส่วนได้เสียของเรา (ลูกค้า พนักงาน ซัพพลายเออร์ และตัวแทนจำหน่าย) มอบให้กับเรา นอกจากนี้ ข้อมูลต่าง ๆ ยังถือเป็นทรัพย์สินเชิงกลยุทธ์ของธุรกิจที่เราต่างต้องปกป้อง การจัดการข้อมูลของบริษัทอย่างมีประสิทธิภาพจะช่วยให้บริษัทปกป้องข้อมูลที่ละเอียดอ่อน บรรลุเป้าประสงค์ทางธุรกิจ และรักษาข้อได้เปรียบทางการแข่งขันไว้ได้",
+                "nextPage": "ps-it-security-and-privacy-summary",
+                "descriptionContent": "<div><p>หลักจรรยาบรรณ </p>ความสำเร็จของบริษัทขึ้นอยู่กับความไว้วางใจและความเชื่อมั่นที่ผู้มีส่วนได้เสียของเรา (ลูกค้า พนักงาน ซัพพลายเออร์ และตัวแทนจำหน่าย) มอบให้กับเรา นอกจากนี้ ข้อมูลต่าง ๆ ยังถือเป็นทรัพย์สินเชิงกลยุทธ์ของธุรกิจที่เราต่างต้องปกป้อง การจัดการข้อมูลของบริษัทอย่างมีประสิทธิภาพจะช่วยให้บริษัทปกป้องข้อมูลที่ละเอียดอ่อน บรรลุเป้าประสงค์ทางธุรกิจ และรักษาข้อได้เปรียบทางการแข่งขันไว้ได้<br/><br/> การเปิดเผยข้อมูลของบริษัทโดยไม่ได้รับอนุญาตอาจเป็นการทำลายตำแหน่งทางการแข่งขันและชื่อเสียงของบริษัทได้ โดยเฉพาะอย่างยิ่ง ข้อมูลบ่งชี้ตัวบุคคล (Personally identifiable information: PII) การใช้ PII ควรเป็นไปตาม นโยบายของบริษัท กฎหมาย และวัตถุประสงค์ในการเก็บรวบรวมข้อมูลนั้น เรามีหน้าที่รับผิดชอบความปลอดภัย และความถูกต้องของข้อมูลทุกอย่างที่เรารวบรวม หากมีการโอน PII จากบริษัทหนึ่งไปยังอีกบริษัทหนึ่งภายในเครือฟอร์ดหรือไปยังบริษัทภายนอก เราต้องมั่นใจว่าผู้รับข้อมูลมีภาระผูกพันตามสัญญาในการปกป้องข้อมูลนั้นอย่างเพียงพอและเป็นไปตามข้อกำหนดทางกฎหมายที่เกี่ยวข้องทุกประการ </div><div><p>ข้อมูลเบื้องต้นด้านความปลอดภัยด้านไอที</p><ul><li>คุณมีหน้าที่รักษาข้อมูลของบริษัทให้ปลอดภัยและโดยถูกต้อง (รู้วิธีจำแนกข้อมูลและขั้นตอนที่ต้องทำในการปกป้องเอกสาร)</li><li>เมื่อมีการใช้ข้อมูลที่ห้ามเปิดเผยหรือข้อมูลลับ <ul><li>เข้ารหัสอีเมลและปกป้องข้อมูลที่เก็บบันทึก</li><li>แบ่งปันข้อมูลก็ต่อเมื่อมีความจำเป็นต้องทราบเนื่องจากการทำธุรกิจเท่านั้น</li><li>สร้างการควบคุมการเข้าถึงข้อมูลที่เหมาะสมสำหรับไซต์ SharePoint และระบบหรือฐานข้อมูลอื่น ๆ ตรวจสอบการควบคุมการเข้าถึงอยู่เสมอเพื่อให้แน่ใจว่ายังสามารถใช้งานได้</li></ul></li><li>ไม่ใช้แอพพลิเคชันหรือซอฟต์แวร์ที่ไม่ได้รับอนุญาตในการดำเนินธุรกิจของบริษัท การใช้งานลักษณะดังกล่าว อาจนำไปสู่การเปิดเผยข้อมูลของฟอร์ดได้</li><li>อัพเดตอุปกรณ์ที่ใช้ให้เป็นปัจจุบันด้วยการอัพเดตซอฟต์แวร์ </li><li>ไม่นำข้อมูลของบริษัทมาลงบนอุปกรณ์ส่วนตัว (เช่น ทัมป์ไดรฟ์ คอมพิวเตอร์ส่วนบุคคล หรือโทรศัพท์มือถือ) เว้นแต่ว่าได้รับอนุญาตผ่านโปรแกรมที่บริษัทจัดหาให้</li><li>หากคุณจำเป็นต้องแบ่งปันข้อมูลที่ไม่ได้เปิดเผยสู่สาธารณะกับบุคคลใดก็ตามนอกบริษัท (รวมทั้งกิจการร่วมค้า) คุณต้องแน่ใจว่าคุณมีข้อตกลงว่าด้วยการเก็บข้อมูลเป็นความลับที่บริษัทอนุมัติแล้วซึ่งครอบคลุมข้อมูลที่คุณต้องการแบ่งปัน</li><li>เก็บอุปกรณ์เคลื่อนที่ (เช่น โทรศัพท์ iPad ทัมป์ไดรฟ์) ติดตัวตลอดเวลา</li></ul></div><div><p>หลักปฏิบัติที่ปลอดภัย</p><ul><li>ใช้รหัสผ่านที่คาดเดายาก (ใช้ตัวอักษร 8-12 ตัวทั้งตัวพิมพ์เล็กและตัวพิมพ์ใหญ่ และตัวเลข/อักขระพิเศษ ผสมกัน หากระบบรองรับ)</li><li>ไม่บอกรหัสผ่านของคุณกับใคร</li><li>เลี่ยงการใช้รหัสผ่านเดียวกันในหลายระบบ (หากทำได้) และเลี่ยงการใช้ข้อมูลรหัส Ford CDS ของคุณในการ/ลงชื่อเข้าใช้บัญชีที่ไม่ใช่ของฟอร์ด</li><li>อาชญากรไซเบอร์ไม่ได้มุ่งเป้าไปที่ระบบของบริษัทเท่านั้น แต่ยังมุ่งไปที่พนักงานในบริษัทเพื่อเข้าสู่ระบบของบริษัทหรือระบบของผู้อื่น</li><li>นอกจากนี้ อาชญากรไซเบอร์ยังอาจทำการโจรกรรมข้อมูลบ่งชี้ตัวตนของคุณและกระทำการทุจริตโดยใช้ข้อมูลของคุณ (เช่น บัญชีธนาคาร บัตรเครดิต และประวัติทางการแพทย์) อีกด้วย</li><li>อย่าคลิกลิงก์ที่น่าสงสัยในอีเมล แม้ว่าคุณจะคิดว่ารู้จักผู้ส่งก็ตาม</li><li>ขณะเดินทางติดต่อธุรกิจของบริษัท ให้ทำการเชื่อมต่อ VPN (SecurID) เสมอเมื่อใช้ Wi-Fi สาธารณะ</li><li>การก่อความเสียหายทางอินเทอร์เน็ตเป็นสิ่งที่พบเจอได้ทั่วไป หากมีเหตุการณ์ที่ดูน่าสงสัยหรือผิดวิสัย อาจเป็นไปได้ว่าเหตุการณ์นั้นจะเกิดขึ้นจริง ขอให้รายงานเหตุการณ์นั้น</li></ul></div><div><p>ข้อควรพิจารณาเป็นพิเศษในแง่ข้อมูลบ่งชี้ตัวบุคคล (PII)</p><ul><li>PII เป็นข้อมูลที่ใช้เชื่อมโยงไปยังบุคคลใดบุคคลหนึ่งหรือใช้เพื่อบ่งชี้ตัวตนของบุคคล </li><li>ในขณะจัดการ PII บริษัทคาดหวังว่าคุณจะใช้มาตรการที่สมเหตุสมผลและเหมาะสมในการป้องกันไม่ให้ PII สูญหายหรือมีการนำไปใช้ในทางที่ผิด</li><li>หากคุณกำลังรวบรวม PII ขอให้ระบุวัตถุประสงค์ในการรวบรวม PII นี้และจำกัดการใช้งานเพียงเพื่อวัตถุประสงค์ ดังกล่าวเท่านั้น ขอให้พิจารณาด้วยว่าคุณจะรวบรวมข้อมูลได้เพียงพอโดยไม่ต้องมี PII ด้วยได้หรือไม่</li><li>หากคุณสงสัยว่าอาจมีการละเมิดความปลอดภัยหรือความลับของ PII ให้ยื่นรายงานเหตุการณ์ต่อฝ่ายความปลอดภัย/ฝ่ายสอบสวนโกลบอลโดยทันที </li><li>คุณจะต้องจัดทำ<b>ข้อตกลงที่เหมาะสม</b> เช่น เอกสารเสริมเกี่ยวกับ PII ก่อนที่จะมีการแบ่งปัน PII กับบริษัทอิสระ เช่น ซัพพลายเออร์</li></ul></div><div><p>ก่อนแบ่งปัน PII:</p><ul><li>ตรวจสอบว่าจะมีการแบ่งปัน PII ใดบ้าง รวมถึงเหตุผลในการรวบรวมข้อมูลนี้ตั้งแต่แรก (วัตถุประสงค์ในขั้นแรก)</li><li>ตรวจสอบเหตุผลที่ต้องใช้ PII <strong>และผู้ใช้ดำเนินการสอดคล้องกับวัตถุประสงค์ในขั้นแรกหรือไม่</strong></li><li>ต้องแน่ใจว่าผู้รับได้ทำการปกป้อง PII อย่างเพียงพอตาม <strong>ข้อกำหนดในข้อตกลง/สัญญา</strong></li><li>หากมีการโอน PII ข้ามพรมแดน (หมายเหตุ: การเข้าถึง PII ไม่ว่าในรูปแบบใดถือว่าเป็นการโอนทั้งสิ้น) โปรดติดต่อฝ่ายกฎหมายในพื้นที่หรือ safeharb@ford.com เพื่อรับทราบข้อกำหนดในการโอน PII ข้อกำหนดนี้อาจรวมถึงความยินยอมของบุคคลหรือข้อตกลงในการโอน PII ด้วย</li></ul></div>"
+            },
+            {
+                "title": "ข้อมูลติดต่อและอ้างอิง",
+                "icon": "favors_list_icon_02.png",
+                "description": "คุณสามารถพบแหล่งข้อมูลเหล่านี้ได้เมื่อเข้าไปยังอินทราเน็ตของฟอร์ด",
+                "nextPage": "ps-it-security-and-privacy-quick-ref",
+                "items": [
+                    {
+                        "title": "เอกสารแถลงนโยบาย 23 ความเป็นส่วนตัวและการปกป้องข้อมูลบ่งชี้ตัวบุคคล ",
+                        "link": ""
+                    },
+                    {
+                        "title": "ข้อกำหนด B-104 การเก็บรักษาข้อมูลลับของพนักงานและการป้องกันข้อมูลบ่งชี้ตัวบุคคล ",
+                        "link": ""
+                    },
+                    {
+                        "title": "ข้อกำหนด C-110 การจัดหาข้อมูลภายนอกบริษัท",
+                        "link": ""
+                    },
+                    {
+                        "title": "ข้อกำหนด C-113 มาตรฐานความเป็นส่วนตัวของผู้บริโภคและการป้องกันข้อมูลบ่งชี้ตัวบุคคล",
+                        "link": ""
+                    },
+                    {
+                        "title": "ข้อกำหนด C-116 การป้องกันข้อมูลบ่งชี้ตัวบุคคลของซัพพลายเออร์",
+                        "link": ""
+                    },
+                    {
+                        "title": "คู่มือนโยบายไอที",
+                        "link": ""
+                    },
+                    {
+                        "title": "เว็บไซต์ความเป็นส่วนตัวขององค์กร ",
+                        "link": ""
+                    },
+                    {
+                        "title": "เจ้าหน้าที่ฝ่ายดิจิทัล",
+                        "link": ""
+                    },
+                    {
+                        "title": "การวางระบบอบรมบุคคล",
+                        "link": ""
+                    },
+                    {
+                        "title": "GIS1 – การจัดการระเบียน ",
+                        "link": ""
+                    },
+                    {
+                        "title": "GIS2 – ความปลอดภัยของข้อมูล ",
+                        "link": ""
+                    },
+                    {
+                        "title": "ฝ่ายบริการความปลอดภัยด้านไอที",
+                        "link": ""
+                    },
+                    {
+                        "title": "หากมีข้อสงสัยในเรื่องความปลอดภัยด้านไอที โปรดติดต่อเจ้าหน้าที่ฝ่ายไอทีในพื้นที่หรือคลิก ที่นี่เพื่อส่งอีเมลไปยัง<strong>ฝ่ายความปลอดภัยด้านไอที</strong>",
+                        "link": "mailto: secureit@ford.com?subject=แอพบนอุปกรณ์เคลื่อนที่ – ความปลอดภัยด้านไอที"
+                    },
+                    {
+                        "title": "หากมีข้อสงสัยในเรื่องความเป็นส่วนตัวและ PII โปรดติดต่อเจ้าหน้าที่ฝ่าย OGC ในพื้นที่หรือคลิกที่นี่เพื่อส่งอีเมลไปยัง <strong>ฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กร/ความเป็นส่วนตัว</strong>",
+                        "link": "mailto: privacy@ford.com?subject=แอพบนอุปกรณ์เคลื่อนที่ – ความเป็นส่วนตัว"
+                    }
+                ]
+            },
+            {
+                "title": "คำถามที่พบบ่อย",
+                "icon": "favors_list_icon_03.png",
+                "description": "ตัวอย่าง PII ที่พบบ่อยมีอะไรบ้าง",
+                "nextPage": "faq-it-security-and-privacy"
+            }
+        ],
+        "frequently-asked-questions": [
+            {
+                "question": "<strong>คำจำกัดความของ PII:</strong> <u>ตัวอย่าง PII</u> ที่พบบ่อยมีอะไรบ้าง ?",
+                "answer": "PII เป็นข้อมูลบ่งชี้ตัว บุคคลหรือใช้เพื่อระบุตัวบุคคลนั้น เช่น ชื่อ ที่อยู่ หมายเลขโทรศัพท์ ที่อยู่อีเมล หมายเลขตัวถังรถ และข้อมูลอื่น ๆ ที่คล้ายกัน ข้อมูลส่วนย่อยของ PII ที่สำคัญอย่างยิ่งคือข้อมูลละเอียดอ่อนที่บ่งชี้ตัวบุคคล (SPII) และ จำเป็นต้องได้รับการปกป้องอีกขั้น เราได้ให้คำจำกัดความ SPII เพื่อวัตถุประสงค์ของเราว่าเป็นองค์ประกอบของข้อมูลประสิทธิภาพสูง ซึ่งบ่งชี้ตัวบุคคลเฉพาะและสามารถชี้ให้บุคคลอีกคนหนึ่ง “อนุมาน” ตัวบุคคลนั้นได้ กรณีนี้อาจเกิดขึ้นได้เมื่อมีการใช้องค์ประกอบข้อมูลเพียงอย่างเดียว ร่วมกับชื่อของบุคคลหนึ่ง หรือใช้ร่วมกับ PII อื่น",
+                "nextPage": "faq-it-security-and-privacy-detailed",
+                "reference": "it-security-and-privacy"
+            },
+            {
+                "question": "<strong>การแบ่งปัน PII:</strong>ฉันจะ <u>แบ่งปัน PII ของลูกค้า</u> ในฐานข้อมูลของแผนกกับแผนกอื่น ๆ ในประเทศเดียวกัน ได้หรือไม่ ",
+                "answer": "คำตอบขึ้นอยู่กับว่าจะมีการใช้ PII สอดคล้องกับวัตถุประสงค์ที่ระบุไว้ตั้งแต่ตอนที่รวบรวมหรือไม่ หากการใช้งานสอดคล้องกับวัตถุประสงค์ที่ระบุไว้ การแบ่งปัน PII กับแผนกอื่นในประเทศเดียวกันมักจะไม่ก่อให้เกิดปัญหาด้านการปกป้องข้อมูลตามมา ฝ่ายที่แบ่งปันข้อมูลมีหน้าที่ตรวจดูให้แน่ใจว่าผู้รับ PII ดูแลความปลอดภัยของ PII อย่างเหมาะสม นอกจากนี้ ยังควรแบ่งปันเฉพาะ PII ที่จำเป็นต้องใช้เท่านั้น ก่อนการใช้ PII เพื่อวัตถุประสงค์ใหม่ จะต้องได้รับความยินยอมก่อนเสมอ",
+                "nextPage": "faq-it-security-and-privacy-detailed",
+                "reference": "it-security-and-privacy"
+            },
+            {
+                "question": "<strong>การโอนข้ามพรมแดน:</strong>เพื่อนร่วมงานคนหนึ่งที่ทำงานใน<u>ส่วนงานในต่างประเทศ</u>ได้ขอให้ฉัน<u>แบ่งปัน PII</u> ด้วย การดำเนินการที่ดีที่สุดคืออะไร",
+                "answer": "การโอน PII ข้ามพรมแดนเป็นประเด็นที่มี ความซับซ้อน คุณจึงควรขอคำชี้แนะ<strong>จากฝ่ายกฎหมายในพื้นที่</strong> ก่อนแบ่งปันหรือให้การเข้าถึง PII แก่บุคคลที่อยู่นอกประเทศของคุณ",
+                "nextPage": "faq-it-security-and-privacy-detailed",
+                "reference": "it-security-and-privacy"
+            },
+            {
+                "question": "<strong>การใช้ซัพพลายเออร์:</strong> เรามี<u>ซัพพลายเออร์ที่ทำหน้าที่จัดส่งข้อมูลติดต่อสื่อสารทางตลาด</u>ในนามของ ฟอร์ด เราต้องทำสิ่งใดบ้าง  ",
+                "answer": "ควรจัดทำเอกสารเสริมเกี่ยวกับ PII หรือข้อตกลงที่ เป็นไปตามข้อกำหนด C-116 (รวมข้อกำหนดที่ห้ามการใช้ PII เพื่อวัตถุประสงค์อื่นและต้องมีการควบคุม ความปลอดภัยอย่างเพียงพอ) อาจจำเป็นต้องมีส่วนเพิ่มเติมในข้อตกลงหากมีการส่ง PII ข้ามพรมแดน โปรด ดูข้อกำหนดที่บังคับใช้ในข้อกำหนด C-116",
+                "nextPage": "faq-it-security-and-privacy-detailed",
+                "reference": "it-security-and-privacy"
+            },
+            {
+                "question": "<strong>การบริการจัดเก็บฟรี/ที่ไม่ได้รับอนุมัติ:</strong> ฉันกำลังเดินทางไปเยี่ยมพี่สาวและต้องการแก้ไขเอกสาร บางอย่างให้ทันกำหนดส่ง มีบริการจัดเก็บเอกสารฟรีที่ดีเยี่ยมหลายแบบ ฉันจะใช้<u>บริการจัดเก็บเพื่อ ดึงเอกสาร</u> จากคอมพิวเตอร์ของพี่สาวให้ทันกำหนดส่งได้หรือไม่ ",
+                "answer": ": ไม่ได้ คุณไม่ สามารถเก็บเอกสารของฟอร์ดไว้ในบริการคลาวด์ที่ไม่ได้รับอนุมัติได้เนื่องจากเป็นการเพิ่มความเสี่ยงในการ เปิดเผยข้อมูลของฟอร์ด และควรเลี่ยงการใช้อุปกรณ์ที่ไม่ใช่ของบริษัทและไม่ปลอดภัยในการทำงานโดยใช้เอกสารของฟอร์ด (เช่น คอมพิวเตอร์ของพี่สาว) ขณะทำงานนอกที่ทำงาน คุณมีตัวเลือกหลายทางในการดึง และทำงานจากเอกสารของคุณอย่างปลอดภัย ดังนี้:<ul><li>การใช้แล็ปท็อปของบริษัท</li><li>การใช้ทัมป์ไดรฟ์ที่เข้ารหัสหรือwebvpn(ลบไฟล์ที่อาจมีการทำสำเนาลงคอมพิวเตอร์ที่ไม่ใช่ของบริษัท)</li></ul>",
+                "nextPage": "faq-it-security-and-privacy-detailed",
+                "reference": "it-security-and-privacy"
+            },
+            {
+                "question": "<strong>การส่งต่ออัตโนมัติ:</strong> ฉันกำลังจะลาพักร้อนและต้องการเช็คอีเมลเป็นระยะ ฉันจะ <u>ตั้งส่งต่ออีเมลอัตโนมัติจากที่ทำงานไปยังอีเมลส่วนตัว</u> และดึงอีเมลจากคอมพิวเตอร์ส่วนตัวได้หรือไม่ ",
+                "answer": "ไม่ได้ คุณไม่ควรใช้อีเมลส่วนตัวในการดำเนินธุรกิจของบริษัท คุณจะใช้อีเมลส่วนตัวได้ในกรณีที่ข้อมูลในอีเมลเป็นข้อมูลสาธารณะหรือข้อมูลอันเป็นกรรมสิทธิ์อย่างไรก็ตามเมื่อใช้การส่งต่ออัตโนมัติอาจมีการส่งข้อมูลที่ห้ามเปิดเผยหรือข้อมูลลับไปยังอีเมลส่วนตัวของคุณซึ่งเป็นสิ่งที่เราไม่อนุญาตคุณสามารถแก้ปัญหานี้ได้โดยการเข้าอีเมลบนเว็บของบริษัทอย่างfmail.ford.comได้โดยลงทะเบียนในePODเพื่อรับอีเมลของบริษัทบนอุปกรณ์เคลื่อนที่ส่วนตัวของคุณเอง คุณควรตั้งการส่งต่ออัตโนมัติไปยังบัญชีอีเมลของฟอร์ดอีกบัญชีหนึ่งเท่านั้น",
+                "nextPage": "faq-it-security-and-privacy-detailed",
+                "reference": "it-security-and-privacy"
+            },
+            {
+                "question": "<strong>สิ่งของที่ถูกขโมย:</strong>ฉันเดินทางไปติดต่อธุรกิจและ<u>มีคนขโมยกระเป๋าเอกสารของฉันไป</u>.ในกระเป๋านั้นมีแล็ปท็อปและเอกสารบันทึกประชุมเรื่องแผนวงจรในอนาคต ฉันควรทำอย่างไร ",
+                "answer": "คุณควรติดต่อฝ่ายความปลอดภัยเพื่อรายงานสิ่งของที่ถูกขโมยไป และควรแจ้งความกับตำรวจและระบุสิ่งของที่อยู่ในกระเป๋าเอกสารอย่างละเอียด",
+                "nextPage": "faq-it-security-and-privacy-detailed",
+                "reference": "it-security-and-privacy"
+            },
+            {
+                "question": "<strong>คำขอรหัสผ่าน: </strong>ฉันได้รับอีเมลที่แจ้งว่าฝ่ายบริการความช่วยเหลือด้านไอทีต้องการอัพเดตซอฟต์แวร์บางอย่างบนแล็ปท็อปที่ฟอร์ดจัดหาให้ แต่<u>ต้องใช้ชื่อผู้ใช้และรหัสผ่านของฉัน</u> ในการดำเนินการนั้น อีเมลฉบับนี้มีลิงก์ที่ขอให้ฉันเข้าทันทีเพื่อให้ข้อมูลดังกล่าว ฉันควรทำตามคำขอนั้นหรือไม่ ",
+                "answer": "ไม่ ฝ่ายบริการด้านไอทีจะไม่ขอข้อมูลเข้าสู่ระบบจากคุณโดยเด็ดขาด นี่คือเทคนิค “การหลอกลวงทางอินเตอร์เน็ต (“phishing”) ที่ใช้กันอย่างแพร่หลายซึ่งแฮ็กเกอร์จะใช้เพื่อให้ให้ได้มาซึ่งข้อมูลเข้าสู่ระบบของคุณ เมื่อคุณได้รับอีเมลประเภทนี้และคิดว่าอาจเป็นอีเมลที่ส่งจากผู้ส่งจริง โปรดติดต่อบริษัทหรือกลุ่มที่ระบุในอีเมลในช่องทางอื่นที่นอกเหนือจากการคลิกลิงก์หรือตอบอีเมลฉบับนั้น ค้นหาข้อมูลติดต่อจากแหล่งข้อมูลที่คุณเชื่อถือได้",
+                "nextPage": "faq-it-security-and-privacy-detailed",
+                "reference": "it-security-and-privacy"
+            },
+            {
+                "question": "<strong>การแยกส่วนข้อมูล: </strong> ทุกคนบอกฉันว่าข้อมูลที่ฉันใช้ทำงานเป็นข้อมูลละเอียดอ่อน แต่ข้อมูลนั้นเพียงอย่างเดียวไม่ได้มีความหมายใดเลย หากฉันส่งไฟล์ข้อมูลที่ฉันรวบรวมได้ให้คุณ คุณจะไม่รู้ด้วยซ้ำว่าไฟล์นั้นมีความหมายอะไรเนื่องจาก<u>ต้องใช้ข้อมูลอื่น</u>ในระบบอื่นประกอบเพื่อเชื่อมโยงกับบุคคลหรือบริษัท เหตุใดฉันจึงต้องระมัดระวังเมื่อใช้ข้อมูลประเภทนี้ด้วย ",
+                "answer": "เมื่อมีผู้พยายามขโมยข้อมูลของบริษัท ผู้นั้นมักจะรวบรวมข้อมูลทีละเล็กละน้อยและรวบรวมจากหลายแหล่ง ข้อมูลเล็กๆ น้อยๆ ที่ได้รับจากคุณอาจเป็นกุญแจที่ไขไปสู่ภาพใหญ่ซึ่งเปิดเผยข้อมูลเชิงกลยุทธ์เกี่ยวกับธุรกิจหรือบุคคลได้",
+                "nextPage": "faq-it-security-and-privacy-detailed",
+                "reference": "it-security-and-privacy"
+            },
+            {
+                "question": "<strong>การเดินทางระหว่างประเทศ: </strong>ฉันเดินทางไปต่างประเทศบ่อยครั้ง ฉันเข้าใจว่าขณะเดินทางในบางประเทศ อาจมีความเสี่ยงมากเป็นพิเศษในการเปิดเผยหรือโจรกรรมข้อมูลที่สูญหาย คุณพอจะบอกเคล็ดลับที่ควรทราบในขณะ<u>เดินทางพร้อมแล็ปท็อป</u>ได้หรือไม่ ",
+                "answer": "คุณคิดถูกแล้ว บางครั้งเจ้าหน้าที่ศุลกากรอาจขอตรวจสอบแล็ปท็อปของคุณและดาวน์โหลดข้อมูลได้ เป็นที่ทราบกันดีกว่าผู้ที่พยายามขโมยข้อมูลธุรกิจมักร่วมมือกับเจ้าหน้าที่ของโรงแรมเพื่อเข้าไปยังห้องพักของแขกเพื่อทำสำเนาข้อมูลจากอุปกรณ์หรือเอกสารที่หลงเหลือในห้องพัก เพื่อเป็นการป้องกันทั้งข้อมูลของคุณเองและของบริษัท โปรดอย่าวางแล็ปท็อปหรือเอกสารที่มีข้อมูลละเอียดอ่อนทิ้งไว้ในห้องพักของโรงแรมหรือโดยไม่มีผู้ดูแลขณะเดินทางไปยังบางประเทศเราขอแนะนำให้คุณนำแล็ปท็อปของแผนกที่มีเพียงข้อมูลที่จำเป็นต้องใช้ระหว่างเดินทางเท่านั้น หากเป็นไปได้",
+                "nextPage": "faq-it-security-and-privacy-detailed",
+                "reference": "it-security-and-privacy"
+            }
+        ]
+    },
+    {
+        "pageKey": "working-together",
+        "title": "การทำงานร่วมกัน",
+        "canITitle": "Can I do ...?",
+        "canIReminder": "คุณจะต้องไม่ขอของขวัญหรือการตอบแทนพิเศษโดยเด็ดขาด",
+        "icon": "working-together.png",
+        "ciicon": "working-together.png",
+        "titleicon": "working-together-title.png",
+        "items": [
+            {
+                "title": "สรุปนโยบายของบริษัท ",
+                "icon": "favors_list_icon_01.png",
+                "description": "เราคาดหวังว่าทุกคนที่มีความเกี่ยวข้องกับธุรกิจของเราจะประพฤติปฏิบัติด้วยความเคารพในที่ทำงาน นั่นหมายความว่าเราเคารพ รับฟัง ช่วยเหลือ และขอบคุณทุกคน ไม่ว่าจะเป็นเพื่อนร่วมงาน ลูกค้า ซัพพลายเออร์ ตัวแทนจำหน่าย หรือบุคคลใดก็ตามที่เราติดต่อด้วยในขณะดำเนินธุรกิจของบริษัท เราทำงานร่วมกันเพื่อสร้างสภาพแวดล้อมที่ให้ความเคารพและเห็นความสำคัญของกันและกัน",
+                "nextPage": "ps-working-together-summary",
+                "descriptionContent": "<div><p>หลักจรรยาบรรณ</p>เราคาดหวังว่าทุกคนที่มีความเกี่ยวข้องกับธุรกิจของเราจะประพฤติปฏิบัติด้วยความเคารพในที่ทำงาน นั่นหมายความว่าเราเคารพ รับฟัง ช่วยเหลือ และขอบคุณทุกคน ไม่ว่าจะเป็นเพื่อนร่วมงาน ลูกค้า ซัพพลายเออร์ ตัวแทนจำหน่าย หรือบุคคลใดก็ตามที่เราติดต่อด้วยในขณะดำเนินธุรกิจของบริษัท เราทำงานร่วมกันเพื่อสร้างสภาพแวดล้อมที่ให้ความเคารพและเห็นความสำคัญของกันและกัน <br/><br/> ความปลอดภัยของพนักงาน ลูกค้า และชุมชนของเรามีความสำคัญสูงสุดต่อบริษัทและเป็นสิ่งที่ต้องคำนึงถึงในขณะออกแบบและผลิตสินค้า และทำการตัดสินใจที่ส่งผลต่อพนักงานหรือชุมชนที่เราดำเนินธุรกิจอยู่ บริษัทมุ่งมั่นยึดถือธรรมาภิบาลที่ดีและสร้างประโยชน์ให้กับชุมชนที่เราดำเนินธุรกิจอยู่ </div><div>เรารู้ดีว่าการทำงานร่วมกันด้วยความเคารพและคำนึงถึงทัศนคติที่ต่างกันจะช่วยให้เกิดผลลัพธ์ที่ดีขึ้น ในขณะเดียวกัน การรู้เห็นพฤติกรรมที่อาจบ่อนทำลายสภาพแวดล้อมในการทำงานด้วยความเคารพซึ่งกันและกันและเป็นอันหนึ่งอันเดียวกันนั้นก็มีความสำคัญ โปรดดูตัวอย่างในส่วนคำถามที่พบบ่อยและระลึกถึงหลักการพื้นฐานเหล่านี้:<ul><li>ปฏิบัติต่อทุกคนด้วยความเคารพ </li><li>อย่าเลือกปฏิบัติตามเชื้อชาติ สีผิว ศาสนา อายุ เพศ รสนิยมทางเพศ อัตลักษณ์ทางเพศ สถานภาพสมรส ถิ่นกำเนิด ความทุพพลภาพ หรือสถานภาพทหารผ่านศึก</li><li>อย่าแสดงพฤติกรรมที่อาจรบกวนผลการปฏิบัติงานของผู้อื่น หรือสร้างสภาพแวดล้อมที่เป็นการรุกราน ปฏิปักษ์ หรือก่อความขุ่นเคือง ซึ่งไม่เพียงละเมิดนโยบายบริษัทเท่านั้น แต่ยังอาจละเมิดกฎหมายท้องถิ่นอีกด้วย</li><li>รายงานกรณีการละเมิดนโยบายหรือกฎหมายควบคุมธุรกิจของเราที่สงสัย รวมทั้งแจ้งเหตุเมื่อคุณเห็นว่ามีผู้กลั่นแกล้งหรือคุกคามในการดำเนินงานของเราหรือต่อทรัพย์สินของฟอร์ด</li><li>อาจมีข้อควรคำนึงถึงเป็นพิเศษในการใช้สื่อสังคมออนไลน์ โปรดดูข้อมูลเพิ่มเติมในส่วนการใช้ทรัพย์สินของบริษัท</li><li>ผู้จัดการมีหน้าที่รับผิดชอบเพิ่มเติม โปรดดูข้อมูลเพิ่มเติมในส่วนเคล็ดลับสำหรับผู้จัดการ </li></ul></div><div>ไม่ว่าเราจะดำเนินธุรกิจที่ใดในโลก เราต้องเคารพความปลอดภัยของพนักงาน ความปลอดภัยของสินค้า และความปลอดภัยของสภาพแวดล้อมสำหรับชุมชนทั้งหมด ซึ่งรวมถึงการเคารพสิทธิมนุษยชนของผู้ที่ผลิตและประกอบสินค้าของเราด้วย<ul><li>การตัดสินใจต่าง ๆ จะอิงต้นทุนเพียงอย่างเดียวไม่ได้  ขอให้พึงระลึกถึงผลกระทบด้านสุขภาพ ความปลอดภัย และสิ่งแวดล้อมในขณะที่คุณทำการตัดสินใจด้วย</li><li>ห้ามไม่ให้มีการใช้แรงงานเด็กหรือแรงงานบังคับ (รวมทั้งการค้ามนุษย์)</li><li>อนุญาตให้พนักงานติดต่อกันได้อย่างอิสระและมีส่วนร่วมในการต่อรองร่วมกัน</li><li>ส่งเสริมให้บุคลากรในซัพพลายเชนปฏิบัติตามนโยบายของเราว่าด้วยเรื่องสิทธิมนุษยชน สภาพการทำงาน การต่อต้านการติดสินบน และการปกป้องสภาพแวดล้อม</li></ul></div>"
+            },
+            {
+                "title": "ข้อมูลติดต่อและอ้างอิง ",
+                "icon": "favors_list_icon_02.png",
+                "description": "คุณสามารถพบแหล่งข้อมูลเหล่านี้ได้เมื่อเข้าไปยังอินทราเน็ตของฟอร์ด",
+                "nextPage": "ps-working-together-quick-ref",
+                "items": [
+                    {
+                        "title": "เอกสารแถลงนโยบาย 1นโยบายด้านคุณภาพของฟอร์ด",
+                        "link": ""
+                    },
+                    {
+                        "title": "เอกสารแถลงนโยบาย 2 ความสัมพันธ์กับพนักงาน",
+                        "link": ""
+                    },
+                    {
+                        "title": "เอกสารแถลงนโยบาย 6 โอกาสที่เท่าเทียมกัน",
+                        "link": ""
+                    },
+                    {
+                        "title": "เอกสารแถลงนโยบาย 17 การคุ้มครองสุขภาพและสิ่งแวดล้อม",
+                        "link": ""
+                    },
+                    {
+                        "title": "เอกสารแถลงนโยบาย 24 มาตรฐานด้านสภาพการทำงานพื้นฐานและความรับผิดชอบต่อสังคม",
+                        "link": ""
+                    },
+                    {
+                        "title": "ข้อกำหนด B-110 การต่อต้านการคุกคาม–โดยเด็ดขาด",
+                        "link": ""
+                    },
+                    {
+                        "title": "HR ONLINE สำหรับข้อมูลและแหล่งข้อมูลเพิ่มเติมด้านการต่อต้านการคุกคามและการเลือกปฏิบัติ",
+                        "link": ""
+                    },
+                    {
+                        "title": "คุณสามารถแจ้งกรณีการคุกคามต่อฝ่ายทรัพยากรบุคคลได้ทันที โปรดติดต่อสายด่วนแจ้งกรณีการคุกคามในสหรัฐอเมริกาที่หมายเลข 888-735-6650",
+                        "link": ""
+                    },
+                    {
+                        "title": "หากมีข้อสงสัยเกี่ยวกับการคุกคาม การเลือกปฏิบัติ หรือการตอบโต้ โปรดติดต่อเจ้าหน้าที่ฝ่ายทรัพยากรบุคคลในพื้นที่หรือคลิกที่นี่เพื่อส่งอีเมลถึงฝ่ายพนักงานสัมพันธ์ใน WHQ",
+                        "link": "mailto: activity@ford.com?subject=แอพบนอุปกรณ์เคลื่อนที่ – การทำงานร่วมกัน"
+                    },
+                    {
+                        "title": "หากมีข้อสงสัยเกี่ยวกับสิทธิมนุษยชนที่บริษัทซัพพลายเออร์หรือกิจการร่วมค้า โปรดติดต่อทีมความยั่งยืนในการจัดซื้อหรือคลิกที่นี่เพื่อส่งอีเมลถึงกลุ่มดังกล่าวใน WHQ",
+                        "link": "mailto: fwcp@ford.com?subject=แอพบนอุปกรณ์เคลื่อนที่ – การทำงานร่วมกัน"
+                    },
+                    {
+                        "title": "หากมีข้อสงสัยเกี่ยวกับสิทธิมนุษยชนและการดำเนินงานของฟอร์ด โปรดติดต่อทีมความยั่งยืนหรือ/คลิกที่นี่เพื่อส่งอีเมลถึงกลุ่มดังกล่าวใน WHQ",
+                        "link": "mailto: sustaina@ford.com?subject=แอพบนอุปกรณ์เคลื่อนที่ – การทำงานร่วมกัน"
+                    },
+                    {
+                        "title": "หรือติดต่อฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กรหากมีข้อสงสัยในหัวข้อต่าง ๆ ดังกล่าว โดยคลิกที่นี่",
+                        "link": "mailto: fordlaw@ford.com?subject=แอพบนอุปกรณ์เคลื่อนที่ – การทำงานร่วมกัน"
+                    }
+                ]
+            },
+            {
+                "title": "คำถามที่พบบ่อย",
+                "icon": "favors_list_icon_03.png",
+                "description": "ฉันรู้ว่าการคุกคามทางเพศเป็นข้อห้ามในที่ทำงาน ฉันไม่แน่ใจว่าคำนั้นหมายความว่าอะไร ตัวอย่างของการคุกคามทางเพศมีอะไรบ้าง",
+                "nextPage": "faq-working-together"
+            }
+        ],
+        "frequently-asked-questions": [
+            {
+                "question": "<strong>การคุกคามทางเพศ:</strong> ฉันรู้ว่าการคุกคามทางเพศเป็นข้อห้ามในที่ทำงาน ฉันไม่แน่ใจว่าคำนั้นหมายความว่าอะไร <u>ตัวอย่างของการคุกคามทางเพศ</u>มีอะไรบ้าง ",
+                "answer": "พึงระลึกว่าสิ่งที่คุณยอมรับได้ เห็นว่าขำขัน หรือไม่ก่อให้เกิดความขุ่นเคืองอาจเป็นสิ่งที่ไม่พึงปรารถนา ไม่เหมาะสม หรือสร้างความขุ่นเคืองแก่ผู้อื่นได้ ลองพิจารณาว่าผู้อื่นจะมองถ้อยคำและการกระทำของคุณอย่างไร ตัวอย่างพฤติกรรมที่เป็นข้อห้ามในฟอร์ดและอาจถือว่าเป็นการคุกคามทางเพศโดยทั่วไปรวมสิ่งต่อไปนี้:<ul><li>การพูดคุย การรุกล้ำ การพูดเสียดสี เรื่องตลก การล้อเลียน หรือการสัมผัสร่างกายที่ไม่เหมาะสม ก่อให้เกิดความขุ่นเคือง หรือไม่พึงปรารถนา</li><li>การแสดงข้อความที่โจ่งแจ้งหรือชี้นำทางเพศผ่านกราฟิตี ภาพถ่าย หรือสิ่งของอื่น ๆ รวมทั้งหน้าจอคอมพิวเตอร์หรือในตู้เก็บของของคุณ</li><li>การสัมผัสร่างกายอย่างไม่เหมาะสมในที่ทำงาน</li><li>การอ้อนวอน ขอนัดหรือเรียกร้องขอความรัก เมื่อบุคคลนั้นได้บอกแล้วว่าไม่สนใจ</li><li>ใช้ตำแหน่งเพื่อขอการตอบแทนทางเพศเพื่อแลกกับการตอบแทนพิเศษหรือรางวัล</li><li>การส่งเนื้อหาทางเพศที่แสดงอย่างโจ่งแจ้งผ่านระบบอีเมลของบริษัทหรืออุปกรณ์อิเล็กทรอนิกส์อื่น ๆ (เช่น ข้อความเสียง เครื่องเพจข้อความ วิทยุ ฯลฯ) หรือใช้อินทราเน็ตของบริษัท อีเมลของบริษัท หรือคอมพิวเตอร์ของบริษัทในการดูเนื้อหาดังกล่าว</li></ul>",
+                "nextPage": "faq-working-together-detailed",
+                "reference": "working-together"
+            },
+            {
+                "question": "<strong>การคุกคามและการกลั่นแกล้ง:</strong>เพื่อนร่วมงานคนหนึ่งชอบล้อเลียนพนักงานอีกคนหนึ่งในกลุ่มของเรา การกระทำนี้ถือว่าเป็นการคุกคามหรือไม่<u>ตัวอย่างของการคุกคามหรือการกลั่นแกล้ง</u>มีอะไรบ้าง ",
+                "answer": "การพูดถึงบุคคลหนึ่งอย่างหยาบคายซ้ำ ๆ อาจถือเป็นการคุกคามหรือการกลั่นแกล้งได้ พึงระลึกว่าสิ่งที่คุณยอมรับได้ เห็นว่าขำขันหรือเป็นลักษณะที่ปรากฏปกติอาจเป็นสิ่งที่ไม่พึงปรารถนา ไม่เหมาะสม หรือสร้างความขุ่นเคืองแก่ผู้อื่นได้ พฤติกรรมบางอย่างที่อาจมองว่าเป็นการคุกคามมีดังนี้:<ul><li>การเล่าเรื่องขำขันหรือเรื่องราว หรือแสดงป้ายหรือกราฟิตีที่หมิ่นประมาทสมาชิกในกลุ่มหนึ่ง ๆ ไม่ว่าสมาชิกคนอื่น ๆ ในกลุ่มนั้นจะอยู่ด้วยหรือไม่ก็ตาม</li><li>การใช้คำใส่ร้าย หมิ่นประมาท หรือเล่าเรื่องขำขันเกี่ยวกับเชื้อชาติ สีผิว ศาสนา อายุ เพศ รสนิยมทางเพศ อัตลักษณ์ทางเพศ สถานภาพสมรส ถิ่นกำเนิด หรือกลุ่มชาติพันธุ์ ความทุพพลภาพ หรือสถานภาพทหารผ่านศึกของบุคคล</li><li>การข่มขู่ รุกราน บ่อนทำลาย ทำลาย หรือแทรกแซงการทำงานของผู้อื่น  </li><li>การส่งการสื่อสารที่ไม่พึงปรารถนาให้กับเพื่อนร่วมงานหรือโพสต์ข้อความที่ไม่เหมาะสมเกี่ยวกับเพื่อนร่วมงานในสังคมออนไลน์</li></ul>",
+                "nextPage": "faq-working-together-detailed",
+                "reference": "working-together"
+            },
+            {
+                "question": "<strong>อีเมลหรืออุปกรณ์ส่วนตัว:</strong>ฉันจะส่ง<u>ข้อความตัวอักษรที่สื่อไปในทางเพศ</u>แบบขำขันให้กับเพื่อนร่วมงาน 2 คนโดยใช้<u>โทรศัพท์ส่วนตัว</u> ในช่วงที่งานซาลงได้หรือไม่ การกระทำเช่นนี้จะถือเป็นการละเมิดนโยบายของบริษัทหรือไม่ เนื่องจากฉันใช้โทรศัพท์ของตัวเอง ",
+                "answer": "พฤติกรรมที่อาจถือเป็นการคุกคามเป็นสิ่งที่ไม่สามารถยอมรับได้ ไม่ว่าคุณจะใช้โทรศัพท์หรืออีเมลส่วนตัว หรือทรัพยากรของบริษัทก็ตาม คุณไม่ควรส่งเนื้อหาที่สื่อไปในทางเพศ (เช่น เรื่องขำขัน ความคิดเห็น หรือภาพถ่าย) ให้กับเพื่อนร่วมงานหรือผู้ที่คุณติดต่อธุรกิจด้วย",
+                "nextPage": "faq-working-together-detailed",
+                "reference": "working-together"
+            },
+            {
+                "question": "<strong>อีเมลของบริษัท:</strong> บางครั้งฉันได้รับ<u>เรื่องขำขันหยาบคาย </u> ใน <u>อีเมลของบริษัท</u> ที่มุ่งเป้าไปที่กลุ่มชาติพันธุ์หรือมี<u>ภาพลามกอนาจาร</u>ที่แนบมาด้วย ฉันจะส่งต่อเนื้อหาเหล่านี้ให้กับผู้อื่นได้หรือไม่ เนื่องจากฉันไม่ได้เป็นคนทำอีเมลนี้ขึ้นมา ",
+                "answer": "ไม่ได้ การส่งต่ออีเมลที่ไม่เหมาะสมถือว่าเหมือนกับการสร้างและส่งอีเมล ลบอีเมลที่ไม่เหมาะสมและขอให้ผู้ส่งอย่าส่งเนื้อหาประเภทนี้มายังอีเมลบริษัทที่คุณใช้อีก หากอีเมลนี้มาจากเพื่อนร่วมงานหรือผู้ที่คุณติดต่องานด้วย คุณควรรายงานเรื่องนี้ให้ฝ่ายทรัพยากรบุคคลหรือหัวหน้างานได้รับทราบ",
+                "nextPage": "faq-working-together-detailed",
+                "reference": "working-together"
+            },
+            {
+                "question": "<strong>การรับมือกับการปฏิสัมพันธ์ที่ไม่ดี:</strong>สมาชิกใน<u>ทีมของฉันชอบเล่าเรื่องขำขัน</u>ในที่ประชุม บางครั้งฉันรู้สึกไม่พอใจและบางครั้งฉันรู้เลยว่าสมาชิกคนอื่น ๆ ไม่พอใจ ฉันควรทำอย่างไรหาก<u>เรื่องขำขันนั้นล้ำเส้น</u>จนกลายเป็นเรื่องที่ไม่เหมาะสมและอาจทำให้ฉันหรือสมาชิกคนอื่น ๆ ในทีมไม่พอใจ ",
+                "answer": "หากคุณคิดว่ามีผู้ปฏิบัติต่อคุณในลักษณะคุกคามหรือเลือกปฏิบัติหรือหากเห็นว่าคนอื่นได้รับการปฏิบัติเช่นนี้จงบอกให้บุคคลนั้นหยุดพฤติกรรมดังกล่าวหากคุณสะดวกใจที่จะพูดหากคุณเป็นผู้จัดการของกลุ่มคุณควรยื่นมือเข้ามาหยุดพฤติกรรมนี้โดยทันทีโปรดรายงานพฤติกรรมที่อาจถือว่าเป็นการคุกคามเลือกปฏิบัติหรือตอบโต้ให้เจ้าหน้าที่ฝ่ายทรัพยากรบุคคลในพื้นที่หรือฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กรได้รับทราบ หากคุณไม่สะดวกที่จะรายงานเรื่องนี้ต่อผู้บริหาร",
+                "nextPage": "faq-working-together-detailed",
+                "reference": "working-together"
+            },
+            {
+                "question": "<strong>พฤติกรรมที่ไม่ใช่คำพูด:</strong>ผู้จัดการได้พูดกับฉันและบอกว่าฉันปฏิบัติต่อเพื่อนร่วมงานคนหนึ่งอย่าง ไม่เหมาะสมและการกระทำนั้นอาจถือเป็นการคุกคามได้<u>ฉันไม่เคยพูดกับเพื่อนร่วมงานคนนั้นเลย</u>และไม่ชอบเขาด้วยซ้ำ ฉันจะคุกคามคนอื่นได้อย่างไรหากฉันไม่ได้พูดอะไรเลย  ",
+                "answer": "การกระทำและคำพูดของคุณอาจมีผู้มองว่าเป็นการคุกคามหรือกลั่นแกล้งได้ แม้ว่าคุณจะไม่ได้พูดอะไรกับบุคคลนั้น แต่การกระทำบางอย่าง เช่น ท่าทางการแสดงออกที่หยาบคาย การสัมผัสตัวอย่างไม่เหมาะสม การสกัดการเคลื่อนไหวของบุคคล หรือกราฟิตีหรือภาพที่ก่อให้เกิดความไม่พอใจอาจเป็นการคุกคามหรือการกลั่นแกล้งได้ หากคุณยังไม่แน่ใจ โปรดขอความกระจ่างเพิ่มเติมจากผู้จัดการของคุณ",
+                "nextPage": "faq-working-together-detailed",
+                "reference": "working-together"
+            },
+            {
+                "question": "<strong>พฤติกรรมของผู้จัดการ:</strong>ฉันเข้าใจว่าพฤติกรรมของฉันในฐานะผู้จัดการอาจส่งผลถึงการที่พนักงานในพื้นที่กล้าหรือไม่กล้าเข้ามา<u>แจ้งความกังวล</u> ที่มีได้ ฉันจะทำอย่างไรเพื่อส่งเสริมให้พนักงานเข้ามาแจ้งความกังวลให้ฉันทราบ ",
+                "answer": "ปฏิกิริยาตอบรับของผู้จัดการนั้นมีผลอย่างมากต่อความกล้าในการแจ้งรายงานปัญหาจากพนักงาน หากมีข้อสงสัยในเรื่องใดที่เจาะจง คุณสามารถปรึกษาฝ่ายทรัพยากรบุคคลหรือฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กรได้ และรายการต่อไปนี้ได้ระบุข้อควรทำและไม่ควรทำที่เป็นประโยชน์แก่คุณ<br/><br/><p><strong>ข้อควรทำ:</strong></p><ul><li>เป็นแบบอย่างที่ดีให้กับทีม – แสดงให้เห็นถึงพฤติกรรม One Ford และเสริมให้เห็นถึงความสำคัญของนโยบาย กระบวนการ และการอบรมที่เราได้รับ</li><li>สละเวลารับฟังเมื่อมีผู้ทำการรายงานและเน้นย้ำกับผู้ที่รายงานเข้ามาว่าบริษัทต้องการทำในสิ่งที่ถูกต้อง – แต่อย่าสัญญาในสิ่งที่บริษัทจะทำเนื่องจากเรายังไม่ได้รับข้อเท็จจริงทั้งหมด</li><li>แจ้งผู้ที่ทำการรายงานว่าคุณจะเก็บข้อมูลและสาเหตุที่ผู้แจ้งทำการรายงานเข้ามาไว้เป็น ความลับ จากนั้น อย่าแบ่งปันข้อมูลการรายงานการคุกคาม การเลือกปฏิบัติ การตอบโต้ หรือการทุจริตกับผู้อื่นนอกฝ่ายทรัพยากรบุคคล สำนักงานกฎหมายในพื้นที่ ผู้ประสานงานกรณีในท้องถิ่น หรือผู้ประสานงานการตรวจสอบระดับภูมิภาค </li><li>ติดต่อกลับไปยังผู้ที่รายงานเรื่องนี้เข้ามาเพื่อดูว่ามีการแก้ไขปัญหาเรียบร้อยแล้วหรือยัง</li></ul><p><strong>ข้อไม่ควรทำ:</strong></p><ul><li>อย่าละเลยความสำคัญของพฤติกรรม One Ford หรือไม่เห็นความสำคัญของการอบรมที่ทีมได้รับโดยปล่อยปละละเลยเสียเอง</li><li>อย่าบอกให้พนักงานนิ่งเฉยต่อพฤติกรรมที่หยาบคายหรือการคุกคาม</li><li>อย่าบอกให้พนักงานสนใจเฉพาะเรื่องที่เกี่ยวกับตนเองเมื่อพนักงานรายงานพฤติกรรมที่ไม่เหมาะสมหรือการละเมิดที่สงสัย</li><li>อย่าบอกให้พนักงานทำวิธีใดก็ได้เพื่อให้งานสำเร็จ บอกอย่างชัดเจนว่าคุณคาดหวังว่าทุกคนจะทำงานได้สำเร็จด้วยวิธีที่ถูกต้อง อย่าใช้วิธีลัดที่ไม่ได้รับอนุมัติ แต่แจ้งปัญหาให้กับผู้บริหารระดับสูงขึ้นไปได้ทราบ</li></ul>",
+                "nextPage": "faq-working-together-detailed",
+                "reference": "working-together"
+            },
+            {
+                "question": "<strong>สิทธิมนุษยชน: </strong>ฉันได้ยินเรื่องการค้ามนุษย์และเข้าใจว่าเรื่องแบบนี้เกิดขึ้นได้โดยที่เราไม่รู้ตัว ฉันควรสังเกตสิ่งใดบ้างที่อาจเป็น <u>สัญญาณของการค้ามนุษย์ แรงงานเด็ก</u>หรือ<u>แรงงานบังคับ</u>ขณะเดินทางไปยังสถานที่ปฏิบัติงานของซัพพลายเออร์  ",
+                "answer": "คุณเข้าใจถูกต้องแล้วว่าการค้ามนุษย์และการใช้แรงงานบังคับนั้นไม่ใช่สิ่งที่บ่งบอกได้ง่าย คุณควรปล่อยให้เป็นหน้าที่ของผู้เชี่ยวชาญในการระบุว่ามีการละเมิดสิทธิมนุษยชนหรือไม่ แต่หากคุณเห็นสัญญาณเตือนเหล่านี้ โปรดแจ้งเรื่องนี้ให้บริษัทรับทราบและผู้เชี่ยวชาญของเราจะดำเนินการตรวจสอบเหตุดังกล่าว สัญญาณเตือนทั่วไปที่คุณอาจสังเกตเห็นมีดังนี้:<br/><br/><p><u>แรงงานบังคับและการค้ามนุษย์ในสถานที่ปฏิบัติงาน</u></p><p><ul><li>มีผู้รักษาความปลอดภัยโดยใช้อาวุธ</li><li>ล็อกประตูทางออก</li><li>จำกัดการเคลื่อนไหว </li><li>มีการตรวจตราตลอดเวลา/ที่ไม่เหมาะสม</li><li>การบาดเจ็บที่สงสัยว่ามี</li><li>ไม่อนุญาตเวลาพัก</li><li>อาคารที่แยกเดี่ยว</li><li>การแยกเดี่ยว</li></ul></p><p><u>แรงงานเด็ก</u></p><p><ul><li>คนงานช่วงอายุก่อนวัยรุ่น</li><li>ปิดกั้นพื้นที่</li><li>ผู้บริหารเลี่ยงประเด็นข้อมูลประชากรของแรงงาน</li><li>คนงานอายุน้อยใช้อุปกรณ์เครื่องจักรหนัก</li></ul></p><p><u>ปัญหาด้านสุขภาพและความปลอดภัย</u></p><p><ul><li>สภาพการทำงานที่ไม่ปลอดภัย </li><li>ไม่มีอุปกรณ์รักษาความปลอดภัย</li><li>ไม่มีแผนรับมือเหตุการณ์ฉุกเฉิน/ควบคุมเหตุฉุกเฉิน</li><li>ไม่มีแผนระงับเพลิงไหม้</li><li>การระบายอากาศ อุณหภูมิ หรือสภาวะแสงที่อันตราย</li><li>โครงสร้างอาคารไม่ปลอดภัย</li><li>สภาพห้องพักคนงานทรุดโทรม</li></ul></p>",
+                "nextPage": "faq-working-together-detailed",
+                "reference": "working-together"
+            },
+            {
+                "question": "<strong>สิทธิมนุษยชน: </strong> ฉันเข้าเยี่ยมโรงงานหลายแห่งตามหน้าที่ ทั้งโรงงานของบริษัทและของซัพพลายเออร์ ฉันควรทำอย่างไรหากเห็นสัญญาณ <u>การละเมิดสิทธิมนุษยชน</u> หรือ <u>สภาพการทำงานที่ไม่ปลอดภัย</u>? ",
+                "answer": "รายงานสิ่งที่คุณเห็นให้ฝ่ายความยั่งยืนในการจัดซื้อทราบ หรือรายงานผ่านระบบการรายงานของบริษัท ไม่ว่าจะเป็นโรงงานของบริษัท โรงงานของกิจการร่วมค้า หรือโรงงานของซัพพลายเออร์กลุ่มที่ 1 (Tier 1) หรือซัพพลายเออร์รายอื่น ปัญหาเหล่านี้มีความซับซ้อนอย่างมาก อย่าพยายามสอบสวนหรือแก้ไขปัญหานี้ด้วยตัวคุณเอง อย่าเอ่ยความกังวลของคุณกับผู้บริหารโรงงานหรือเสี่ยงต่อการทำลายความสัมพันธ์ในงานกับโรงงานแห่งนี้เพราะคุณอาจทำให้คนงานตกอยู่ในอันตรายยิ่งขึ้น ขอให้รายงานสิ่งที่คุณเห็นทันทีและผู้เชี่ยวชาญของเราจะดำเนินการสอบสวนและพูดคุยกับโรงงานเอง",
+                "nextPage": "faq-working-together-detailed",
+                "reference": "working-together"
+            },
+            {
+                "question": "<strong>สิทธิมนุษยชน: </strong> หากฉัน <u>เห็นสัญญาณเตือนที่อาจเป็นจริงเพียงอย่างเดียว</u>ในแง่การละเมิดสิทธิมนุษยชน ฉันควรรายงานเรื่องนั้นหรือไม่ ",
+                "answer": "ควร แน่นอนว่าเมื่อคุณสังเกตเห็นสัญญาณเตือนหลายประการ โอกาสของปัญหาย่อมมีมากกว่า อย่างไรก็ตาม สัญญาณเตือนเพียงอย่างเดียวอาจแสดงถึงปัญหาที่ร้ายแรงได้",
+                "nextPage": "faq-working-together-detailed",
+                "reference": "working-together"
+            },
+            {
+                "question": "<strong>คำจำกัดความด้านความยั่งยืน: </strong>ฉันได้ยินผู้คนพูดถึง<u> ความยั่งยืน</u>แต่ไม่รู้ว่าคำนั้นหมายความว่าอย่างไร ",
+                "answer": "ฟอร์ดให้คำจำกัดความความยั่งยืนว่าเป็นโมเดลธุรกิจที่สร้างคุณค่าซึ่งสอดรับกับการอนุรักษ์และปรับปรุงพัฒนาต้นทุนทางสิ่งแวดล้ทอมสังคมและการเงินในระยะยาวนั่นหมายความว่าเรามองหาจุดสมดุลในการตัดสินใจที่จะช่วยให้เราเป็นบริษัทที่มีผลกำไรควบคู่ไปกับความพยายามปกป้องสิ่งแวดล้อมและมนุษย์",
+                "nextPage": "faq-working-together-detailed",
+                "reference": "working-together"
+            }
+        ]
+    },
+    {
+        "pageKey": "tips-for-managers",
+        "title": "เคล็ดลับสำหรับผู้จัดการ",
+        "canITitle": "Can I do ...?",
+        "canIReminder": "คุณจะต้องไม่ขอของขวัญหรือการตอบแทนพิเศษโดยเด็ดขาด",
+        "icon": "tips-for-managers.png",
+        "ciicon": "tips-for-managers.png",
+        "titleicon": "tips-for-managers-title.png",
+        "items": [
+            {
+                "title": "สรุปนโยบายของบริษัท ",
+                "icon": "favors_list_icon_01.png",
+                "description": "ผู้จัดการของฟอร์ดในทุกภูมิภาคทั่วโลก มีหน้าที่รับผิดชอบที่สำคัญและมีบทบาทหลักในการวางตัวเป็นแบบอย่างที่ เหมาะสม ผู้จัดการของฟอร์ดมีหน้าที่วางตัวเป็นแบบอย่างของพฤติกรรม One Ford และแสดง ให้เห็นถึงการพัฒนาไปในทางที่ถูกต้อง (Go Further – The Right Way) เพื่อสร้างความแตกต่างที่ดีให้ได้มาก ที่สุดต่อสภาพแวดล้อมการทำงานของเรา โปรดอ่านเคล็ดลับและเนื้อหาทบทวนต่อไปนี้ รวมทั้งคำถามที่พบได้บ่อย",
+                "nextPage": "ps-tips-for-managers-summary",
+                "descriptionContent": "<div><p>หลักจรรยาบรรณ </p>ผู้จัดการของฟอร์ดในทุกภูมิภาคทั่วโลก มีหน้าที่รับผิดชอบที่สำคัญและมีบทบาทหลักในการวางตัวเป็นแบบอย่างที่ เหมาะสม ผู้จัดการของฟอร์ดมีหน้าที่วางตัวเป็นแบบอย่างของพฤติกรรม One Ford และแสดง ให้เห็นถึงการพัฒนาไปในทางที่ถูกต้อง (Go Further – The Right Way) เพื่อสร้างความแตกต่างที่ดีให้ได้มาก ที่สุดต่อสภาพแวดล้อมการทำงานของเรา โปรดอ่านเคล็ดลับและเนื้อหาทบทวนต่อไปนี้ รวมทั้งคำถามที่พบได้บ่อย<p>เคล็ดลับควรจำ</p><ul><li>หยุดพฤติกรรมที่ไม่เหมาะสมในทันทีและติดต่อฝ่ายทรัพยากรบุคคล หากคุณต้องการความช่วยเหลือในการพิจารณาถึงแนวทางปฏิบัติที่เหมาะสม อย่าละเลยพฤติกรรมเหล่านั้น</li><li>เป็นแบบอย่างให้เห็นถึงความสำคัญของการปฏิบัติตามการอบรม นโยบาย และกระบวนการต่าง ๆ อย่าประเมินอิทธิพลที่คุณมีต่ำเกินไป หากคุณเคารพกฎระเบียบ ทีมของคุณก็จะเคารพด้วยเช่นกัน</li></ul></div><div><ul><li>สนับสนุนให้สมาชิกในทีมแจ้งเรื่องหากเกิดปัญหาขึ้น โดยเฉพาะอย่างยิ่งในกรณีที่สงสัยว่ามีการละเมิดนโยบายหรือกฎหมาย</li><li>ให้ความสำคัญกับการรายงานการละเมิดที่อาจเกิดขึ้นอย่างจริงจังและแจ้งเรื่องไปยังฝ่ายทรัพยากรบุคคล ผู้ประสานงานด้านการตรวจสอบประจำภูมิภาค ผู้ประสานงานกรณีในพื้นที่ ฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กร หรือแหล่งข้อมูลอื่น ๆ ตามที่แสดงไว้ในส่วน “รายงานกรณีละเมิดที่สงสัย”</li><li>กรณีละเมิดที่สงสัยอาจดูเป็นเรื่องที่คุณจัดการได้ แต่อย่าพยายามตรวจสอบข้อกล่าวหาด้วยตัวเอง – บริษัทมีผู้สอบสวนที่ได้รับการฝึกอบรมมาโดยเฉพาะเพื่อจัดการกรณีรายงานเช่นนี้</li></ul></div><div><ul><li>ให้ความสำคัญกับข้อกล่าวหาทุกข้ออย่างจริงจังและส่งเรื่องต่อเพื่อดำเนินการสอบสวน แม้คุณจะคิดว่าแหล่งที่มาขาดความน่าเชื่อถือก็ตาม ในบางครั้งเบาะแสที่ดีที่สุดได้มาจากแหล่งข้อมูลที่ไม่มีใครคาดคิด</li><li>เก็บรายงานกรณีละเมิดทั้งหมดไว้เป็นความลับและระงับการพูดคุยนินทาเกี่ยวกับรายงานที่อาจได้รับ</li><li>คุณต้องไม่ตอบโต้บุคคลที่รายงานกรณีละเมิดที่อาจเกิดขึ้นรวมถึงใส่ใจการติดต่อปฏิสัมพันธ์ที่มีเพื่อไม่ให้พฤติกรรมที่คุณแสดงต่อบุคคลที่ทำการรายงานนั้นสะท้อนให้เห็นถึงความรู้สึกที่คุณมีต่อการรายงาน</li><li>คุณมีอิทธิพลที่สำคัญต่อทีมของคุณและความเคารพที่ทีมมีต่อพฤติกรรม One Ford ของเรา คุณควรสร้างอิทธิพลโน้มน้าวในแง่บวก</li></ul></div>"
+            },
+            {
+                "title": "ข้อมูลติดต่อและอ้างอิง ",
+                "icon": "favors_list_icon_02.png",
+                "description": "คุณสามารถพบแหล่งข้อมูลเหล่านี้ได้เมื่อเข้าไปยังอินทราเน็ตของฟอร์ด",
+                "nextPage": "ps-tips-for-managers-quick-ref",
+                "items": [
+                    {
+                        "title": "เอกสารแถลงนโยบาย 2 ความสัมพันธ์กับพนักงาน",
+                        "link": ""
+                    },
+                    {
+                        "title": "เอกสารแถลงนโยบาย 6 โอกาสที่เท่าเทียมกัน",
+                        "link": ""
+                    },
+                    {
+                        "title": "เอกสารแถลงนโยบาย 19 โครงการการปฏิบัติตามกฎเพื่อป้องกันและตรวจสอบการละเมิดกฎหมาย",
+                        "link": ""
+                    },
+                    {
+                        "title": "ข้อกำหนด B-110 การต่อต้านการคุกคามโดยเด็ดขาด",
+                        "link": ""
+                    },
+                    {
+                        "title": "HR ONLINE สำหรับข้อมูลและแหล่งข้อมูลเพิ่มเติม – โปรดดูกล่องเครื่องมือของผู้จัดการและแนวทางการต่อต้านการคุกคาม/การเลือกปฏิบัติ ",
+                        "link": ""
+                    },
+                    {
+                        "title": "คุณควรรายงานการคุกคามใด ๆ ที่เกิดขึ้นให้ฝ่ายทรัพยากรบุคคลทราบทันที คุณสามารถโทรติดต่อสายด่วนแจ้งกรณีการคุกคามในสหรัฐอเมริกาได้ที่หมายเลข 888-735-6650",
+                        "link": ""
+                    },
+                    {
+                        "title": "หากมีข้อสงสัยหรือคำแนะนำเกี่ยวกับบทบาทของคุณในฐานะผู้จัดการ โปรดติดต่อเจ้าหน้าที่ฝ่ายทรัพยากรบุคคลในพื้นที่หรือคลิกที่นี่เพื่อส่งอีเมลถึงฝ่ายพนักงานสัมพันธ์ใน WHQ",
+                        "link": "mailto: activity@ford.com?subject=แอพบนอุปกรณ์เคลื่อนที่ – เคล็ดลับสำหรับผู้จัดการ"
+                    },
+                    {
+                        "title": "หากมีข้อสงสัยเกี่ยวกับการวางตนเป็นแบบอย่างที่เหมาะสม การคุกคาม การเลือกปฏิบัติ หรือการตอบโต้ คุณสามารถติดต่อเจ้าหน้าที่ OGC ในพื้นที่หรือเจ้าหน้าที่ฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กร หรือคลิกที่นี่เพื่อส่งอีเมลถึงฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กร ",
+                        "link": "mailto: fordlaw@ford.com?subject=แอพบนอุปกรณ์เคลื่อนที่ – เคล็ดลับสำหรับผู้จัดการ"
+                    }
+                ]
+            },
+            {
+                "title": "คำถามที่พบบ่อย",
+                "icon": "favors_list_icon_03.png",
+                "description": "มีพนักงานคนหนึ่งในกลุ่มแจ้งให้ฉันทราบว่าเขาคิดว่าเพื่อนร่วมงานคนหนึ่งรายงานเกณฑ์ชี้วัดบางอย่างผิดไป ฉันไม่คิดว่าสิ่งที่เขาพูดนั้นถูกต้องและไม่อยากแจ้งข้อมูลที่ไม่ดีให้กับ WHQ – ฉันจะสอบสวนและจัดการเรื่องนี้ด้วยตัวเองได้หรือไม่",
+                "nextPage": "faq-tips-for-managers"
+            }
+        ],
+        "frequently-asked-questions": [
+            {
+                "question": "<strong>การจัดการการรายงาน:</strong>มีพนักงานคนหนึ่งในกลุ่มแจ้งให้ฉันทราบว่าเขาคิดว่าเพื่อนร่วมงานคนหนึ่งรายงานเกณฑ์ชี้วัดบางอย่างผิดไป ฉันไม่คิดว่าสิ่งที่เขาพูดนั้นถูกต้องและไม่อยากแจ้งข้อมูลที่ไม่ดีให้กับ WHQ -<u>ฉันจะสอบสวนและจัดการเรื่องนี้ด้วยตัวเองได้หรือไม่</u>",
+                "answer": "ไม่ได้ คุณควรรายงานข้อกล่าวหาไปยังจุดรับเรื่องใดจุดหนึ่งที่กำหนดในบริษัท ซึ่งได้รับอนุญาตให้รับรายงานกรณีการละเมิดที่สงสัยได้ เราแต่งตั้งผู้สอบสวนที่ได้รับการฝึกอบรมมาโดยเฉพาะซึ่งจะตรวจสอบข้อกล่าวหานี้ ดึงผู้เชี่ยวชาญเฉพาะทางเข้ามามีส่วนร่วม และทำให้ฟอร์ดเข้าใจสถานการณ์ที่เกิดขึ้นและดำเนินการแก้ไขตามจำเป็น โดยการส่งรายงานนี้ต่อให้กับหน่วยงานที่เกี่ยวข้อง คุณได้ช่วยให้บริษัทพัฒนาไปในทางถูกต้อง (Go Further – The Right Way)",
+                "nextPage": "faq-tips-for-managers-detailed",
+                "reference": "tips-for-managers"
+            },
+            {
+                "question": "<strong>การจัดการการรายงาน:</strong>ซัพพลายเออร์ที่เพิ่งแพ้การประมูลได้เข้ามาบอกฉันว่าซัพพลายเออร์ที่ชนะการประมูลได้ลัดขั้นตอนเพื่อให้ตนเองเป็นผู้ประมูลที่เสนอราคาต่ำสุด ฉันคิดว่า<u>ซัพพลายเออร์ร้องเรียนเรื่องนี้</u>เพราะตนเองไม่ชนะการประมูล ฉันควรรบกวนบริษัทโดยการยื่นรายงานเรื่องนี้หรือไม่ ",
+                "answer": "เรื่องนี้ไม่ใช่เรื่องการรบกวนแต่อย่างใด เราอยากทราบรายงานทุกฉบับในกรณีการละเมิดนโยบายหรือกฎหมายที่สงสัยซึ่งเกี่ยวข้องกับธุรกิจ แม้การรายงานนี้อาจเกิดจากความรู้สึกแย่จากที่แพ้การประมูล แต่โปรดระลึกไว้ว่ามูลเหตุจูงใจที่มีนั้นไม่ได้หมายความว่าการรายงานเรื่องนั้นไม่เป็นความจริง – พฤติกรรมที่ไม่ดีนั้นมักจะถูกเปิดโปงจากผู้ที่รู้สึกว่าตนได้รับการปฏิบัติอย่างไม่เหมาะสมจากผู้กระทำผิด",
+                "nextPage": "faq-tips-for-managers-detailed",
+                "reference": "tips-for-managers"
+            },
+            {
+                "question": "<strong>การจัดการการรายงาน:</strong>สมาชิกในกลุ่มคนหนึ่งซึ่ง<u>มักจะร้องเรียน</u>เรื่องต่าง ๆ อยู่เสมอได้เข้ามาแจ้งความกังวลอีกข้อหนึ่ง ฉันจะ <u>ตรวจสอบเรื่องนี้ด้วยตัวเอง</u>และปล่อยให้เขากลับไปทำงานได้หรือไม่ ",
+                "answer": "ทางที่ดีที่สุดคือการให้ความสำคัญกับรายงานทุกเรื่องอย่างจริงจัง แม้ว่าแหล่งข้อมูลการรายงานอาจดูไม่น่าเชื่อถือ บางครั้งการรายงานพฤติกรรมที่ไม่เหมาะสมอาจมาจากแหล่งข้อมูลที่ไม่มีใครคาดคิดได้ ตอบกลับด้วยความเคารพและส่งข้อมูลต่อให้กับฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กรหรือสมาชิกในคนอื่น ๆ ในกลุ่มที่มีหน้าที่รับรายงาน",
+                "nextPage": "faq-tips-for-managers-detailed",
+                "reference": "tips-for-managers"
+            },
+            {
+                "question": "<strong>รายงานจากพนักงานที่มีผลการปฏิบัติงานไม่ดี:</strong>ฉันมีพนักงานคนหนึ่งที่ปล่อยให้ผลงานออกมาแย่ทันทีที่เราแจ้งให้เขาทำตามแผนการปรับปรุงประสิทธิภาพการทำงาน เขาตั้งข้อกล่าวหาโดยคิดว่าเรากำลังละเมิดข้อบังคับในพื้นที่ เห็นได้ชัดเจนเลยว่าบุคคลนี้ต้องการ<u>อ้างตนเป็นผู้เปิดเผยข้อมูล</u>เพื่อให้เราไม่สามารถบังคับใช้แผนงานด้านผลการปฏิบัติงานนั้นได้ ฉันจะนิ่งเฉยต่อการรายงานของเขาได้หรือไม่ ",
+                "answer": "แม้จะเป็นไปได้ว่าพนักงานของคุณมีมูลเหตุจูงใจที่มาดร้าย แต่คุณควรส่งเรื่องต่อไปยังฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กรหรือแหล่งข้อมูลที่เหมาะสมเพื่อทำการสอบสวนต่อไป ในบางครั้ง พนักงานที่กังวลใจเรื่องผลการปฏิบัติงานของตนอาจมีมูลเหตุจูงใจในการเปิดเผยข้อมูลสถานการณ์ที่เกิดขึ้นจริงในสถานที่ทำงานได้ เมื่อคุณรายงานสถานการณ์นี้ไปยังแหล่งข้อมูลที่เหมาะสมภายในบริษัท เราจะสามารถระบุความถูกต้องของข้อกล่าวหานี้ได้ และให้แน่ใจได้ว่ามีการจัดการสถานการณ์อย่างเหมาะสมเพื่อให้คุณและบริษัทสามารถดำเนินการได้อย่างเหมาะสมต่อไป",
+                "nextPage": "faq-tips-for-managers-detailed",
+                "reference": "tips-for-managers"
+            },
+            {
+                "question": "<strong>การคุกคาม:</strong>มีสมาชิกในทีมของฉันคนหนึ่งที่มีนิสัยค่อนข้างห้าว และฉันได้ยินมาว่าเขาอาจจะ<u>คุกคามผู้หญิง</u>ในตึกนี้<u>ฉันยังไม่ได้เห็นพฤติกรรมที่ไม่ดีนั้น</u>และไม่มีพนักงานหญิงคนใดแจ้งเรื่องนี้ อีกทั้ง สมาชิกคนนี้ยังทำงานได้ดีเยี่ยมด้วย ฉันจะนิ่งเฉยในเรื่องนี้ได้หรือไม่ เนื่องจากไม่มีพนักงานหญิงคนใดร้องเรียนเรื่องนี้กับฉัน ",
+                "answer": "หากได้ยินการรายงานพฤติกรรมการคุกคาม คุณจะต้องรายงานเรื่องนั้น แม้จะไม่เคยเห็นพฤติกรรมนั้นด้วยตนเอง แต่คุณได้รับรายงานในเรื่องนี้มาแล้ว พฤติกรรม One Ford นั้นสำคัญอย่างยิ่ง และคุณต้องไม่ปล่อยปละละเลยพฤติกรรมที่ไม่เหมาะสมเพียงเพราะว่าบุคคลนั้น “ทำงานได้สำเร็จ”",
+                "nextPage": "faq-tips-for-managers-detailed",
+                "reference": "tips-for-managers"
+            },
+            {
+                "question": "<strong>การส่งเสริมการรายงาน:</strong>ฉันเข้าใจว่<u>ว่าพฤติกรรมของฉันในฐานะผู้จัดกา</u>อาจส่งผลถึงการที่พนักงานในพื้นที่กล้าหรือไม่กล้าเข้ามาแจ้งความกังวลที่มีได้ ฉันจะทำอย่างไรเพื่อส่งเสริมให้พนักงานเข้ามาแจ้งความกังวลให้ฉันทราบ ",
+                "answer": "ปฏิกิริยาตอบรับของผู้จัดการนั้นมีผลอย่างมากต่อความกล้าในการแจ้งรายงานปัญหาจากพนักงาน หากมีข้อสงสัยในเรื่องใดที่เจาะจง คุณสามารถปรึกษาฝ่ายทรัพยากรบุคคลหรือฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กรได้ และรายการต่อไปนี้ได้ระบุข้อควรทำและไม่ควรทำที่เป็นประโยชน์แก่คุณ<br/><br/><p>ข้อควรทำ</p><ul><li>เป็นแบบอย่างที่ดีให้กับทีม หากคุณทำตามกฎและให้ความสำคัญกับการอบรมของเราอย่างจริงจัง ทีมของคุณก็จะทำตามเช่นกัน</li><li>สละเวลารับฟังเมื่อมีผู้ทำการรายงานและเน้นย้ำว่าบริษัทต้องการทำในสิ่งที่ถูกต้อง แต่อย่าสัญญาในสิ่งที่บริษัทจะทำเนื่องจากเรายังไม่ได้รับข้อเท็จจริงทั้งหมด</li><li>บอกกับผู้รายงานว่าคุณจะเก็บข้อมูลไว้เป็นความลับและโปรดอย่าเปิดเผยข้อมูลนี้กับใคร นอกเหนือจากทีมที่ได้รับอนุญาตให้รับและสอบสวนการรายงานนี้ </li></ul><br/><p>ข้อไม่ควรทำ</p><ul><li>อย่ากระทำการที่สื่อให้เห็นว่ากฎมีไว้เพื่อละเมิดหรือการอบรมเป็นเรื่องยุ่งยาก หากคุณทำเช่นนั้น จะเป็นการแสดงพฤติกรรมที่ไม่เหมาะสมให้ทีมเห็น</li><li>อย่าบอกทีมให้นิ่งเฉยต่อปัญหา หากมีผู้รายงานปัญหาเข้ามา จงให้ความสำคัญกับเรื่องนั้นอย่างจริงจังและแจ้งเรื่องไปยังผู้บริหาร ฝ่ายทรัพยากรบุคคล หรือฝ่ายกำกับดูแลการปฏิบัติตามกฎขององค์กร </li><li>อย่าบอกให้พนักงานทำวิธีใดก็ได้เพื่อให้งานสำเร็จ บอกอย่างชัดเจนว่าคุณคาดหวังว่าทุกคนจะทำงานได้สำเร็จด้วยวิธีที่ถูกต้อง อย่าใช้วิธีลัดที่ไม่ได้รับอนุมัติ แต่แจ้งปัญหาให้กับผู้บริหารระดับสูงขึ้นไปได้ทราบ</li></ul>",
+                "nextPage": "faq-tips-for-managers-detailed",
+                "reference": "tips-for-managers"
+            },
+            {
+                "question": "<strong>การตอบโต้:</strong>ฉันรู้ว่าบริษัทมีนโยบายต่อต้านการตอบโต้ แต่ฉันไม่แน่ใจว่าการกระทำใด<u>ถือว่าเป็นการตอบโต้บ้าง</u>. คุณจะยกตัวอย่างให้เห็นได้หรือไม่ ",
+                "answer": "ขอให้นึกถึงการตอบโต้ว่าเป็นการกระทำที่ส่งผลเสียต่อหน้าที่การงานของบุคคลหรือมองว่าเป็นการคุกคามหรือการเลือกปฏิบัติ โปรดดูตัวอย่างบางส่วนที่แสดงถึงสิ่งที่ถือว่าเป็นการตอบโต้ได้ หากเกิดจากมูลเหตุจูงใจในการลงโทษผู้ที่ทำในสิ่งอันพึงกระทำ เช่น รายงานกรณีการละเมิดที่สงสัยโดยสุจริต เป็นต้น โปรดทราบว่าการขู่เข็ญให้กระทำการบางอย่างอาจถือเป็นการตอบโต้ได้ แม้คุณจะไม่ได้ดำเนินการดังกล่าวก็ตาม ดังนี้:<ul><li>การไล่พนักงานออก</li><li>การให้งานหรือจัดตารางการทำงานที่ไม่พึงประสงค์แก่พนักงาน</li><li>การประเมินผลการปฏิบัติงานต่ำแก่พนักงาน </li><li>การไม่อนุญาตให้พนักงานย้ายไปทำงานใขขอบเขตงานใหม่</li></ul>",
+                "nextPage": "faq-tips-for-managers-detailed",
+                "reference": "tips-for-managers"
+            },
+            {
+                "question": "<strong>การเลือกปฏิบัติ: </strong> ฉันมีปัญหากับ<u>สมาชิกคนหนึ่งในกลุ่ม</u>เราจัดประชุมรายสัปดาห์ในเวลาเดิมทุกอาทิตย์ พนักงานคนหนึ่งพลาดการประชุมครึ่งหนึ่งเสมอเพราะเขาบอกว่าเขาต้องเข้าร่วม<u>วันสำคัญทางศาสนา</u>ในเวลานั้น ฉันควรทำอย่างไร ฉันมอบหมายงานสำคัญให้กับพนักงานรายนี้ไม่ได้เลยเพราะเขาพลาดการเข้าประชุมถึงครึ่งหนึ่ง ",
+                "answer": "คุณเคยพิจารณาย้ายเวลาการประชุมเพื่อให้ทุกคนเข้าร่วมได้พร้อมกันหรือไม่ แม้เราจะหยุดการดำเนินงานหลักเพื่อเอื้อประโยชน์ให้กับพนักงานเพียงคนเดียวไม่ได้ แต่คุณควรพิจารณาว่ามีสิ่งใดที่สามารถอำนวยความสะดวกเพื่อคลี่คลายสถานการณ์เช่นนี้ได้บ้าง โดยเฉพาะอย่างยิ่งหากสถานการณ์ที่พบเจอนั้นเข้าข่ายกรณีที่อาจได้รับความคุ้มครองทางกฎหมาย เช่น ศาสนาหรือความทุพพลภาพ ซึ่งหากเราไม่สามารถคลี่คลายได้อย่างสมเหตุสมผล ก็อาจถือเป็นการเลือกปฏิบัติได้ ปัญหาเหล่านี้อาจมีความซับซ้อน โปรดปรึกษาขอคำชี้แนะจากฝ่ายทรัพยากรบุคคลหรือสำนักงานที่ปรึกษาทั่วไปในพื้นที่",
+                "nextPage": "faq-tips-for-managers-detailed",
+                "reference": "tips-for-managers"
+            }
+        ]
+    },
+    {
+        "pageKey": "report-violations-info",
+        "reference": "report-violations"
+    },
+    {
+        "pageKey": "report-violations",
+        "title": "รายงานการละเมิดที่สงสัย",
+        "information": "<p>คุณสงสัยว่ามีการละเมิดนโยบายบริษัทและต้องการรายงานเรื่องนี้ใช่หรือไม่ เราขอให้คุณรายงานเรื่องนี้เข้ามา</p><p>ขณะรายงานการละเมิดที่สงสัยว่าเกิดขึ้น หากเราสามารถติดต่อคุณเพื่อขอรายละเอียดเพิ่มเติมและข้อมูลติดตามผลได้ จะเป็นประโยชน์อย่างมาก หากคุณส่งรายงานทางอีเมลจากอุปกรณ์เคลื่อนที่ เราจะส่งคำถามกลับถึงคุณได้ บริษัทยังได้แต่งตั้งผู้ประสานงานการตรวจสอบประจำภูมิภาค (RIC) หรือผู้ประสานงานกรณีในท้องถิ่น (LIC) เพื่อรับรายงานการละเมิดที่สงสัยว่าเกิดขึ้น เจ้าหน้าที่เหล่านี้ยังสามารถตอบข้อสงสัยเกี่ยวกับกระบวนการนี้ได้ด้วย</p><p>อย่างไรก็ตาม คุณสามารถรายงานโดยไม่ระบุตัวตนได้โดยโทรติดต่อสายด่วนหรือยื่นแบบฟอร์มแจ้งเหตุจากเว็บไซต์ Corporate Security and Fire ที่ระบุไว้ด้านล่างนี้</p><p>คุณควรรายงานการคุกคามใด ๆ ที่เกิดขึ้นให้ฝ่ายทรัพยากรบุคคลทราบทันที คุณสามารถโทรติดต่อสายด่วนแจ้งกรณีการคุกคามในสหรัฐอเมริกาได้ที่หมายเลข 888-735-6650</p><p>ผู้ที่รายงานการละเมิดที่สงสัยว่าเกิดขึ้นไม่ควรเกรงกลัวการตอบโต้ นโยบายของเราระบุห้ามไม่ให้มีการตอบโต้บุคคลที่แจ้งข้อสงสัยกรณีละเมิดกฎหมายหรือนโยบายบริษัทโดยสุจริตใจ รวมทั้งผู้ที่ให้ความร่วมมือในการตรวจสอบข้อสงสัยด้วย การรายงานทั้งหมดจะเก็บเป็นข้อมูลที่ไม่เปิดเผย</p><p><strong><u>ส่งรายงาน</u></strong></p><p>คุณสามารถส่งรายงานการละเมิดที่สงสัยได้เลยโดยกด “ดำเนินการต่อ” ด้านล่าง และยังสามารถดูการรายงานวิธีอื่น ๆ ได้ในอินทราเน็ตของฟอร์ดที่:</p><ul><li>รายชื่อ RIC หรือ LIC ของคุณแสดงอยู่ในเว็บไซต์ Corporate Security and Fire </li><li>ฝ่ายกำกับดูแลการปฏิบัติตามกฎของสำนักงานที่ปรึกษาทั่วไปหรืองานที่ปรึกษาทั่วไปในพื้นที่คุณ</li><li>สำนักงานตรวจสอบทั่วไป</li><li>เว็บไซต์ Corporate Security and Fire ในสหรัฐอเมริกาหรืออีเมลในสหรัฐอเมริกา</li><li>สายด่วนองค์กรแบบโทรฟรีในสหรัฐอเมริกา (800-847-7911)</li><li>สายด่วนในประเทศหรือภูมิภาคของคุณแสดงอยู่ในเว็บไซต์ Corporate Security and Fire</li><li>ฝ่ายทรัพยากรบุคคล/พนักงานสัมพันธ์</li></ul>",
+        "items": [
+            {
+                "region": "อเมริกาเหนือ (สหรัฐอเมริกาและแคนาดา)",
+                "email": "Fordlaw@ford.com?subject=Mobile App Reporting"
+            },
+            {
+                "region": "อเมริกาเหนือ (เม็กซิโก)",
+                "email": "EthicsMX@ford.com?subject=Mobile App Reporting"
+            },
+            {
+                "region": "อเมริกาใต้",
+                "email": "EthicsSA@ford.com?subject=Mobile App Reporting"
+            },
+            {
+                "region": "ยุโรป ",
+                "email": "EthicsEU@ford.com?subject=Mobile App Reporting"
+            },
+            {
+                "region": "เอเชียแปซิฟิก",
+                "email": "EthicsAP@ford.com?subject=Mobile App Reporting"
+            },
+            {
+                "region": "ตะวันออกกลางและแอฟริกา",
+                "email": "EthicMEA@ford.com?subject=Mobile App Reporting"
+            }
+        ]
+    },
+    {
+        "pageKey": "exec-messages",
+        "title": "สาส์นจากผู้บริหาร",
+        "items": [
+            {
+                "type": "text",
+                "title": "Mark Fields Talks about Compliance & Transparency",
+                "icon": "mark-fields.png",
+                "iconDataURL": "data:image/png;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx4BBQUFBwYHDggIDh4UERQeHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHv/AABEIAEwATAMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AOw8F2OhfGL4bXs0t1HFc28W6MHG5JACfyyP1r5/B4V4apNyla34n2Oa4qniqNN043jP/wAlf9fej598b3GsWOqrbT24iksv3bKP4x6/SvVpuMo80XufJzoyo1HCa1RY0TV47xF2OUm9AcGmtzSavE0NV8UXejA27SvNcYH7st936/4VpfscaoqWrMS18e6pbXDSJ9nBJyBg8fjUtmvsYHqXwv8AjXFFrltbapax2/8AClxGxOD/ALQ9KzdzGeF6wep7N4t8fQ/ZYmmu4OPnUg9a0VV2szianJ6nlPxB8QQeN5IoYrOWeZMgNGn9azniIU1qz0sJleLrP3INnPeH/B3iW4uEVnayiibg9WI9K86rmNNrlirn1uA4ar0JKtVqKPpqzhv2wrBLFvCyquGZboM397Hk/wCNdGV4ipUUozd0rW+dzTi2oqnsZJfzfoJ8APEU/h25aKV3jhkk2SqcjHPcV69LJnm1Gap/FFXR5GVY/wCo4j2VZe7LR36PueyfFLwininTo9X0pFa+jUBlH/LRa+XwOKdGTo1D2M6yuVT95D4l+KPH7rSh4NmbV9SgIuo1P2a3cEBpexYHsOvvgCvbUlLY+UlGaVpKxy2h2Os+K9UkS1iN1cysZJJWzwT3NFWpGCuyqVKdV2ijdv8A4YeKEj3CONjjnBrnWLp9zqeX1uxjz+A/FOnxterb7/KG4qrfNx7VccTTlomZTwdWnq0et/s4ano3iqW40nXoxLf26+ZAzn7ydx+FcWOlKnZ30PXyqVJwbUE5p9uh7ZDbafYPstbONBnAIWvHdZXPpk6k46ssi0mmtbi7iKBIeSO5rWm1NNmftownGnLdny/+2x5m7wkZEKki8Iz/ANsK9fKd5/L9TwuJuW1Kz/m/Q1/jNeeHJ/FEOo+HbTakoDXCxrgE+v1rp4czOvglNw0urI24kwXJGl7WzqK97dulzt/hd4yt73FtBuEtttyj55FeHmdGaqe16vU9nKq8cwwjhJ+9HT5dDiv2sdfXxF420axt4xEYLJd4H993I/ko/OvRyuq6tJzasfJZvhXhqkaLd+v3/wDDHpnw98K6f4e0OBbS2XzJI1MkndjjrmsMTKUnqdmDpxpxVjWvooxwRgn2rksd1zndQjCE4X604tpmc43Wp5d8ILNtO+PklrAMRATttHQKUz/WurMpc2DTfkcWVR5cXON9Lfqj6OlPXmvl/aSifVRRSuZpo42jWRlR/vAHg/Wr9vodNOnGTTa1R82/tmXMtw/hXzW3bRdgcf8AXGvo+H6jn7S/l+p8txXSjTVHl/vf+2nbfDGxQxz/ANoWoOyTahYZytcua1n7qp9D6rLMpr4GNb2y+J2V9dEd2NK0a21AXVlBHHIy4YqMZrzamMqyjytm2Hw0aTlNQSbPG/jVp08fxM0278pjb3CQhX7ZV8EfkRXv5RO+Gfqz43iWH+1wl5fqz2XXtT1PSrSEWclnZ2sSDdNctweOgFayUXvqzkc5L4dEV/Cmr3eqafcXGoXNlcvGpZWgBGR9DXLVSvojqoTk17zOG1XxZqd3rMsdnLp0duOFikb53rWNKPLqmc9TETcrKwfA+yGq/tJRvdo0Vv8AYpJZzuA2Dysdf94gV0ypUqlFQquyOFV6tKs50lrY9w1YQQ6hPDby+bGrlUb+8M8V8ViOSFWUYO6TPt8K5zpRlNWbRm3CyOj4UkKOfasld6nbTcU0fNX7YYO/wxwR/wAff/tGvp+GHf2v/bv6nzPF+1H/ALe/9tPUtHna3iIQDGa8lVpH6tiqaqSuzctr2KTazjaQeau8KkbbM8upQlHRFDxbp1hrd1YxStskSZJoHxx8mSVP1r08ubprlXU+Iz7DXleW6sdFrmkW+o2kclzAs4VflR+QPf611TcoO6PLpUo1V7xlaXotvpkE/kxeSZIyMDjI/wAKzk3KN2bQpxi7JHG2PhixeR5DbozZOSwzj6VTrSWhgsNCWtje+G1iIviRqFzageaNNjjYt/CDIB+tTXo+3pKDdupFCrDD1HOSv0/U9h0zwxPea0LOaYIrJvDgV5f9g1XVjG+j6np1M+oqg501drSxJpOmWsHiiXSNSu1WPJBYkDdxwM9q48Ph4vGfV6srR1uy8Vi6k8GsRRjr+R8v/t7vo6a14asdInSYW/2zzCrZxnyMc/ga+iyOhCjXrxpu8dLP7zwM4+sSoUaldWb5v0Ovt2KnGK+X1ufuFRX1Jrm5itI2mmcJGvJJq4pt6GPLdFnw14u0O7guESeKd1XKgYY59vevTwrlQdqit2Pl84wH12HPhpKVr3szsbu/NtpcYRRukACsei+/5V6dWXQ+Lw8rRuUri9ZbETxsro6EKTg5yOuapxSjYr20m7o4qyv3t7xrdmEjH72CM+xxWNSKtzIVKq03Fm34NEkTXeoSsImnIVCDyVB5/UCuPFY90Xyw36npZflKxEeeqtHseh6b4vht1Ms8pDxJ8hB5rgxOZ4ivaMdLG0uHFH3aUd9zwP4v/EjUL/XRpGjzEXkzEySA8oPT613ZZliqfvau35muc5jDJqKwuHt7RrV/yr/M+efHl9fXl3FHfu0ksLSKWYkknjOfyr62jCMFaKsfnVetUrS5qju/M+uIbINKAPWvgeU/fJ17I88+PklxDZWekWrMr3koQ464r1spoqVZyfRHy3FWPnSy1Rg7Obt8kbngv4NajZaLa6lDDLHOwBznr9RX0FakqsbSVz80wOYVsHVVSjKzPSopUudLW2kUF0x19q8ypHmPYhNxkDRHSdOaO2kKwScrEVDKpzngHpzT9o+U39nTb1icFcKtte3N04D3FwfmY9ST8oqJS51d7Iz5LT5ILVmolwLeJIeoRcV87Ukpzcn1P1TCYJUaMaa6Iz9c1GeSykW0A87YQoz3og48yvsd0MNKEW479PXoeOW3h7xJaeIF1SS3WWUOXZt3XIIr6mGY4VQUU9D8pxnCecV60qk43bd73OK+J2lX9jfQ3d8iobySV1UHOMFSf/QhXfg8XTxF1DpY8TNsjxWVRpvEK3Pe3yt/mfWlozxSAh9wB718Qrp6H7JVSkjI13RV1/4oeEo3QNEbr5hjjp/9avcyiX7yS8j4fi+DWBpvtJ/ij134leJ/+EYu7Hw25C+Ze28rleot1cFvpkjH0zX0cdI6n5xFamZ8WNEm0DWZL+3hk/s26bzo5lXKoW5Kk9vUe30ry8TSdKfMtme7hqqr01F/EjlbnUIZLQs5dgRxjoK5ZPsdtOryq0jkIhPeajcXIgM0GnW8t9KhJwViUtz+IA/GtIUudcnc55Yl0qirL7L0Gp4o0a7fbcW81kzdDu3p+fX9K86rk1SOsHf8D6/AcaU3aNdW89ySf7KFEkNwkqHoVOa8yphqlN2kj7nBZlQxceanNP5jfElu+haVbajqTCCG5/1e7qaVCDrS5Yq5lWzjD0+a8rcuh4N8a9astXm0xbOTf5Hnbj9dmP5V9Vk+FnQU3Jb2/U/MuM83o5jKkqTvy8342/yPo7RvEvhzVFX7Lfxhm/hLYP5V4dbL6tLdH1+HzfDYlXp1E/wJtS16LTr63udMZZLu2bckuMqhx+pr0cuwVSnJVZ6eR8xxDndCrRlhYe8316KxzGp317q15JfahcSXFzKcvI5yTXvKd9z4Rqx9U/CTWLTxn8NbSLUY4rmSKP7LdxuM7ioxk/UYP41cbTjZiu4u6PP/AIh/DKXw9BdX+hSmXTdpke2lbmEDk7WPb2NeXiMG0/cPWw2OUtKhP4L8IWtn4B1KaWSC4u9XtnjkMbBgiFSAmR355rejRlS0ktTmxdXnlZbHzIkBW3WGX/WREoxPscVqjmuTWzvEcK5AoaT3KhUlB3i7DvFd3Pr2lw2WrTy3UNsCYQzH5PpWdOhTpycoRs2a1MVVnD2cpXW55V8U9C0rRbHRX0+5aWa5WZp1ZslMbMcfi1GDq1p1akai0VrfiehmuHwdPCYerht5J813fVW+7qSeHvH+n6Q3mjw2bifnEj3uMfQeXxXfJXPDUmjZb4xZH/IuY/7ff/sKy9j5j5xf+Fx/u9v/AAjg+v23/wCwoVLzDnOx+Fn7T1x4Gubtl8H/AG+C52kxf2n5e1hnnPlHt7dqap2ldMXNpY6Xxt+2Vd+ItJGmweAEsYXfNxu1YTeamPucwDAzjPXOMVr1TEnY5Dwh+0i/hrVZriz8Hn7BOhEtguqbYy2ch1/dHaRyMAYOaKl6iSb2Lc7nI6z8Wor7Vbq8h8NfZo533iL7bu2nAzz5Yzzk9O9YqlbqLnKZ+JwwMaHg/wDX3/8AYU/ZeYcwknxM3qR/YmM/9PX/ANhR7LzFzHLeKdeXXDat9j+ztAhUnzd24cY7DHQ/nVxjyibuf//Z",
+                "teaser": "ฟิลด์: เราเป็นบริษัทดำเนินงานด้วยจริยธรรม เพราะเป็นสิ่งที่ถูกต้องและเป็นส่วนหนึ่งของดีเอ็นเอของเรา ดังนั้น สิ่งนี้จะไม่เป็นเพียงคำขวัญขององค์กร หรือเป็นเพียงข้อความที่พิมพ์อยู่บนกระดาษเท่านั้น แต่จะเป็นส่วนหนึ่งในชีวิตประจำวันของเรา และจะเป็นส่วนหนึ่งของวัฒนธรรม One Ford",
+                "message": "<p><a class='blue-link' href=\"javascript:window.open('http://www.at.ford.com/news/multimedia/pages/default.aspx?t=v&n=1631','_blank')\">View Mark's Video</a></p><p><b>ฟิลด์:</b> เราเป็นบริษัทดำเนินงานด้วยจริยธรรม เพราะเป็นสิ่งที่ถูกต้องและเป็นส่วนหนึ่งของดีเอ็นเอของเรา ดังนั้น สิ่งนี้จะไม่เป็นเพียงคำขวัญขององค์กร หรือเป็นเพียงข้อความที่พิมพ์อยู่บนกระดาษเท่านั้น แต่จะเป็นส่วนหนึ่งในชีวิตประจำวันของเรา และจะเป็นส่วนหนึ่งของวัฒนธรรม One Ford</p><p><b>ผู้บรรยาย:</b>  การทำสิ่งที่ถูกต้องถือเป็นหัวใจสำคัญของความสำเร็จ และยังเป็นองค์ประกอบที่สำคัญในกระบวนการการตรวจสอบแผนธุรกิจของฟอร์ด หรือที่เรียกกันว่า BPR การทำ BPR จะเป็นการรวบรวมข้อมูลจากทุกแผนกของบริษัท และนำเสนอต่อทีมผู้บริหาร</p><p><b>ฟิลด์:</b> เรารวบรวมข้อมูลทั้งหมดที่ได้รับและนำมาปรับให้เป็นแผนกลยุทธ์ จากนั้นเราจะนำกลยุทธ์เหล่านั้นมาปรับใช้เป็นแผนธุรกิจอีกครั้งหนึ่ง</p><p><b>ผู้บรรยาย:</b>  เพื่อให้การดำเนินธุรกิจเป็นไปอย่างสัมฤทธิ์ผลมากที่สุด ทุกคนควรปฏิบัติตามนโยบายและกฎข้อบังคับต่างๆ  นอกจากนี้พนักงานและผู้บริหารทุกระดับ เรายังต้องทำงานด้วยความโปร่งใสเพื่อให้ธุรกิจดำเนินไปในทิศทางที่ถูกต้อง</p><p><b>ฟิลด์:</b>  มันคือสิ่งสำคัญที่เราต้องมั่นใจว่าเรามีความโปร่งใส เพราะนั่นคือวิธีการที่เราทำงานร่วมกัน ไม่ว่าจะเป็นการสร้างโอกาสทางธุรกิจใหม่ๆ หรือในการแก้ไขปัญหาต่างๆ ดังนั้น การปฏิบัติตามกฎ จริยธรรม และความโปร่งใส คือพื้นฐานสำคัญของกระบวนการตรวจสอบแผนธุรกิจ</p><p><b>ผู้บรรยาย:</b> การฝ่าฝืนนโยบายและหลักปฏิบัติของบริษัท อาทิ การหาช่องทางลัดในการทำงานให้เสร็จตามกำหนด หรือเพื่อให้ได้รับอนุมัติ หรือได้ไฟเขียวในกระบวนการตรวจสอบแผนธุรกิจนั้นไม่ใช่การกระทำที่ถูกต้อง การปกปิด หรือปิดบังข้อมูลอาจสร้างความเสียหาย หรือนำหายนะมาสู่ธุรกิจของเราได้</p><p><b>ฟิลด์:</b> ทุกคนรู้ดีว่าไม่สามารถเก็บความลับไปได้ตลอด คุณอาจจะแสร้งทำให้บางสิ่งดูเหมือนถูกต้อง แต่ท้ายที่สุดความจริงก็ต้องเปิดเผยออกมา จะต้องมีบางอย่างบอกเราว่า “นี่ เรามีปัญหาแล้วนะ” ดังนั้น เราจำเป็นที่จะมองให้เห็นถึงปัญหาก่อนที่มันจะเกิดเพื่อที่จะรับมือกับมันได้ และไม่ควรปล่อยจนปัญหาลุกลาม กลายเป็นเรื่องใหญ่และเกินกว่าที่จะรับมือได้ในภายหลัง การยกประเด็นปัญหาขึ้นมาพูดคุยอย่างโปร่งใสและเปิดเผยไม่ใช่เรื่องที่ผิด และเราจะช่วยกันหาทางออกในการแก้ไขปัญหานั้นๆร่วมกัน</p><p><b>ผู้บรรยาย:</b>  หากคุณห็นว่านโยบาย หรือแนวทางการปฎิบัติใดควรมีการปรับ หรือเห็นว่าไม่เหมาะสม กรุณาแจ้งให้เราทราบ<p><b>ฟิลด์: </b> หากคุณเห็นสิ่งผิดปกติในการทำงานของคุณ หรือเล็งเห็นว่าปัญหากำลังจะเกิดขึ้น กรุณาแจ้งให้เราทราบ เพื่อที่เราจะป้องกันปัญหานั้นได้อย่างทันท่วงที การกระทำนี้จะช่วยเสริมสร้างประสิทธิภาพธุรกิจของเราให้ดีขึ้น รวมถึงเพิ่มความพึงพอใจให้กับลูกค้า และผมเชื่อว่า นี่จะทำให้ชื่อเสียงบริษัทของเราดีขึ้นด้วยเช่นกัน</p><p><b>ผู้บรรยาย: </b> นี่คือเหตุผลที่ทำไมเราต้องยึดมั่นในการก้าวไปข้างหน้า หรือ Go Further ในทางที่ถูกต้อง และด้วยหลักปฏิบัตินี้เองที่ทำให้ฟอร์ดได้รับการยอมรับจากสถาบัน เอธิสเฟียร์ว่าเป็นบริษัทที่มีจริยธรรมสูงสุดในโลก ติดต่อกันเป็นระยะเวลา 5 ปีซ้อน</p><p><b>ฟิลด์: </b> นี่คือความภาคภูมิใจของเราในฐานะองค์กร  เมื่อรายงานของผู้บริโภค เจ ดี พาวเวอร์ดูคะแนนด้านคุณภาพของเราจากรายงานของสถาบันเอธิสเฟียร์และตั้งคำถามว่า “เราทำได้อย่างไร?” ผมเห็นว่านี่คือเครื่องชี้ให้เห็นว่าทีมบริหารของเราให้ความสำคัญกับเรื่องจริยธรรมอย่างจริงจัง และบริษัทของเราก็ให้ความสำคัญกับเรื่องนี้กันอย่างจริงจังด้วยเช่นกัน</p><p><b>ผู้บรรยาย: </b> คุณควรภาคภูมิใจในชื่อเสียงของบริษัท หากคุณมีข้อกังวลที่เกี่ยวกับการละเมิดกฎข้อบังคับแจ้งฝ่ายทรัพยากรบุคคล GAO หรือ OGC หรือรายงานต่อสำนักงานฝ่ายกำกับดูแลการปฏิบัติงานได้ที่ fordlaw@ford.com  หรือส่งข้อสงสัย หรือข้อกังวลของคุณมาทางเว็บไซต์ @FORDONLINE โดยไม่ต้องลงชื่อ เพื่อให้เราทุกคนพร้อมใจกันเดินหน้าสู่ความสำเร็จ…อย่างถูกต้อง</p>"
+            }
+        ]
+    },
+    {
+        "pageKey": "search"
+    },
+    {
+        "pageKey": "contact-for-questions",
+        "title": "ข้อมูลติดต่อและอ้างอิง ",
+        "template": "contact-grid",
+        "controller": "contact-grid",
+        "information": "",
+        "items": [
+            {
+                "reference": "gifts-favors",
+                "nextPage": "ps-gifts-favors-quick-ref"
+            },
+            {
+                "reference": "meals-travels",
+                "nextPage": "ps-meals-travels-quick-ref"
+            },
+            {
+                "reference": "conflicts-of-interest",
+                "nextPage": "ps-conflicts-of-interest-quick-ref"
+            },
+            {
+                "reference": "company-assets",
+                "nextPage": "ps-company-assets-quick-ref"
+            },
+            {
+                "reference": "anti-bribery-corruption",
+                "nextPage": "ps-anti-bribery-corruption-quick-ref"
+            },
+            {
+                "reference": "it-security-and-privacy",
+                "nextPage": "ps-it-security-and-privacy-quick-ref"
+            },
+            {
+                "reference": "working-together",
+                "nextPage": "ps-working-together-quick-ref"
+            },
+            {
+                "reference": "tips-for-managers",
+                "nextPage": "ps-tips-for-managers-quick-ref"
+            }
+        ]
+    },
+    {
+        "pageKey": "nominal-value",
+        "controller": "static",
+        "template": "static",
+        "descriptionContent": "<p align='center'><strong>Nominal Value Amounts by Country (January 2016)</strong><p align='center'><strong>For Gifts or Favors under Directive A-107</strong><table class='nominal-table' border='1' cellspacing='0' cellpadding='0' align='left'><tbody><tr class='table-head'><td><strong>COUNTRY</strong></td><td><strong>NOMINAL VALUE</strong></td></tr><tr><td>Australia</td><td>$50 or less</td></tr><tr><td>Austria</td><td>&#8364;50 or less</td></tr><tr><td>Belgium</td><td>&#8364;50 or less</td></tr><tr><td>Brazil</td><td>R$90 Reais or less</td></tr><tr><td>Canada</td><td>$50 or less</td></tr><tr><td>China</td><td>200 RMB or less</td></tr><tr><td>Czech Republic</td><td>&#8364;50 or less</td></tr><tr><td>Denmark</td><td>&#8364;50 or less.</td></tr><tr><td>Finland</td><td>&#8364;50 or less</td></tr><tr><td>Ford Credit Europe</td><td>&#8364;50 or less</td></tr><tr><td>France</td><td>&#8364;50 or less</td></tr><tr><td>Germany</td><td>&#8364;50 or less</td></tr><tr><td>Greece</td><td>&#8364;50 or less</td></tr><tr><td>Hungary</td><td>&#8364;50 or less</td></tr><tr><td>India</td><td>1000 INR (25 USD) or less</td></tr><tr><td>Ireland</td><td>&#8364;50 or less</td></tr><tr><td>Italy</td><td>&#8364;50 or less</td></tr><tr><td>Japan</td><td>5,000 yen or less</td></tr><tr><td>Mexico</td><td>500 pesos or less</td></tr><tr><td>Netherlands</td><td>&#8364;50 or less</td></tr><tr><td>New Zealand</td><td>NZ$50 or less</td></tr><tr><td>Norway</td><td>&#8364;50 or less</td></tr><tr><td>Philippines</td><td>1000 phb or less</td></tr><tr><td>Poland</td><td>PLN 200 or less</td></tr><tr><td>Portugal</td><td>&#8364;50 or less</td></tr><tr><td>Romania</td><td>100 Lei or less</td></tr><tr><td>Russia</td><td>1,250 RUR or less</td></tr><tr><td>South Africa</td><td>320 R or less</td></tr><tr><tr><td>South Korea</td><td>₩ 50,000</td></tr><tr><td>Spain</td><td>&#8364;50 or less</td></tr><tr><td>Sweden</td><td>500 SEK or less</td></tr><tr><td>Switzerland</td><td>&#8364;50 or less</td></tr><tr><td>Thailand</td><td>1000 Baht or less</td></tr><tr><td>Turkey</td><td>&#8364;50 or less</td></tr><tr><td>United Kingdom</td><td>&#163;50 or less</td></tr><tr><td>United States</td><td>$50 or less</td></tr><tr><td>Vietnam</td><td>320,000 VND or less</td></tr></tbody></table><p>These guidelines can also be found in the References and Contacts section of Directive A-107.</p>",
+        "title": "Nominal Value Amounts"
+    },
+    {
+        "pageKey": "gift-exceed-policies",
+        "controller": "static",
+        "template": "static",
+        "descriptionContent": "<p>หากคุณได้รับของขวัญที่เกินจากนโยบายของฟอร์ด ทางที่ดีที่สุดคือไม่รับของขวัญชิ้นนั้นหรือคืนกลับไปยังผู้ให้ในนามของบริษัทพร้อมแนบจดหมายสั้น ๆ เพื่อขอบคุณและอธิบายนโยบายของบริษัท นี่คือสิ่งที่ควรกระทำ</p><p>หากไม่สามารถคืนของขวัญนั้นได้ โปรดมอบให้กับบริษัทเพื่อนำไปบริจาคต่อไป สำหรับในประเทศสหรัฐอเมริกา ของขวัญชิ้นนั้นสามารถนำส่งเข้ากองทุนฟอร์ด (Ford Fund) ได้ โปรดตรวจสอบขั้นตอนเฉพาะในแต่ละประเทศหรือภูมิภาคกับเจ้าหน้าที่ฝ่ายทรัพยากรบุคคล</p><p>สุดท้ายนี้ ในกรณีที่ของขวัญนั้นมีเอกลักษณ์เฉพาะตัวและมีความหมายพิเศษ คุณอาจขออนุมัติเป็นกรณียกเว้นโดยจ่ายเงินตามมูลค่าที่เหมาะสมและเก็บของขวัญชิ้นนั้นไว้ โปรดติดต่อขอรายละเอียดขั้นตอนกับเจ้าหน้าที่ฝ่ายทรัพยากรบุคคลในพื้นที่ของคุณ</p><p>คุณสามารถใช้ตัวอย่างเนื้อความต่อไปนี้เพื่อปรับแก้ในการเขียนจดหมายสั้น ๆ เมื่อคืนของขวัญให้กับผู้ให้</p><p><i>ดิฉัน/ผมขอขอบคุณสำหรับ [รายละเอียดของขวัญ] และรู้สึกซาบซึ้งในน้ำใจของคุณที่ได้มอบของขวัญชิ้นนี้ให้กับดิฉัน/ผม อย่างไรก็ตาม ดิฉัน/ผมจำเป็นต้องมอบของขวัญนี้คืนให้กับคุณ และต้องขออภัยเป็นอย่างสูงที่ไม่อาจรับของขวัญชิ้นนี้ไว้ได้ </i></p><p><i>ดังที่คุณอาจทราบแล้วว่าฟอร์ด มอเตอร์ คัมปะนี เป็นบริษัทข้ามชาติที่มีนโยบายอย่างชัดแจ้งว่าด้วยเรื่องของขวัญซึ่งบังคับใช้กับพนักงานทุกคนทั่วโลก ของขวัญที่คุณมอบให้นั้นมีมูลค่าเกิน [ใส่จำนวนเงินที่จำกัดตามสกุลเงินในแต่ละประเทศ] ตามที่นโยบายของบริษัทกำหนดไว้ ด้วยเหตุนี้ ดิฉัน/ผมจึงจำเป็นต้องขอส่งมอบคืนให้กับคุณ </i></p><p><i>ขอขอบคุณล่วงหน้าในความเข้าใจของคุณมา ณ โอกาสนี้</i></p>",
+        "title": "ของขวัญที่เกินจากนโยบายของฟอร์ด"
+    },
+    {
+        "pageKey": "feedback",
+        "controller": "feedback",
+        "template": "feedback",
+        "title": "คำติชมแอพ",
+        "descriptionContent": "เรายินดีรับฟังคำติชมจากคุณหลังจากที่คุณได้ใช้งานแอพพลิเคชั่นThe Right Way แล้ว คุณสามารถส่งอีเมลถึงเราได้โดยไปที่ส่วนข้อมูลติดต่อและการอ้างอิง แล้วคลิกลิงก์ในส่วนนั้น",
+        "mail": "fordlaw@ford.com?subject=คำติชมแอพ"
+    },
+    {
+        "pageKey": "news-updates",
+        "controller": "news-updates",
+        "template": "news-updates",
+        "title": "New Updates"
+    }
+]

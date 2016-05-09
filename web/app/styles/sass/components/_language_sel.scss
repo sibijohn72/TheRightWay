@@ -110,3 +110,9 @@
 		  z-index: 1001;
 	}
 }
+
+@media screen  and (min-width : 768px) and (max-width : 1024px){
+	.langsectn-content h2{
+	font-size: 20px;
+	}
+}
