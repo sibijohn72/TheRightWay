@@ -8,7 +8,7 @@
 				<div id="sl-search-Activity" class="search-cmpnt">
                     <form ng-submit="vEvents.searchApp()">
                         <input type="text" name="searchActivity" id="activity-search-input"
-                        placeholder="What would you like to search?"
+                        placeholder="{{staticLabels.whatToSearch}}"
                         ng-model="vModel.searchText" class="input">
                         <input type="submit" id="activity-icon-search" value = "" class="button sl-icon-search" />
 <!--
@@ -21,7 +21,7 @@
 					<img src="assets/images/logo_text.png" class="home-logo">
 				</div>
 				<div class="news-updates">
-					<span ng-click="vEvents.getNewsFeeds()" class="news-heading">Compliance News Updates</span>
+					<span ng-click="vEvents.getNewsFeeds()" class="news-heading">{{staticLabels.complianceNewsUpdates}}</span>
 					<div class="tweet-cnt" ng-show="vModel.twitterContent">
 						<div class="content-div"
 						style="background-image: url('{{vModel.tweet.icon}}')" ng-click="vEvents.showTweet()">

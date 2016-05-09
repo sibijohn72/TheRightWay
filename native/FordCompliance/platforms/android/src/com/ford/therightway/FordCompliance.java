@@ -232,12 +232,13 @@ public class FordCompliance extends CordovaActivity {
 		String[] marketVersionNumber = MarketVersionName.split("\\.");
 		String[] existingVersionNumber = ExistingVersionName.split("\\.");
 		boolean isLatest = true;
-		for (int i = 0; i < 3; i++) {
+		for (int i = 0; i < 3 ; i++) {
 			if (Integer.parseInt(marketVersionNumber[i]) > Integer
 					.parseInt(existingVersionNumber[i])) {
 				isLatest = false;
 				break;
 			}
+			
 		}
 
 		if (!isLatest) {

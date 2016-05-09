@@ -3,18 +3,18 @@ angular.module('fcApp')
     var appJson = JSON.parse(localStorage.getItem('appJson'));
     var indexes = appJson.findBy('pageKey', 'search-page-keys').keys;
     var keys = appJson.findBy('pageKey', 'search-key-words').keys;
-
+	var staticKeys = appJson.findBy('pageKey', 'static-labels').items;	
     $scope.vModel = {
     	searchText: '',
-    	title: 'Search'
+    	title: staticKeys.search		
     };
 
     $scope.vEvents = {
     	searchApp: function() {
             $(".search-txt").blur();
     		var searchText = $scope.vModel.searchText.trim();
-    		if(!searchText) {
-                NativeService.alert('You must enter a search term.', function(){}, 'The Right Way', 'OK');
+    		if(!searchText) {				
+                NativeService.alert(staticKeys.nullSearchAlert, function(){}, staticKeys.rightWayTitle, staticKeys.okButtonText);
     		} else {
     			localStorage.setItem('searchTerm', searchText);
 
@@ -41,7 +41,7 @@ angular.module('fcApp')
     				$scope.vModel.items = results;
     			} else {
     				$scope.vModel.items = [];
-    				NativeService.alert('No results were found.', function(){}, 'The Right Way', 'OK');
+    				NativeService.alert(staticKeys.noResultAlert, function(){}, staticKeys.rightWayTitle, staticKeys.okButtonText);
     			}
     		}    		
     	}

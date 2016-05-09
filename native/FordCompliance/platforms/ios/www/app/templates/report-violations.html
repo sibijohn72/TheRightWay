@@ -4,7 +4,7 @@
 		<div ng-include ng-model="vModel" src="'app/templates/header.html'" class="header-container content-header-raw-fix"></div>
 		<div class="content-container">
 			<div class="content-scroller report-violation inner" zoomer>
-				<p class="report-question">From which region are you reporting?</p>
+				<p class="report-question">{{staticLabels.reportingRegion}}</p>
 				<ul>
 					<li class="exec-list-row" ng-repeat="item in vModel.items" ng-click="vEvents.rvPopupOpen($index)">
 						<span class="list-text" >{{item.region}}</span>

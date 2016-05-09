@@ -2,6 +2,7 @@ angular.module('fcApp').controller('SlideMenuController', ['$scope', '$rootScope
 function($scope, $rootScope, $location, ENV, NativeService) {
 
 	var appJson = JSON.parse(localStorage.getItem('appJson'));
+	var staticKeys = appJson.findBy('pageKey', 'static-labels').items;	
 	$scope.vModel = {
 		menuItems : appJson.findBy('pageKey', 'slide-menu').items
 	};
@@ -26,7 +27,7 @@ function($scope, $rootScope, $location, ENV, NativeService) {
                         window.open(response, "_system", "location=no");
                     }
                 }, function(e){
-                    navigator.notification.alert(ENV.errorMsg, null, 'The Right Way', 'Cancel');
+                    navigator.notification.alert(staticKeys.errorMsg, null, staticKeys.rightWayTitle, staticKeys.cancelButtonText);
                 });  
             }
 		}

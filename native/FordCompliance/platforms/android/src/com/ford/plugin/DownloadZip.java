@@ -15,7 +15,7 @@ import android.content.SharedPreferences;
 public class DownloadZip extends CordovaPlugin implements TaskListener {
 	public CallbackContext _callbackContext;
 	private ProgressDialog _progress;
-
+	private String DOWNLOAD_CONTENT_TEXT = "Downloading Content";
 	@Override
 	public boolean execute(String action, JSONArray args,
 			CallbackContext callbackContext) throws JSONException {
@@ -28,7 +28,7 @@ public class DownloadZip extends CordovaPlugin implements TaskListener {
 			editor.putInt("LANGUAGE_VERSION", args.getInt(2));
 			editor.commit();
 			_progress = new ProgressDialog(cordova.getActivity());
-			_progress.setMessage("Downloading Content...");
+			_progress.setMessage(DOWNLOAD_CONTENT_TEXT);
 			_progress.setProgressStyle(ProgressDialog.STYLE_SPINNER);
 			_progress.setIndeterminate(true);
 			_progress.setCancelable(false);

@@ -1,6 +1,7 @@
 angular.module('fcApp').controller('HomeController', function($scope, $routeParams, $location, NativeService, ENV, $rootScope, $timeout) {
 	var appJson = JSON.parse(localStorage.getItem('appJson'));
 	var pageData = appJson.findBy('pageKey', 'exec-messages');
+	var staticKeys = appJson.findBy('pageKey', 'static-labels').items;	
 	$scope.vModel = {
 		title : appJson.findBy('pageKey', $routeParams.pageKey).title,
 		searchText : '',
@@ -61,8 +62,8 @@ angular.module('fcApp').controller('HomeController', function($scope, $routePara
             $(".search-txt").blur();
 			var searchText = $scope.vModel.searchText.trim();
 			if(!searchText) {
-				NativeService.alert('You must enter a search term.', function() {
-				}, 'The Right Way', 'OK');
+				NativeService.alert(staticKeys.nullSearchAlert, function() {
+				}, staticKeys.rightWayTitle, staticKeys.okButtonText);
 			} else {
 				localStorage.setItem('searchTerm', searchText);
 				$location.path('/search');
@@ -73,9 +74,9 @@ angular.module('fcApp').controller('HomeController', function($scope, $routePara
 		},
 		getNewsFeeds : function() {
 			if(navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry|IEMobile)/)) {
-				jsonPath = ENV.serverPath + 'news.html';
+				jsonPath = ENV.serverPath + 'news-'+localStorage.getItem('appLanguage')+'.html';
 			} else {
-				jsonPath = ENV.bundlePath + 'news.html';
+				jsonPath = ENV.bundlePath + 'news-'+localStorage.getItem('appLanguage')+'.html';
 			}
 			window.open(jsonPath, '_blank', 'location=yes,EnableViewPortScale=yes');
 		},

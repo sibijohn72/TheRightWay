@@ -2,7 +2,7 @@ angular.module('fcApp').controller('CanIController', function($scope, $routePara
 	var appJson = JSON.parse(localStorage.getItem('appJson'));
 	var pageData = appJson.findBy('pageKey', $routeParams.pageKey);
 	pageData = appJson.findBy('pageKey', pageData.reference);
-
+	var staticKeys = appJson.findBy('pageKey', 'static-labels').items;	
 	var index = 0;
 
 	$scope.vModel = {
@@ -10,7 +10,7 @@ angular.module('fcApp').controller('CanIController', function($scope, $routePara
 		items : pageData['can-i'],
 		reminder : pageData.canIReminder
 	};
-
+	
 	$scope.selectChange = function(index) {
 		var newIndex = index + 1;
 		var selectedItem = $scope.$eval('selectedItem' + index);
@@ -32,11 +32,10 @@ angular.module('fcApp').controller('CanIController', function($scope, $routePara
 
 			if(text) {
 				template += '<div class="cani-txt-contnt">' + text + '</div>';
-			}
-
+			}			
 			if(selectedItem.items) {
 				template += '<span class="fields"><select ng-model="selectedItem' + newIndex + '" ng-change="selectChange(' + newIndex + ')" ng-options="item.title for item in ' + 'selectedItem' + index + '.items">';
-				template += '<option value="">Select an option</option></select> </span>';
+				template += '<option value="">'+staticKeys.selectAnOption+'</option></select> </span>';
 			}
 		}
 		$('.content-scroller').append($compile(template)($scope));

@@ -70,6 +70,32 @@ angular.module('fcApp').controller('LanguageSelectController', function($scope, 
 		});
 
 	};
+
+	$scope.checkStaticLables			= function(){		
+
+
+		if(!$rootScope.staticLabels){
+			if(localStorage.getItem('appJson')){
+				if(JSON.parse(localStorage.getItem('appJson')).findBy('pageKey', 'static-labels'))
+					$rootScope.staticLabels = JSON.parse(localStorage.getItem('appJson')).findBy('pageKey', 'static-labels').items;
+			}
+			else{
+				$rootScope.staticLabels 	= {
+
+					"settings" 				: "Settings",
+					"languageSettings" 		: "Language Settings",
+					"new" 					: "New",
+					"viewTermsAndConditions": "View Terms and Conditions",
+					"submit" 				: "Submit"
+				}	
+			}				
+			
+		}	
+						
+		
+	};
+
 	$scope.fetchLanguages();
+	$scope.checkStaticLables();
 
 });
