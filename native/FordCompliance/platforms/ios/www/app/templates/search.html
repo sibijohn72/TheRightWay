@@ -5,9 +5,9 @@
             <div class="content-scroller" zoomer>
                 <div id="" class="search-cntr">
                     <form ng-submit = "vEvents.searchApp()">
-                        <p class="search-cntr-p">What would you like to search?</p>
-                        <input type="text" class="search-txt" ng-model="vModel.searchText" placeholder="Type in the word(s) you would like to search"/>
-                        <button type="submit" class="btn blue search-btn">Search</button>
+                        <p class="search-cntr-p">{{staticLabels.whatToSearch}}</p>
+                        <input type="text" class="search-txt" ng-model="vModel.searchText" placeholder="{{staticLabels.typeToSearch}}"/>
+                        <button type="submit" class="btn blue search-btn">{{staticLabels.search}}</button>
                     </form>
                 </div>
                 <ul class="search-list">

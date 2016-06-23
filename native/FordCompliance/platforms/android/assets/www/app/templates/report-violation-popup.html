@@ -3,12 +3,11 @@
 	<div class="ngdialog">
 		<div class="ngdialog-message">
 			<div class="rv-popup-title" ng-show="vModel.items[rvIndex].region">
-				Region-{{vModel.items[rvIndex].region}}
+				{{staticLabels.region}}-{{vModel.items[rvIndex].region}}
 			</div>
 			<ul>
 				<li ng-show="vModel.items[rvIndex].email">
-					<a class="rv-popup-email" href="mailto:{{vModel.items[rvIndex].email}}">Report violation
-					through email</a>
+					<a class="rv-popup-email" href="mailto:{{vModel.items[rvIndex].email}}">{{staticLabels.reportViolationMail}}</a>
 				</li>
 				<hr class="rv-popup-hr"
 				ng-show="vModel.items[rvIndex].email != undefined && vModel.items[rvIndex].phone != undefined" />
@@ -19,7 +18,7 @@
 			</ul>
 		</div>
 		<div class="rv-popup-close .ngdialog-close" ng-click="vEvents.rvPopupClose()">
-			Close
+			{{staticLabels.close}}
 		</div>
 	</div>
 </div>

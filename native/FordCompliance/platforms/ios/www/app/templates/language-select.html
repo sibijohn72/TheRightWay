@@ -2,27 +2,27 @@
 	<div class="langselection-layout">
 		<div class="header-container">
 			<span ng-hide="vModel.hideBack" id="back-btn" class="back-btn" ng-click="$root.globalEvents.goBack()"></span>
-			<h2>Settings</h2>
+			<h2>{{staticLabels.settings}}</h2>
 		</div>
 		<div class="content-container">
 			<div class="content-scroller language-background">
 				<div class="langsectn-content">
-					<h2>Language Settings</h2>
+					<h2>{{staticLabels.languageSettings}}</h2>
 					<ul class="languages">
 						<li class="lang-item" ng-repeat="item in vModel.languages">
-							<label class="lang-item-label"> <span>{{item.name}}<span ng-show='item.isNew' class="lang-item-new">New</span></span>
+							<label class="lang-item-label"> <span>{{item.name}}<span ng-show='item.isNew' class="lang-item-new">{{staticLabels.new}}</span></span>
 								<input ng-model="vModel.selectedLanguage" type="radio" class="radio-input" value="{{item.code}}"/>
 								<span class="circle"></span> </label>
 						</li>
 					</ul>
 				</div>
 				<span class="tc-btn-span" ng-show="vModel.showTcLink" ng-click="vEvents.showLongTc()">
-					<a class="tc-btn">View Terms and Conditions</a>
+					<a class="tc-btn">{{staticLabels.viewTermsAndConditions}}</a>
 				</span>
 			</div>
 			<div class="footer-container">
 				<button class="btn blue" ng-click="vEvents.initApp()">
-					Submit
+					{{staticLabels.submit}}
 				</button>
 			</div>
 		</div>

@@ -24,14 +24,24 @@ public class DownloadPdf extends CordovaPlugin implements TaskListener {
 	public CallbackContext _callbackContext;
 	private String _filePath = "";
 	private ProgressDialog _progress;
-	private String ALERT_MESSAGE = "This function will download a copy of the Code of Conduct Handbook onto your device.  It is approximately 6MB.  Do you want to proceed with the download? ";
-
+	private String ALERT_MESSAGE 		= "This function will download a copy of the Code of Conduct Handbook onto your device.  It is approximately 6MB.  Do you want to proceed with the download?";
+	private String APP_TITLE	 		= "The Right Way";
+	private String DOWNLOAD_BUT_TEXT 	= "Download";
+	private String CANCEL_BUT_TEXT		= "CANCEL";
+	private String PROGRESS_MSG			= "Downloading Code of Conduct Handbook...";
 	@Override
 	public boolean execute(String action, JSONArray args,
 			CallbackContext callbackContext) throws JSONException {
 		if (action.equals("DownloadFile")) {
+			
+			ALERT_MESSAGE 		= args.getJSONArray(2).getString(0);
+			PROGRESS_MSG 		= args.getJSONArray(2).getString(1);
+			APP_TITLE 			= args.getJSONArray(2).getString(2);
+			DOWNLOAD_BUT_TEXT	= args.getJSONArray(2).getString(3);
+			CANCEL_BUT_TEXT		= args.getJSONArray(2).getString(4);
+			
 			_progress = new ProgressDialog(cordova.getActivity());
-			_progress.setMessage("Downloading Code of Conduct Handbook...");
+			_progress.setMessage(PROGRESS_MSG);
 			_progress.setProgressStyle(ProgressDialog.STYLE_SPINNER);
 			_progress.setIndeterminate(true);
 			_progress.setCancelable(false);
@@ -44,16 +54,16 @@ public class DownloadPdf extends CordovaPlugin implements TaskListener {
 			File file = new File(_filePath);
 			if (!file.exists() || args.getBoolean(1)) {
 				new AlertDialog.Builder(cordova.getActivity())
-						.setTitle("The Right Way")
+						.setTitle(APP_TITLE)
 						.setMessage(ALERT_MESSAGE)
-						.setPositiveButton("Download",
+						.setPositiveButton(DOWNLOAD_BUT_TEXT,
 								new DialogInterface.OnClickListener() {
 									public void onClick(DialogInterface dialog,
 											int which) {
 										new DownloadPDF().execute(fileName);
 									}
 								})
-						.setNegativeButton("Cancel",
+						.setNegativeButton(CANCEL_BUT_TEXT,
 								new DialogInterface.OnClickListener() {
 									public void onClick(DialogInterface dialog,
 											int which) {

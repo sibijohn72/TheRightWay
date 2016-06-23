@@ -3,10 +3,10 @@
 		<div ng-include ng-model="vModel" src="'app/templates/header.html'" class="header-container"></div>
 		<div class="content-container">
 			<div class="exec-content content-scroller cani-scroller" zoomer>
-			<div class="cani-sub-heading">Remember: {{vModel.reminder}}</div>
+			<div class="cani-sub-heading">{{staticLabels.remember}}: {{vModel.reminder}}</div>
 				<span class="fields">
 					<select ng-model="selectedItem0" ng-change="selectChange(0)" ng-options="item.title for item in vModel.items">
-						<option value="">Select an option</option>
+						<option value="">{{staticLabels.selectAnOption}}</option>
 					</select>
 				</span>
 			</div>

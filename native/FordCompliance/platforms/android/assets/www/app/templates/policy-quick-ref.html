@@ -14,8 +14,7 @@
 						ng-class="{arrow:item.link.length=='0'}" href="{{item.link}}"><p
 								ng-bind-html="vEvents.parseHtml(item.title)"></p></a></li>
 				</ul>
-				<p class="quick-ref-message">When you have access to the Ford
-					intranet you can review these resources:</p>
+				<p class="quick-ref-message">{{staticLabels.fordIntranetAccess}}:</p>
 				<ul class="ref-docs">
 					<li class="list-arrow" ng-repeat="item in vModel.docs"><a
 						class="list-arrow-txt quick-ref-anchor"

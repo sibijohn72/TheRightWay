@@ -6,7 +6,7 @@ angular.module('fcApp.directives', []);
 
 angular.module('fcApp', ['ngRoute', 'config', 'fcApp.filters', 'fcApp.services', 'fcApp.directives', 'ngTouch']).run(['$rootScope', 'NativeService', '$location', 'ENV', '$http', '$timeout', '$route',
 function($rootScope, NativeService, $location, ENV, $http, $timeout, $route) {
-
+	
 	$rootScope.globalEvents = {
 		toggleMenu : function() {
 		    if($rootScope.globalModel.isMenuOpen){
@@ -25,15 +25,22 @@ function($rootScope, NativeService, $location, ENV, $http, $timeout, $route) {
 	};
 
 	$rootScope.globalModel = {
-		isMenuOpen : false
+		isMenuOpen : false,
+		selectedLanguage : 'en'
 	};
-
-	$rootScope.bundleCall = function(selectedLanguage) {
+	
+	$rootScope.bundleCall = function(selectedLanguage) {		
 		localStorage.setItem('appLanguagePack', JSON.stringify(selectedLanguage));
 		NativeService.fetchJsonBundle(selectedLanguage, function(response) {
 			localStorage.setItem('appJson', JSON.stringify(response));
 			localStorage.setItem('appLanguage', selectedLanguage.code);
-			localStorage.setItem('appLanguageVersion', selectedLanguage.version);
+			localStorage.setItem('appLanguageVersion', selectedLanguage.version);			
+			if(localStorage.getItem('appJson'))
+				$rootScope.staticLabels = JSON.parse(localStorage.getItem('appJson')).findBy('pageKey', 'static-labels').items;
+			
+			if(localStorage.getItem('appJson'))
+				$rootScope.globalModel.selectedLanguage = localStorage.getItem('appLanguage');
+			
 			if($location.path() == '/home') {
                 $route.reload();
 			} else {
@@ -118,15 +125,14 @@ function($rootScope, NativeService, $location, ENV, $http, $timeout, $route) {
 			return p += n.charAt(0).toUpperCase() + n.slice(1)
 		}, '');
 	}
-
+	
 	//This will fetch the language json in the background and see if a new version of the bundle is available.
 	$rootScope.checkContentUpdate = function () {
 		$rootScope.syncInProgress = true;
 		var jsonPath = "";
 		var selectedLanguage = JSON.parse(localStorage.getItem('appLanguagePack'));
 		var langCode = localStorage.getItem('appLanguage');
-		var langVersion = localStorage.getItem('appLanguageVersion');
-
+		var langVersion = localStorage.getItem('appLanguageVersion');		
 		if(langCode) {
 			if(navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry|IEMobile)/)) {
 				jsonPath = ENV.serverPath + 'languages.json';
@@ -155,5 +161,9 @@ function($rootScope, NativeService, $location, ENV, $http, $timeout, $route) {
                               var str = a[0].split('(')[0] + "(0px,";
                               for(var i =1 ; i<a.length;i++){str= str+" "+a[i]}
                               $("div[zoomer]")[0].style.webkitTransform = str;
-    }, false);
+    }, false);	
+	if(localStorage.getItem('appJson'))
+		$rootScope.staticLabels = JSON.parse(localStorage.getItem('appJson')).findBy('pageKey', 'static-labels').items;
+	if(localStorage.getItem('appJson'))
+		$rootScope.globalModel.selectedLanguage = localStorage.getItem('appLanguage');
 }]);

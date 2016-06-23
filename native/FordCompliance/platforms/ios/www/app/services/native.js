@@ -4,7 +4,7 @@ angular.module('fcApp.services').factory('NativeService', ['ENV', '$http', '$tim
 function(ENV, $http, $timeout, $rootScope) {
     return {
 
-        alert : function(message, alertCallback, title, buttonText) {
+        alert : function(message, alertCallback, title, buttonText) {			
             if(navigator.notification) {
                 navigator.notification.alert(message, alertCallback, title, buttonText);
             } else {
@@ -16,7 +16,7 @@ function(ENV, $http, $timeout, $rootScope) {
             if(navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry|IEMobile)/)) {
                 cordova.exec(function(result) {
                     localStorage.setItem('bundle-url', result);
-                    $http.get(result + "app.json"  + "?" + new Date(), {cache: false}).success(successCb);
+                    $http.get(result + selectedLanguage.code+ "/app.json"  + "?" + new Date(), {cache: false}).success(successCb);
                 }, function(error) {
                     errorCb();
                 }.bind(this), "DownloadZip", "DownloadFile", [selectedLanguage.bundlePath, selectedLanguage.code, selectedLanguage.version]);
@@ -25,12 +25,14 @@ function(ENV, $http, $timeout, $rootScope) {
             }
         },
         
-        downloadPDFfromUrl: function(url, successCb, errorCb) {
+        downloadPDFfromUrl: function(url, successCb, errorCb) {            
             if(navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry|IEMobile)/)) {
                 $timeout(function() {
                     $rootScope.loading = true;
                 });
                 var forceDownload = false;
+                var staticVariables = JSON.parse(localStorage.getItem('appJson')).findBy('pageKey', 'static-labels').items;
+                var downloadStaticTexts = [staticVariables["donwloadMsg"],staticVariables["downloadProgressMsg"],staticVariables["rightWayTitle"],staticVariables["downloadTxt"],staticVariables["cancelButtonText"]];
                 $http.get(ENV.serverPath + "languages.json?" + new Date()).success(function(response) {
                     var language = response.languages.findBy('code', localStorage.getItem('appLanguage'));
                     if(parseInt(localStorage.getItem('codeOfConductHandbookVersion')) != language.codeOfConductHandbookVersion){
@@ -44,7 +46,7 @@ function(ENV, $http, $timeout, $rootScope) {
                         }
                     }, function(error) {
                         errorCb();
-                    }.bind(this), "DownloadPdf", "DownloadFile", [url, forceDownload]);
+                    }.bind(this), "DownloadPdf", "DownloadFile", [url, forceDownload,downloadStaticTexts]);
                 }).error(function() {
                     $rootScope.loading = false;
                     cordova.exec(function(result) {
@@ -53,7 +55,7 @@ function(ENV, $http, $timeout, $rootScope) {
                         }
                     }, function(error) {
                         errorCb();
-                    }.bind(this), "DownloadPdf", "DownloadFile", [url, forceDownload]);
+                    }.bind(this), "DownloadPdf", "DownloadFile", [url, forceDownload,downloadStaticTexts]);
                 });
             } else {
                 successCb(url);

@@ -29,6 +29,11 @@ MainViewController * mainCtrlr;
     return self;
 }
 
+NSString *appTitle = @"The Right Way";
+NSString *downloadMsg = @"This function will download a copy of the Code of Conduct Handbook onto your device. It is approximately 6MB. Do you want to proceed with the download?";
+NSString *downloadBtText = @"Download";
+NSString *cancelBtText  = @"cancel";
+
 - (void)DownloadFile:(CDVInvokedUrlCommand *)command
 {
     AppDelegate *appDelegate = (AppDelegate*)[UIApplication sharedApplication].delegate;
@@ -37,9 +42,15 @@ MainViewController * mainCtrlr;
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString *path = [paths objectAtIndex:0];
     BOOL forceDownload =[[_command.arguments objectAtIndex:1] boolValue] ;
+    
+    downloadMsg = [[_command.arguments objectAtIndex:2] objectAtIndex:0];
+    appTitle = [[_command.arguments objectAtIndex:2] objectAtIndex:2];
+    downloadBtText = [[_command.arguments objectAtIndex:2] objectAtIndex:3];
+    cancelBtText = [[_command.arguments objectAtIndex:2] objectAtIndex:4];
+    
     NSString *zipPath = [path stringByAppendingPathComponent:@"coc.pdf"];
     if (![[NSFileManager defaultManager] fileExistsAtPath:zipPath] || forceDownload) {
-        UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"The Right Way" message:@"This function will download a copy of the Code of Conduct Handbook onto your device. It is approximately 6MB. Do you want to proceed with the download?" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Download", nil];
+        UIAlertView *alert = [[UIAlertView alloc]initWithTitle:appTitle message:downloadMsg delegate:self cancelButtonTitle:cancelBtText otherButtonTitles:downloadBtText, nil];
         [alert show];
     }else{
         CDVPluginResult* pluginResult = nil;

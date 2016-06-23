@@ -25,3 +25,13 @@
 	font-size: 14px;
     bottom: 0px;
 }
+
+
+@media screen  and (min-width : 768px) and (max-width : 1024px){
+.report-violation.content-scroller {
+	font-size: 20px;
+	}
+	.report-violn-layout p {
+	font-size: 20px;
+	}
+}
