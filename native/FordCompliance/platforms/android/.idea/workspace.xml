@@ -1,262 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="5476e038-2952-45f3-95be-0c14965fe1d3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/AbstractHttpInputStream.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/AbstractHttpInputStream.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/AbstractOutputStream.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/AbstractOutputStream.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/Address.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/Address.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/App$1.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/App$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/App$2.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/App$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/App$3.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/App$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/App$4.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/App$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/App$5.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/App$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/App.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/App.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/AuthenticationToken.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/AuthenticationToken.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/Base64.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/Base64.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/BuildConfig.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/BuildConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CallbackContext.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CallbackContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/Config.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/Config.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/ConfigXmlParser.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/ConfigXmlParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/Connection.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/Connection.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/ConnectionPool$1.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/ConnectionPool$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/ConnectionPool$2.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/ConnectionPool$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/ConnectionPool.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/ConnectionPool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaActivity$1.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaActivity$2.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaActivity$3.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaActivity$4$1.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaActivity$4$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaActivity$4.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaActivity$5$1.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaActivity$5$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaActivity$5.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaActivity.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaArgs.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaArgs.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaBridge.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaBridge.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaChromeClient$1.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaChromeClient$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaChromeClient$2.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaChromeClient$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaChromeClient$3.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaChromeClient$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaChromeClient$4.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaChromeClient$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaChromeClient$5.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaChromeClient$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaChromeClient$6.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaChromeClient$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaChromeClient$7.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaChromeClient$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaChromeClient$8.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaChromeClient$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaChromeClient$9.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaChromeClient$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaChromeClient.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaChromeClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaInterface.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaInterface.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaPlugin.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaPlugin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaPreferences.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaPreferences.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaResourceApi$OpenForReadResult.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaResourceApi$OpenForReadResult.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaResourceApi.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaResourceApi.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaUriHelper.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaUriHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaWebView$1.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaWebView$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaWebView$2.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaWebView$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaWebView$3.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaWebView$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaWebView$4.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaWebView$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaWebView$ActivityResult.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaWebView$ActivityResult.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaWebView$Level16Apis.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaWebView$Level16Apis.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaWebView.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaWebView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaWebViewClient$1$1.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaWebViewClient$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaWebViewClient$1.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaWebViewClient$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaWebViewClient.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/CordovaWebViewClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/device/Device.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/device/Device.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/DirectoryManager.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/DirectoryManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/DiskLruCache$1.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/DiskLruCache$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/DiskLruCache$2.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/DiskLruCache$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/DiskLruCache$Editor$FaultHidingOutputStream.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/DiskLruCache$Editor$FaultHidingOutputStream.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/DiskLruCache$Editor.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/DiskLruCache$Editor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/DiskLruCache$Entry.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/DiskLruCache$Entry.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/DiskLruCache$Snapshot.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/DiskLruCache$Snapshot.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/DiskLruCache.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/DiskLruCache.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/Dispatcher$RealResponseBody.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/Dispatcher$RealResponseBody.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/Dispatcher.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/Dispatcher.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/tls/DistinguishedNameParser.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/tls/DistinguishedNameParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/Dns$1.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/Dns$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/Dns.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/Dns.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/ford/plugin/DownloadHelper.class" afterPath="$PROJECT_DIR$/bin/classes/com/ford/plugin/DownloadHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/ford/plugin/DownloadZip.class" afterPath="$PROJECT_DIR$/bin/classes/com/ford/plugin/DownloadZip.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/DroidGap.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/DroidGap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/ErrorCode.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/ErrorCode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/ExifHelper.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/ExifHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/ExposedJsApi.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/ExposedJsApi.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/Failure$Builder.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/Failure$Builder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/Failure.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/Failure.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/FaultRecoveringOutputStream.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/FaultRecoveringOutputStream.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/FileHelper.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/FileHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/FordCompliance.apk" afterPath="$PROJECT_DIR$/bin/FordCompliance.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/ford/fordcomplince/FordCompliance.class" afterPath="$PROJECT_DIR$/bin/classes/com/ford/fordcomplince/FordCompliance.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/FrameReader$Handler.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/FrameReader$Handler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/FrameReader.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/FrameReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/FrameWriter.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/FrameWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HeaderParser$CacheControlHandler.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HeaderParser$CacheControlHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HeaderParser.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HeaderParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/HeadersMode.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/HeadersMode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/Hpack$HeaderEntry.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/Hpack$HeaderEntry.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/Hpack$Reader.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/Hpack$Reader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/Hpack$Writer.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/Hpack$Writer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/Hpack.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/Hpack.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/Http20Draft06$Reader.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/Http20Draft06$Reader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/Http20Draft06$Writer.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/Http20Draft06$Writer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/Http20Draft06.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/Http20Draft06.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpAuthenticator$1.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpAuthenticator$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpAuthenticator.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpAuthenticator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpDate$1.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpDate$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpDate.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpDate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpEngine$1.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpEngine$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpEngine.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpEngine.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/HttpResponseCache$1.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/HttpResponseCache$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/HttpResponseCache$2.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/HttpResponseCache$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/HttpResponseCache$CacheRequestImpl$1.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/HttpResponseCache$CacheRequestImpl$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/HttpResponseCache$CacheRequestImpl.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/HttpResponseCache$CacheRequestImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/HttpResponseCache$Entry.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/HttpResponseCache$Entry.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/HttpResponseCache$EntryCacheResponse.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/HttpResponseCache$EntryCacheResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/HttpResponseCache$EntrySecureCacheResponse.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/HttpResponseCache$EntrySecureCacheResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/HttpResponseCache.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/HttpResponseCache.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpTransport$ChunkedInputStream.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpTransport$ChunkedInputStream.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpTransport$ChunkedOutputStream.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpTransport$ChunkedOutputStream.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpTransport$FixedLengthInputStream.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpTransport$FixedLengthInputStream.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpTransport$FixedLengthOutputStream.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpTransport$FixedLengthOutputStream.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpTransport.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpTransport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpURLConnectionImpl$Retry.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpURLConnectionImpl$Retry.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpURLConnectionImpl.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpURLConnectionImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpsEngine.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpsEngine.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpsURLConnectionImpl$HttpUrlConnectionDelegate.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpsURLConnectionImpl$HttpUrlConnectionDelegate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpsURLConnectionImpl.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpsURLConnectionImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/IceCreamCordovaWebViewClient.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/IceCreamCordovaWebViewClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$1.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$2.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$3.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$4$1.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$4$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$4.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$1.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$2.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$3.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$4.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$5.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$InAppBrowserClient.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$InAppBrowserClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/inappbrowser/InAppBrowserDialog.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/inappbrowser/InAppBrowserDialog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/inappbrowser/InAppChromeClient.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/inappbrowser/InAppChromeClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/IncomingStreamHandler$1.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/IncomingStreamHandler$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/IncomingStreamHandler.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/IncomingStreamHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/JSONUtils.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/JSONUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/Job.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/Job.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/LOG.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/LOG.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/LinearLayoutSoftKeyboardDetect.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/LinearLayoutSoftKeyboardDetect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/MediaType.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/MediaType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/NameValueBlockReader$1.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/NameValueBlockReader$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/NameValueBlockReader$2.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/NameValueBlockReader$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/NameValueBlockReader$FillableInflaterInputStream.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/NameValueBlockReader$FillableInflaterInputStream.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/NameValueBlockReader.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/NameValueBlockReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/NamedRunnable.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/NamedRunnable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/NativeToJsMessageQueue$BridgeMode.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/NativeToJsMessageQueue$BridgeMode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/NativeToJsMessageQueue$JsMessage.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/NativeToJsMessageQueue$JsMessage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/NativeToJsMessageQueue$LoadUrlBridgeMode$1.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/NativeToJsMessageQueue$LoadUrlBridgeMode$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/NativeToJsMessageQueue$LoadUrlBridgeMode.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/NativeToJsMessageQueue$LoadUrlBridgeMode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$1.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$2.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/NativeToJsMessageQueue$PollingBridgeMode.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/NativeToJsMessageQueue$PollingBridgeMode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/NativeToJsMessageQueue$PrivateApiBridgeMode.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/NativeToJsMessageQueue$PrivateApiBridgeMode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/NativeToJsMessageQueue.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/NativeToJsMessageQueue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/networkinformation/NetworkManager$1.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/networkinformation/NetworkManager$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/networkinformation/NetworkManager.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/networkinformation/NetworkManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$1.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$2$1.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$2$2.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$2$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$2.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$3$1.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$3$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$3$2.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$3$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$3$3.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$3$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$3$4.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$3$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$3.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$4$1.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$4$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$4$2.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$4$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$4$3.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$4$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$4$4.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$4$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$4.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$5$1.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$5$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$5.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$6$1.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$6$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$6.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/dialogs/Notification.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/OkAuthenticator$Challenge.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/OkAuthenticator$Challenge.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/OkAuthenticator$Credential.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/OkAuthenticator$Credential.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/OkAuthenticator.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/OkAuthenticator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/tls/OkHostnameVerifier.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/tls/OkHostnameVerifier.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/OkHttpClient$1.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/OkHttpClient$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/OkHttpClient.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/OkHttpClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/OkResponseCache.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/OkResponseCache.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/OkResponseCacheAdapter.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/OkResponseCacheAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/Ping.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/Ping.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/Platform$Android23.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/Platform$Android23.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/Platform$Android41.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/Platform$Android41.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/Platform$JdkWithJettyNpnPlatform.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/Platform$JdkWithJettyNpnPlatform.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/Platform$JettyNpnProvider.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/Platform$JettyNpnProvider.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/Platform.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/Platform.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/PluginEntry.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/PluginEntry.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/PluginManager.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/PluginManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/PluginResult$Status.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/PluginResult$Status.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/PluginResult.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/PluginResult.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/Policy.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/Policy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/RawHeaders$1.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/RawHeaders$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/RawHeaders.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/RawHeaders.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/Request$Body$1.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/Request$Body$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/Request$Body$2.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/Request$Body$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/Request$Body.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/Request$Body.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/Request$Builder.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/Request$Builder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/Request.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/Request.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/RequestHeaders$1.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/RequestHeaders$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/RequestHeaders.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/RequestHeaders.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/Response$Body.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/Response$Body.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/Response$Builder.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/Response$Builder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/Response$Receiver.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/Response$Receiver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/Response.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/Response.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/ResponseHeaders$1.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/ResponseHeaders$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/ResponseHeaders.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/ResponseHeaders.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/ResponseSource.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/ResponseSource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/RetryableOutputStream.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/RetryableOutputStream.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/Route.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/Route.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/RouteDatabase.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/RouteDatabase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/RouteSelector.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/RouteSelector.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/ScrollEvent.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/ScrollEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/Settings.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/Settings.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/Spdy3$Reader.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/Spdy3$Reader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/Spdy3$Writer.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/Spdy3$Writer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/Spdy3.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/Spdy3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyConnection$1.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyConnection$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyConnection$2.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyConnection$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyConnection$3.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyConnection$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyConnection$Builder.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyConnection$Builder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyConnection$Reader$1.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyConnection$Reader$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyConnection$Reader.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyConnection$Reader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyConnection.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyConnection.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyStream$SpdyDataInputStream.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyStream$SpdyDataInputStream.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyStream$SpdyDataOutputStream.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyStream$SpdyDataOutputStream.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyStream.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyStream.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/SpdyTransport.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/SpdyTransport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/apache/cordova/splashscreen/SplashScreen.class" afterPath="$PROJECT_DIR$/bin/classes/org/apache/cordova/splashscreen/SplashScreen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/StrictLineReader$1.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/StrictLineReader$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/StrictLineReader.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/StrictLineReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/ford/plugin/TaskListener.class" afterPath="$PROJECT_DIR$/bin/classes/com/ford/plugin/TaskListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/Transport.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/Transport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/TunnelRequest.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/TunnelRequest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/UnknownLengthHttpInputStream.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/UnknownLengthHttpInputStream.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/Util$1.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/Util$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/Util.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/Util.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/Variant.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/Variant.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/Whitelist$URLPattern.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/Whitelist$URLPattern.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/Whitelist.class" afterPath="$PROJECT_DIR$/CordovaLib/bin/classes/org/apache/cordova/Whitelist.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/ford/plugin/ZipHelper.class" afterPath="$PROJECT_DIR$/bin/classes/com/ford/plugin/ZipHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes.dex" afterPath="$PROJECT_DIR$/bin/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/bin/fordcompliance-cordovalib.jar" afterPath="$PROJECT_DIR$/CordovaLib/bin/fordcompliance-cordovalib.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/resources.ap_" afterPath="$PROJECT_DIR$/bin/resources.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/.classpath" afterPath="$PROJECT_DIR$/CordovaLib/.classpath" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/AndroidManifest.xml" afterPath="$PROJECT_DIR$/bin/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/www/assets/app.css" afterPath="$PROJECT_DIR$/assets/www/assets/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
-    </list>
+    <list default="true" id="8f7f0fd2-7844-406b-8c93-901273defd4d" name="Default" comment="" />
     <ignored path="android.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/build/.DS_Store/" />
+    <ignored path="$PROJECT_DIR$/build/intermediates/assets/" />
+    <ignored path="$PROJECT_DIR$/build/intermediates/blame/" />
+    <ignored path="$PROJECT_DIR$/build/intermediates/bundles/" />
+    <ignored path="$PROJECT_DIR$/build/intermediates/classes/" />
+    <ignored path="$PROJECT_DIR$/build/intermediates/dependency-cache/" />
+    <ignored path="$PROJECT_DIR$/build/intermediates/dex-cache/" />
+    <ignored path="$PROJECT_DIR$/build/intermediates/incremental/" />
+    <ignored path="$PROJECT_DIR$/build/intermediates/incremental-safeguard/" />
+    <ignored path="$PROJECT_DIR$/build/intermediates/instant-run-support/" />
+    <ignored path="$PROJECT_DIR$/build/intermediates/jniLibs/" />
+    <ignored path="$PROJECT_DIR$/build/intermediates/manifests/" />
+    <ignored path="$PROJECT_DIR$/build/intermediates/pre-dexed/" />
+    <ignored path="$PROJECT_DIR$/build/intermediates/res/" />
+    <ignored path="$PROJECT_DIR$/build/intermediates/rs/" />
+    <ignored path="$PROJECT_DIR$/build/intermediates/shaders/" />
+    <ignored path="$PROJECT_DIR$/build/intermediates/symbols/" />
+    <ignored path="$PROJECT_DIR$/build/intermediates/transforms/" />
+    <ignored path="$PROJECT_DIR$/build/outputs/" />
+    <ignored path="$PROJECT_DIR$/build/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,23 +35,27 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DaemonCodeAnalyzer">
-    <disable_hints />
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="android" />
   </component>
-  <component name="FindManager">
-    <FindUsagesManager>
-      <setting name="OPEN_NEW_TAB" value="true" />
-    </FindUsagesManager>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="y" value="-4" />
-    <option name="width" value="1374" />
-    <option name="height" value="732" />
+    <option name="x" value="60" />
+    <option name="y" value="23" />
+    <option name="width" value="1860" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -295,11 +67,8 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
-  <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
-  </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="AndroidView" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -309,113 +78,45 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
-      <pane id="AndroidView">
-        <subPane />
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToClass.includeLibraries" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="true" />
-    <property name="options.lastSelected" value="org.intellij.plugins.intelliLang.InjectionsSettingsUI" />
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="FullScreen" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="show.do.not.copy.http.proxy.settings.to.gradle" value="true" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -430,6 +131,7 @@
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -439,47 +141,52 @@
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
+        <value defaultName="singleModule" />
       </option>
       <envs />
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="AppEngineRunConfiguration" factoryName="App Engine DevAppServer">
-      <module name="" />
-      <setting name="serverAddress" value="" />
-      <setting name="sdkPath" value="" />
-      <setting name="serverPort" value="" />
-      <setting name="vmArgs" value="" />
-      <setting name="warPath" value="" />
-      <setting name="sync" value="false" />
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
       <method />
     </configuration>
-    <list size="0" />
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="HTML_FILE_NAME" />
@@ -492,164 +199,62 @@
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
-    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
-      <Host>localhost</Host>
-      <Port>5050</Port>
-    </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" cleanupOnStartRun="true">
-    <configuration>C:\Users\327009\AppData\Roaming\Subversion</configuration>
-    <supportedVersion>125</supportedVersion>
-  </component>
-  <component name="SvnFileUrlMappingImpl">
-    <option name="myMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="D:\_aworks\ford\complianceApp\dev\repo\native\FordCompliance\platforms\android" />
-          <option name="myCopyRoot" value="D:\_aworks\ford\complianceApp\dev\repo\native\FordCompliance\platforms\android" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
-    <option name="myMoreRealMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="D:\_aworks\ford\complianceApp\dev\repo\native\FordCompliance\platforms\android" />
-          <option name="myCopyRoot" value="D:\_aworks\ford\complianceApp\dev\repo\native\FordCompliance\platforms\android" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5476e038-2952-45f3-95be-0c14965fe1d3" name="Default" comment="" />
-      <created>1421322123025</created>
-      <updated>1421322123025</updated>
+      <changelist id="8f7f0fd2-7844-406b-8c93-901273defd4d" name="Default" comment="" />
+      <created>1490939215989</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1490939215989</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1374" height="732" extended-state="7" />
+    <frame x="60" y="23" width="1860" height="1057" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32711864" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.244713" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32711864" sideWeight="0.49471298" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32711864" sideWeight="0.505287" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32943678" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24972497" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-  </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-      <collection />
-    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="myTodoPanelSettings">
-      <TodoPanelSettings />
-    </option>
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>Android SDK</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>android</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <watches-manager />
   </component>
 </project>
-

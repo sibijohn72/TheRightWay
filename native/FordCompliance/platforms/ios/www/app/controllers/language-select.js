@@ -11,6 +11,7 @@ angular.module('fcApp').controller('LanguageSelectController', function($scope, 
 			if(!navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry|IEMobile)/)) {
 				selectedLanguage.bundlePath = ENV.bundlePath + $scope.vModel.selectedLanguage + '/app.json';
 			}
+            
 			if(localStorage.getItem('appLanguage') == selectedLanguage.code) {
 				if(localStorage.getItem('appLanguageVersion') == selectedLanguage.version) {
 					$location.path('/home');

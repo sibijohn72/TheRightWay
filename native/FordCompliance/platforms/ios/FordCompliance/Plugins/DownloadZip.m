@@ -101,6 +101,15 @@ MainViewController * mainCtrlr;
     AppDelegate *delegate = [[UIApplication sharedApplication] delegate];
     UIWindow *window = delegate.window;
     activityView = [[UIView alloc] initWithFrame: CGRectMake(0, 0, window.bounds.size.width, window.bounds.size.height)];
+    //test code
+    activityView.autoresizingMask = (UIViewAutoresizingFlexibleLeftMargin |
+                                      UIViewAutoresizingFlexibleRightMargin |
+                                      UIViewAutoresizingFlexibleTopMargin |
+                                      UIViewAutoresizingFlexibleBottomMargin);
+    
+    activityView.frame = CGRectMake(0, 0, 1024, 1024);
+    
+    //
     activityView.backgroundColor = [UIColor blackColor];
     activityView.alpha = 0.5;
     
@@ -122,6 +131,7 @@ MainViewController * mainCtrlr;
     [activityView removeFromSuperview];
     activityView = nil;
 }
+
 
 
 -(void)cordovaGetPushStatus:(CDVInvokedUrlCommand *)command{

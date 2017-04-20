@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.ford.fordcomplince" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <preference name="loglevel" value="DEBUG" />
+  <preference name="loglevel" value="DEBUG" />
 	<platform name="android">
 	    <!-- you can use any density that exists in the Android project -->
 	    <splash src="res/screen/android/splash-land-hdpi.png" density="land-hdpi"/>
@@ -13,30 +13,27 @@
 	    <splash src="res/screen/android/splash-port-mdpi.png" density="port-mdpi"/>
 	    <splash src="res/screen/android/splash-port-xhdpi.png" density="port-xhdpi"/>
 	</platform>
-	
-	<platform name="ios">
-	    <!-- images are determined by width and height. The following are supported -->
-	    <splash src="res/screen/ios/Default~iphone.png" width="320" height="480"/>
-	    <splash src="res/screen/ios/Default@2x~iphone.png" width="640" height="960"/>
-	    <splash src="res/screen/ios/Default-Portrait~ipad.png" width="768" height="1024"/>
-	    <splash src="res/screen/ios/Default-Portrait@2x~ipad.png" width="1536" height="2048"/>
-	    <splash src="res/screen/ios/Default-Landscape~ipad.png" width="1024" height="768"/>
-	    <splash src="res/screen/ios/Default-Landscape@2x~ipad.png" width="2048" height="1536"/>
-	    <splash src="res/screen/ios/Default-568h@2x~iphone.png" width="640" height="1136"/>
-	</platform>
-    <preference name="SplashScreen" value="screen" />
+<preference name="SplashScreen" value="screen" />
   	<preference name="SplashScreenDelay" value="5000" />
     <feature name="Device">
         <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
     </feature>
     <feature name="NetworkStatus">
         <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
     </feature>
     <feature name="SplashScreen">
         <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
     </feature>
-    <feature name="Notification">
-        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
     </feature>
     <feature name="DownloadZip">
         <param name="android-package" value="com.ford.plugin.DownloadZip" />
@@ -44,18 +41,15 @@
     <feature name="DownloadPdf">
         <param name="android-package" value="com.ford.plugin.DownloadPdf" />
     </feature>
-    <name>
-FordCompliance
-    </name>
+    <name>FordCompliance</name>
     <description>
-A sample Apache Cordova application that responds to the deviceready event.
+        A sample Apache Cordova application that responds to the deviceready event.
     </description>
     <author email="dev@cordova.apache.org" href="http://cordova.io">
-Apache Cordova Team
+        Apache Cordova Team
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <feature name="InAppBrowser">
-        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
-    </feature>
+    <allow-navigation href="*" />
+    <preference name="loglevel" value="DEBUG" />
 </widget>

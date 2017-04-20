@@ -2,5 +2,6 @@
 
 <h2 class="head-text">{{vModel.title}}</h2>
 
-<a class="navigation-btn" href="javascript:;" id="navigation-btn" ng-click="$root.globalEvents.toggleMenu()" style="background-image:url(assets/images/menu_icon_{{globalModel.selectedLanguage}}.png);"></a>
+<!--<a class="navigation-btn" href="javascript:;" id="navigation-btn" ng-click="$root.globalEvents.toggleMenu()" style="background-image:url(assets/images/menu_icon_{{globalModel.selectedLanguage}}.png);"></a>-->
+<a class="navigation-btn {{globalModel.selectedLanguage}}" href="javascript:;" id="navigation-btn" ng-click="$root.globalEvents.toggleMenu()"></a>
 <div ng-include src="'app/templates/_slide-menu.html'"></div>

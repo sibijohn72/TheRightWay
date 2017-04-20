@@ -126,7 +126,7 @@
 - (void)            application:(UIApplication*)application
     didReceiveLocalNotification:(UILocalNotification*)notification
 {
-    /*UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Update Available" message:@"New version of application is available, please download." delegate:self cancelButtonTitle:@"Download" otherButtonTitles:nil];
+    /*UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Update Available" message:@"New version of the Application is available. Please visit App store to download the latest version." delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK"];
     [alert show];*/
     
     application.applicationIconBadgeNumber = 0;
@@ -170,7 +170,7 @@
     if (![Utility checkForAppUpdate]) {
         if(!isAppStoreOpen){
             UILocalNotification* localNotification = [[UILocalNotification alloc] init];
-            localNotification.alertBody = @"New version of application is available in store, please download.";
+            localNotification.alertBody = @"New version of the Application is available. Please visit App store to download the latest version.";
             localNotification.timeZone = [NSTimeZone defaultTimeZone];
             [[UIApplication sharedApplication] scheduleLocalNotification:localNotification];
         }
@@ -198,7 +198,7 @@
 {
     isAppStoreOpen = FALSE;
     if (![Utility checkForAppUpdate]) {
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Update Available" message:@"New version of application is available, please download." delegate:self  cancelButtonTitle:@"Download" otherButtonTitles:@"Cancel", nil];
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Update Available" message:@"New version of the Application is available. Please visit App store to download the latest version." delegate:self  cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
         [alert show];
     }
     application.applicationIconBadgeNumber = 0;

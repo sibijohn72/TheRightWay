@@ -89,7 +89,10 @@
             if(marketVer.count > i){
                 market = [marketVer[i] intValue];
             }
-            if (market > exit) {
+           
+            if(exit > market){
+                break;
+            }else  if (market > exit) {
                 isLatest = FALSE;
                 break;
             }

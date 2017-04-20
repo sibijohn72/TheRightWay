@@ -19,11 +19,6 @@
 
 package com.ford.therightway;
 
-import java.io.UnsupportedEncodingException;
-import java.util.Random;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 import android.app.AlertDialog;
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -37,7 +32,16 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.webkit.WebView;
 
-import org.apache.cordova.*;
+
+
+import org.apache.cordova.CordovaActivity;
+import org.apache.cordova.engine.SystemWebViewClient;
+import org.apache.cordova.engine.SystemWebViewEngine;
+
+import java.io.UnsupportedEncodingException;
+import java.util.Random;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class FordCompliance extends CordovaActivity {
 
@@ -46,13 +50,17 @@ public class FordCompliance extends CordovaActivity {
 	public static String PREFERANCES_NAME = "ford_data";
 	private static boolean mIsInForegroundMode;
 	private static boolean isMoveToPlayStore;
-
+	public WebView webView;
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		super.init();
 		_context = FordCompliance.this;
-		appView.setWebViewClient(new CordovaWebViewClient(this, this.appView) {
+
+		SystemWebViewEngine systemWebViewEngine = (SystemWebViewEngine) appView.getEngine();
+		webView = (WebView) systemWebViewEngine.getView();
+
+		webView.setWebViewClient(new SystemWebViewClient (systemWebViewEngine) {
 			@Override
 			public boolean shouldOverrideUrlLoading(WebView view, String url) {
 				if (url.contains("mailto:")) {
@@ -190,7 +198,7 @@ public class FordCompliance extends CordovaActivity {
 		alertDialog.setTitle("Update Available");
 		alertDialog.setCancelable(false);
 		alertDialog.setMessage(message);
-		alertDialog.setPositiveButton("OK",
+		/*alertDialog.setPositiveButton("OK",
 				new DialogInterface.OnClickListener() {
 					public void onClick(DialogInterface dialog, int which) {
 						isMoveToPlayStore = true;
@@ -215,7 +223,17 @@ public class FordCompliance extends CordovaActivity {
 					public void onClick(DialogInterface dialog, int which) {
 
 					}
+				});*/
+
+		alertDialog.setNegativeButton("OK",
+				new DialogInterface.OnClickListener() {
+
+					@Override
+					public void onClick(DialogInterface dialog, int which) {
+
+					}
 				});
+
 		alertDialog.show();
 	}
 
@@ -229,19 +247,35 @@ public class FordCompliance extends CordovaActivity {
 			e.printStackTrace();
 		}
 
-		String[] marketVersionNumber = MarketVersionName.split("\\.");
-		String[] existingVersionNumber = ExistingVersionName.split("\\.");
-		boolean isLatest = true;
-		for (int i = 0; i < 3 ; i++) {
-			if (Integer.parseInt(marketVersionNumber[i]) > Integer
-					.parseInt(existingVersionNumber[i])) {
-				isLatest = false;
-				break;
-			}
-			
-		}
+		//String[] marketVersionNumber = MarketVersionName.split("\\.");
+		//String[] existingVersionNumber = ExistingVersionName.split("\\.");
+		boolean isLatestVersionInAppStrore = MarketVersionName.compareTo(ExistingVersionName) > 0;
+		//for (int i = 0; i < 3; i++) {
+			//major version
+//			if (Integer.parseInt(marketVersionNumber[0]) > Integer
+//					.parseInt(existingVersionNumber[0])) {
+//				isLatest = false;
+//			}else if(Integer.parseInt(marketVersionNumber[0]) == Integer
+//					.parseInt(existingVersionNumber[0])){//major version equal
+//				//minor version
+//				if (Integer.parseInt(marketVersionNumber[1]) > Integer
+//						.parseInt(existingVersionNumber[1])) {
+//					isLatest = false;
+//				}else if(Integer.parseInt(marketVersionNumber[1]) == Integer
+//						.parseInt(existingVersionNumber[1])){//minor version equal
+//					//patch version
+//					if (Integer.parseInt(marketVersionNumber[2]) > Integer
+//							.parseInt(existingVersionNumber[2])) {
+//						isLatest = false;
+//					}
+//
+//				}
+//
+//			}
 
-		if (!isLatest) {
+		//}
+
+		if (isLatestVersionInAppStrore) {
 			if (mIsInForegroundMode) {
 				showAlert(
 						appId,

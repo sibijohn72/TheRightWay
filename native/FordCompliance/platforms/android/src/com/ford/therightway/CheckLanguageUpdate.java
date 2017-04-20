@@ -24,6 +24,8 @@ import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.util.Log;
 
+
+
 public class CheckLanguageUpdate extends AsyncTask<String, Void, String> {
 	@Override
 	protected String doInBackground(String... params) {
@@ -41,7 +43,7 @@ public class CheckLanguageUpdate extends AsyncTask<String, Void, String> {
 			HttpEntity httpEntity = httpResponse.getEntity();
 			inputStream = httpEntity.getContent();
 		} catch (UnsupportedEncodingException e) {
-			Log.e("UnsupportedEncodingException", e.toString());
+			Log.e("EncodingException", e.toString());
 			e.printStackTrace();
 		} catch (ClientProtocolException e) {
 			Log.e("ClientProtocolException", e.toString());
@@ -67,7 +69,7 @@ public class CheckLanguageUpdate extends AsyncTask<String, Void, String> {
 			result = sBuilder.toString();
 
 		} catch (Exception e) {
-			Log.e("StringBuilding & BufferedReader", "Error converting result "
+			Log.e("AppLog", "Error converting result "
 					+ e.toString());
 		}
 

@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "01d357a1-3d3f-49c2-a708-bad90ec4178e++6771",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "01d357a1-3d3f-49c2-a708-bad90ec4178e++6771" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "01d357a1-3d3f-49c2-a708-bad90ec4178e++6771" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "92C051E1-D949-4CE5-9B26-0F9B692B9EA2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "01d357a1-3d3f-49c2-a708-bad90ec4178e++6771" : "Rightway%20IOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FordCompliance",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FordCompliance_Updated20thJan\/platforms\/ios\/FordCompliance.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/10.243.199.217\/FordCompliance",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "01d357a1-3d3f-49c2-a708-bad90ec4178e++6771"
+    }
+  ]
+}

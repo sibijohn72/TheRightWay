@@ -47,7 +47,7 @@ public class FordCompliance extends CordovaActivity {
 	private static boolean mIsInForegroundMode;
 	private static boolean isMoveToPlayStore;
 
-	@Override
+/*	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		super.init();
@@ -238,6 +238,11 @@ public class FordCompliance extends CordovaActivity {
 				isLatest = false;
 				break;
 			}
+			else if (Integer.parseInt(marketVersionNumber[i]) < Integer
+					.parseInt(existingVersionNumber[i])) {
+
+					break;
+					}
 		}
 
 		if (!isLatest) {
@@ -262,5 +267,5 @@ public class FordCompliance extends CordovaActivity {
 			setLocalNotification(_context.getResources().getString(
 					R.string.UPDATE_LANGUAGE_MSG));
 		}
-	}
+	}*/
 }

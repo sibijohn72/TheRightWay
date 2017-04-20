@@ -35,6 +35,8 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.util.Log;
 
+import java.util.Locale;
+
 public class NetworkManager extends CordovaPlugin {
 
     public static int NOT_REACHABLE = 0;
@@ -76,18 +78,10 @@ public class NetworkManager extends CordovaPlugin {
     private static final String LOG_TAG = "NetworkManager";
 
     private CallbackContext connectionCallbackContext;
-    private boolean registered = false;
 
     ConnectivityManager sockMan;
     BroadcastReceiver receiver;
     private JSONObject lastInfo = null;
-
-    /**
-     * Constructor.
-     */
-    public NetworkManager() {
-        this.receiver = null;
-    }
 
     /**
      * Sets the context of the Command. This can then be used to do things like
@@ -113,8 +107,7 @@ public class NetworkManager extends CordovaPlugin {
                         updateConnectionInfo(sockMan.getActiveNetworkInfo());
                 }
             };
-            cordova.getActivity().registerReceiver(this.receiver, intentFilter);
-            this.registered = true;
+            webView.getContext().registerReceiver(this.receiver, intentFilter);
         }
 
     }
@@ -148,12 +141,13 @@ public class NetworkManager extends CordovaPlugin {
      * Stop network receiver.
      */
     public void onDestroy() {
-        if (this.receiver != null && this.registered) {
+        if (this.receiver != null) {
             try {
-                this.cordova.getActivity().unregisterReceiver(this.receiver);
-                this.registered = false;
+                webView.getContext().unregisterReceiver(this.receiver);
             } catch (Exception e) {
                 Log.e(LOG_TAG, "Error unregistering network receiver: " + e.getMessage(), e);
+            } finally {
+                receiver = null;
             }
         }
     }
@@ -239,30 +233,35 @@ public class NetworkManager extends CordovaPlugin {
      */
     private String getType(NetworkInfo info) {
         if (info != null) {
-            String type = info.getTypeName();
+            String type = info.getTypeName().toLowerCase(Locale.US);
 
-            if (type.toLowerCase().equals(WIFI)) {
+            Log.d("CordovaNetworkManager", "toLower : " + type.toLowerCase());
+            Log.d("CordovaNetworkManager", "wifi : " + WIFI);
+            if (type.equals(WIFI)) {
                 return TYPE_WIFI;
             }
-            else if (type.toLowerCase().equals(MOBILE) || type.toLowerCase().equals(CELLULAR)) {
-                type = info.getSubtypeName();
-                if (type.toLowerCase().equals(GSM) ||
-                        type.toLowerCase().equals(GPRS) ||
-                        type.toLowerCase().equals(EDGE)) {
+            else if (type.toLowerCase().equals(TYPE_ETHERNET)) { 
+                return TYPE_ETHERNET;
+            }
+            else if (type.equals(MOBILE) || type.equals(CELLULAR)) {
+                type = info.getSubtypeName().toLowerCase(Locale.US);
+                if (type.equals(GSM) ||
+                        type.equals(GPRS) ||
+                        type.equals(EDGE)) {
                     return TYPE_2G;
                 }
-                else if (type.toLowerCase().startsWith(CDMA) ||
-                        type.toLowerCase().equals(UMTS) ||
-                        type.toLowerCase().equals(ONEXRTT) ||
-                        type.toLowerCase().equals(EHRPD) ||
-                        type.toLowerCase().equals(HSUPA) ||
-                        type.toLowerCase().equals(HSDPA) ||
-                        type.toLowerCase().equals(HSPA)) {
+                else if (type.startsWith(CDMA) ||
+                        type.equals(UMTS) ||
+                        type.equals(ONEXRTT) ||
+                        type.equals(EHRPD) ||
+                        type.equals(HSUPA) ||
+                        type.equals(HSDPA) ||
+                        type.equals(HSPA)) {
                     return TYPE_3G;
                 }
-                else if (type.toLowerCase().equals(LTE) ||
-                        type.toLowerCase().equals(UMB) ||
-                        type.toLowerCase().equals(HSPA_PLUS)) {
+                else if (type.equals(LTE) ||
+                        type.equals(UMB) ||
+                        type.equals(HSPA_PLUS)) {
                     return TYPE_4G;
                 }
             }
@@ -273,4 +272,3 @@ public class NetworkManager extends CordovaPlugin {
         return TYPE_UNKNOWN;
     }
 }
-

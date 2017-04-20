@@ -5,7 +5,8 @@
 		</div>
 		<div class="content-container">
 			<div class="content-scroller" zoomer>
-			<span style="background-image:url('assets/images/gift&favor-list/{{vModel.icon}}')" class="sub-heading">{{vModel.subTitle}}</span>
+			<span class="sub-heading {{vModel.icon.replace('.png','')}}">{{vModel.subTitle}}</span>
+			<!--<span style="background-image:url('assets/images/gift&favor-list/{{vModel.icon}}')" class="sub-heading">{{vModel.subTitle}}</span>-->
 				<ul>
 					<li class="list-arrow" ng-repeat="item in vModel.items">
 						<a class="list-arrow-txt " ng-href="#/{{item.nextPage+'_'+ $index }}" ng-bind-html="item.question"></a>
