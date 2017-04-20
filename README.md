@@ -3,8 +3,7 @@ The Right Way App
 The Right Way Application using the following technology stack trace 
 
 1. AngularJS
-2. PhoneGap 3.6.3 
-3. Cordova
+2. Cordova 5.4.1
 4. SASS
 5. jQuery
 
