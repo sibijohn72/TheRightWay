@@ -13,5 +13,7 @@ module.exports = function(grunt) {
 
 	grunt.registerTask('dist', ['clean:dist', 'ngconstant:dist', 'sass:dev', 'copy:dist', 'uglify:dist', 'injector:dist', 'copy:phonegap', 'connect:dist']);
 
+	grunt.registerTask('server', ['connect:dev']);
+	
 	grunt.initConfig(config);
 };
