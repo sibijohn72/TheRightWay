@@ -1,0 +1,1594 @@
+﻿[{
+	"pageKey": "static-labels",
+	"items": {
+		"remember": "Remember",
+		"selectAnOption": "Select an option",
+		"appFeedback": "App Feedback",
+		"sw": "SW",
+		"sendFeedback": "Send Feedback",
+		"reportASuspectedViolation": "Report a Suspected Violation",
+		"complianceNewsUpdates": "Compliance News Updates",
+		"settings": "Settings",
+		"languageSettings": "Language Settings",
+		"new": "New",
+		"viewTermsAndConditions": "View Terms and Conditions",
+		"submit": "Submit",
+		"description": "Description",
+		"SCBIntranetAccess": "When you have access to the SCB intranet you can review these resources",
+		"region": "Region",
+		"reportViolationMail": "Report violation through email",
+		"close": "Close",
+		"reportingRegion": "From which region are you reporting?",
+		"proceed": "Proceed",
+		"whatToSearch": "What would you like to search?",
+		"typeToSearch": "Type in the word(s) you would like to search",
+		"search": "Search",
+		"eua": "End user Agreement",
+		"terms": "The Right Way mobile app allows SCB personnel and its business partners quick access to information needed to guide ethical decisions according to Company policy.   It does not collect or require you to provide any information. By clicking below, you acknowledge and consent to The Right Way mobile app Terms and Conditions which can be viewed",
+		"here": "here",
+		"dataRates": "Data rates may apply",
+		"agree": "I Agree",
+		"nullSearchAlert": "You must enter a search term.",
+		"noResultAlert": "No results were found.",
+		"rightWayTitle": "The Right Way",
+		"okButtonText": "OK",
+		"cancelButtonText": "Cancel",
+		"errorMsg": "Server communication failed. Please check your connectivity and try again.",
+		"updateMsg": "New content update is available.",
+		"donwloadMsg": "This function will download a copy of the Code of Conduct Handbook onto your device.  It is approximately 6MB.  Do you want to proceed with the download?",
+		"downloadProgressMsg": "Downloading code of conduct..",
+		"downloadTxt": "Download"
+	}
+}, {
+	"pageKey": "home",
+	"title": "HOME"
+}, {
+	"pageKey": "slide-menu",
+	"items": [{
+		"title": "My SCB",
+		"icon": "home_icon.png",
+		"pageKey": "custom"
+	},{
+		"title": "Home",
+		"icon": "home_icon.png",
+		"pageKey": "home"
+	}, {
+		"title": "Policy Summaries",
+		"icon": "policy_summary_icon.png",
+		"pageKey": "policy-summary"
+	}, {
+		"title": "Frequently Asked Questions",
+		"icon": "common_examples_icon.png",
+		"pageKey": "frequently-asked-questions"
+	}, {
+		"title": "Can I ...?",
+		"icon": "can_i_icon.png",
+		"pageKey": "can-i"
+	}, {
+		"title": "Contacts and References",
+		"icon": "contact_questions_icon.png",
+		"pageKey": "contact-for-questions"
+	}, {
+		"title": "Report a Suspected Violation",
+		"icon": "report_violations_icon.png",
+		"pageKey": "report-violations-info"
+	}, {
+		"pageId": "mi-coc",
+		"title": "Code of Conduct Handbook",
+		"icon": "code_conduct_icon.png",
+		"link": "https://www.fcs.SCB.com/coc/pdfs/coc_english.pdf"
+	}, {
+		"title": "Message from Exec Team",
+		"icon": "message_exec_icon.png",
+		"pageKey": "exec-messages"
+	}, {
+		"title": "Search",
+		"icon": "search_icon.png",
+		"click": true
+	}, {
+		"title": "Settings",
+		"icon": "settings_icon.png",
+		"nextPage": "language-select"
+	}]
+}, {
+	"pageKey": "policy-summary",
+	"template": "grid",
+	"controller": "grid",
+	"title": "Policy Summaries",
+	"items": [{
+		"reference": "gifts-favors",
+		"nextPage": "ps-gifts-favors"
+	}, {
+		"reference": "meals-travels",
+		"nextPage": "ps-meals-travels"
+	}, {
+		"reference": "conflicts-of-interest",
+		"nextPage": "ps-conflicts-of-interest"
+	}, {
+		"reference": "company-assets",
+		"nextPage": "ps-company-assets"
+	}, {
+		"reference": "anti-bribery-corruption",
+		"nextPage": "ps-anti-bribery-corruption"
+	}, {
+		"reference": "it-security-and-privacy",
+		"nextPage": "ps-it-security-and-privacy"
+	}, {
+		"reference": "working-together",
+		"nextPage": "ps-working-together"
+	}, {
+		"reference": "tips-for-managers",
+		"nextPage": "ps-tips-for-managers"
+	}]
+}, {
+	"pageKey": "ps-gifts-favors",
+	"template": "list",
+	"controller": "list",
+	"reference": "gifts-favors"
+}, {
+	"pageKey": "custom",
+	"template": "custom",
+	"controller": "custom",
+	"reference": "custom",
+	"title" : "My SCB",
+	"content" : "As we strive to be the world’s best international bank, it’s important that we conduct our business to the highest standards and are guided by our core values. In doing so, we act in an open, innovative and collaborative manner to advance the best interests of our clients.Our brand promise, Here for good, underpins everything we do. It guides how we do business and the decisions we make."
+}, {
+	"pageKey": "ps-gifts-favors-summary",
+	"template": "policy-summary-content",
+	"controller": "policy-summary-content",
+	"reference": "gifts-favors"
+}, {
+	"pageKey": "ps-gifts-favors-quick-ref",
+	"template": "policy-quick-ref",
+	"controller": "policy-quick-ref",
+	"reference": "gifts-favors"
+}, {
+	"pageKey": "ps-gifts-favors-background-information",
+	"template": "policy-summary-content",
+	"controller": "policy-summary-content",
+	"reference": "gifts-favors"
+}, {
+	"pageKey": "ps-meals-travels",
+	"template": "list",
+	"controller": "list",
+	"reference": "meals-travels"
+}, {
+	"pageKey": "ps-meals-travels-summary",
+	"template": "policy-summary-content",
+	"controller": "policy-summary-content",
+	"reference": "meals-travels"
+}, {
+	"pageKey": "ps-meals-travels-quick-ref",
+	"template": "policy-quick-ref",
+	"controller": "policy-quick-ref",
+	"reference": "meals-travels"
+}, {
+	"pageKey": "ps-meals-travels-background-information",
+	"template": "policy-summary-content",
+	"controller": "policy-summary-content",
+	"reference": "meals-travels"
+}, {
+	"pageKey": "ps-conflicts-of-interest",
+	"template": "list",
+	"controller": "list",
+	"reference": "conflicts-of-interest"
+}, {
+	"pageKey": "ps-conflicts-of-interest-summary",
+	"template": "policy-summary-content",
+	"controller": "policy-summary-content",
+	"reference": "conflicts-of-interest"
+}, {
+	"pageKey": "ps-conflicts-of-interest-quick-ref",
+	"template": "policy-quick-ref",
+	"controller": "policy-quick-ref",
+	"reference": "conflicts-of-interest"
+}, {
+	"pageKey": "ps-conflicts-of-interest-background-information",
+	"template": "policy-summary-content",
+	"controller": "policy-summary-content",
+	"reference": "conflicts-of-interest"
+}, {
+	"pageKey": "ps-company-assets",
+	"template": "list",
+	"controller": "list",
+	"reference": "company-assets"
+}, {
+	"pageKey": "ps-company-assets-summary",
+	"template": "policy-summary-content",
+	"controller": "policy-summary-content",
+	"reference": "company-assets"
+}, {
+	"pageKey": "ps-company-assets-quick-ref",
+	"template": "policy-quick-ref",
+	"controller": "policy-quick-ref",
+	"reference": "company-assets"
+}, {
+	"pageKey": "ps-company-assets-background-information",
+	"template": "policy-summary-content",
+	"controller": "policy-summary-content",
+	"reference": "company-assets"
+}, {
+	"pageKey": "ps-anti-bribery-corruption",
+	"template": "list",
+	"controller": "list",
+	"reference": "anti-bribery-corruption"
+}, {
+	"pageKey": "ps-anti-bribery-corruption-summary",
+	"template": "policy-summary-content",
+	"controller": "policy-summary-content",
+	"reference": "anti-bribery-corruption"
+}, {
+	"pageKey": "ps-anti-bribery-corruption-quick-ref",
+	"template": "policy-quick-ref",
+	"controller": "policy-quick-ref",
+	"reference": "anti-bribery-corruption"
+}, {
+	"pageKey": "ps-anti-bribery-corruption-background-information",
+	"template": "policy-summary-content",
+	"controller": "policy-summary-content",
+	"reference": "anti-bribery-corruption"
+}, {
+	"pageKey": "ps-it-security-and-privacy",
+	"template": "list",
+	"controller": "list",
+	"reference": "it-security-and-privacy"
+}, {
+	"pageKey": "ps-it-security-and-privacy-summary",
+	"template": "policy-summary-content",
+	"controller": "policy-summary-content",
+	"reference": "it-security-and-privacy"
+}, {
+	"pageKey": "ps-it-security-and-privacy-quick-ref",
+	"template": "policy-quick-ref",
+	"controller": "policy-quick-ref",
+	"reference": "it-security-and-privacy"
+}, {
+	"pageKey": "ps-it-security-and-privacy-background-information",
+	"template": "policy-summary-content",
+	"controller": "policy-summary-content",
+	"reference": "it-security-and-privacy"
+}, {
+	"pageKey": "ps-working-together",
+	"template": "list",
+	"controller": "list",
+	"reference": "working-together"
+}, {
+	"pageKey": "ps-working-together-summary",
+	"template": "policy-summary-content",
+	"controller": "policy-summary-content",
+	"reference": "working-together"
+}, {
+	"pageKey": "ps-working-together-quick-ref",
+	"template": "policy-quick-ref",
+	"controller": "policy-quick-ref",
+	"reference": "working-together"
+}, {
+	"pageKey": "ps-working-together-background-information",
+	"template": "policy-summary-content",
+	"controller": "policy-summary-content",
+	"reference": "working-together"
+}, {
+	"pageKey": "ps-tips-for-managers",
+	"template": "list",
+	"controller": "list",
+	"reference": "tips-for-managers"
+}, {
+	"pageKey": "ps-tips-for-managers-summary",
+	"template": "policy-summary-content",
+	"controller": "policy-summary-content",
+	"reference": "tips-for-managers"
+}, {
+	"pageKey": "ps-tips-for-managers-quick-ref",
+	"template": "policy-quick-ref",
+	"controller": "policy-quick-ref",
+	"reference": "tips-for-managers"
+}, {
+	"pageKey": "ps-tips-for-managers-background-information",
+	"template": "policy-summary-content",
+	"controller": "policy-summary-content",
+	"reference": "tips-for-managers"
+}, {
+	"pageKey": "frequently-asked-questions",
+	"template": "grid",
+	"controller": "grid",
+	"title": "Frequently Asked Questions",
+	"items": [{
+			"reference": "gifts-favors",
+			"nextPage": "faq-gifts-favors"
+		}, {
+			"reference": "meals-travels",
+			"nextPage": "faq-meals-travels"
+		}, {
+			"reference": "conflicts-of-interest",
+			"nextPage": "faq-conflicts-of-interest"
+		}, {
+			"reference": "company-assets",
+			"nextPage": "faq-company-assets"
+		}, {
+			"reference": "anti-bribery-corruption",
+			"nextPage": "faq-anti-bribery-corruption"
+		}, {
+			"reference": "it-security-and-privacy",
+			"nextPage": "faq-it-security-and-privacy"
+		}, {
+			"reference": "working-together",
+			"nextPage": "faq-working-together"
+		}, {
+			"reference": "tips-for-managers",
+			"nextPage": "faq-tips-for-managers"
+		}
+
+	]
+}, {
+	"pageKey": "faq-gifts-favors",
+	"template": "frequently-asked-questions-list",
+	"controller": "frequently-asked-questions-list",
+	"title": "Frequently Asked Questions",
+	"reference": "gifts-favors"
+}, {
+	"pageKey": "faq-meals-travels",
+	"template": "frequently-asked-questions-list",
+	"controller": "frequently-asked-questions-list",
+	"title": "Frequently Asked Questions",
+	"reference": "meals-travels"
+}, {
+	"pageKey": "faq-conflicts-of-interest",
+	"template": "frequently-asked-questions-list",
+	"controller": "frequently-asked-questions-list",
+	"title": "Frequently Asked Questions",
+	"reference": "conflicts-of-interest"
+}, {
+	"pageKey": "faq-company-assets",
+	"template": "frequently-asked-questions-list",
+	"controller": "frequently-asked-questions-list",
+	"title": "Frequently Asked Questions",
+	"reference": "company-assets"
+}, {
+	"pageKey": "faq-anti-bribery-corruption",
+	"template": "frequently-asked-questions-list",
+	"controller": "frequently-asked-questions-list",
+	"title": "Frequently Asked Questions",
+	"reference": "anti-bribery-corruption"
+}, {
+	"pageKey": "faq-it-security-and-privacy",
+	"template": "frequently-asked-questions-list",
+	"controller": "frequently-asked-questions-list",
+	"title": "Frequently Asked Questions",
+	"reference": "it-security-and-privacy"
+}, {
+	"pageKey": "faq-working-together",
+	"template": "frequently-asked-questions-list",
+	"controller": "frequently-asked-questions-list",
+	"title": "Frequently Asked Questions",
+	"reference": "working-together"
+}, {
+	"pageKey": "faq-tips-for-managers",
+	"template": "frequently-asked-questions-list",
+	"controller": "frequently-asked-questions-list",
+	"title": "Frequently Asked Questions",
+	"reference": "tips-for-managers"
+}, {
+	"pageKey": "faq-gifts-favors-detailed",
+	"template": "frequently-asked-questions-detailed",
+	"controller": "frequently-asked-questions-detailed",
+	"title": "Frequently Asked Questions",
+	"reference": "gifts-favors"
+}, {
+	"pageKey": "faq-meals-travels-detailed",
+	"template": "frequently-asked-questions-detailed",
+	"controller": "frequently-asked-questions-detailed",
+	"title": "Frequently Asked Questions",
+	"reference": "meals-travels"
+}, {
+	"pageKey": "faq-conflicts-of-interest-detailed",
+	"template": "frequently-asked-questions-detailed",
+	"controller": "frequently-asked-questions-detailed",
+	"title": "Frequently Asked Questions",
+	"reference": "conflicts-of-interest"
+}, {
+	"pageKey": "faq-company-assets-detailed",
+	"template": "frequently-asked-questions-detailed",
+	"controller": "frequently-asked-questions-detailed",
+	"title": "Frequently Asked Questions",
+	"reference": "company-assets"
+}, {
+	"pageKey": "faq-anti-bribery-corruption-detailed",
+	"template": "frequently-asked-questions-detailed",
+	"controller": "frequently-asked-questions-detailed",
+	"title": "Frequently Asked Questions",
+	"reference": "anti-bribery-corruption"
+}, {
+	"pageKey": "faq-it-security-and-privacy-detailed",
+	"template": "frequently-asked-questions-detailed",
+	"controller": "frequently-asked-questions-detailed",
+	"title": "Frequently Asked Questions",
+	"reference": "it-security-and-privacy"
+}, {
+	"pageKey": "faq-working-together-detailed",
+	"template": "frequently-asked-questions-detailed",
+	"controller": "frequently-asked-questions-detailed",
+	"title": "Frequently Asked Questions",
+	"reference": "working-together"
+}, {
+	"pageKey": "faq-tips-for-managers-detailed",
+	"template": "frequently-asked-questions-detailed",
+	"controller": "frequently-asked-questions-detailed",
+	"title": "Frequently Asked Questions",
+	"reference": "tips-for-managers"
+}, {
+	"pageKey": "can-i",
+	"template": "can-i-grid",
+	"controller": "can-i-grid",
+	"title": "Can I ...?",
+	"items": [{
+		"reference": "gifts-favors",
+		"nextPage": "ci-gifts-favors"
+	}, {
+		"reference": "meals-travels",
+		"nextPage": "ci-meals-travels"
+	}]
+}, {
+	"pageKey": "ci-gifts-favors",
+	"template": "can-i",
+	"controller": "can-i",
+	"reference": "gifts-favors"
+}, {
+	"pageKey": "ci-meals-travels",
+	"template": "can-i",
+	"controller": "can-i",
+	"reference": "meals-travels"
+}, {
+	"pageKey": "search-page-keys",
+	"keys": ["gifts-favors", "meals-travels", "conflicts-of-interest", "company-assets", "anti-bribery-corruption", "it-security-and-privacy", "working-together", "tips-for-managers"]
+}, {
+	"pageKey": "search-key-words",
+	"keys": [
+		["Authorize", "borrow", "bribe", "fair", "favor", "honest", "improper", "influence", "integrity", "offer", "pay", "payment", "prohibit", "promise", "recruit", "special", "value"],
+		["Cheating", "con", "deceit", "deceptive", "diligence", "dishonest", "due diligence", "ethic", "ethics", "ethical", "fake", "favor", "fraud", "improper", "lie", "scam", "steal", "theft", "thief", "untrue", "violate policy", "wrongful", "wrong"],
+		["Agency", "agent", "approval", "authorize", "borrow a vehicle", "certificate", "certify", "department", "entertainment", "favor", "gift", "governmental", "government action", "government employee", "governor", "local approval", "official", "permits", "politics", "region", "regulate", "regulation", "regulatory", "representative", "sanction", "special discount", "token", "travel"],
+		["Amount", "charge", "cost", "currency", "excessive", "extra", "fee", "increase", "monetary", "money", "more", "offer", "pay", "payment", "price", "rate", "registration fee", "sale", "small amounts", "special handling", "surcharge", "value", "worth"],
+		["Agree", "agreement", "automotive", "auto", "buy", "car", "certificate", "certification", "contract", "CPA", "family business", "family owned", "firm", "landlord", "lease", "LLC", "online business", "own", "practice", "product", "property", "rent", "sell", "service", "teach", "work"],
+		["Advise", "advisor", "consult", "contract"],
+		["Association", "copyright", "dealer", "develop", "manage", "manufacture", "partner", "part", "patent", "ticket", "timeshare", "trustee"],
+		["Board", "BOD"],
+		["Associate", "Brother", "child", "cousin", "daughter", "family", "father", "friend", "in-law", "mother", "neighbor", "partner", "relative", "significant other", "sister", "son", "husband", "wife", "spouse", "nephew", "niece", "aunt", "uncle"],
+		["Beer", "bottle", "bourbon", "cocktails", "drink", "happy hour", "scotch", "vodka", "whiskey", "wine"],
+		["Baby shower", "birthday", "bridal", "caterer", "Christmas", "complimentary", "give-away", "give away", "holiday", "Lunar", "marti gras", "new year", "present", "retirement", "tab", "ticket", "timeshare", "wedding", "discount "],
+		["Activities", "activity", "air fare", "boat", "charter", "entertainment", "flight", "ground transportation", "guest", "host", "hotel", "international conference", "invite", "limo", "local event", "meet", "meeting", "mingle", "network", "overnight", "performance", "plane", "private plane air craft", "recreational", "rental car", "singer", "social", "sponsor", "taxi", "team building", "ticket", "transportation", "vacation"],
+		["Cake", "chocolate", "complimentary", "discount", "gift", "gift basket", "gift card", "gift certificate", "give away", "golf", "headphone", "iPad", "iPhone", "iPod", "jacket", "kindle", "e-reader", "reader", "spa", "present", "prize", "reduced rate", "special rate", "tablet", "tee shirt", "t-shirt", "tshirt", "fruit"],
+		["Breakfast", "café", "dinner", "eat", "eating", "food", "lunch", "restaurant", "tab", "snacks"],
+		["Accommodations", "corporate travel", "entertainment", "flight", "free stay", "limo", "overnight", "stay", "plane", "transportation", "taxi", "refreshments", "trip", "visit"],
+		["Building", "call", "company information", "computer", "email", "funds", "incidental use", "laptop", "logo", "money", "office number", "phone", "political campaign", "resources", "stock trades", "vehicle", "work hours", "work time"],
+		["Company building", "company car", "company vehicle", "computer", "copier", "copies", "fix", "garage", "house", "laptop", "material", "printer", "property", "real estate", "real property", "repair", "resources", "tools", "tractor"],
+		["Catering", "class", "classroom", "college", "consult", "education", "family business", "family owned", "firm", "franchise", "grade", "handyman business", "instructor", "landlord", "lesson plans", "LLC", "own", "partner", "project", "real estate", "rental property", "school", "second job", "student", "tenant", "teach", "teacher", "teaching", "training", "university", "work hour", "work time", "job", "manag"],
+		["Borrow", "business use", "company use", "frequent use", "incidental", "limited", "often use", "personal use", "weekend use"]
+	]
+}, {
+	"pageKey": "gifts-favors",
+	"title": "Gifts & Favors",
+	"canITitle": "Can I accept ...?",
+	"canIReminder": "Never ask for a gift or favor",
+	"icon": "gift_favors.png",
+	"ciicon": "gift_favors.png",
+	"titleicon": "gift_title_icon.png",
+	"items": [{
+		"title": "Summary of Company Policy",
+		"icon": "favors_list_icon_01.png",
+		"description": "Accepting excessive gifts or favors from businesses that are currently doing business with SCB or that are actively seeking to do business with SCB can harm the Company’s reputation, by creating the appearance of impropriety.",
+		"nextPage": "ps-gifts-favors-summary",
+		"descriptionContent": "<div><p>Ethical Principle</p>Accepting excessive gifts or favors from businesses that are currently doing business with SCB or that are actively seeking to do business with SCB can harm the Company’s reputation, by creating the appearance of impropriety.&nbsp; Excessive gifts can cloud your judgment when making decisions for the Company or give the appearance that you are “selling” favorable treatment.&nbsp; Accepting favors can create issues among suppliers about preferential or unfair treatment and can affect morale.&nbsp; For these reasons, be sure to follow Company limits on accepting gifts and favors.</div><div> <p>Never accept...</p><ul><li>Gifts above nominal value ($50 in U.S. - <a href=\"#/nominal-value\">click to see local currencies</a>)</li><li>Cash, gift certificates, gift cards, or packaged alcohol</li><li>Tickets to events, unless the supplier/dealer also attends</li><li>A loan or special discount from a supplier/dealer</li></ul></div><div><p>Remember when dealing with suppliers/dealers:</p><ul><li>Never <strong>ask</strong> for a gift or favor, even if it would be within the nominal value guidelines</li><li>Our policies apply to gifts or favors offered by suppliers, dealers, and others with whom the Company does business or to whom the Company provides support, including Company supported charities, schools, universities, and trade groups or other business associations.</li><li>You can’t accept discounts or special deals offered just to you (or your team).&nbsp;The offer must be open to everyone in the Company, the general public, or another broad group (such as a professional association to which you belong)</li><li>Suppliers/dealers may not make special contributions to or payments for events primarily attended by Company personnel (such as retirement parties)</li><li>Prizes–even random drawings–are treated like any other gift or favor if awarded at a supplier-paid event or offered by a supplier/dealer, and cannot be accepted if greater than nominal value</li><li>Be careful when you ask for donations.  There should be no implication of pressure by the Company to donate</li></ul></div>"
+	}, {
+		"title": "Contacts and References",
+		"icon": "favors_list_icon_02.png",
+		"description": "When you have access to the SCB intranet you can review these resources.",
+		"nextPage": "ps-gifts-favors-quick-ref",
+		"items": [{
+			"title": "Policy Letter No. 3, Standards of Corporate Conduct",
+			"link": ""
+		}, {
+			"title": "Directive A-107, Standards of Corporate Conduct",
+			"link": ""
+		}, {
+			"title": "Listing of nominal value in local currencies",
+			"link": "#/nominal-value"
+		}, {
+			"title": "Options if I receive a gift not permitted by policy",
+			"link": "#/gift-exceed-policies"
+		}, {
+			"title": "For questions about gifts and favors, contact your local HR representative or click here to send an email to Personnel Relations in WHQ",
+			"link": "mailto:activity@SCB.com?subject=Mobile App - Gifts and Favor"
+		}, {
+			"title": "For questions about gifts and favors, you can click here to send an email to Corporate Compliance Office",
+			"link": "mailto:SCBlaw@SCB.com?subject=Mobile App - Gifts and Favor"
+		}]
+	}, {
+		"title": "Frequently Asked Questions",
+		"icon": "favors_list_icon_03.png",
+		"description": "I entered a drawing at an annual conference and won a free registration to the next conference. Can I use the registration?",
+		"nextPage": "faq-gifts-favors"
+	}],
+	"frequently-asked-questions": [{
+		"question": "<strong>Conferences: </strong>I entered a drawing at an annual conference and <u>won a free registration</u> to the next conference.  Can I use the registration?",
+		"answer": "It depends: Is the registration only for you or can it be used by the Company? For example, if the registration is transferrable to another SCB person, then the Company can keep the “gift” and management can determine who, if anyone, attends. If the registration is not transferrable, then management should decide if it is of value to the Company to send you or not.  If the department is willing to cover the other travel expenses, then the Company can use it.  If management is not willing to cover the extra costs, it will be considered a “gift” to you which you cannot accept (assuming it is worth more than nominal value).",
+		"nextPage": "faq-gifts-favors-detailed",
+		"reference": "gifts-favors"
+	}, {
+		"question": "<strong>Conference Expenses Paid: </strong>A supplier has offered to <u>pay all my expenses to attend a technical conference</u>. The supplier has offered to cover my airfare, hotel, conference fee, and meals. Are there any issues with this?",
+		"answer": "<p>Supplier-paid travel to conferences has limitations. Generally, accepting a free conference admission is permissible if the Company is paying for the travel and you have received appropriate approvals.</p><br><p>With appropriate approvals, you may accept travel costs if you are speaking at the conference.</p><br/><p>Details of such trips vary, and approvals will be situation specific. You should contact the Corporate Compliance Office or Personnel Relations and provide the details of the offer, the website for the conference and any other associated travel or time you will spend on the trip for guidance on the required approvals.</p>",
+		"nextPage": "faq-gifts-favors-detailed",
+		"reference": "gifts-favors"
+	}, {
+		"question": "<strong>Raffles/Conferences: </strong>I attended a professional conference (paid my own way) and entered <u>a raffle hosted by a supplier/dealer</u> that does business with SCB.  If I win, can I keep it? Neither the Company nor a supplier paid for my conference trip or travel.",
+		"answer": "No, you may not keep the prize provided by a Company supplier, dealer, or other organization that does business with the Company if the prize is above nominal value ($50 in the U.S. – <a href=\"#/nominal-value\">click to see local currency amounts</a>). (  It does not matter who paid for the conference nor does it matter whether you purchased the raffle ticket or it was given to you.  However, if you paid your own way, you could accept a prize from a business or organization that does not do business with the Company and is not actively seeking to do business with the Company.  If the Company or a supplier paid for your attendance, at a conference, you cannot accept any prizes that exceed the Company’s gift policies.",
+		"nextPage": "faq-gifts-favors-detailed",
+		"reference": "gifts-favors"
+	}, {
+		"question": "<strong>Discounts/Conferences: </strong>I am attending a conference in Orlando, Florida next month.  The event sponsor has procured a highly discounted rate for the conference hotel.  As a conference participant, they have <u>offered the ability to reserve additional nights</u> at the hotel before or after the conference at the special rate so I can enjoy the resort with my family.  Can I accept the discounted rate? ",
+		"answer": "No, you may not accept special discounts unless it is available to all Company employees or the general public. You would be personally benefitting from the event.",
+		"nextPage": "faq-gifts-favors-detailed",
+		"reference": "gifts-favors"
+	}, {
+		"question": "<strong>Food Basket: </strong>I received a holiday <u>basket with food and a bottle of wine</u> from a supplier.  The value of the basket is more than our nominal value limit ($50 in the U.S.).  Do I have to return it?",
+		"answer": "First, the bottle of wine cannot be accepted and must be returned or turned into the Company.  Next, since food baskets are perishable, it is permissible to put the basket in a location where other personnel can share in the basket so that you’re not receiving more than our nominal value limit yourself ($50 in the U.S. – <a href=\"#/nominal-value\">check the link under References for local currency amounts</a>).",
+		"nextPage": "faq-gifts-favors-detailed",
+		"reference": "gifts-favors"
+	}, {
+		"question": "<strong>Gift Cards: </strong>I received a <u>gift card to a spa</u> for $25 from a supplier, can I keep it?",
+		"answer": "No, even though of nominal value, it is a gift card – which is not allowed.",
+		"nextPage": "faq-gifts-favors-detailed",
+		"reference": "gifts-favors"
+	}, {
+		"question": "<strong>Personalized Gift: </strong>A dealer sent me a <u>personalized leather briefcase</u> with my name engraved in the interior.  Can I keep it?",
+		"answer": "This gift exceeds nominal value and you must return it.  If you want to keep it, you must pay either the dealer or the Company the fair market value of the item.  You should keep evidence of your payment. See References for information on \"Options if I receive a gift not permitted by policy.\"",
+		"nextPage": "faq-gifts-favors-detailed",
+		"reference": "gifts-favors"
+	}, {
+		"question": "<strong>Unique Gifts: </strong>While visiting a dealer to celebrate improved sales, he gave me <u>a limited edition painting</u>.  The dealer and I have developed a strong relationship and I didn’t want to risk damaging our relationship by refusing the gift.  Can I accept?",
+		"answer": "You should politely decline to accept or return the artwork, citing Company policy.  With a recommendation from management and approval from Personnel Relations, you could also accept the painting on behalf of the Company (who will donate the item to charity or display it at a Company location).",
+		"nextPage": "faq-gifts-favors-detailed",
+		"reference": "gifts-favors"
+	}, {
+		"question": "<strong>Team Sponsorships: </strong>Is it okay for me to ask a supplier to <u>help sponsor my child’s sports</u> team?",
+		"answer": "No, you may never solicit a gift or favor.  Even if the supplier voluntarily offers to donate to the team, this would be a personal favor that exceeds Company policy rather than a charitable contribution.",
+		"nextPage": "faq-gifts-favors-detailed",
+		"reference": "gifts-favors"
+	}, {
+		"question": "<strong>Asking for Donations: </strong>Our department wants to help a local hospital for children.  We want to <u>offer some of our suppliers</u> the chance to advertise at the hospital’s <u>annual fund-raising event</u> We think the suppliers might appreciate the chance to use this advertising opportunity.  Is there anything we need to know?",
+		"answer": "Yes.  First, our policies state that there should be no implication of pressure by the Company to donate.  You should include a statement like: “Your participation is voluntary.  Your decision to support or not support this fundraising effort will not affect your current or future business relationship with the Company.” Next, be sure you have your management’s approval, and if multiple suppliers are involved, you should check with Purchasing to see if there are any approval processes that apply.  Remember that fundraising should not interfere with your duties at the Company.  Finally, it is important that you think about whether or not you or your loved ones benefit from the charity.  If there is a personal benefit, you may have a conflict of interest, in which case you should consult with HR/Personnel Relations or the Corporate Compliance Office.",
+		"nextPage": "faq-gifts-favors-detailed",
+		"reference": "gifts-favors"
+	}, {
+		"question": "<strong>Retirement/Company Parties: </strong>We are celebrating the <u>retirement of a Company employee</u> at a very nice restaurant and selling tickets for admission.  Suppliers, dealers, and Company personnel are all invited to attend.  One supplier who is attending <u>offered to pay for the food</u>.  Is that permissible? ",
+		"answer": "No, a supplier should not pay for food at events that are primarily attended by Company personnel.  You should decline the supplier’s offer, and pay for the food from ticket proceeds.  The supplier should pay the same amount for a ticket as SCB personnel.",
+		"nextPage": "faq-gifts-favors-detailed",
+		"reference": "gifts-favors"
+	}, {
+		"question": "<strong>Mixed Personal and Business: </strong>My <u>neighbor</u> happens to work for a supplier.  We are friends and we do not interact with each other in our jobs.  My <u>daughter is getting married</u> and I want to invite my neighbor to the wedding.   I also assume he will give my daughter a wedding gift.  Can I invite him and can my daughter accept the gift?",
+		"answer": "This situation takes some probing to be sure there is no disguised supplier gift.  What other events do you share with this family?  Is the supplier a big company and it is clear the gift is from the neighbor personally?  Is the supplier small and the neighbor is the sole or one of few owners?  If it is truly a personal gift from the neighbor, the Company gift policy does not need to be followed in this instance.  It is advisable to review the situation with your HR representative and document the advice you are given.",
+		"nextPage": "faq-gifts-favors-detailed",
+		"reference": "gifts-favors"
+	}, {
+		"question": "<strong>Vacations/Discounts: </strong>A dealer I interact with regularly has a <u>great apartment on the beach</u> in Greece he often rents out.  He has offered to let me <u>use it during the off weeks for free</u> (or at a discounted rate).  Is it okay for me to accept?",
+		"answer": "No, you can only rent it at the regular rate – or at a discount that is publicly available.",
+		"nextPage": "faq-gifts-favors-detailed",
+		"reference": "gifts-favors"
+	}, {
+		"question": "<strong>Job Offers: </strong>A supplier I work with is looking for <u>summer interns</u>.  Can I suggest to my contact at the supplier that <u>my son would be a great candidate</u> and send my son’s resume?",
+		"answer": "Your child may apply to positions through their normal recruitment/application process.  You should not reach out to your contact at the supplier to recommend him, or submit his resume to a Company supplier through any special process. <br/><br/>You should ensure you do not intentionally or unintentionally influence or appear to influence any hiring decisions by the supplier.  For example, you should not even mention to the supplier that your child has applied.",
+		"nextPage": "faq-gifts-favors-detailed",
+		"reference": "gifts-favors"
+	}, {
+		"question": "<strong>Definitions: </strong>How do I determine whether a company or person is considered as <u>“doing business” with SCB?</u>",
+		"answer": "First, our policy is interpreted broadly to include charities, schools, and universities which the Company supports through fund raising, donations, or research projects.  The policies also cover trade groups and other business associations to which the Company belongs or which receive significant support from our dealers or suppliers.  Second, if you aren’t sure, ask.  The representative of a business will often know if they do work for SCB.  Purchasing may also be able to help check.",
+		"nextPage": "faq-gifts-favors-detailed",
+		"reference": "gifts-favors"
+	}, {
+		"question": "<strong>Gift Exceeds Policy: </strong>What do I do if I receive a gift that I cannot keep because it <u>exceeds our policy limits</u>?",
+		"answer": "<a href=\"#/gift-exceed-policies\">Click here to view gifts that exceed policies</a>",
+		"nextPage": "faq-gifts-favors-detailed",
+		"reference": "gifts-favors"
+	}],
+	"can-i": [{
+		"title": "Alcohol, Beer or Wine",
+		"text": "It is against policy to accept a bottle of any kind of alcohol as a gift from a supplier, dealer, or other third party. You may share beer, wine, or other alcohol as part of a meal or special event with a supplier, dealer, or other third party. Remember you represent the Company. Always drink in a responsible manner"
+	}, {
+		"title": "Cash or Gift Certificates",
+		"text": "It is against policy to accept cash and generally against policy to accept gift certificates/cards from a supplier, dealer, or other third party. If a gift certificate is used to deliver a specific (usually perishable) item of nominal value, it may be appropriate - for example, during the Chinese New Year, a gift certificate for moon cakes at a specific shop for nominal value is permitted"
+	}, {
+		"title": "Gift Baskets or Gift Bags",
+		"items": [{
+			"title": "Below nominal value",
+			"text": "You can accept if, the total value is below nominal value and there are no alcohol, cash, or impermissible gift certificates/cards (see cash or gift certificates for details)"
+		}, {
+			"title": "Above nominal value and has food items",
+			"text": "If the basket is mostly food items, you may accept as long as it is shared with your co-workers (i.e. placed in a common area for sharing).  Any alcohol must be turned in to the Company or returned"
+		}, {
+			"title": "Above nominal value and has NO food items",
+			"text": "You cannot accept a gift basket or gift bag if the contents taken together are above nominal value.  You can accept one item below nominal value and either return the rest or turn the rest in to the Company"
+		}]
+	}, {
+		"title": "Other Gift Items",
+		"items": [{
+			"title": "Personal Gifts",
+			"items": [{
+				"title": "Below nominal value",
+				"text": "You can accept the gift if the value is below nominal value and there is no alcohol, cash, or gift certificates/cards"
+			}, {
+				"title": "Above nominal value",
+				"text": "You cannot accept the gift if the value is above nominal value"
+			}, {
+				"title": "Don’t know the value",
+				"text": "Try to determine the value of the gift by doing an internet search for similar items.  Discuss with HR or the Compliance Office if you need help."
+			}, {
+				"title": "What to do if you can’t keep it",
+				"reference": "gift-exceed-policies"
+			}]
+		}, {
+			"title": "Special Occasions",
+			"text": "Retirements, promotions, or other job-related events follow the normal rules (see below). If you have a personal relationship outside the Company, such as a childhood friend who works for a supplier or dealer, and you or your department has contact with that supplier/dealer on a regular basis, you should take extra precautions to avoid situations that could be seen as a policy violation.  If the occasion is a personal celebration, such as a wedding or birthday, and you receive a gift or some other special favor, you should consult with HR or the Compliance Office before accepting something that exceeds the normal rules.",
+			"items": [{
+				"title": "Below nominal value",
+				"text": "You can accept the gift if the value is below nominal value and there is no alcohol, cash, or gift certificates/cards"
+			}, {
+				"title": "Above nominal value ",
+				"text": "You cannot accept the gift if the value is above nominal value"
+			}, {
+				"title": "Don’t know the value",
+				"text": "Try to determine the value by doing an internet search for similar items.  Discuss with HR or the Compliance Office if you need help."
+			}, {
+				"title": "What to do if you can’t keep it",
+				"reference": "gift-exceed-policies"
+			}]
+		}, {
+			"title": "Gifts to Family Members",
+			"text": "Gifts and favors to your family members follow the normal rules (see below).  If you have a personal relationship outside the Company, such as a childhood friend who works for a supplier or dealer, and you or your department has contact with that supplier/dealer on a regular basis, you should take extra precautions to avoid situations that could be seen as a policy violation.  If the occasion is a personal celebration, such as a wedding or birthday, and you receive a gift or some other special favor, you should consult with HR or the Compliance Office before accepting something that exceeds the normal rules.",
+			"items": [{
+				"title": "Below nominal value",
+				"text": "You can accept if the gift is below nominal value and there is no alcohol, cash, or gift certificates/cards"
+			}, {
+				"title": "Above nominal value",
+				"text": "You cannot accept the gift if the value is above nominal value"
+			}, {
+				"title": "Don’t know the value",
+				"text": "Try to determine the value by doing an internet search for similar items.  Discuss with HR or the Compliance Office if you need help."
+			}, {
+				"title": "What to do if you can’t keep it",
+				"reference": "gift-exceed-policies"
+			}]
+		}]
+	}, {
+		"title": "Prizes ",
+		"text": "Prizes are treated the same as gifts and favors and must meet Company policy for the type of gift or favor offered as a prize.  Always ask when you are not sure if you can accept a prize"
+	}, {
+		"title": "Favors and Special Offers",
+		"items": [{
+			"title": "Free / Discounted Products ",
+			"text": "Never ask for free or discounted products.  If the free or discounted item is being offered to the public, or all employees then it can be accepted.  If the free or discounted product is only offered to you, you cannot accept"
+		}, {
+			"title": "Free / Discounted Services",
+			"text": "Never accept free or discounted services, unless the same deal is open to all employees or the general public"
+		}, {
+			"title": "Supplier Paid Travel",
+			"items": [{
+				"title": "Business Meeting",
+				"text": "Supplier-paid travel for business meetings and conferences must be reviewed by HR/Personnel Relations and the Corporate Compliance Office and approved by your LL1."
+			}, {
+				"title": "Private Conference",
+				"text": "Supplier-paid travel for business meetings and conferences must be reviewed by HR/Personnel Relations and the Corporate Compliance Office and approved by your LL1."
+			}, {
+				"title": "Travel on Private Supplier Aircraft",
+				"text": "Directive A-110 requires approval from the Global Travel Office for travel on supplier-owned aircraft.  Depending on the purpose of the trip, you will likely need review by HR/Personnel Relations and the Corporate Compliance Office and approved by your LL1."
+			}, {
+				"title": "Social / Recreational Events",
+				"items": [{
+					"title": "Local Events",
+					"text": "If you are traveling together with a supplier to a local event that is permitted by SCB policy (such as the supplier is in attendance, there are no inappropriate locations, and the offer does not exceed the frequency limits), you do not need any special approvals.  Local events are ones that are in the same metropolitan area where you are located.  If it involves flights or long rides to get to the event, it is not a local event."
+				}, {
+					"title": "Extensive or Overnight Travel ",
+					"text": "Any entertainment /social or recreational events that involve overnight or extensive travel must be reviewed by HR/Personnel Relations and the Corporate Compliance Office and approved by your LL1.  This is true whether you, SCB, or the supplier pays for your travel.  If you accept entertainment or social events which are at locations where you have already travelled at the Company expense for Company business, you do not need special approvals as long as you comply with all other Company policies (such as the supplier is in attendance, there are no inappropriate locations, and the offer does not exceed frequency limits). "
+				}]
+			}]
+		}, {
+			"title": "Supplier Paid Conference",
+			"text": "To accept a free conference admission, you must have management approval (LL4 or above).  Remember to follow all other rules about gifts, meals, and entertainment.  Meals provided to conference participants will not be counted against your meal limits"
+		}, {
+			"title": "Job Opportunities",
+			"text": "You may not use your position at the Company to obtain a job for one of your friends or relatives.  You cannot ask a supplier or dealer to hire one of your friends or relatives.  You may learn about a job opportunity with another company while you are working at SCB.  It is okay to tell your friends or relatives about an open position so they can apply for the open position, but they must be considered along with other candidates and earn the job on their own merits.  You should not ask for any special considerations for your friends or relatives."
+		}]
+	}, {
+		"title": "Tickets",
+		"text": "If the supplier will be attending, go to Meals, Travel & Social Events for guidance. If the supplier is not attending with you, you may not accept tickets as a gift. The value of the ticket does not matter in this case."
+	}]
+}, {
+	"pageKey": "meals-travels",
+	"title": "Meals, Travel & Social Events",
+	"canITitle": "Can I attend ...?",
+	"canIReminder": "Never ask for an invitation or favor. No locations with adult entertainment are permitted.",
+	"icon": "meals-travels.png",
+	"ciicon": "meals-travels.png",
+	"titleicon": "meals-travels-title.png",
+	"items": [{
+		"title": "Summary of Company Policy",
+		"icon": "favors_list_icon_01.png",
+		"description": "Socializing with business contacts can help improve a good working relationship. There are limitations on what types of meals and entertainment are acceptable, however. Only social events that are helpful to business discussions should be accepted. You should decline any social invitation that might create the appearance of impropriety - including any that involves adult entertainment or other inappropriate venues.  Keep in mind that when you are traveling for the Company, you are a representative of the Company.  You should always use your best judgment and act in a manner that protects the Company’s reputation. Follow Company policies, especially applicable travel and expense policies and the Company’s ethical policies. Seek guidance if you are unsure what to do or discover you did not follow policy.",
+		"nextPage": "ps-meals-travels-summary",
+		"descriptionContent": "<div><p>Ethical Principle</p>Socializing with business contacts can help improve a good working relationship. There are limitations on what types of meals and entertainment are acceptable, however. Only social events that are helpful to business discussions should be accepted. You should decline any social invitation that might create the appearance of impropriety - including any that involve adult entertainment or other inappropriate venues. Keep in mind that when you are traveling for the Company, you are a representative of the Company.  You should always use your best judgment and act in a manner that protects the Company’s reputation. Follow Company policies, especially applicable travel and expense policies and the Company’s ethical policies. Seek guidance if you are unsure what to do or discover you did not follow policy.</div><div><p>Basic Policy</p><ul><li>You may accept normal refreshments provided by a supplier/dealer when attending business meetings.  Follow policy limits summarized below on meals and entertainment</li><li>Do not attend an inappropriate event, such as one that includes adult entertainment when on Company business.  Ask your HR representative and your manager about any situations that may not fall within normal policy limits</li><li>When attending supplier/dealer-paid activities, accept only meals and social events that are within normal policy limits.  You must obtain special approval for supplier- or dealer-paid travel</li><li>Travel and expense rules vary around the globe. Know where to find the ones applicable to your travel</li></ul></div><div><p>Normal Policy Limits</p><ul><li>One meal per quarter per individual supplier/dealer</li><li>One meal per week, in total, from all suppliers/dealers</li><li>Light refreshments (drinks, cookies, fruit) offered when you attend a business meeting are permitted</li><li>Two entertainment events per year from any one supplier/dealer</li><li>Supplier/dealer must attend the event with you.  If your guest is invited, the host should be bringing a guest also</li></div><div><p>Other Guidance</p><ul><li>To accept overnight or extensive travel paid for by a third party, you must obtain approval from your manager, Corporate VP (LL1), and Personnel Relations in the U.S. , So. Am., and AP, or your HR representative in other regions</li><li>Accepting paid travel or other costs for conferences and seminars is treated as travel paid for by a third party and must be approved.</li><li>When speaking at any venue as part of your Company job, you may not accept any speaker fees or financial awards</li><li>Charities, schools, universities and trade groups, and other business associations that are supported by the Company are to be treated as suppliers/dealers</li></ul></div>"
+	}, {
+		"title": "Contacts and References",
+		"icon": "favors_list_icon_02.png",
+		"description": "When you have access to the SCB intranet you can review these resources.",
+		"nextPage": "ps-meals-travels-quick-ref",
+		"items": [{
+			"title": "Policy Letter No. 3, Standards of Corporate Conduct",
+			"link": ""
+		}, {
+			"title": "Directive A-107, Standards of Corporate Conduct",
+			"link": ""
+		}, {
+			"title": "Directive A-110, Business Related Travel (includes supplier/dealer aircraft)",
+			"link": ""
+		}, {
+			"title": "Global Travel Policy",
+			"link": ""
+		}, {
+			"title": "Your online Travel Expense (TER) site, if applicable, for information on what may be expensed while traveling",
+			"link": ""
+		}, {
+			"title": "For questions about meals or travel provided by suppliers or business contacts, or attendance at social events, contact your local HR representative or click here to send an email to Personnel Relations in WHQ",
+			"link": "mailto:activity@SCB.com?subject=Mobile App - Meals and Social Events"
+		}, {
+			"title": "For questions about Company travel and expense policies and limits, contact your local Travel Office or Internal Control representative",
+			"link": ""
+		}]
+	}, {
+		"title": "Frequently Asked Questions",
+		"icon": "favors_list_icon_03.png",
+		"description": "We are working on a project with a supplier that requires our group to work from early morning through dinner. The supplier has offered to bring  in  sandwiches and salad for lunch and dinner. Since we are working through lunch and dinner is this permitted?",
+		"nextPage": "faq-meals-travels"
+	}],
+	"frequently-asked-questions": [{
+		"question": "<strong>All Day Meetings: </strong>We are working on a project with a supplier that requires our group to work from early morning through dinner.  The supplier has offered to <u>bring  in</u>  sandwiches and salad for lunch and dinner. Since we are <u>working through lunch and dinner</u> is this permitted?",
+		"answer": "Generally, you are not permitted to have more than one supplier-paid meal per week.  If circumstances truly make it prohibitive for you to pay for one of these meals, you should seek guidance and approval from HR or the Corporate Compliance Office.  They will look at the full circumstances with you so you can be comfortable that you are not violating policy.",
+		"nextPage": "faq-meals-travels-detailed",
+		"reference": "meals-travels"
+	}, {
+		"question": "<strong>Suggesting a Meal: </strong>Can I <u>suggest to a supplier that they should cover lunch</u> or provide food for a meeting?  Other suppliers have done this in the past and the people on my team expect it.  I do not want the supplier to feel embarrassed for not providing the food for the meeting.",
+		"answer": "No. Asking the supplier to provide food for a meeting is considered asking for a favor.  While some suppliers may provide food on their own at the meetings, you may not ask any supplier to buy lunch for a meeting, nor should your team expect suppliers to provide meals. Also, remind the other suppliers that you work with that they can only provide one meal per quarter to SCB personnel.",
+		"nextPage": "faq-meals-travels-detailed",
+		"reference": "meals-travels"
+	}, {
+		"question": "<strong>Out of Town Events: </strong>I receive invitations to attend athletic events from a number of suppliers/dealers. Most of the events are local but some <u>require overnight travel</u>.  Can I attend these events?  Is there a <u>limit on the number</u> of events I can attend?",
+		"answer": "You may accept up to two events per year per supplier/dealer. They should not require extensive travel or overnight stay.  The supplier/dealer must also attend.  You must decline any invitation requiring an overnight stay unless you have the proper approval – any exception for overnight stays requires approval of your LL1 and either Personnel Relations or the Corporate Compliance Office.",
+		"nextPage": "faq-meals-travels-detailed",
+		"reference": "meals-travels"
+	}, {
+		"question": "<strong>Dealer Providing Meals: </strong>I am traveling to visit some dealers in <u>areas where restaurants may not have proper hygiene</u>. I may not be able to find a restaurant where I feel comfortable eating.  I know the dealers will make sure that the food is prepared appropriately, but they will be in control and they may not allow me to pay for anything.  May I accept more than one meal per week during the trip? ",
+		"answer": "Your health and safety is of primary importance.  We recognize this type of situation exists from time to time, and some planning before your trip can help avoid issues once you are actually traveling.  For example, you may be able to meet the dealer at the hotel restaurant where you are comfortable eating and can pay for your own meal.  If you are concerned that you cannot eat safely within the normal meal requirements, contact HR/Personnel Relations or the Corporate Compliance Office for help and guidance.  It is helpful to let your host know about the Company’s gift and favor policies so you can work together on an agenda that conforms to Company ethics policies.",
+		"nextPage": "faq-meals-travels-detailed",
+		"reference": "meals-travels"
+	}, {
+		"question": "<strong>Extra Meals: </strong>I will be attending a conference in another region, at which <u>several suppliers will be offering dinners in the evenings</u>.  I would like to visit with these suppliers that I otherwise wouldn’t see – may I have more than the normal limit of one supplier-paid meal per week?",
+		"answer": "If you have a situation that justifies exceeding the normal limit of one supplier-paid meal per week, consult with HR/Personnel Relations or the Corporate Compliance Office in advance explaining the situation and requesting guidance. You should keep a copy of the advice in the event a question about your actions arises in the future.",
+		"nextPage": "faq-meals-travels-detailed",
+		"reference": "meals-travels"
+	}, {
+		"question": "<strong>Mixed Personal and Business: </strong>I am attending an international conference and will spend the weekend there with my spouse after the conference as part of my vacation.  A <u>childhood friend who works for a SCB dealer</u> is also attending the conference.  She has <u>invited me and my spouse</u> to stay in her villa the weekend following the conference with her and her husband. Can I accept the free stay at the villa?",
+		"answer": "Although the invitation comes from a childhood friend, the situation is complicated by the fact that you will be conducting business as part of the travel. The best course of action is to turn down the free stay at the villa. Otherwise, accepting the offer could create the appearance of impropriety.If you still believe it is appropriate in your situation, you should present all the facts to HR/Personnel Relations or the Corporate Compliance Office for guidance.",
+		"nextPage": "faq-meals-travels-detailed",
+		"reference": "meals-travels"
+	}, {
+		"question": "<strong>Entertainment/Conferences: </strong>I’ll be attending a conference and they are having a Grammy-winning <u>musical group perform at a conference networking gathering</u> in the evening. Can I attend?",
+		"answer": "Yes, but it will count as an entertainment event.",
+		"nextPage": "faq-meals-travels-detailed",
+		"reference": "meals-travels"
+	}, {
+		"question": "<strong>Meals at Conferences: </strong>I will be <u>attending a conference</u> where the marketing materials say that lunch will be sponsored by a company SCB does business with.  <u>Do I need to count that lunch</u> as one of my quarterly meals with that supplier?",
+		"answer": "No. The standard meals that are offered to conference attendees do not count against the meal limitations.  However, any external dinners or social events with a supplier/dealer <strong>do</strong> count against the meal and social event guidelines.",
+		"nextPage": "faq-meals-travels-detailed",
+		"reference": "meals-travels"
+	}, {
+		"question": "<strong>Speaker Fees: </strong>I was asked to speak at a business conference. The sponsor hosting the event offered to <u>pay me a  speaker fee</u>. May I accept?",
+		"answer": "If it is related to your job at SCB or part of your business expertise at SCB, you may not accept any fee or honorarium.  Similarly, you may not accept gifts that exceed our policies in connection with an award or other honor you receive.  For guidance on other situations, such as an area where you have personal experience unrelated to your position at SCB, contact the Corporate Compliance Office or Personnel Relations.",
+		"nextPage": "faq-meals-travels-detailed",
+		"reference": "meals-travels"
+	}, {
+		"question": "<strong>Tickets: </strong>A prospective <u>supplier/dealer mailed me two tickets</u> to attend a performance of a world-renowned opera singer. Am I required to send them back?",
+		"answer": "Yes, you should return the tickets.  You can only accept an entertainment ticket when the supplier/dealer also attends.  Under SCB policy, you may only accept two entertainment events per supplier/dealer each year and the supplier/dealer representatives must also attend with you.  When your spouse is invited to an event, other spouses should also be invited.",
+		"nextPage": "faq-meals-travels-detailed",
+		"reference": "meals-travels"
+	}, {
+		"question": "<strong>Tickets: </strong>A supplier invited me to a sold-out professional sporting event, and I accepted.  At the last minute, the <u>supplier had to cancel</u> and told me to go ahead and use the tickets. I’m really looking forward to the game – can I still go?",
+		"answer": "No, You should not go to the game without the supplier who invited you.  The purpose of allowing SCB personnel to accept invitations to socialize with a supplier is to enhance business relationships.  You could ask whether another representative of the supplier that you work with might be able to attend, but it is a violation of SCB policy to just take the tickets and go by yourself.",
+		"nextPage": "faq-meals-travels-detailed",
+		"reference": "meals-travels"
+	}, {
+		"question": "<strong>Guests: </strong>A supplier invited me to bring a guest to an event. Under policy, do I have to <u>bring my spouse</u>?",
+		"answer": "You are not required to bring your spouse when guests are invited.  You may bring another appropriate guest, who will promote the Company’s business purpose; you may also choose to attend without a guest.",
+		"nextPage": "faq-meals-travels-detailed",
+		"reference": "meals-travels"
+	}, {
+		"question": "<strong>Guests: </strong>A supplier has offered to take <u>me and my wife to a tennis tournament</u>. Can I accept?",
+		"answer": "Yes, <strong>if</strong> you have not exceeded two entertainment events in a year with this supplier and it is a local event. Your spouse can attend <strong>if</strong> other spouses (including the supplier’s spouse or guest) are attending.",
+		"nextPage": "faq-meals-travels-detailed",
+		"reference": "meals-travels"
+	}, {
+		"question": "<strong>Travel on Private Aircraft: </strong>I want to <u>travel on a supplier aircraft</u> to a worksite. What approval do I need?",
+		"answer": "Travel on supplier aircraft requires special approval by the corporate travel office under Directive A-110.  You may also need approval from Personnel Relations or the Corporate Compliance Office, depending on the purpose of the flight.  Even though the Company is not paying airfare, you must have the proper level of approval for the travel based on current authorities for Company-paid travel in your region.",
+		"nextPage": "faq-meals-travels-detailed",
+		"reference": "meals-travels"
+	}, {
+		"question": "<strong>Paying for Supplier’s Meal: </strong>I am traveling to a meeting in another country.  While I am there, I am trying to coordinate meetings with some other suppliers.  One of them was at our location last month and took me out to dinner so I cannot accept another meal from her company this quarter.  Can I <u>pay for the supplier’s dinner</u> and put it on my travel expense report?",
+		"answer": "Maybe.  There is not a global policy on whether or not the Company will pay if you host the vendor.  You should check with your manager and local Finance to find out what limits you may have when you travel.  If you cannot  pay for the supplier’s meal, you can go out to dinner with the supplier and each pay for your own meal.  There is no limit on how many times you can have a meal with a supplier if you each pay for your own meals.",
+		"nextPage": "faq-meals-travels-detailed",
+		"reference": "meals-travels"
+	}],
+	"can-i": [{
+		"title": "Meals",
+		"text": "Have you accepted more than one free meal this week?",
+		"items": [{
+			"title": "Yes",
+			"text": "You may not accept more than one free meal per week. If there are unusual circumstances, consult with Personnel Relations or the Corporate Compliance Office."
+		}, {
+			"title": "No",
+			"text": "You may accept the invitation if you have not accepted any other meals from the supplier in the quarter.  Remember to avoid the appearance of impropriety and do not go to any inappropriate locations."
+		}]
+	}, {
+		"title": "Snacks",
+		"text": "Light snacks (for example, drinks, cookies, chips, fruit) provided during business meetings are permitted."
+	}, {
+		"title": "Supplier/Dealer Paid Travel",
+		"items": [{
+			"title": "Business Meeting",
+			"text": "Supplier-paid travel for business meetings and conferences must be reviewed by HR/Personnel Relations and the Corporate Compliance Office and approved by your LL1."
+		}, {
+			"title": "Private Conference",
+			"text": "Supplier-paid travel for business meetings and conferences must be reviewed by HR/Personnel Relations and the Corporate Compliance Office and approved by your LL1."
+		}, {
+			"title": "Travel on Private Supplier Aircraft",
+			"text": "Directive A-110 requires approval from the Global Travel Office for travel on supplier-owned aircraft.  Depending on the purpose of the trip, you will likely need review by HR/Personnel Relations and the Corporate Compliance Office and approval by your LL1."
+		}, {
+			"title": "Social / Recreational Events",
+			"items": [{
+				"title": "Local Events",
+				"text": "If you are traveling together with a supplier to a local event that is permitted by SCB policy (e.g., supplier is in attendance and the event does not exceed frequency limits), you do not need any special approvals.  Local events are ones that are in the same metropolitan area where you are located.  If it involves a flights or long ride to get to the event, it is not a local event."
+			}, {
+				"title": "Extensive or Overnight Travel",
+				"text": "Any entertainment /social or recreational event that involves overnight or extensive travel must be reviewed by HR/Personnel Relations and the Corporate Compliance Office and approved by your LL1.  This is true whether you, SCB, or the supplier pays for your travel.  If you accept entertainment or social events at a location to which you have already travelled at the Company expense for Company business, you do not need special approvals as long as you comply with all other Company policies (e.g., supplier is in attendance, and the event is not at an inappropriate location and does not exceed frequency limits)."
+			}]
+		}]
+	}, {
+		"title": "Local Social Event",
+		"text": "Local events are ones that are in the same metropolitan area where you are located. If the event involves a flight or a long ride to get to the event, it is not a local event. Have you already accepted two social/entertainment events from this supplier/dealer/business associate?",
+		"items": [{
+			"title": "Yes",
+			"text": "No, you may not accept more than two social/entertainment events per year from a supplier, dealer, or other party with which the Company does business."
+		}, {
+			"title": "No",
+			"text": "As long as the supplier or dealer is in attendance, you may accept the invitation.  Remember to avoid the appearance of impropriety and do not go to any inappropriate locations."
+		}]
+	}, {
+		"title": "Social Event Involving Travel",
+		"text": "Any entertainment/social or recreational events that involve overnight or extensive travel must be reviewed by Personnel Relations and the Corporate Compliance Office and approved by your LL1.  This is true whether you, SCB, or the supplier pays for your travel.  If you accept entertainment or social events at a location to which you have already travelled at the Company expense for Company business, you do not need special approvals as long as you comply with all other Company policies (e.g., supplier is in attendance, and the event is not at an inappropriate locations and does not exceed frequency limits)."
+	}, {
+		"title": "Bring a Guest",
+		"text": "If the host is bringing a guest, you may bring a guest if the invitation includes a guest.  You should never ask to bring a guest.  If in doubt, contact Personnel Relations or the Corporate Compliance Office."
+	}]
+}, {
+	"pageKey": "conflicts-of-interest",
+	"title": "Conflicts of Interest",
+	"canITitle": "Can I work for ...?",
+	"canIReminder": "Never ask for a gift or favour",
+	"icon": "conflicts-of-interest.png",
+	"ciicon": "conflicts-of-interest.png",
+	"titleicon": "conflicts-of-interest-title.png",
+	"items": [{
+		"title": "Summary of Company Policy",
+		"icon": "favors_list_icon_01.png",
+		"description": "A conflict of interest exists when a personal interest or activity could interfere with your duty to act in the best interests of the Company.  It is essential that you act with integrity and never enrich yourself or others while conducting Company business.  Avoid behavior that could be interpreted by others as improper either locally or as part of our global team",
+		"nextPage": "ps-conflicts-of-interest-summary",
+		"descriptionContent": "<div><p>Ethical Principle </p>A conflict of interest exists when a personal interest or activity could interfere with your duty to act in the best interests of the Company.  It is essential that you act with integrity and never enrich yourself or others while conducting Company business.  Avoid behavior that could be interpreted by others as improper either locally or as part of our global team.<p>You must keep Company business separate from personal business:</p><ul><li>Do not own an interest in a business that works with SCB</li><li>Do not work on Company matters that involve a business your relative owns, or where you will be working with your relative</li></ul></div><div><p>Disclose potential conflicts of interest to the Company and your management:</p><ul><li>If your relative works for a supplier/dealer</li><li>If your relative has a financial interest in a supplier/dealer</li><li>If your relative will benefit from any transaction with the Company or a supplier/dealer – for example, by owning a company that is a Tier 2 supplier, or being given a finder’s fee</li><li>If you are a director, officer, or consultant of an outside organization or you own a business, regardless of the business relationship with the Company</li></ul></div><div><p>You cannot own an interest in a supplier/dealer:</p><ul><li>Exceptions may be granted only with written approval from the Chairman or the GVP and General Counsel</li><li>This restriction covers all suppliers – not just Tier 1 suppliers</li></ul><p>Asking for donations for charities or encouraging the company to work with a business that you want to support can have many ethical issues.  Check the section on Gifts and Favors for more guidance</p></div>"
+	}, {
+		"title": "Contacts and References",
+		"icon": "favors_list_icon_02.png",
+		"description": "When you have access to the SCB intranet you can review these resources.",
+		"nextPage": "ps-conflicts-of-interest-quick-ref",
+		"items": [{
+			"title": "Policy Letter No. 3, Standards of Corporate Conduct",
+			"link": ""
+		}, {
+			"title": "Policy Letter No. 22, Preventing Improper Disclosure of Company Information",
+			"link": ""
+		}, {
+			"title": "Directive B-109,  Appropriate Use of Company Resources and Similar Company Assets ",
+			"link": ""
+		}, {
+			"title": " The Conflict of Interest Disclosure Tool, or Disclosure Form for Outside Employment, Financial Interests and Relationships (Conflicts of Interest) also known as Form 2402",
+			"link": ""
+		}, {
+			"title": "For questions about conflicts of interest or disclosures, contact your local HR representative or click here to send an email to Personnel Relations in WHQ",
+			"link": "mailto: activity@SCB.com?subject=Mobile App - COI"
+		}, {
+			"title": "Or you can click here to send an email to Corporate Compliance Office",
+			"link": "mailto: SCBlaw@SCB.com?subject=Mobile App - COI"
+		}]
+	}, {
+		"title": "Frequently Asked Questions",
+		"icon": "favors_list_icon_03.png",
+		"description": "My spouse owns a small business conducting leadership training.  I mentioned this to a dealer I work with and he said his team would benefit from this kind of training.  A few weeks later, several dealers had engaged my spouse’s business to help their teams.  I am certain the dealers do not feel any pressure to employ my spouse.  In fact, they seem genuinely happy about it.  Should I disclose my spouse’s business to the Company?",
+		"nextPage": "faq-conflicts-of-interest"
+	}],
+	"frequently-asked-questions": [{
+		"question": "<strong>Family Business:</strong> My <u>spouse owns a small business</u> conducting leadership training.  I mentioned this to a dealer I work with and he said his team would benefit from this kind of training.  A few weeks later, several <u>dealers had engaged my spouse’s business</u> to help their teams.  I am certain the dealers do not feel any pressure to employ my spouse.  In fact, they seem genuinely happy about it.  Should I disclose my spouse’s business to the Company?",
+		"answer": "You must follow the Company filing process for disclosures.  You can use the online conflict of interest disclosure tool if available in your country, or file with HR a hard copy of the Disclosure Form for Outside Employment, Financial Interests and Relationships (Conflicts of Interest) also known as Form 2402.  In this situation, the Company prefers that your spouse’s business cease all business with the Company or its suppliers/dealers because of the close connection to your responsibilities at SCB.  These types of family ownership situations are complicated and will be evaluated based on the facts of each case.",
+		"nextPage": "faq-conflicts-of-interest-detailed",
+		"reference": "conflicts-of-interest"
+	}, {
+		"question": "<strong>Outside Business:</strong> <u>I own a restaurant</u>.  Do I need to disclose this to the Company?",
+		"answer": "Yes, you need to disclose owning a restaurant because your responsibilities as a business owner could interfere with your duties at the Company. Disclose your interest to your supervisor and follow the Company filing process for disclosures.  You can use the online conflict of interest disclosure tool if available in your country, or file with HR a hard copy of the Disclosure Form for Outside Employment, Financial Interests and Relationships (Conflicts of Interest) also known as Form 2402.",
+		"nextPage": "faq-conflicts-of-interest-detailed",
+		"reference": "conflicts-of-interest"
+	}, {
+		"question": "<strong>Ownership of Supplier:</strong> I have a 20% <u>interest in a Tier 2 supplier</u>.  Is this allowed since this Tier 2 supplier does not have a direct contract with the Company?",
+		"answer": "You must disclose your financial interest in the Tier 2 supplier.  Even though there is no contract between the supplier and the Company, the supplier is in the Company’s supply chain which is considered conducting business with the Company.  This type of situation will need to be reviewed carefully and unless there are special circumstances, it will not be allowed. Disclose your interest to your supervisor and follow the Company filing process for disclosures.  You can use the online conflict of interest disclosure tool if available in your country, or file with HR a hard copy of the Disclosure Form for Outside Employment, Financial Interests and Relationships (Conflicts of Interest) also known as Form 2402.",
+		"nextPage": "faq-conflicts-of-interest-detailed",
+		"reference": "conflicts-of-interest"
+	}, {
+		"question": "<strong>Ownership of Supplier:</strong> I work at SCB and also have a <u>part ownership in an IT consulting company</u>.  Other employees of this consulting company provide services to SCB, but I don’t work on those SCB projects.  Is that a problem?",
+		"answer": "You must disclose your ownership interest in this business, whether the business does work with SCB or not.  Note that you would also need to make the same disclosure if your spouse or another relative owned the IT consulting company.  If you are a SCB employee, you cannot own an interest in a supplier to SCB without approval at the highest levels of the Company (Chairman, or GVP and General Counsel).  If you are agency personnel, you should inform your SCB manager and your agency employer. (In some countries, there is a process for agency personnel to make these types of disclosures through their employer.)",
+		"nextPage": "faq-conflicts-of-interest-detailed",
+		"reference": "conflicts-of-interest"
+	}, {
+		"question": "<strong>Second Job:</strong> <u>I teach</u> business classes in some evenings and some weekends at a local college.  Do I have to disclose my second job as a teacher?",
+		"answer": "Yes, you should follow the Company filing process for disclosures.  You can use the online conflict of interest disclosure tool if available in your country, or file with HR a hard copy of the Disclosure Form for Outside Employment, Financial Interests and Relationships (Conflicts of Interest) also known as Form 2402 .  Also be careful that you do not use your work time at SCB on this outside role; for example, don’t spend your time at work grading papers or researching lecture materials, or asking SCB colleagues to spend their work time assisting you.",
+		"nextPage": "faq-conflicts-of-interest-detailed",
+		"reference": "conflicts-of-interest"
+	}, {
+		"question": "<strong>Outside Board:</strong> I am on the governing <u>board of my local neighborhood development association</u>.  It is an unpaid position; do I need to file a disclosure with the company?",
+		"answer": "No, only positions with national or high-visibility non-profit entities need to be disclosed.",
+		"nextPage": "faq-conflicts-of-interest-detailed",
+		"reference": "conflicts-of-interest"
+	}, {
+		"question": "<strong>Outside Board:</strong> I am an LL5 and I have been asked to be on the <u>board of a large non-profit entity</u>.  Do I need to file a disclosure with the Company before accepting the position?",
+		"answer": "Yes, even if the position is unpaid.  If you are below an LL5, you do not need to disclose these non-profit positions. Follow the Company filing process for disclosures.  You can use the online conflict of interest disclosure tool if available in your country, or file with HR a hard copy of the Disclosure Form for Outside Employment, Financial Interests and Relationships (Conflicts of Interest) also known as Form 2402.",
+		"nextPage": "faq-conflicts-of-interest-detailed",
+		"reference": "conflicts-of-interest"
+	}, {
+		"question": "<strong>Personal Gain: </strong> I am a SCB manager. I have been asked to approve a change in policy for my location. I recognize that I will <u>personally benefit from the proposed change</u>. I am uncomfortable giving my approval in this situation. What should I do?",
+		"answer": "Any time that you will personally benefit from a change that you are approving, you should ensure there is transparency to everyone involved, and elevate the issue.  A good way to handle this type of situation is to elevate the approval to your manager with an explanation of the impact of the change, including how you would personally benefit.",
+		"nextPage": "faq-conflicts-of-interest-detailed",
+		"reference": "conflicts-of-interest"
+	}, {
+		"question": "<strong>Relative's Job:</strong> My son <u>works for a business that provides services to the Company</u>.  Do I need to disclose this relationship?",
+		"answer": " You must disclose this if you are in a position where you work directly with people from your son’s business or that might allow you to make any decisions about this supplier/dealer. Disclose your son’s employment situation to your supervisor and follow the Company filing process for disclosures.  You can use the online conflict of interest disclosure tool if available in your country, or file with HR a hard copy of the Disclosure Form for Outside Employment, Financial Interests and Relationships (Conflicts of Interest) also known as Form 2402 . We also recommend you disclose these types of situations even if you don’t work directly with your son’s business.",
+		"nextPage": "faq-conflicts-of-interest-detailed",
+		"reference": "conflicts-of-interest"
+	}, {
+		"question": "<strong>Relative's Job:</strong> My daughter recently started <u>working at a Company dealer</u>. Do I need to disclose the relationship?",
+		"answer": " If you are in a position where you work with dealers or you may make any decisions about the dealer, you must disclose your daughter’s employment relationship to your supervisor and follow the Company filing process for disclosures.  You can use the online conflict of interest disclosure tool if available in your country, or file with HR a hard copy of the Disclosure Form for Outside Employment, Financial Interests and Relationships (Conflicts of Interest) also known as Form 2402 .  We also recommend you disclose such relationships even if you don’t have direct responsibilities for dealerships.",
+		"nextPage": "faq-conflicts-of-interest-detailed",
+		"reference": "conflicts-of-interest"
+	}, {
+		"question": "<strong>Relative's Job:</strong> My brother works for a company that <u>provides engineering services</u> to the Company.  I will not come into contact with that company since I am in Marketing and Sales.  What should I do?",
+		"answer": "Since you do not work with this supplier, you are not required to disclose this relationship to your supervisor or the Company. We recommend that you disclose such relationship , however, because while you don’t currently work with the supplier, you may find that you change roles in your career at SCB and work with that supplier in the future.",
+		"nextPage": "faq-conflicts-of-interest-detailed",
+		"reference": "conflicts-of-interest"
+	}, {
+		"question": "<strong>Relative's Ownership:</strong> My sister-in-law <u>owns a SCB dealer</u>.  Do I need to disclose this relationship?",
+		"answer": "Yes, you must disclose this situation to your supervisor and follow the Company filing process for disclosures.  You can use the online conflict of interest disclosure tool if available in your country, or file with HR a hard copy of the Disclosure Form for Outside Employment, Financial Interests and Relationships (Conflicts of Interest) also known as Form 2402 since your sister-in-law is a family member and you are aware of her ownership interest.",
+		"nextPage": "faq-conflicts-of-interest-detailed",
+		"reference": "conflicts-of-interest"
+	}, {
+		"question": "<strong>Relative's Ownership:</strong> I do not have a close relationship with my family.  My brother married a woman that owns part of a family business, but <u>I don’t know the company name or what it does</u>.  Do I have to ask them in case their company is a supplier to SCB?",
+		"answer": "No, you do not have to ask your brother and sister-in-law where they work or their ownership interests.  If you don’t know these things, you won’t have a conflict if you happen to work with their company.  If you find out the information in the future and their company does business with SCB, at that point you would complete the Disclosure Form for Outside Employment, Financial Interests and Relationships (Conflicts of Interest) also known as Form 2402.",
+		"nextPage": "faq-conflicts-of-interest-detailed",
+		"reference": "conflicts-of-interest"
+	}, {
+		"question": "<strong>Former Co-Workers:</strong> One of my <u>former co-workers</u> at SCB now works for one of our suppliers. She sometimes calls me up and <u>asks me to do her a favor</u> and find out a piece of information the supplier needs to complete their bid package. Since I am not part of the bid process, I sometimes I wonder if I should be giving her the information. Is there a problem with giving her SCB information?",
+		"answer": "You are right to feel uncomfortable.  You shouldn’t do special favors for someone at another company just because you used to work together, or because the person is a friend. Since you aren’t responsible for the bid process, you don’t know whether or not the supplier is entitled to the information. She may be using it to get an advantage over the other bidders. Tell her you can’t provide her information and she needs to talk to the bid team to get information. They can be sure that if one supplier is given information, all the other bidders have the same information. If she keeps asking for these types of special favors after you talk to her, report it to your supervisor or HR.",
+		"nextPage": "faq-conflicts-of-interest-detailed",
+		"reference": "conflicts-of-interest"
+	}, {
+		"question": "<strong>Definition:</strong> Who is considered a <u>family member</u>?",
+		"answer": "Policy Letter No. 3 has a specific definition that includes spouse, parents, siblings, and children (including in-laws).  When it comes to making disclosures, we recommend you disclose situations that involve any family member with whom you have a close relationship or your significant other.  For example, some people may have a close relationship with their nieces and nephews and interact weekly.  If you have a close relationship with a family member, the best thing to do is disclose potential conflicts of interest so that you and the Company can make sure you aren’t in a situation where you have to choose between what is best for your family member and what is best for the Company.",
+		"nextPage": "faq-conflicts-of-interest-detailed",
+		"reference": "conflicts-of-interest"
+	}]
+}, {
+	"pageKey": "company-assets",
+	"title": "Use of Company Assets",
+	"canITitle": "Can I use ...?",
+	"canIReminder": "Never ask for a gift or favour",
+	"icon": "use-of-company-assets.png",
+	"ciicon": "use-of-company-assets.png",
+	"titleicon": "company-assets-title.png",
+	"items": [{
+		"title": "Summary of Company Policy",
+		"icon": "favors_list_icon_01.png",
+		"description": "Company assets are for the benefit of the Company, not for any employee personally.  It is important to understand that the Company’s assets include equipment (like your laptop), services (like the Company-provided email and internet), and intangible items (like SCB’s logo and other intellectual property). For example, using Company email or logos in your personal communications can create confusion and could imply that the Company supports viewpoints or business transactions that it does not. This can create legal risks for the Company, especially if used for unethical or illegal purposes.  Using supplies, equipment, and other physical assets ultimately costs the Company money and it is unfair to use Company funds for your personal benefit.",
+		"nextPage": "ps-company-assets-summary",
+		"descriptionContent": "<div><p>Ethical Principle</p>Company assets are for the benefit of the Company, not for any employee personally.  It is important to understand that the Company’s assets include equipment (like your laptop), services (like the Company-provided email and internet), and intangible items (like SCB’s logo and other intellectual property).  For example, using the Company’s logo in your personal communications can create confusion and could imply that the Company supports viewpoints or business transactions that it does not.  This can create legal risks for the Company, especially if used for unethical or illegal purposes.  Using supplies, equipment, and other physical assets – and even employee time – ultimately costs the Company money. It is unfair to use Company assets for your personal benefit.</div><div><p>Basic Policy</p><ul><li>Company personnel have a duty to protect Company assets and ensure that they are used in accordance with Company policy</li><li>Social media can blur the lines between your work and personal life – see the Frequently Asked Questions, and Contacts and References sections for more information</li><li>Company assets should be used for Company business purposes, although Directive B-109 allows some incidental personal use that does not interfere with your work day or your co-workers -- see the Frequently Asked Questions section for helpful examples</li><li>Subject to the limited exception for incidental personal use, do not use Company resources to run a personal business, support a second job, or similar personal venture, or conduct non-Company fundraising activity</li><li>Photos and recordings on Company property or while conducting Company business has limitations – check to be sure you are following the Company guidelines</li><li>Accessing, reproducing, displaying, distributing, or storing any materials that are sexually explicit, obscene, defamatory, harassing, illegal, or otherwise inappropriate is completely prohibited</li></ul></div><div><ul><li>Subject to local law, you should have no expectation of privacy when using Company computers or other resources</li><li>You must not use material, non-public Company information to make stock trades or assist others – you could be violating the law and have personal liability</li><li>You must not share non-public Company information outside the Company without proper authorization</li><li>Company equipment and vehicles are Company resources and you must follow the Company’s  applicable safety policies, which includes use of seat belts and avoiding driver distractions</li></ul></div>"
+	}, {
+		"title": "Contacts and References",
+		"icon": "favors_list_icon_02.png",
+		"description": "When you have access to the SCB intranet you can review these resources.",
+		"nextPage": "ps-company-assets-quick-ref",
+		"items": [{
+			"title": "Directive B-109, Appropriate Use of Company Assets Including Computer Resources",
+			"link": ""
+		}, {
+			"title": "Directive B-105, Assignment, Use and Sale/Lease of Company Vehicles",
+			"link": ""
+		}, {
+			"title": "Directive C-114, Image and Audio Capturing Devices",
+			"link": ""
+		}, {
+			"title": "Requirements for Use of Webcams or Recordings of WebEx ",
+			"link": ""
+		}, {
+			"title": "Social Media Guidelines",
+			"link": ""
+		}, {
+			"title": "For questions about appropriate use of Company resources, contact your local HR representative or click here to send an email to  Personnel Relations in WHQ",
+			"link": "mailto: activity@SCB.com?subject=Mobile App - Use Of Company Assets"
+		}, {
+			"title": "Or you can click here to send an email to Corporate Compliance Office",
+			"link": "mailto: SCBlaw@SCB.com?subject=Mobile App - Use Of Company Assets"
+		}]
+	}, {
+		"title": "Frequently Asked Questions",
+		"icon": "favors_list_icon_03.png",
+		"description": "I work in the maintenance department and run my own handyman business on evenings and weekends.  Sometimes I borrow tools from my department to work on weekend projects and I always return them.  Is this okay?",
+		"nextPage": "faq-company-assets"
+	}],
+	"frequently-asked-questions": [{
+		"question": "<strong>Borrowing Equipment: </strong>I work in the maintenance department and run my own handyman business on evenings and weekends.  Sometimes I <u>borrow tools from my department</u> to work on weekend projects and I always return them.  Is this okay?",
+		"answer": "No, Company assets belong to the Company and not you personally.  You cannot use Company materials or equipment to run your personal business.",
+		"nextPage": "faq-company-assets-detailed",
+		"reference": "company-assets"
+	}, {
+		"question": "<strong>Work on Personal Vehicles: </strong>I overheard my co-worker arrange to <u>bring his personal car into the Company repair shop</u> to fix his brakes. He asked some friends there to help him.   Is this allowed?",
+		"answer": "No. Company buildings, tools, and equipment are Company assets to be used for the Company’s benefit, not for employees personally.",
+		"nextPage": "faq-company-assets-detailed",
+		"reference": "company-assets"
+	}, {
+		"question": "<strong>Outside Business: </strong>I own several rental properties and have given my tenants my office number to <u>contact me during the day with problems</u>.  About once every week or so, I <u>leave work for a few hours</u> to make repairs to my rental properties.  Is that acceptable?",
+		"answer": "Leaving work to attend to your duties as a landlord is prohibited unless you have taken vacation time approved by your supervisor.  Your work phone is a Company asset that should not be used for running a personal business or supporting a second job or other personal venture; you may handle an occasional personal call that doesn’t interfere with your work or your co-workers, but your work number should not be a contact number for your personal business.",
+		"nextPage": "faq-company-assets-detailed",
+		"reference": "company-assets"
+	}, {
+		"question": "<strong>Inappropriate Emails: </strong>I have friends who send me emails to my work account with material that some people consider <u>obscene or defamatory</u> of certain groups.  I don’t want to get in trouble at work.  What should I do?",
+		"answer": "First tell your friends to stop sending emails to your work email. If you want to receive this type of message, have them send it to your personal email account.  If you suspect that a personal email contains inappropriate material, do not open it from your work computer – others may see it when they walk by your desk and copies of it will be on the SCB system.  Delete potentially inappropriate email without opening, and send a note back to your friends reminding them to send it to your personal email.",
+		"nextPage": "faq-company-assets-detailed",
+		"reference": "company-assets"
+	}, {
+		"question": "<strong>Family Business: </strong>My parents own a small catering business that does not do any business with the Company. The business is catering an event for our neighbors. The <u>neighbor called my office</u> during the workday and asked me to pass on some information about the food because they couldn’t reach anyone else.  Is it OK to pass on the information even though I am at work?",
+		"answer": "Making a quick call like this on an infrequent basis is not a problem.  If you need to send an email about this, do it from your personal account.  Handling calls for your parents on a more frequent basis, however, is not an acceptable use of Company assets – including your time.",
+		"nextPage": "faq-company-assets-detailed",
+		"reference": "company-assets"
+	}, {
+		"question": "<strong>Teaching: </strong>I teach at a local school in the evenings.  I <u>use my Company laptop</u> to keep track of grades and do lesson planning at work.  Sometimes <u>I print out stacks of handouts</u> for the class while I am at work.  I don’t see anything wrong with this.  SCB supports various educational projects, so this is like them supporting the school.  Do you agree?",
+		"answer": "No.  The decision whether the Company will give support to an educational program is not an individual’s decision, it is a decision made by the Company.  Printing stacks of materials related to outside work, and using your laptop as a significant resource for non-SCB work, is using Company assets to support your personal business.  If you think the Company should give support to the local school, you need to work with your local management to obtain approval.  Depending on what support is given, management may need to follow the process for charitable donations.",
+		"nextPage": "faq-company-assets-detailed",
+		"reference": "company-assets"
+	}, {
+		"question": "<strong>Social Media:</strong>I like to read articles online and often <u>post comments</u>. Someone told me I need to be careful about what I post.  I am doing it on my own time, so why does the Company care? ",
+		"answer": "The internet and social media often make it hard to tell the difference between your personal life and business role.  The Company has guidelines to help you see areas where you need to be careful.  We have more detailed guidance published on the Company intranet, but our core guidelines are posted on our public website.  Here are the basics:<ul><li><strong>Honesty</strong> about who you are</li><li><strong>Clarity</strong> that your opinions are your own</li><li><strong>Respect and humility</strong> in all communication</li><li><strong>Good judgment</strong> in sharing only information that is publicly available</li><li><strong>Awareness</strong> that what you say is permanent</li></ul>",
+		"nextPage": "faq-company-assets-detailed",
+		"reference": "working-together"
+	}, {
+		"question": "<strong>Social Media/Photos or Videos: </strong>Our group just finished a big project and I took some  <u>pictures of our celebration lunch</u>. Can I <u>post them</u> on my social media page?",
+		"answer": "Maybe.  First, you need to be sure that the photos you took were allowed to be taken.  Some locations have restrictions on taking photos, such as our design or testing facilities.  If the photos do not contain any confidential information, you need to be sure that all the people in the picture have given you consent to post the photos.  You should review <i>Requirements for Use of Webcams or Recordings of WebEx</i> available on the SCB intranet for information that applies to not only recordings, but also photos.",
+		"nextPage": "faq-company-assets-detailed",
+		"reference": "company-assets"
+	}, {
+		"question": "<strong>Photos or Videos: </strong>We have monthly meetings and someone suggested we just <u>record the meeting</u> instead of taking meeting minutes.  Is there any problem with doing that?",
+		"answer": "There are both laws and policies that apply when you take photos, videos, or other types of recordings in connection with SCB business.  Taking photos and other recording is only allowed under Directive C-114 for certain purposes and making recordings of meetings where business is discussed and decisions are made is not an approved use.  If policy does not permit photos or recordings, you cannot take photos or make recordings, even if you are using a corporate iPhone or other Company-owned equipment.  Remember, some countries have specific laws relating to taking photos or recordings in connection with Company business.  You should review the <i>Requirements for Use of Webcams or Recordings of WebEx</i>, which summarizes steps that should be followed, regardless of the type of technology you use for making a recording.",
+		"nextPage": "faq-company-assets-detailed",
+		"reference": "company-assets"
+	}]
+}, {
+	"pageKey": "anti-bribery-corruption",
+	"title": "Anti-Bribery & Anti-Corruption",
+	"canITitle": "Can I give ...?",
+	"canIReminder": "Never ask for a gift or favour",
+	"icon": "anti-bribery-corruption.png",
+	"ciicon": "anti-bribery-corruption.png",
+	"titleicon": "anti-bribery-corruption-title.png",
+	"items": [{
+		"title": "Summary of Company Policy",
+		"icon": "favors_list_icon_01.png",
+		"description": "SCB does not pay bribes or allow others to pay bribes in connection with SCB business.  Our good reputation is a priceless asset.  It has been gained through years of conducting our business in an ethical way, but it can be lost quickly.  To keep the confidence of our stakeholders, you have a duty to conduct business fairly, honestly, and in compliance with Company policy and the law.   When you demonstrate business integrity, you help SCB to Go Further – The Right Way and protect the Company’s valued reputation",
+		"nextPage": "ps-anti-bribery-corruption-summary",
+		"descriptionContent": "<div><p>Ethical Principle</p>SCB does not pay bribes or allow others to pay bribes in connection with SCB business.  Our good reputation is a priceless asset.  It has been gained through years of conducting our business in an ethical way, but it can be lost quickly.  To keep the confidence of our stakeholders, you have a duty to conduct business fairly, honestly, and in compliance with Company policy and the law.   When you demonstrate business integrity, you help SCB to Go Further – The Right Way and protect the Company’s valued reputation.<p>Remember</p><ul><li>Bribery is against Company policy and may violate the law</li><li>Bribes include not only the payment of money but also offers, promises, or authorization to give anything of value to improperly influence another to obtain or retain business</li></ul></div><div><ul><li>We never make promises to convey anything of value (even small amounts) to improperly influence another in order to obtain or retain business – this is prohibited by policy and can create legal risks for you and the Company</li><li>Even small payments to secure performance of a routine governmental action are against Company policy</li><li>Never allow a supplier/dealer or anyone to bribe in connection with Company business, especially when dealing with government officials </li><li>Watch for excessive commissions or unexplained increases in sales prices, which can be an indication that extra money is being generated to pay a bribe</li><li>When it is necessary to hire someone to deal with government officials on the Company’s behalf, ensure that the representative is ethical and does not engage in bribery or other prohibited acts (be sure to conduct appropriate due diligence)</li></ul></div><div><ul><li>Any contract with a supplier/dealer, consultant, or agent who may have contact with government officials must have provisions prohibiting bribery and allowing the Company to perform audits</il><li>If you have a suspicion that a supplier or anyone representing the Company may be engaged in bribery, immediately report your concerns to the Corporate Compliance Office so we can root out and fix any issues</li><li>If permitted by local law, you can provide reasonable meals and entertainment to a government official.  In order to minimize the risk of the Company being accused of bribery, if you’re planning to provide gifts, travel or entertainment, special discounts, or other favors to government officials or departments, contact the Corporate Compliance Office and Governmental Affairs.  There are processes to follow for required approvals</li></ul></div>"
+	}, {
+		"title": "Contacts and References",
+		"icon": "favors_list_icon_02.png",
+		"description": "When you have access to the SCB intranet you can review these resources.",
+		"nextPage": "ps-anti-bribery-corruption-quick-ref",
+		"items": [{
+			"title": "Policy Letter No. 3, Standards of Corporate Conduct",
+			"link": ""
+		}, {
+			"title": "Directive A-109, Provision of Gifts, Prizes, and Related Items by the Company",
+			"link": ""
+		}, {
+			"title": "FM 905-90-10, Contact with Government Officials and Government Entities",
+			"link": ""
+		}, {
+			"title": "SharePoint site for Corporate Compliance Office Approval for Government Contacts",
+			"link": ""
+		}, {
+			"title": "Global Travel Policy (section 2.9.4 for providing travel for government officials)",
+			"link": ""
+		}, {
+			"title": "For questions or concerns about anti-bribery issues, contact your local OGC representative or regional Corporate Compliance Office contact, or click here to send an email to the Corporate Compliance Office. Approvals must be given by the Corporate Compliance Office",
+			"link": "mailto:SCBlaw@SCB.com?subject=Mobile App - Anti-Corruption"
+		}, {
+			"title": "Contact your local Government Affairs representative for guidance on contacts with government officials and necessary approvals ",
+			"link": ""
+		}]
+	}, {
+		"title": "Frequently Asked Questions",
+		"icon": "favors_list_icon_03.png",
+		"description": "I am working to get local approvals to be able to appoint a new dealer but it is taking a long time.  I am told by the new dealer that if SCB would hire the son of a local governor, he is sure that the process would be done quickly.  The son recently graduated from a respected university. Should I recommend the dealer’s son for hire?",
+		"nextPage": "faq-anti-bribery-corruption"
+	}],
+	"frequently-asked-questions": [{
+		"question": "<strong>Employment: </strong>I am working to get local approvals to be able to appoint a new dealer but it is taking a long time.  I am told by the new dealer that if SCB would <u>hire the son of a local governor</u>, he is sure that the process would be done quickly.  The son recently graduated from a respected university. Should I recommend the official’s son for hire?",
+		"answer": "No, do not recommend to anyone that SCB hire the government official’s son. Instead, politely point the person to the Company’s recruiting process and do not take any steps to assist in recommending the official’s son for a position. Pushing to hire the family member of an official can be considered a form of bribery, so ensure that you do not take special steps to recommend the official’s son and instead let the normal hiring process take its course. You should also contact the Corporate Compliance Office to document the situation and our response.You should follow this advice regardless if the request comes from a dealer, supplier, a government representative or other advisor.",
+		"nextPage": "faq-anti-bribery-corruption-detailed",
+		"reference": "anti-bribery-corruption"
+	}, {
+		"question": "<strong>Loaning Vehicles: </strong>A government official, with whom I work periodically, mentioned he was coming into town for a day to visit family and asked if there were any <u>vehicles he could borrow</u> from the Company.  Can I loan the vehicle to the government official for a few days?",
+		"answer": "No, lending a Company vehicle to a government official for personal use is a favor and could be seen as a bribe.  Under some circumstances, it may be appropriate to provide transportation for demonstration purposes or to assist a government agency in unusual situations.  Providing vehicles or otherwise paying for travel of a government official requires prior approval from the Corporate Compliance Office and Government Affairs.",
+		"nextPage": "faq-anti-bribery-corruption-detailed",
+		"reference": "anti-bribery-corruption"
+	}, {
+		"question": "<strong>Extra Fees: </strong>I am overseeing the operations of a new site scheduled to open in 30 days.  Before we can open the facilities, we need three more government permits. We have been waiting for nine months for the permits and the normal processing time is six months.  The government employee I have been working with advised me that if I <u>paid her an additional $20 fee for the permits</u> she could speed up the process and have them ready in 10 days.  Can I pay the $20 fee to ensure the grand opening happens smoothly?",
+		"answer": "No, you may not pay any unofficial fee to the government employee.  If you are having difficulties, contact your local legal office, Corporate Compliance Office, or Government Affairs for help.  Making such a payment not only exposes SCB to fines and legal costs, it also results in local officials expecting small bribes in the future – resulting in more operating costs for the Company and potentially other members of the community.",
+		"nextPage": "faq-anti-bribery-corruption-detailed",
+		"reference": "anti-bribery-corruption"
+	}, {
+		"question": "<strong>Entertainment: </strong>We are launching a new product in our region and we want to <u>invite several government officials to an event</u> to celebrate this accomplishment.  Are there any restrictions on doing this?",
+		"answer": "We can host government officials for legitimate business purposes if the costs are reasonable.  You must contact the Corporate Compliance Office and Government Affairs for approval.",
+		"nextPage": "faq-anti-bribery-corruption-detailed",
+		"reference": "anti-bribery-corruption"
+	}, {
+		"question": "<strong>Extra Fees/Suppliers: </strong>Our group is responsible for registering company vehicles with the government.  It must be done at the local government office and requires a lot of paperwork.  We have <u>hired a local business</u> to handle this for the Company.  I noticed the vendor submitted a receipt from the government for the registration fee and then <u>added a “special handling fee”</u> to the invoice in addition to the negotiated service fee. Is that okay?",
+		"answer": "It is good that you noted this unexpected fee – it could be a disguised bribe and needs further investigation.  You should contact the Corporate Compliance Office to report the situation and for guidance on how to handle the situation.",
+		"nextPage": "faq-anti-bribery-corruption-detailed",
+		"reference": "anti-bribery-corruption"
+	}, {
+		"question": "<strong>Dealer Actions: </strong>I work in Marketing and one of <u>our dealers wants to host some travel</u> to the U.S. for local government officials.  The dealer will pay for everything, but the dealer has asked if SCB would provide a tour of some of our facilities and the opportunity to meet some of our staff.  Can we do that since <u>SCB isn’t paying for any of the travel</u>?",
+		"answer": "Even though SCB is not paying for the travel, SCB knows about the trip and is cooperating by providing a tour and attending meetings. Ignoring suspected bribery poses risks to the Company. Contact the Corporate Compliance Office for guidance and the necessary approvals.  Remember, if SCB cannot do something directly, we cannot allow others to do it in connection with our business.",
+		"nextPage": "faq-anti-bribery-corruption-detailed",
+		"reference": "anti-bribery-corruption"
+	}, {
+		"question": "<strong>Meal with Government Officials: </strong>I’m <u>visiting with government officials in another country</u> to see whether we can develop a research partnership that will benefit SCB and the local community. One of the officials and I decided to grab <u>lunch together after our meetings</u>, and I thought it would be nice to pay for her lunch out of courtesy and respect for her position.  Can I do that?",
+		"answer": "You can pay for a reasonable meal for a government official under SCB policy.  Anything more than light refreshments or a basic meal for a government official requires pre-approval from the Corporate Compliance Office in Dearborn.  Since local regulations vary and we don’t want to get the official in trouble, you should also ask her whether this would violate her own government ethics rules. And remember – before you arrange meetings with government officials, be sure you’re working with Government Affairs.",
+		"nextPage": "faq-anti-bribery-corruption-detailed",
+		"reference": "anti-bribery-corruption"
+	}]
+}, {
+	"pageKey": "it-security-and-privacy",
+	"title": "IT Security & Privacy (PII)",
+	"canITitle": "Can We do ...?",
+	"canIReminder": "Never ask for a gift or favour",
+	"icon": "it-security-and-privacy.png",
+	"ciicon": "it-security-and-privacy.png",
+	"titleicon": "it-security-and-privacy-title.png",
+	"items": [{
+		"title": "Summary of Company Policy",
+		"icon": "favors_list_icon_01.png",
+		"description": "Our Company’s success depends on the trust and confidence of its stakeholders (customers, employees, suppliers and dealers). Additionally, information is a strategic business asset that we all must protect. Effective management of Company information helps the Company safeguard sensitive information, meet its business goals, and maintain a competitive advantage.",
+		"nextPage": "ps-it-security-and-privacy-summary",
+		"descriptionContent": "<div><p>Ethical Principle </p>Our Company’s success depends on the trust and confidence of its stakeholders (customers, employees, suppliers and dealers). Additionally, information is a strategic business asset that we all must protect. Effective management of Company information helps the Company safeguard sensitive information, meet its business goals, and maintain a competitive advantage.<br/><br/> Unauthorized disclosure of Company information may damage the Company’s competitive position and its reputation.  This is especially true for personally identifiable information (PII).  PII should be used in compliance with Company policies, the law, and the purpose for which it was collected.  We are responsible for the security and integrity of all data we collect.  If PII is transferred from one company to another within SCB or to an external company, we need to ensure that the recipient is contractually obligated to provide adequate levels of protection and that any applicable legal requirements are met.</div><div><p>Basics of IT Security</p><ul><li>You have a duty to maintain Company information securely and accurately (know how to classify information and steps needed to protect documents)</li><li>When working with Confidential or Secret information <ul><li>Encrypt email and protect stored data</li><li>Only share information when there is a business need to know</li><li>Establish appropriate access controls for SharePoint sites, and other systems or databases. Review those access controls regularly to ensure they’re still valid</li></ul></li><li>Do not use unapproved application or software for Company business. Such use could expose SCB’s information to disclosure</li><li>Keep your devices current with software updates</li><li>Do not place Company information on personal devices (for example, USB stick, personal computer, or mobile phone), except as allowed through a program offered by the Company</li><li>If you need to share non-public information with anyone outside the Company (including joint ventures), be sure you have the appropriate Company-approved confidentiality agreement that covers the information you want to share</li><li>Keep your mobile devices (i.e., phones, iPads, USB sticks) in your possession at all time</li></ul></div><div><p>Safe Practices</p><ul><li>Use strong passwords (combine 8 to 12 letters and numbers/special characters, using upper and lower case, when supported by the system)</li><li>Do not share your password with anyone</li><li>Avoid using the same password across multiple systems, where possible, and avoid using your SCB CDS ID to sign up for non-SCB accounts</li><li>Cyber criminals not only target Company systems, they also target individuals within the Company to get access into the Company systems or attack others </li><li>Cyber criminals can also steal your personal identity and commit fraud with your information (bank accounts, credit cards, and medical history)</li><li>Do not click on suspicious links in emails, even if you think you know the sender</li><li>When travelling on Company business, always establish a VPN session (SecurID) when utilizing public WiFi</li><li>Internet attacks are common.  If something seems suspicious or wrong, it probably is.  Report it</li></ul></div><div><p>Special Considerations for Personally Identifiable Information (PII)</p><ul><li>PII is information that can be associated with a particular individual or that can be used to identify a unique individual </li><li>When handling PII, you are expected to take reasonable and appropriate measures to protect PII from loss or misuse</li><li>If you are collecting PII, state the purpose for the collection of the PII and limit use to that purpose – and consider whether you can adequately gather data you need without including PII</li><li>If you suspect the security or confidentiality of PII has been compromised, immediately submit an incident report to Security/Global Investigations </li><li>You must have <strong>proper agreements</strong> in place, such as the PII Supplement, before sharing PII with an independent company such as a supplier</li></ul></div><div><p>Before sharing PII:</p><ul><li>Find out what PII will be shared and why it was originally collected (the original purpose)</li><li>Find out why the PII is required <strong>and if the use is consistent with the original purpose</strong></li><li>Ensure that the recipient adequately protects the PII through an <strong>agreement/contract requirement</strong></li><li>If there is a cross border transfer of PII (note: any access to PII constitutes a transfer), contact your local legal office or safeharb@SCB.com to determine what is required to transfer the PII. Requirements may include consent of the individual or a PII transfer agreement.</li></ul></div>"
+	}, {
+		"title": "Contacts and References",
+		"icon": "favors_list_icon_02.png",
+		"description": "When you have access to the SCB intranet you can review these resources.",
+		"nextPage": "ps-it-security-and-privacy-quick-ref",
+		"items": [{
+			"title": "Policy Letter No. 23, Privacy and Protection of Personally Identifiable Information ",
+			"link": ""
+		}, {
+			"title": "Directive B-104,  Confidentiality of Employee Records and Protection of Personally Identifiable Information",
+			"link": ""
+		}, {
+			"title": "Directive C-110, Acquiring Information from Outside the Company",
+			"link": ""
+		}, {
+			"title": "Directive C-113, Consumer Privacy Standards and Protection of Personally Identifiable Information",
+			"link": ""
+		}, {
+			"title": "Directive C-116, Supplier Safeguarding of Personally Identifiable Information",
+			"link": ""
+		}, {
+			"title": "Information Security Policy (ISP)",
+			"link": ""
+		}, {
+			"title": "Corporate Privacy Website ",
+			"link": ""
+		}, {
+			"title": "Digital Worker",
+			"link": ""
+		}, {
+			"title": "Securing the Human Training",
+			"link": ""
+		}, {
+			"title": "GIS1 – Records  Management ",
+			"link": ""
+		}, {
+			"title": "GIS2 – Information Security ",
+			"link": ""
+		}, {
+			"title": "IT Security Service Desk",
+			"link": ""
+		}, {
+			"title": "For questions about IT Security, contact your local IT representative or  click here to send an email to <strong>IT Security</strong>",
+			"link": "mailto: secureit@SCB.com?subject=Mobile App – IT Security"
+		}, {
+			"title": "For questions about Privacy and PII, contact your local OGC representative or click here to send an email to <strong>Corporate Compliance Office/Privacy</strong>",
+			"link": "mailto: privacy@SCB.com?subject=Mobile App – Privacy"
+		}]
+	}, {
+		"title": "Frequently Asked Questions",
+		"icon": "favors_list_icon_03.png",
+		"description": "I am traveling to visit my sister and I want to be able to edit some documents in time to meet a deadline.  There are some great free services for storing documents.  Can I use a storage service to retrieve the documents from my sister’s computer to meet my deadline?",
+		"nextPage": "faq-it-security-and-privacy"
+	}],
+	"frequently-asked-questions": [{
+		"question": "<strong>Definition of PII:</strong> What are common <u>examples of PII</u>?",
+		"answer": "PII is any information that can identify a unique individual or be identified to that individual, such as:  name, address, telephone number, email address, vehicle identification numbers (VIN), and similar items.  A critical subset of PII is Sensitive Personally Identifiable Information (SPII), and it is entitled to additional protection.  We have defined SPII for our purposes as powerful data elements that identify a unique individual and can permit another person to “assume” that person’s identity.  This can occur when the data elements are used alone, are combined with a person’s name, or are combined with other PII.",
+		"nextPage": "faq-it-security-and-privacy-detailed",
+		"reference": "it-security-and-privacy"
+	}, {
+		"question": "<strong>Sharing PII:</strong> Can I <u>share customer PII</u> in my department’s database with another department in the same country?",
+		"answer": "It depends on whether the PII will be used for purposes consistent with those disclosed at the time of collection.  If use is consistent with the disclosed purpose, sharing PII with another department in the same country does not normally raise data protection concerns.  The sharing department is responsible for ensuring that the PII recipient properly secures the PII.  In addition, only PII that is required should be shared.  Consent may be required before using PII for a new purpose.",
+		"nextPage": "faq-it-security-and-privacy-detailed",
+		"reference": "it-security-and-privacy"
+	}, {
+		"question": "<strong>Cross-Border Transfers:</strong> A coworker who works in <u>a division in another country</u> asked me to <u>share PII</u>.  What is the best course of action?",
+		"answer": "Transferring PII across borders is a complicated matter, so you should always seek guidance <strong>from your local legal office</strong> before sharing or giving access to PII to individuals located outside your country.",
+		"nextPage": "faq-it-security-and-privacy-detailed",
+		"reference": "it-security-and-privacy"
+	}, {
+		"question": "<strong>Using Suppliers:</strong> We have a <u>vendor that will be mailing marketing communications</u> on SCB’s behalf.  What is needed?",
+		"answer": "The PII Supplement or an agreement that complies with Directive C-116 should be in place (this includes terms that prohibit the use of PII for any other purpose and require adequate security controls).  Additional provisions in an agreement may be needed if the PII is crossing borders.  See Directive C-116 for the requirements that apply.",
+		"nextPage": "faq-it-security-and-privacy-detailed",
+		"reference": "it-security-and-privacy"
+	}, {
+		"question": "<strong>Free/Unapproved Storage Services:</strong> I am traveling to visit my sister and I want to be able to edit some documents in time to meet a deadline.  There are some great free services for storing documents.  Can I use a <u>storage service to retrieve the documents</u> from my sister’s computer to meet my deadline?",
+		"answer": "No.  You cannot put SCB information into an unapproved cloud service, as this increases the risk of SCB information being disclosed.  You should also avoid using any unsecure, non-Company device to work on SCB documents (such as your sister’s computer). When working away from the office, you have several options to securely retrieve and work on your documents.  Options include:<ul><li>Using a Company laptop</li><li>Using an encrypted thumb drive or webvpn (deleting any files that may have copied onto a non-Company computer)</li></ul>",
+		"nextPage": "faq-it-security-and-privacy-detailed",
+		"reference": "it-security-and-privacy"
+	}, {
+		"question": "<strong>Auto Forward:</strong> I am going on vacation and want to stay current with my emails.  Can I <u>auto forward my work email messages to my personal email</u> and retrieve from my personal computer?",
+		"answer": "No, you should not use personal email for Company business.  You may use your personal email when the information in the email is public or proprietary.  However, when you use auto forward, it is likely something that is confidential or secret will be sent to your personal email and that is not allowed. You can use the Company’s web based email access solution, fmail.SCB.com.  Consider enrolling in ePOD to receive Company email on your personally owned mobile device. You should only auto forward to another SCB email account.",
+		"nextPage": "faq-it-security-and-privacy-detailed",
+		"reference": "it-security-and-privacy"
+	}, {
+		"question": "<strong>Stolen Materials:</strong> I am on a business trip and <u>someone stole my briefcase</u>.  It contained my laptop and hard copies of some meeting notes about future cycle plans.  What should I do?",
+		"answer": "You should contact Security to report the items that were stolen.  You should also file a police report and carefully note each item that was in your briefcase.",
+		"nextPage": "faq-it-security-and-privacy-detailed",
+		"reference": "it-security-and-privacy"
+	}, {
+		"question": "<strong>Requests for Passwords: </strong> I received an email indicating that the IT helpdesk needs to perform some software updates on my SCB-issued laptop, but <u>they need my username and password</u> in order to do so. The email contains a link which they ask me to access immediately in order to provide. Should I do so? ",
+		"answer": "No. The IT helpdesk would never ask for your credentials. This is a common technique – “phishing” that hackers will use to gain your credentials.  When you get this type of email and you think that it might be legitimate, contact the company or group named on the email by a method other than clicking on a link or responding to the email.  Look up the contact information through a source you can trust.",
+		"nextPage": "faq-it-security-and-privacy-detailed",
+		"reference": "it-security-and-privacy"
+	}, {
+		"question": "<strong>Isolated Pieces of Information: </strong> Everyone tells me the data I work with is sensitive, but it doesn’t mean anything by itself.  If I sent you a file of what I collect, you wouldn’t even know what it meant because you <u>need other information</u> that is in a different system to connect it to an individual or company.  Why do I need to be so careful with it?",
+		"answer": "When someone is trying to steal Company information, they will often collect a little bit at a time and will collect it from different places.  The little bit they get from you may just be what they need to put together a larger picture that reveals strategic information about the business or an individual.",
+		"nextPage": "faq-it-security-and-privacy-detailed",
+		"reference": "it-security-and-privacy"
+	}, {
+		"question": "<strong>International Travel: </strong> I do a lot of international travel.  I understand that there are special risks for disclosure or theft of losing data when travelling in some countries.  Do you have any tips for <u>traveling with a laptop</u>?",
+		"answer": "You are correct.  Sometimes custom officials will take your laptop for inspection and may possibly download data.  Those who are trying to steal business information have been known to work with the hotel personnel to gain access to guest rooms to copy data from devices or papers left in a person’s room.  To help protect both your information and Company information, do not leave your laptop or sensitive papers in your hotel room, or otherwise unattended.  When traveling to some areas of the globe, we recommend taking a clean departmental laptop with only the information you need for the trip when possible.",
+		"nextPage": "faq-it-security-and-privacy-detailed",
+		"reference": "it-security-and-privacy"
+	}]
+}, {
+	"pageKey": "working-together",
+	"title": "Working Together",
+	"canITitle": "Can I do ...?",
+	"canIReminder": "Never ask for a gift or favour",
+	"icon": "working-together.png",
+	"ciicon": "working-together.png",
+	"titleicon": "working-together-title.png",
+	"items": [{
+		"title": "Summary of Company Policy",
+		"icon": "favors_list_icon_01.png",
+		"description": "Everyone associated with our business is expected to behave respectfully at work.  This means we respect, listen to, help, and appreciate everyone, whether they are our co-workers, customers, suppliers, dealers, or anyone else with whom we come into contact while conducting Company business. We work together to create an environment where everyone is respected and valued",
+		"nextPage": "ps-working-together-summary",
+		"descriptionContent": "<div><p>Ethical Principle </p>Everyone associated with our business is expected to behave respectfully at work.  This means we respect, listen to, help, and appreciate everyone, whether they are our co-workers, customers, suppliers, dealers, or anyone else with whom we come into contact while conducting Company business. We work together to create an environment where everyone is respected and valued. <br/><br/> The safety of our workers, our customers, and our communities is of the utmost importance to the Company and must be considered as we design and manufacture our products, and make decisions affecting our workers or the communities in which we operate.  The Company always strives to be a good corporate citizen and to benefit the communities in which we operate.</div><div>We know that respectfully working together and considering different viewpoints will drive better results. At the same time, it is important to be aware of behaviors that can destroy a respectful and inclusive work environment.  See the Frequently Asked Questions section for examples, and remember these basics:<ul><li>Treat everyone with respect</li><li>Do not discriminate based on race, color, religion, age, gender, sexual orientation, gender identity, marital status, national origin, disability, or veteran status</li><li>Refrain from behavior that might interfere with others’ work performance, or create an environment that could be intimidating, hostile, or offensive – which not only violates Company policy but may violate local law</li><li>Report suspected violations of policy or the law that govern our business – which includes speaking up if you observe someone bullying or harassing in the course of our work or on SCB property</li><li>There can be special considerations when using social media – see the section on Use of Company Assets for more information</li><li>Managers  have additional responsibilities – refer to the section on Tips for Managers for more information.</li></ul></div><div>Wherever in the world we are doing business, we must respect worker safety, product safety, and environmental safety for all communities – which obviously includes respecting the human rights of those who work to manufacture and assemble our products.<ul><li>Decisions cannot be made on the basis of cost alone – remember to consider health, safety, and environmental impacts as you make decisions </li><li>Never allow child labor or forced labor (including human trafficking)</li><li>Always allow workers to associate freely and engage in collective bargaining</li><li>Encourage those in our supply chain to follow our policies on human rights, working conditions, anti-bribery, and protecting the environment</li></ul></div>"
+	}, {
+		"title": "Contacts and References",
+		"icon": "favors_list_icon_02.png",
+		"description": "When you have access to the SCB intranet you can review these resources.",
+		"nextPage": "ps-working-together-quick-ref",
+		"items": [{
+			"title": "Policy Letter No. 1, SCB Quality Policy",
+			"link": ""
+		}, {
+			"title": "Policy Letter No. 2, Relationships with Employees",
+			"link": ""
+		}, {
+			"title": "Policy Letter No. 6, Equal Opportunity",
+			"link": ""
+		}, {
+			"title": "Policy Letter No. 17, Protecting Health and Environment",
+			"link": ""
+		}, {
+			"title": "Policy Letter No. 24, Code of Basic Working Conditions and Social Responsibility ",
+			"link": ""
+		}, {
+			"title": "Directive B-110,  Anti-Harassment – Zero Tolerance",
+			"link": ""
+		}, {
+			"title": "HR ONLINE for additional information and resources on anti-harassment and discrimination",
+			"link": ""
+		}, {
+			"title": "You should immediately report any harassment to Human Resources; in the U.S., you can call the harassment hotline: 888-735-6650",
+			"link": ""
+		}, {
+			"title": "For questions about harassment, discrimination, or retaliation, contact your local Human Resource representative to or click here to send an email to Personnel Relations in WHQ",
+			"link": "mailto: activity@SCB.com?subject=Mobile App – Working Together"
+		}, {
+			"title": "For questions about human rights at suppliers or joint ventures, contact the Purchasing Sustainability team or click here to send an email to that group in WHQ",
+			"link": "mailto: fwcp@SCB.com?subject=Mobile App – Working Together"
+		}, {
+			"title": "For questions about human rights and SCB operations, contact the Sustainability team or click here to send an email to that group in WHQ",
+			"link": "mailto: sustaina@SCB.com?subject=Mobile App – Working Together"
+		}, {
+			"title": "You may also contact the Corporate Compliance Office for questions about any of these topics by clicking here",
+			"link": "mailto: SCBlaw@SCB.com?subject=Mobile App – Working Together"
+		}]
+	}, {
+		"title": "Frequently Asked Questions",
+		"icon": "favors_list_icon_03.png",
+		"description": "I know sexual harassment is prohibited at work.  I am not sure what that means.  What are examples of sexual harassment?",
+		"nextPage": "faq-working-together"
+	}],
+	"frequently-asked-questions": [{
+		"question": "<strong>Sexual Harassment:</strong> I know sexual harassment is prohibited at work.  I am not sure what that means.  What are <u>examples of sexual harassment?</u>",
+		"answer": "Remember that what is acceptable, amusing, or inoffensive to you may be unwelcome, abusive, or offensive to others.  Think about how your words and actions may be perceived by others.  Common examples of behavior that are prohibited at SCB and may be considered sexual harassment include:<ul><li>Abusive, offensive, or unwelcome sexual conversation, advances, innuendos, jokes, teasing, or physical contact</li><li>Displaying sexually explicit or suggestive messages through graffiti, photographs, or other items – including on your computer screen or in your locker</li><li>Physical contact that is not appropriate in a business environment</li><li>Continuing to pursue someone – asking for dates or affection – when the person has indicated he or she is not interested</li><li>Using your position to gain sexual favors through threats or rewards</li><li>Sending sexually graphic material through the Company email system or other electronic devices (e.g., voice mail, text pagers, radios, etc.), or using the Company internet, Company mail, or Company computers for viewing such material</li></ul>",
+		"nextPage": "faq-working-together-detailed",
+		"reference": "working-together"
+	}, {
+		"question": "<strong>Harassment and Bullying:</strong> One of my co-workers seems to make a lot of jokes about another person in our group.  Is that harassment?  What are <u>examples of harassment or bullying</u>?",
+		"answer": "Repeated rude comments to someone may indeed be harassment or bullying. Remember that what is acceptable, amusing, or a common stereotype to you may be unwelcome, abusive, or offensive to others. Here are some examples of behavior that may be seen as harassment:<ul><li>Telling jokes or stories or displaying signs or graffiti that are derogatory toward members of a particular group, whether or not members of that group are present</li><li>Using slurs or derogatory terms or telling jokes about someone's race, color, religion, age, gender, sexual orientation, gender identity, marital status, national origin or ethnic group, disability, or veteran status</li><li>Threatening, intimidating, sabotaging, damaging, or interfering with the work of anyone.</li><li>Sending unwanted communications to, or posting inappropriate messages on social media about, a co-worker</li></ul>",
+		"nextPage": "faq-working-together-detailed",
+		"reference": "working-together"
+	}, {
+		"question": "<strong>Personal Email or Devices:</strong> Is it OK to <u>text sexual messages</u> to a couple of my co-workers as a joke using my <u>personal phone</u> when work is slow/? Would that violate Company policies since I am using my own phone? ",
+		"answer": "Behavior that could be considered harassing is unacceptable, whether you use your own phone or email, or Company resources. You should not send sexual materials (for example, jokes, comments, or photographs) to your co-workers or business contacts.",
+		"nextPage": "faq-working-together-detailed",
+		"reference": "working-together"
+	}, {
+		"question": "<strong>Company Email:</strong> Sometimes I receive <u>rude jokes</u> in my <u>Company email</u> that are aimed at a particular ethnic group or have <u>obscene pictures</u> attached.  Can I forward them to others since I wasn’t the one who created the email?",
+		"answer": "No. Forwarding inappropriate emails is considered the same as creating and sending the email. Delete the inappropriate email, and ask the sender not to send this type of material to your Company email.  If it comes from a co-worker or business contact, you should report it to Human Resource or your supervisor.",
+		"nextPage": "faq-working-together-detailed",
+		"reference": "working-together"
+	}, {
+		"question": "<strong>Handling a Bad Interaction:</strong> Members of my <u>team like telling jokes</u> at meetings.  Sometimes I am offended and sometimes I can tell other members are offended.  What should I do <u>if the jokes start crossing over</u> to being inappropriate and might offend me or other members of the team?",
+		"answer": "If you feel that you are being treated in a way that is harassing or discriminatory, or if you see someone else being treated that way, tell the person to stop if you are comfortable doing so.  If you are the manager of the group, you should immediately step in and stop the behavior.  Remember to report any behavior that could be considered harassment, discrimination, or retaliation to your local HR representative or the Corporate Compliance Office if you don’t feel comfortable reporting to your management.",
+		"nextPage": "faq-working-together-detailed",
+		"reference": "working-together"
+	}, {
+		"question": "<strong>Non-Verbal Behavior:</strong> My manager talked to me and told me that I was treating one of my co-workers in an inappropriate manner, and that what I am doing could be considered harassment.  <u>I never talk to that person</u> – I don’t even like him.  How can I harass someone if I don’t say anything?",
+		"answer": "Things that you do, as well as things you say, can be seen as harassment or bullying.  Even if you don’t say anything to a person, things like rude gestures, inappropriate touching, blocking a person’s movement, or offensive graffiti or pictures can be harassing or bullying. If you still are not certain, ask your manager for additional clarification.",
+		"nextPage": "faq-working-together-detailed",
+		"reference": "working-together"
+	}, {
+		"question": "<strong>Manager Behaviors:</strong> I understand my behavior as a manager can affect whether or not people in my area will come to me to <u>report concerns</u> they have.  What should I do to encourage people to come to me with their concerns?",
+		"answer": "A manager’s response has a real impact on how willing personnel may be to report problems they have or see. You can talk to HR or the Corporate Compliance Office if you have specific questions, but below is a list of helpful do’s and don’ts.<br/><br/><p><strong>DO’S:</strong></p><ul><li>Set the right tone for your team – demonstrate One SCB behaviors and promote the importance of policy, procedures, and the training we receive</li><li>Take time to listen to anyone making a report, and assure the person making the report that the Company wants to do the right thing – but don’t make any promises about what the Company will do, since we don’t yet have all of the facts </li><li>Tell anyone who makes a report that you will keep the information – and the fact that he or she made a report – confidential. Then, be sure you do not share information about reports of harassment, discrimination, retaliation, or fraud with others outside of HR, Local Legal Office, your Local Incident Coordinator, or your Regional Investigation Coordinator </li><li>Check back with the person who made the report, to see whether the issue has been resolved</li></ul><p><strong>DON’TS:</strong></p><ul><li>Never downplay the importance of our One SCB behaviors or undermine the training your team receives by ignoring it yourself</li><li>Never tell workers to simply ignore rude or harassing behavior</li><li>Never tell workers to mind their own business when they report inappropriate behavior or suspected violations</li><li>Never tell workers to get the job done no matter what – make it clear you expect everyone to get the job done the right way; if you don’t think we can get it done, don’t take unapproved shortcuts – instead, elevate the problem to more senior management</li></ul>",
+		"nextPage": "faq-working-together-detailed",
+		"reference": "working-together"
+	}, {
+		"question": "<strong>Human Rights: </strong> I have heard of human trafficking, and I understand that it can go on around us without us even knowing.  What things should I look for that might be <u>signs of human trafficking</u>, <u>child labor</u>, or <u>forced labor</u> as I travel to supplier facilities?",
+		"answer": "You are correct that it is not always easy to identify human trafficking and forced labor.  You should leave it to the experts to determine whether there are human rights violations – but if you see any of these warning signs, report them to the Company, and our experts will look into the situation.  Common warning signs that you might observe include:<br/><br/><p><u>Forced Labor and Human Trafficking at a Location</u></p><p><ul><li>Armed guards</li><li>Exit doors locked</li><li>Restricted movement</li><li>Constant/improper surveillance</li><li>Suspicious injuries</li><li>Breaktime prohibited</li><li>Secluded building</li><li>Isolation</li></ul></p><p><u>Child Labor</u></p><p><ul><li>Pre-teen workers</li><li>Areas off-limits</li><li>Management evasive about workforce demographics</li><li>Young workers operating heavy equipment</li></ul></p><p><u>Health & Safety Issues</u></p><p><ul><li>Unsafe working conditions</li><li>No safety equipment </li><li>No emergency/first response plans</li><li>No fire suppression</li><li>Dangerous ventilation, temperature, or lighting conditions</li><li>Building not structurally sound</li><li>Dormitories in poor condition </li></ul></p>",
+		"nextPage": "faq-working-together-detailed",
+		"reference": "working-together"
+	}, {
+		"question": "<strong>Human Rights: </strong> I travel to many plants as part of my job, including both Company and supplier facilities.  What should I do if I see any signs of <u>human rights violations</u> or <u>unsafe working conditions</u>? ",
+		"answer": "Report what you see to our Purchasing Sustainability Office or through our Company reporting system, regardless of whether it is at a Company facility, a joint venture facility, or a Tier 1 or other supplier facility.  These issues are very complicated, so do not try to perform an investigation or resolve the issue yourself.  Don’t discuss your concerns with facility management or compromise the working relationship with the facility, as you may actually put the workers in more jeopardy.  Instead, immediately report what you see and our experts will handle the investigation and discussions with the facility.",
+		"nextPage": "faq-working-together-detailed",
+		"reference": "working-together"
+	}, {
+		"question": "<strong>Human Rights: </strong> If I <u>see just one of the potential warning signs</u> for human rights violations, should I report it?",
+		"answer": "Yes.  There is a greater potential for problems when you observe multiple warning signs. However, even one of these signs could represent a serious issue.",
+		"nextPage": "faq-working-together-detailed",
+		"reference": "working-together"
+	}, {
+		"question": "<strong>Sustainability Definition: </strong> I have heard people talk about <u>sustainability</u>, but I don’t know what it means? ",
+		"answer": "At SCB, we define sustainability as a business model that creates value consistent with the long-term preservation and enhancement of environmental, social, and financial capital.  That means we look for the balance point in decisions that allows us to be a profitable company while we endeavor to be good stewards of the environment and considerate of people.",
+		"nextPage": "faq-working-together-detailed",
+		"reference": "working-together"
+	}]
+}, {
+	"pageKey": "tips-for-managers",
+	"title": "Tips for Managers",
+	"canITitle": "Can I do ...?",
+	"canIReminder": "Never ask for a gift or favour",
+	"icon": "tips-for-managers.png",
+	"ciicon": "tips-for-managers.png",
+	"titleicon": "tips-for-managers-title.png",
+	"items": [{
+		"title": "Summary of Company Policy",
+		"icon": "favors_list_icon_01.png",
+		"description": "Managers at SCB are given significant responsibility and have a key role to play in setting the right tone, in every region around the globe. Managers at SCB have the responsibility to model our One SCB behaviors, and demonstrate how to Go Further – The Right Way. To help maximize your positive impact on our work environment, review the following tips and refreshers, and check out the FAQs",
+		"nextPage": "ps-tips-for-managers-summary",
+		"descriptionContent": "<div><p>Ethical Principle </p>Managers at SCB are given significant responsibility and have a key role to play in setting the right tone, in every region around the globe. Managers at SCB have the responsibility to model our One SCB behaviors, and demonstrate how to Go Further – The Right Way. To help maximize your positive impact on our work environment, review the following tips and refreshers, and check out the FAQs.<p>Tips to Remember</p><ul><li>Immediately put a stop to any inappropriate behavior and contact Human Resources if you need support in determining the appropriate course of action – don’t look the other way</li><li>Role model the importance of following our training, policies, and procedures – don’t underestimate your influence; if you respect our rules, your team will, too</li></ul></div><div><ul><li>Encourage those in your group to speak up if there is a problem – particularly if they suspect a violation of our policies or the law</li><li>Take all reports of suspected violations seriously, and immediately pass on to your Human Resources office, Regional Investigation Coordinator, Local Incident Coordinator, the Corporate Compliance Office, or one of the other sources listed under “Report a Suspected Violation”</li><li>Suspected violations may seem like something you can handle, but don’t try to investigate allegations yourself – the Company has specially trained investigators to handle these reports</li></ul></div><div><ul><li>Take every allegation seriously and pass it along for investigation, even if you think the source lacks credibility – sometimes the best tips come from unexpected sources</li><li>Keep all reports of suspected violations confidential, and put a stop to any gossip about potential reports</li><li>Be sure that you don’t retaliate against someone who has reported a suspected violation – and that includes paying attention to your interactions to be sure any feelings you have about the report that has been made are not reflected in your behavior toward the individual who made the report</li><li>You have a real influence over your team and their respect for our One SCB behaviors – make sure you’re a positive influence</li></ul></div>"
+	}, {
+		"title": "Contacts and References",
+		"icon": "favors_list_icon_02.png",
+		"description": "When you have access to the SCB intranet you can review these resources.",
+		"nextPage": "ps-tips-for-managers-quick-ref",
+		"items": [{
+			"title": "Policy Letter No. 2, Relationships with Employees",
+			"link": ""
+		}, {
+			"title": "Policy Letter No. 6, Equal Opportunity",
+			"link": ""
+		}, {
+			"title": "Policy Letter No. 19, Compliance Programs to Prevent and Detect Violations of Law",
+			"link": ""
+		}, {
+			"title": "Directive B-110,  Anti-Harassment – Zero Tolerance",
+			"link": ""
+		}, {
+			"title": "HR ONLINE for additional information and resources – see Manager Toolbox and Anti-harassment /Discrimination guidance",
+			"link": ""
+		}, {
+			"title": "You should immediately report any harassment to Human Resources.  In the U.S., you can call the harassment hotline: 888-735-6650",
+			"link": ""
+		}, {
+			"title": "For questions or advice about your role as a manager, contact your local Human Resource representative or click here to send an email to Personnel Relations in WHQ",
+			"link": "mailto: activity@SCB.com?subject=Mobile App – Manager Tips"
+		}, {
+			"title": "For questions about setting the right tone, harassment, discrimination, or retaliation, you can also contact your local OGC representative or regional Corporate Compliance Office contact, or click here to send an email to the Corporate Compliance Office",
+			"link": "mailto: SCBlaw@SCB.com?subject=Mobile App – Manager Tips"
+		}]
+	}, {
+		"title": "Frequently Asked Questions",
+		"icon": "favors_list_icon_03.png",
+		"description": "Someone in my group came forward to tell me he thinks a co-worker has been misreporting some of our metrics. I don’t think he’s right, and I don’t want to pass along bad information to WHQ – can’t I just investigate this and take care of it myself?",
+		"nextPage": "faq-tips-for-managers"
+	}],
+	"frequently-asked-questions": [{
+		"question": "<strong>Handling a Report:</strong> Someone in my group came forward to tell me he thinks a co-worker has been misreporting some of our metrics. I don’t think he’s right, and I don’t want to pass along bad information to WHQ – <u>can’t I just investigate</u> this and take care of it myself?",
+		"answer": "No, you should report the allegations to one of the designated areas in the Company that is authorized to receive reports of suspected violations. We have specially trained investigators who will look into the allegations, get the right subject matter experts involved, and be sure that SCB understands what is going on and makes all the corrections we need.  By passing on this report, you’re helping the Company Go Further – The Right Way.",
+		"nextPage": "faq-tips-for-managers-detailed",
+		"reference": "tips-for-managers"
+	}, {
+		"question": "<strong>Handling a Report:</strong> A supplier that just lost a competitive bid has come to me to say that the winning vendor is cutting corners to be the low bidder. I think the <u>supplier is only complaining</u> because it didn’t win the bid. Do I need to bother the Company by submitting this report?",
+		"answer": "It’s not a bother to us – we want to know about all reports of suspected violations of policy or the law related to our business. While it is possible that this report is being motivated by bad feelings on the part of the losing bidder, remember that the motive doesn’t mean the report is untrue – bad behavior is often revealed by individuals who feel they’ve been mistreated by the perpetrator.",
+		"nextPage": "faq-tips-for-managers-detailed",
+		"reference": "tips-for-managers"
+	}, {
+		"question": "<strong>Handling a Report:</strong> Someone in our group <u>who is always complaining</u> came to me with yet another concern. Can’t I just <u>look into it myself</u> and get him back to work?",
+		"answer": "Actually, the best approach is to take every report seriously, even if the source of the report doesn’t seem reliable – sometimes, significant reports of misconduct come from unexpected sources. Respond respectfully, and pass the information along to the Corporate Compliance Office or other team members from groups designated to receive reports.",
+		"nextPage": "faq-tips-for-managers-detailed",
+		"reference": "tips-for-managers"
+	}, {
+		"question": "<strong>Reports by Employees with Low Performance:</strong> I have an employee who is letting his work slide. As soon as we put him on a performance enhancement plan, he came forward with an allegation that he thinks we are violating a local regulation. It seems obvious that this person wants to <u>claim to be a whistleblower</u> so we can’t enforce our performance plan. Can I ignore his report?",
+		"answer": "While it is possible that your employee has bad motives, you should pass his report to the Corporate Compliance Office or other appropriate source to investigate. Sometimes, individuals who are worried about their own performance will be motivated to reveal information about what’s really going on in the workplace. When you report this to the right sources within the Company, we can determine the validity of the allegations – and ensure that the situation is handled properly so that you and the Company can continue with appropriate performance actions.",
+		"nextPage": "faq-tips-for-managers-detailed",
+		"reference": "tips-for-managers"
+	}, {
+		"question": "<strong>Harassment:</strong> I have a guy on my team who’s kind of crude, and I’ve heard from others that he may be <u>harassing women</u> in our building. <u>I haven’t seen the bad behavior</u>, and none of the women have come forward; plus, this guy is a really strong performer. Since none of the women have complained to me, can I ignore it?",
+		"answer": "If you’re hearing reports of harassing behavior, you need to report it. Even if you haven’t seen the behavior yourself, you’ve gotten reports about it. Our One SCB behaviors are extremely important – and you can’t overlook inappropriate behavior just because the person “gets the job done.\"",
+		"nextPage": "faq-tips-for-managers-detailed",
+		"reference": "tips-for-managers"
+	}, {
+		"question": "<strong>Encouraging Reporting:</strong> I understand <u>my behavior as a manager</u> can affect whether or not people in my area will come to me to report concerns they have.  What should I do to encourage people to come to me with concerns?",
+		"answer": "A manager’s response has a significant impact on how willing personnel may be to report problems. You can talk to Human Resources or the Corporate Compliance Office if you have specific questions, but following is a list of helpful do’s and don’ts.<br/><br/><p>DO'S</p><ul><li>Set the right tone for your team – if you follow our rules and take our training seriously, your team will too</li><li>Take time to listen to anyone making a report and emphasize that the Company wants to do the right thing – but don’t make any promises about what the Company will do, since we don’t yet have all of the facts</li><li>Tell anyone who makes a report that you will keep the information confidential and then be sure you do not reveal the information to anyone other than the teams authorized to receive and investigate reports</li></ul><br/><p>DON’TS</p><ul><li>Never act like rules are meant to be broken or training is something to suffer through – if you do this, you’re modeling the wrong behaviors for your team</li><li>Never tell your team to ignore problems – if someone reports a problem, take it seriously and get the issue to your management, Human Resources or the Corporate Compliance Office</li><li>Never tell workers to get the job done no matter what – make it clear you expect everyone to get the job done the right way; if you don’t think we can get it done, don’t take unapproved shortcuts – instead, elevate the problem to more senior management</li></ul>",
+		"nextPage": "faq-tips-for-managers-detailed",
+		"reference": "tips-for-managers"
+	}, {
+		"question": "<strong>Retaliation:</strong> I know the Company has a policy against retaliation, but I am not sure what things <u>could be considered retaliatory</u>. Can you give me some examples?",
+		"answer": "You can think of retaliation as things that would negatively affect someone’s career or be seen as harassment or discrimination.  Here are some examples of things that might be considered retaliatory if the motive is to punish someone for doing something they have a right to do – like making a good faith report of a suspected violation.  Remember, threatening to do something can be considered retaliation, even if you don’t actually follow through:<ul><li>Firing a worker</li><li>Giving a worker an undesirable assignment or work schedule</li><li>Giving a worker a poor performance review </li><li>Not allowing a worker to move to a new assignment</li></ul>",
+		"nextPage": "faq-tips-for-managers-detailed",
+		"reference": "tips-for-managers"
+	}, {
+		"question": "<strong>Discrimination: </strong> I am having an issue with <u>one of the members of my group</u>.  We have a weekly team meeting at the same time every week.  One person always misses half of the meeting because he says he has <u>a religious observation for his holy day</u> at that time.  What should I do?  I can’t give this person any important projects since he misses half of the meeting.",
+		"answer": "Have you considered moving the time of your meeting so everyone can attend?  While we can’t disrupt our core business to accommodate a team member, you should consider whether a reasonable accommodation is possible in a situation like this.  And this is especially true when you’re dealing with classifications that may be legally protected – like religion or disability, for example – where failure to consider reasonable accommodations may even constitute discrimination.  These issues can be complicated – talk to your Human Resources representative or your local Office of the General Counsel for guidance.",
+		"nextPage": "faq-tips-for-managers-detailed",
+		"reference": "tips-for-managers"
+	}]
+}, {
+	"pageKey": "report-violations-info",
+	"reference": "report-violations"
+}, {
+	"pageKey": "report-violations",
+	"title": "Report a Suspected Violation",
+	"information": "<p>Do you suspect a policy violation and want to make a report? We encourage you to speak up.</p><p>When reporting suspected violations, it is helpful if we can reach you for further details and follow-up information. If you send a report from your mobile device via email, we will be able to send questions back to you.  The Company has also designated Regional Investigation Coordinators (RIC) and Local Incident Coordinators (LIC) to receive reports of suspected violations. These individuals can also help answer any questions you may have about the process.</p><p>However, you can also make an anonymous report by calling a hotline or submitting an incident report form obtained from the Corporate Security and Fire website identified below.</p><p>You should immediately report any harassment to Human Resources.  In the U.S., you can call the harassment hotline: 888-735-6650.</p><p>Individuals who report suspected violations should not fear retaliation. Our policy prohibits any form of retaliation against individuals who in good faith report suspected violations, or who cooperate in an investigation. All reports are kept confidential.</p><p><strong><u>SEND A REPORT</u></strong></p><p>You can send a report of a suspected violation right now by pressing \"Proceed\" below.</p><p>You can also find other ways of reporting on the SCB Intranet:</p><ul><li>Your RIC or LIC listed on the Corporate Security and Fire website</li><li>The Office of the General Counsel’s Compliance Office or your local Office of the General Counsel</li><li>The General Auditor’s Office</li><li>Corporate Security and Fire website in the U.S., or U.S. e-mail address</li><li>The toll-free Corporate Hotline in the United States (800-847-7911)</li><li>The hotlines in your country or region listed on the Corporate Security and Fire website</li><li>Human Resources/Personnel Relations</li></ul>",
+	"items": [{
+		"region": "North America (US and Canada)",
+		"email": "SCBlaw@SCB.com?subject=Mobile App Reporting"
+	}, {
+		"region": "North America (Mexico)",
+		"email": "EthicsMX@SCB.com?subject=Mobile App Reporting"
+	}, {
+		"region": "South America",
+		"email": "EthicsSA@SCB.com?subject=Mobile App Reporting"
+	}, {
+		"region": "Europe",
+		"email": "EthicsEU@SCB.com?subject=Mobile App Reporting"
+	}, {
+		"region": "Asia Pacific",
+		"email": "EthicsAP@SCB.com?subject=Mobile App Reporting"
+	}, {
+		"region": "Middle East and Africa",
+		"email": "EthicMEA@SCB.com?subject=Mobile App Reporting"
+	}]
+}, {
+	"pageKey": "exec-messages",
+	"title": "Message From Exec Team",
+	"items": [{
+		"type": "text",
+		"title": "Mark Fields Talks about Compliance & Transparency",
+		"icon": "mark-fields.png",
+		"iconDataURL": "data:image/png;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx4BBQUFBwYHDggIDh4UERQeHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHv/AABEIAEwATAMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AOw8F2OhfGL4bXs0t1HFc28W6MHG5JACfyyP1r5/B4V4apNyla34n2Oa4qniqNN043jP/wAlf9fej598b3GsWOqrbT24iksv3bKP4x6/SvVpuMo80XufJzoyo1HCa1RY0TV47xF2OUm9AcGmtzSavE0NV8UXejA27SvNcYH7st936/4VpfscaoqWrMS18e6pbXDSJ9nBJyBg8fjUtmvsYHqXwv8AjXFFrltbapax2/8AClxGxOD/ALQ9KzdzGeF6wep7N4t8fQ/ZYmmu4OPnUg9a0VV2szianJ6nlPxB8QQeN5IoYrOWeZMgNGn9azniIU1qz0sJleLrP3INnPeH/B3iW4uEVnayiibg9WI9K86rmNNrlirn1uA4ar0JKtVqKPpqzhv2wrBLFvCyquGZboM397Hk/wCNdGV4ipUUozd0rW+dzTi2oqnsZJfzfoJ8APEU/h25aKV3jhkk2SqcjHPcV69LJnm1Gap/FFXR5GVY/wCo4j2VZe7LR36PueyfFLwininTo9X0pFa+jUBlH/LRa+XwOKdGTo1D2M6yuVT95D4l+KPH7rSh4NmbV9SgIuo1P2a3cEBpexYHsOvvgCvbUlLY+UlGaVpKxy2h2Os+K9UkS1iN1cysZJJWzwT3NFWpGCuyqVKdV2ijdv8A4YeKEj3CONjjnBrnWLp9zqeX1uxjz+A/FOnxterb7/KG4qrfNx7VccTTlomZTwdWnq0et/s4ano3iqW40nXoxLf26+ZAzn7ydx+FcWOlKnZ30PXyqVJwbUE5p9uh7ZDbafYPstbONBnAIWvHdZXPpk6k46ssi0mmtbi7iKBIeSO5rWm1NNmftownGnLdny/+2x5m7wkZEKki8Iz/ANsK9fKd5/L9TwuJuW1Kz/m/Q1/jNeeHJ/FEOo+HbTakoDXCxrgE+v1rp4czOvglNw0urI24kwXJGl7WzqK97dulzt/hd4yt73FtBuEtttyj55FeHmdGaqe16vU9nKq8cwwjhJ+9HT5dDiv2sdfXxF420axt4xEYLJd4H993I/ko/OvRyuq6tJzasfJZvhXhqkaLd+v3/wDDHpnw98K6f4e0OBbS2XzJI1MkndjjrmsMTKUnqdmDpxpxVjWvooxwRgn2rksd1zndQjCE4X604tpmc43Wp5d8ILNtO+PklrAMRATttHQKUz/WurMpc2DTfkcWVR5cXON9Lfqj6OlPXmvl/aSifVRRSuZpo42jWRlR/vAHg/Wr9vodNOnGTTa1R82/tmXMtw/hXzW3bRdgcf8AXGvo+H6jn7S/l+p8txXSjTVHl/vf+2nbfDGxQxz/ANoWoOyTahYZytcua1n7qp9D6rLMpr4GNb2y+J2V9dEd2NK0a21AXVlBHHIy4YqMZrzamMqyjytm2Hw0aTlNQSbPG/jVp08fxM0278pjb3CQhX7ZV8EfkRXv5RO+Gfqz43iWH+1wl5fqz2XXtT1PSrSEWclnZ2sSDdNctweOgFayUXvqzkc5L4dEV/Cmr3eqafcXGoXNlcvGpZWgBGR9DXLVSvojqoTk17zOG1XxZqd3rMsdnLp0duOFikb53rWNKPLqmc9TETcrKwfA+yGq/tJRvdo0Vv8AYpJZzuA2Dysdf94gV0ypUqlFQquyOFV6tKs50lrY9w1YQQ6hPDby+bGrlUb+8M8V8ViOSFWUYO6TPt8K5zpRlNWbRm3CyOj4UkKOfasld6nbTcU0fNX7YYO/wxwR/wAff/tGvp+GHf2v/bv6nzPF+1H/ALe/9tPUtHna3iIQDGa8lVpH6tiqaqSuzctr2KTazjaQeau8KkbbM8upQlHRFDxbp1hrd1YxStskSZJoHxx8mSVP1r08ubprlXU+Iz7DXleW6sdFrmkW+o2kclzAs4VflR+QPf611TcoO6PLpUo1V7xlaXotvpkE/kxeSZIyMDjI/wAKzk3KN2bQpxi7JHG2PhixeR5DbozZOSwzj6VTrSWhgsNCWtje+G1iIviRqFzageaNNjjYt/CDIB+tTXo+3pKDdupFCrDD1HOSv0/U9h0zwxPea0LOaYIrJvDgV5f9g1XVjG+j6np1M+oqg501drSxJpOmWsHiiXSNSu1WPJBYkDdxwM9q48Ph4vGfV6srR1uy8Vi6k8GsRRjr+R8v/t7vo6a14asdInSYW/2zzCrZxnyMc/ga+iyOhCjXrxpu8dLP7zwM4+sSoUaldWb5v0Ovt2KnGK+X1ufuFRX1Jrm5itI2mmcJGvJJq4pt6GPLdFnw14u0O7guESeKd1XKgYY59vevTwrlQdqit2Pl84wH12HPhpKVr3szsbu/NtpcYRRukACsei+/5V6dWXQ+Lw8rRuUri9ZbETxsro6EKTg5yOuapxSjYr20m7o4qyv3t7xrdmEjH72CM+xxWNSKtzIVKq03Fm34NEkTXeoSsImnIVCDyVB5/UCuPFY90Xyw36npZflKxEeeqtHseh6b4vht1Ms8pDxJ8hB5rgxOZ4ivaMdLG0uHFH3aUd9zwP4v/EjUL/XRpGjzEXkzEySA8oPT613ZZliqfvau35muc5jDJqKwuHt7RrV/yr/M+efHl9fXl3FHfu0ksLSKWYkknjOfyr62jCMFaKsfnVetUrS5qju/M+uIbINKAPWvgeU/fJ17I88+PklxDZWekWrMr3koQ464r1spoqVZyfRHy3FWPnSy1Rg7Obt8kbngv4NajZaLa6lDDLHOwBznr9RX0FakqsbSVz80wOYVsHVVSjKzPSopUudLW2kUF0x19q8ypHmPYhNxkDRHSdOaO2kKwScrEVDKpzngHpzT9o+U39nTb1icFcKtte3N04D3FwfmY9ST8oqJS51d7Iz5LT5ILVmolwLeJIeoRcV87Ukpzcn1P1TCYJUaMaa6Iz9c1GeSykW0A87YQoz3og48yvsd0MNKEW479PXoeOW3h7xJaeIF1SS3WWUOXZt3XIIr6mGY4VQUU9D8pxnCecV60qk43bd73OK+J2lX9jfQ3d8iobySV1UHOMFSf/QhXfg8XTxF1DpY8TNsjxWVRpvEK3Pe3yt/mfWlozxSAh9wB718Qrp6H7JVSkjI13RV1/4oeEo3QNEbr5hjjp/9avcyiX7yS8j4fi+DWBpvtJ/ij134leJ/+EYu7Hw25C+Ze28rleot1cFvpkjH0zX0cdI6n5xFamZ8WNEm0DWZL+3hk/s26bzo5lXKoW5Kk9vUe30ry8TSdKfMtme7hqqr01F/EjlbnUIZLQs5dgRxjoK5ZPsdtOryq0jkIhPeajcXIgM0GnW8t9KhJwViUtz+IA/GtIUudcnc55Yl0qirL7L0Gp4o0a7fbcW81kzdDu3p+fX9K86rk1SOsHf8D6/AcaU3aNdW89ySf7KFEkNwkqHoVOa8yphqlN2kj7nBZlQxceanNP5jfElu+haVbajqTCCG5/1e7qaVCDrS5Yq5lWzjD0+a8rcuh4N8a9astXm0xbOTf5Hnbj9dmP5V9Vk+FnQU3Jb2/U/MuM83o5jKkqTvy8342/yPo7RvEvhzVFX7Lfxhm/hLYP5V4dbL6tLdH1+HzfDYlXp1E/wJtS16LTr63udMZZLu2bckuMqhx+pr0cuwVSnJVZ6eR8xxDndCrRlhYe8316KxzGp317q15JfahcSXFzKcvI5yTXvKd9z4Rqx9U/CTWLTxn8NbSLUY4rmSKP7LdxuM7ioxk/UYP41cbTjZiu4u6PP/AIh/DKXw9BdX+hSmXTdpke2lbmEDk7WPb2NeXiMG0/cPWw2OUtKhP4L8IWtn4B1KaWSC4u9XtnjkMbBgiFSAmR355rejRlS0ktTmxdXnlZbHzIkBW3WGX/WREoxPscVqjmuTWzvEcK5AoaT3KhUlB3i7DvFd3Pr2lw2WrTy3UNsCYQzH5PpWdOhTpycoRs2a1MVVnD2cpXW55V8U9C0rRbHRX0+5aWa5WZp1ZslMbMcfi1GDq1p1akai0VrfiehmuHwdPCYerht5J813fVW+7qSeHvH+n6Q3mjw2bifnEj3uMfQeXxXfJXPDUmjZb4xZH/IuY/7ff/sKy9j5j5xf+Fx/u9v/AAjg+v23/wCwoVLzDnOx+Fn7T1x4Gubtl8H/AG+C52kxf2n5e1hnnPlHt7dqap2ldMXNpY6Xxt+2Vd+ItJGmweAEsYXfNxu1YTeamPucwDAzjPXOMVr1TEnY5Dwh+0i/hrVZriz8Hn7BOhEtguqbYy2ch1/dHaRyMAYOaKl6iSb2Lc7nI6z8Wor7Vbq8h8NfZo533iL7bu2nAzz5Yzzk9O9YqlbqLnKZ+JwwMaHg/wDX3/8AYU/ZeYcwknxM3qR/YmM/9PX/ANhR7LzFzHLeKdeXXDat9j+ztAhUnzd24cY7DHQ/nVxjyibuf//Z",
+		"teaser": "We're an ethical company because it's the right thing to do and it's part of our DNA. So it's not just a slogan, it's not just something printed on a card – it's something that we live every day",
+		"message": "<p><a class='blue-link' href=\"javascript:window.open('http://www.at.SCB.com/news/multimedia/pages/default.aspx?t=v&n=1631','_blank')\">View Mark's Video</a></p><p><b>Mark Fields:</b> We're an ethical company because it's the right thing to do and it's part of our DNA.  So it's not just a slogan, it's not just something printed on a card – it's something that we live every day. It's part of our natural One SCB behaviors.</p><p><b>Narrator:</b> Doing the right thing is essential to our success and a necessary ingredient in SCB's global Business Plan Review process, or BPR.  The BPR pulls in information from every corner of our business and funnels it to our senior leadership team.</p><p><b>Mark Fields:</b> We then take that kind of information and we turn it into strategies and we take those strategies and we turn them into our plan.</p><p><b>Narrator:</b> To make sure we get the best results, everyone must follow our policies and the law and ensure we're providing transparency up through every level of management to provide an accurate view of our business.</p><p><b>Mark Fields:</b> It's fundamental to make sure we have that transparency because that's how we act and work together to either capitalize on opportunities or solve certain issues.  So, compliance and ethics and transparency - that's the bed rock of our BPR process.</p><p><b>Narrator:</b> Deviating from our policies and procedures, like taking short cuts to meet a deadline, or appear green on our BPR metrics, is never the right answer.  Covering up issues or holding information back can cost us dearly down the road.</p><p><b>Mark Fields:</b> You know you can't hide secrets over time.  You may be able to make something look artificially green but eventually the reality is going to come back and it is going to show us that, ‘hey,  we have an issue.'  And it's always better to identify an issue early so that you can deal with it as oppose to not dealing with it, letting it fester and then it becomes a bigger problem and even harder to deal with later on.  It's okay to put issues on the table in a safe and transparent environment and then deal with it together and solve it.</p><p><b>Narrator:</b> If you think a policy or practice may need updating or have reason to believe something were doing just doesn't seem right, speak up.<p><b>Mark Fields:</b> If you see something in your particular job, call it like you see it because it's going to flow right up and we'll deal with it proactively. The business will be better for it, our customer satisfaction will be better for it and I think our overall reputation as a company will be better for it.</p><p><b>Narrator:</b> That's why we must all commit to Go Further – The Right Way.  And why for five years in a row SCB has been recognized as one of the world most ethical companies by the independent Ethisphere Institute.</p><p><b>Mark Fields:</b> It's a badge of honor for us as a company.  And just as intently as we look at our quality scores, J.D. Power consumer reports, you name it, were looking at the Ethisphere report to say ‘how did we do?'  And I think that's a real indication of how seriously we take this as a senior team and how seriously we take this as a company.</p><p><b>Narrator:</b> Take pride in our reputation. If you see an issue, report it to HR, GAO or the OGC, or to the Corporate Compliance Office at SCBlaw@SCB.com.  Or submit a question or concern anonymously through the safety and security site on our @SCBOnline homepage. Together we'll all Go Further – The Right Way.</p>"
+	}]
+}, {
+	"pageKey": "search"
+}, {
+	"pageKey": "contact-for-questions",
+	"title": "Contacts and References",
+	"template": "contact-grid",
+	"controller": "contact-grid",
+	"information": "",
+	"items": [{
+		"reference": "gifts-favors",
+		"nextPage": "ps-gifts-favors-quick-ref"
+	}, {
+		"reference": "meals-travels",
+		"nextPage": "ps-meals-travels-quick-ref"
+	}, {
+		"reference": "conflicts-of-interest",
+		"nextPage": "ps-conflicts-of-interest-quick-ref"
+	}, {
+		"reference": "company-assets",
+		"nextPage": "ps-company-assets-quick-ref"
+	}, {
+		"reference": "anti-bribery-corruption",
+		"nextPage": "ps-anti-bribery-corruption-quick-ref"
+	}, {
+		"reference": "it-security-and-privacy",
+		"nextPage": "ps-it-security-and-privacy-quick-ref"
+	}, {
+		"reference": "working-together",
+		"nextPage": "ps-working-together-quick-ref"
+	}, {
+		"reference": "tips-for-managers",
+		"nextPage": "ps-tips-for-managers-quick-ref"
+	}]
+}, {
+	"pageKey": "nominal-value",
+	"controller": "static",
+	"template": "static",
+	"descriptionContent": "<p align='center'><strong>Nominal Value Amounts by Country (January 2016)</strong><p align='center'><strong>For Gifts or Favors under Directive A-107</strong><table class='nominal-table' border='1' cellspacing='0' cellpadding='0' align='left'><tbody><tr class='table-head'><td><strong>COUNTRY</strong></td><td><strong>NOMINAL VALUE</strong></td></tr><tr><td>Australia</td><td>$50 or less</td></tr><tr><td>Austria</td><td>&#8364;50 or less</td></tr><tr><td>Belgium</td><td>&#8364;50 or less</td></tr><tr><td>Brazil</td><td>R$90 Reais or less</td></tr><tr><td>Canada</td><td>$50 or less</td></tr><tr><td>China</td><td>200 RMB or less</td></tr><tr><td>Czech Republic</td><td>&#8364;50 or less</td></tr><tr><td>Denmark</td><td>&#8364;50 or less.</td></tr><tr><td>Finland</td><td>&#8364;50 or less</td></tr><tr><td>SCB Credit Europe</td><td>&#8364;50 or less</td></tr><tr><td>France</td><td>&#8364;50 or less</td></tr><tr><td>Germany</td><td>&#8364;50 or less</td></tr><tr><td>Greece</td><td>&#8364;50 or less</td></tr><tr><td>Hungary</td><td>&#8364;50 or less</td></tr><tr><td>India</td><td>1000 INR (25 USD) or less</td></tr><tr><td>Ireland</td><td>&#8364;50 or less</td></tr><tr><td>Italy</td><td>&#8364;50 or less</td></tr><tr><td>Japan</td><td>5,000 yen or less</td></tr><tr><td>Mexico</td><td>500 pesos or less</td></tr><tr><td>Netherlands</td><td>&#8364;50 or less</td></tr><tr><td>New Zealand</td><td>NZ$50 or less</td></tr><tr><td>Norway</td><td>&#8364;50 or less</td></tr><tr><td>Philippines</td><td>1000 phb or less</td></tr><tr><td>Poland</td><td>PLN 200 or less</td></tr><tr><td>Portugal</td><td>&#8364;50 or less</td></tr><tr><td>Romania</td><td>100 Lei or less</td></tr><tr><td>Russia</td><td>1,250 RUR or less</td></tr><tr><td>South Africa</td><td>320 R or less</td></tr><tr><tr><td>South Korea</td><td>₩ 50,000</td></tr><tr><td>Spain</td><td>&#8364;50 or less</td></tr><tr><td>Sweden</td><td>500 SEK or less</td></tr><tr><td>Switzerland</td><td>&#8364;50 or less</td></tr><tr><td>Thailand</td><td>1000 Baht or less</td></tr><tr><td>Turkey</td><td>&#8364;50 or less</td></tr><tr><td>United Kingdom</td><td>&#163;50 or less</td></tr><tr><td>United States</td><td>$50 or less</td></tr><tr><td>Vietnam</td><td>320,000 VND or less</td></tr></tbody></table><p>These guidelines can also be found in the References and Contacts section of Directive A-107.</p>",
+	"title": "Nominal Value Amounts"
+}, {
+	"pageKey": "gift-exceed-policies",
+	"controller": "static",
+	"template": "static",
+	"descriptionContent": "<p>If you receive a gift that exceeds SCB policy, the best thing is simply not to accept the gift or return it to the sender from the Company with a note of appreciation and an explanation of the Company policy.  This is the preferred action.</p><p>If an item cannot be returned, turn it in to the Company for donation.  In the U.S., such items can be turned in to the SCB Fund. Check with your HR representative for the country- or region-specific process.</p><p>Finally, in the rare event that the gift is unique and may have special meaning, you may seek an exception to be allowed to pay the fair value of the unique item and keep it. Contact your local HR representative for process details.</p><p>Here is some language you can edit to create a note when you return a gift:</p><p><i>I would like to thank you for the [describe the gift]. I appreciate your kindness by providing this gift to me. However, I must return it and ask you to accept my sincere apologies for refusing to accept the gift.</i></p><p><i>As you know, SCB Motor Company is an international company with clear policies about gifts, applicable to all employees globally. Your gift is beyond the limit of [insert local currency limit] set by our company policy and, for this reason, I need to decline it.</i></p><p><i>I thank you in advance for your understanding.</i></p>",
+	"title": "Gifts that Exceed SCB Policies"
+}, {
+	"pageKey": "feedback",
+	"controller": "feedback",
+	"template": "feedback",
+	"title": "App Feedback",
+	"descriptionContent": "Please give us your feedback on the content or functionality of this app and we will consider your comments for future upgrades. Click below to send an email with your comments.",
+	"mail": "SCBlaw@SCB.com?subject=Mobile App Feedback"
+}, {
+	"pageKey": "news-updates",
+	"controller": "news-updates",
+	"template": "news-updates",
+	"title": "New Updates"
+}]
